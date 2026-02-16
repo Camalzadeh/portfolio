@@ -1,17 +1,18 @@
 "use client";
 import { motion } from "framer-motion";
-import { ArrowRight, Mail } from "lucide-react";
+import { ArrowRight, Mail, ExternalLink } from "lucide-react";
 
 export default function Hero() {
     return (
-        <section className="hero container">
+        <section className="hero container" style={{ paddingTop: '180px', paddingBottom: '100px' }}>
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
                 className="badge"
             >
-                Available for AI & Software Roles
+                <span style={{ marginRight: '8px' }}>🚀</span>
+                Available for AI Research & Software Roles
             </motion.div>
 
             <motion.h1
@@ -20,7 +21,7 @@ export default function Hero() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="hero-title"
             >
-                Humbat Jamalov
+                Humbat <br /> Jamalov
             </motion.h1>
 
             <motion.p
@@ -28,9 +29,11 @@ export default function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="hero-subtitle"
+                style={{ maxWidth: '700px' }}
             >
                 AI Researcher & Software Engineer at UFAZ.
-                Top 1% Computer Science student focused on AI for Accessibility and Robust Backend Systems.
+                Top 1% Computer Science student focused on <span className="text-gradient" style={{ fontWeight: 700 }}>AI for Accessibility</span> and Robust Backend Systems.
+                Medalist in ICPC and National Math Competitions.
             </motion.p>
 
             <motion.div
@@ -39,10 +42,10 @@ export default function Hero() {
                 transition={{ duration: 0.8, delay: 0.6 }}
                 className="btn-group"
             >
-                <a href="#achievements" className="btn-primary" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                    Explore Achievements <ArrowRight size={18} />
+                <a href="#research" className="btn-primary" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    Explore Research <ArrowRight size={18} />
                 </a>
-                <a href="mailto:humbat.jamalov@example.com" className="btn-secondary" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <a href="mailto:h.jamalov@ufaz.az" className="btn-secondary" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                     <Mail size={18} /> Contact Me
                 </a>
             </motion.div>
