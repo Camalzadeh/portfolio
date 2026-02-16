@@ -1,64 +1,346 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
+import { Briefcase, GraduationCap, Layers, Home, User, Mail, Plus, Minus } from "lucide-react";
 import data from "@/data/portfolio.json";
 
 export default function Navbar() {
-    const [scrolled, setScrolled] = useState(false);
-    const [activeHash, setActiveHash] = useState("");
+  const pathname = usePathname();
+  const [expanded, setExpanded] = useState<string | null>(null);
 
-    useEffect(() => {
-        const handleScroll = () => {
-            setScrolled(window.scrollY > 50);
+  const toggleExpand = (id: string) => {
+    setExpanded(expanded === id ? null : id);
+  };
 
-            // Update active hash based on scroll position
-            const sections = data.categories.map(cat => cat.id);
-            for (const id of sections) {
-                const el = document.getElementById(id);
-                if (el) {
-                    const rect = el.getBoundingClientRect();
-                    if (rect.top <= 100 && rect.bottom >= 100) {
-                        setActiveHash(`#${id}`);
-                        break;
-                    }
-                }
-            }
-        };
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
+  const navConfig = [
+    {
+      id: "experience",
+      title: "Experience",
+      icon: <Briefcase size={18} />,
+      rootPath: "/experience",
+      items: data.pillars.experience.items.map(i => ({ name: i.title, path: `/experience/${i.id}` }))
+    },
+    {
+      id: "academic",
+      title: "Academic",
+      icon: <GraduationCap size={18} />,
+      rootPath: "/academic",
+      items: data.pillars.academic.categories.flatMap(c => c.items.map(i => ({ name: i.title, path: `/academic#${i.id}` })))
+    },
+    {
+      id: "projects",
+      title: "Projects",
+      icon: <Layers size={18} />,
+      rootPath: "/projects",
+      items: data.pillars.projects.items.map(i => ({ name: i.title, path: `/projects/${i.id}` }))
+    }
+  ];
 
-    return (
-        <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-[rgba(5,5,5,0.8)] backdrop-blur-md border-b border-glass-border py-4' : 'bg-transparent py-6'}`}>
-            <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <a href="#" className="text-gradient" style={{ fontWeight: 800, fontSize: '1.5rem', fontFamily: 'var(--font-heading)' }}>HJ.</a>
+  return (
+    <>
+      {/* Sidebar - Desktop Only */}
+      <aside className="sidebar-nav">
+        <div className="sidebar-top">
+          <Link href="/" className="sidebar-logo">
+            <div className="logo-box">HJ</div>
+            <span className="logo-label">Portfolio</span>
+          </Link>
+        </div>
 
-                <div style={{ display: 'flex', gap: '1.5rem', overflowX: 'auto', padding: '10px 0' }} className="no-scrollbar">
-                    {data.categories.map((cat) => (
-                        <a
-                            key={cat.id}
-                            href={`#${cat.id}`}
-                            className={`nav-link ${activeHash === `#${cat.id}` ? 'active' : ''}`}
-                            style={{
-                                fontSize: '0.85rem',
-                                fontWeight: 600,
-                                color: activeHash === `#${cat.id}` ? 'var(--accent-color)' : 'var(--text-secondary)',
-                                whiteSpace: 'nowrap',
-                                position: 'relative',
-                                padding: '5px 10px'
-                            }}
-                        >
-                            {cat.title}
-                            {activeHash === `#${cat.id}` && (
-                                <motion.div
-                                    layoutId="active-pill"
-                                    className="absolute bottom-[-10px] left-0 right-0 h-[2px] bg-accent-color"
-                                />
-                            )}
-                        </a>
-                    ))}
+        <nav className="sidebar-menu">
+          <Link href="/" className={`menu-root ${pathname === '/' ? 'active' : ''}`}>
+            <Home size={18} /> <span>Home</span>
+          </Link>
+
+          {navConfig.map((nav) => {
+            const isRootActive = pathname.startsWith(nav.rootPath);
+            const isExpanded = expanded === nav.id;
+
+            return (
+              <div key={nav.id} className="menu-group">
+                <div
+                  className={`menu-header ${isRootActive ? 'active' : ''}`}
+                  onClick={() => toggleExpand(nav.id)}
+                >
+                  <div className="group-left">
+                    {nav.icon}
+                    <span>{nav.title}</span>
+                  </div>
+                  <button className="expand-toggle">
+                    {isExpanded ? <Minus size={14} /> : <Plus size={14} />}
+                  </button>
                 </div>
-            </div>
+
+                <AnimatePresence>
+                  {isExpanded && (
+                    <motion.div
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: "auto", opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      className="menu-sub"
+                    >
+                      <Link href={nav.rootPath} className="sub-item all-link">
+                        View Overview
+                      </Link>
+                      {nav.items.slice(0, 6).map((item) => (
+                        <Link key={item.path} href={item.path} className="sub-item">
+                          {item.name}
+                        </Link>
+                      ))}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+            );
+          })}
         </nav>
-    );
+
+        <div className="sidebar-footer">
+          <div className="footer-contact">
+            <p className="contact-label">Get in touch</p>
+            <div className="contact-links">
+              <Link href={`mailto:${data.personal.email}`}><Mail size={16} /></Link>
+              <Link href={data.personal.github} target="_blank"><User size={16} /></Link>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      {/* Mobile Top Nav */}
+      <div className="mobile-nav">
+        <Link href="/" className="mobile-logo">HJ.</Link>
+        <button className="mobile-menu-btn">Menu</button>
+      </div>
+
+      <style jsx>{`
+        /* Reset any browser link underlines */
+        a {
+          text-decoration: none !important;
+        }
+
+        .sidebar-nav {
+          position: fixed;
+          left: 0;
+          top: 0;
+          height: 100vh;
+          width: 280px;
+          background: #050505;
+          border-right: 1px solid rgba(255, 255, 255, 0.05);
+          display: flex;
+          flex-direction: column;
+          z-index: 1000;
+          padding: 2rem;
+        }
+
+        .sidebar-top {
+          margin-bottom: 3rem;
+        }
+
+        .sidebar-logo {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          text-decoration: none;
+          color: inherit;
+        }
+
+        .logo-box {
+          width: 36px;
+          height: 36px;
+          background: #fff;
+          color: #000;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: 900;
+          border-radius: 8px;
+          font-size: 0.8rem;
+        }
+
+        .logo-label {
+          color: #fff;
+          font-weight: 700;
+          letter-spacing: 1px;
+          font-size: 0.9rem;
+          text-transform: uppercase;
+        }
+
+        .sidebar-menu {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+
+        .menu-root {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          padding: 0.8rem 1rem;
+          color: #94a3b8;
+          text-decoration: none;
+          font-size: 0.9rem;
+          font-weight: 600;
+          border-radius: 12px;
+          transition: all 0.2s;
+          cursor: pointer;
+        }
+
+        .menu-root:hover, .menu-root.active {
+          background: rgba(255, 255, 255, 0.08); /* More button-like bg */
+          color: #fff;
+        }
+
+        .menu-group {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .menu-header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 0.8rem 1rem;
+          color: #94a3b8;
+          cursor: pointer;
+          border-radius: 12px;
+          transition: all 0.2s;
+          user-select: none;
+        }
+
+        .menu-header:hover {
+          background: rgba(255, 255, 255, 0.05);
+          color: #fff;
+        }
+
+        .menu-header.active {
+          color: var(--accent-color);
+          background: rgba(45, 212, 191, 0.05); /* Subtle active tint */
+        }
+
+        .group-left {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          font-size: 0.9rem;
+          font-weight: 600;
+        }
+
+        .expand-toggle {
+          background: none;
+          border: none;
+          color: inherit;
+          padding: 0;
+          opacity: 0.5;
+        }
+
+        .menu-sub {
+          padding-left: 1rem;
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+          margin-top: 4px;
+          overflow: hidden;
+        }
+
+        .sub-item {
+          display: block; /* Ensures button-like block behavior */
+          color: #64748b;
+          text-decoration: none;
+          font-size: 0.8rem;
+          padding: 0.6rem 1rem; /* More padding for button feel */
+          border-radius: 8px;
+          transition: all 0.2s;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          border: 1px solid transparent; /* Prevents layout shift */
+        }
+
+        .sub-item:hover {
+          background: rgba(255, 255, 255, 0.05);
+          color: #fff;
+          text-decoration: none; /* Enforce */
+        }
+
+        .all-link {
+          font-weight: 700;
+          color: #475569;
+          text-transform: uppercase;
+          font-size: 0.7rem;
+          letter-spacing: 0.5px;
+          background: rgba(255,255,255,0.02); /* Slight bg for 'View Overview' button */
+          margin-bottom: 4px;
+        }
+
+        .all-link:hover {
+          background: rgba(255,255,255,0.08);
+          color: #fff;
+        }
+
+        .sidebar-footer {
+          margin-top: auto;
+          padding-top: 2rem;
+          border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .contact-label {
+          font-size: 0.7rem;
+          font-weight: 800;
+          text-transform: uppercase;
+          color: #475569;
+          margin-bottom: 1rem;
+        }
+
+        .contact-links {
+          display: flex;
+          gap: 12px;
+        }
+
+        .contact-links a {
+          width: 32px;
+          height: 32px;
+          background: rgba(255, 255, 255, 0.05);
+          border-radius: 8px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #94a3b8;
+          transition: all 0.2s;
+          text-decoration: none;
+        }
+
+        .contact-links a:hover {
+          background: #fff;
+          color: #000;
+        }
+
+        .mobile-nav {
+           display: none;
+        }
+
+        @media (max-width: 1024px) {
+           .sidebar-nav { display: none; }
+           .mobile-nav {
+              display: flex;
+              position: fixed;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 60px;
+              background: #000;
+              border-bottom: 1px solid rgba(255,255,255,0.1);
+              z-index: 1000;
+              align-items: center;
+              justify-content: space-between;
+              padding: 0 1.5rem;
+           }
+           .mobile-logo { color: #fff; font-weight: 900; text-decoration: none; }
+           .mobile-menu-btn { background: none; border: 1px solid rgba(255,255,255,0.2); color: #fff; padding: 4px 12px; border-radius: 8px; font-size: 0.8rem; }
+        }
+      `}</style>
+    </>
+  );
 }

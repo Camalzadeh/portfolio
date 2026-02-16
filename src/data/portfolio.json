@@ -1,303 +1,258 @@
 {
-  "personal": {
-    "name": "Humbat Jamalov",
-    "title": "AI Researcher & Software Engineer",
-    "university": "French-Azerbaijani University (UFAZ)",
-    "gpa": "98%",
-    "email": "h.jamalov@ufaz.az"
-  },
-  "categories": [
-    {
-      "id": "research",
-      "title": "Research & AI",
-      "icon": "Zap",
-      "summary": "Pioneering AI for accessibility with a focus on Sign Language Recognition.",
-      "items": [
-        {
-          "title": "Resolving Interclass Similarities in Sign Language",
-          "role": "Lead Researcher",
-          "organization": "UFAZ / IEEE",
-          "date": "2024",
-          "description": "Developed an adaptive loss function for Azerbaijani Sign Language recognition.",
-          "full_detail": "Developed a machine learning model for recognizing Azerbaijani Sign Language, with a specific focus on resolving interclass gesture similarities through adaptive loss functions. Presented at IEEE Young Researchers Conference on AI & Big Data.",
-          "path": "data/humbat_jamalov_l0_to_l1/articles/IEEE_conference.pdf"
-        },
-        {
-          "title": "Data Science & AI Engineering Mini Bootcamp",
-          "role": "Participant",
-          "organization": "Miull",
-          "date": "Dec 2024 & Apr 2025",
-          "description": "8-hour intensive program covering Python, ML, and Generative AI.",
-          "full_detail": "Covered essential topics such as Python Programming for Data Science, Statistics, Feature Engineering, and Generative AI.",
-          "path": "data/humbat_jamalov_l0_to_l1/certificates/miull_1.png"
-        },
-        {
-          "title": "Supervised Machine Learning",
-          "role": "Student",
-          "organization": "Coursera / Stanford",
-          "date": "May 2025",
-          "description": "Completed Andrew Ng's world-renowned ML course with honors.",
-          "full_detail": "Awarded through 4Sİ Akademiyası initiative. Focused on regression and classification.",
-          "path": "data/humbat_jamalov_l0_to_l1/certificates/Coursera FZ30VTIC8WN3.pdf"
-        }
-      ]
+    "personal": {
+        "name": "Humbat Jamalzadeh",
+        "title": "Software Engineer & Backend Specialist",
+        "university": "French-Azerbaijani University (UFAZ)",
+        "gpa": "98%",
+        "email": "h.jamalov@ufaz.az",
+        "linkedin": "https://linkedin.com/in/humbat-jamalzadeh",
+        "github": "https://github.com/humbatjamalzadeh"
     },
-    {
-      "id": "competitive",
-      "title": "Competitive Programming",
-      "icon": "Code",
-      "summary": "ICPC Medalist & Team Leader with advanced algorithmic skills.",
-      "items": [
-        {
-          "title": "ICPC 2025 Republican Finals",
-          "award": "3rd Place (National)",
-          "organization": "ICPC Azerbaijan",
-          "date": "Oct 2024",
-          "description": "Secured 3rd place in the national finals representing UFAZ.",
-          "path": "data/humbat_jamalov_l0_to_l1/certificates/icpc_2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL.pdf"
+    "pillars": {
+        "experience": {
+            "id": "experience",
+            "title": "Experience",
+            "summary": "Full-cycle software engineering with deep expertise in Flutter, Django, and DevOps.",
+            "items": [
+                {
+                    "id": "graph-company",
+                    "title": "Graph Company",
+                    "role": "Software Engineer (Mobile, Backend & DevOps)",
+                    "organization": "Graph Company",
+                    "date": "2023 - 2025",
+                    "sort_date": "20230101",
+                    "description": "Led the end-to-end development of 4 production mobile applications and their entire backend infrastructure.",
+                    "full_detail": "Architected and shipped 4 production mobile applications using Flutter. Developed robust backend systems using Django and handled the entire DevOps lifecycle. Integrated complex features and ensured high availability.",
+                    "media": [
+                        {
+                            "type": "pdf",
+                            "url": "data/humbat_jamalov_l0_to_l1/Detailed description of achievements.pdf",
+                            "title": "Detailed Achievement Report"
+                        },
+                        {
+                            "type": "pdf",
+                            "url": "data/humbat_jamalov_l0_to_l1/certificates/udemy_FlutterDartUdemy.pdf",
+                            "title": "Advanced Flutter Certification"
+                        }
+                    ]
+                },
+                {
+                    "id": "totter-startup",
+                    "title": "Totter (Startup Project)",
+                    "role": "Full Stack Dev / Co-Founder",
+                    "organization": "Startup School 3",
+                    "date": "2024 - 2025",
+                    "sort_date": "20240901",
+                    "description": "Co-founded a startup that reached the final Demo Day stage.",
+                    "full_detail": "Developed the MVP from scratch, pitched to business leaders, and handled the full technical roadmap including scaling strategy.",
+                    "media": [
+                        {
+                            "type": "pdf",
+                            "url": "data/humbat_jamalov_l2/Humbat Jamalov Startup School 3.pdf",
+                            "title": "Startup School Certification"
+                        }
+                    ]
+                },
+                {
+                    "id": "buta-group",
+                    "title": "Buta Group Internship",
+                    "role": "IT Intern (VTP’9 NANO)",
+                    "organization": "Buta Grup",
+                    "date": "2024",
+                    "sort_date": "20240401",
+                    "description": "Virtual intensive internship focusing on enterprise IT standards.",
+                    "media": [
+                        {
+                            "type": "pdf",
+                            "url": "data/humbat_jamalov_l0_to_l1/certificates/internship_Buta Group Hümbət Camalov (1).pdf",
+                            "title": "Internship Certificate"
+                        }
+                    ]
+                }
+            ]
         },
-        {
-          "title": "ICPC 2025 Qualification",
-          "award": "2nd Place",
-          "organization": "UFAZ",
-          "date": "Oct 2024",
-          "description": "Secured top rank through effective teamwork and fast-paced coding.",
-          "path": "data/humbat_jamalov_l0_to_l1/certificates/icpc_2025-ICPC Azerbaijan Qualification-Humbat Jamalov-MEDAL.pdf"
+        "academic": {
+            "id": "academic",
+            "title": "Academic",
+            "summary": "Top-tier Computer Science student at UFAZ (98% GPA) with strong foundations in algorithms and research.",
+            "categories": [
+                {
+                    "id": "research",
+                    "title": "Research",
+                    "items": [
+                        {
+                            "id": "sign-language-ai-research",
+                            "title": "Sign Language Recognition AI",
+                            "role": "Lead Researcher",
+                            "organization": "UFAZ / IEEE",
+                            "date": "2024",
+                            "sort_date": "20241001",
+                            "description": "Peer-reviewed research on Azerbaijani Sign Language recognition.",
+                            "media": [
+                                {
+                                    "type": "pdf",
+                                    "url": "data/humbat_jamalov_l0_to_l1/articles/IEEE_conference.pdf",
+                                    "title": "IEEE Conference Paper"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "stanford-ml",
+                            "title": "Supervised Machine Learning",
+                            "role": "Honors Student",
+                            "organization": "Coursera / Stanford",
+                            "date": "2025",
+                            "sort_date": "20250501",
+                            "description": "Andrew Ng's world-renowned ML certification.",
+                            "media": [
+                                {
+                                    "type": "external",
+                                    "url": "https://coursera.org/verify/FZ30VTIC8WN3",
+                                    "title": "Stanford Verify Link"
+                                },
+                                {
+                                    "type": "pdf",
+                                    "url": "data/humbat_jamalov_l0_to_l1/certificates/Coursera FZ30VTIC8WN3.pdf",
+                                    "title": "Full PDF Certificate"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "achievements",
+                    "title": "Achievements",
+                    "items": [
+                        {
+                            "id": "icpc-republican-2025",
+                            "title": "ICPC 2025 Republican Finals",
+                            "award": "3rd Place (National)",
+                            "organization": "ICPC Azerbaijan",
+                            "date": "2024",
+                            "sort_date": "20241015",
+                            "description": "National medalist in the world's most prestigious coding contest.",
+                            "media": [
+                                {
+                                    "type": "pdf",
+                                    "url": "data/humbat_jamalov_l0_to_l1/certificates/icpc_2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL.pdf",
+                                    "title": "Individual Medal"
+                                },
+                                {
+                                    "type": "pdf",
+                                    "url": "data/humbat_jamalov_l0_to_l1/certificates/icpc_team_2025-ICPC Azerbaijan RC-MEDAL.pdf",
+                                    "title": "Team Medal"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "hackathon-erp",
+                            "title": "Sustainable Design Hackathon",
+                            "award": "3rd Place",
+                            "organization": "Siemens / ERP Systems",
+                            "date": "2025",
+                            "sort_date": "20250301",
+                            "description": "Developed sustainable design solutions using Siemens technologies.",
+                            "media": [
+                                {
+                                    "type": "pdf",
+                                    "url": "data/humbat_jamalov_l2/Humbat Jamalov Sustainable Design Hackathon Participation.pdf",
+                                    "title": "Hackathon Award"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "certifications",
+                    "title": "Certifications",
+                    "items": [
+                        {
+                            "id": "php-testdome",
+                            "title": "PHP Algorithm Specialist",
+                            "organization": "TestDome",
+                            "date": "2025",
+                            "sort_date": "20250601",
+                            "description": "High-percentile score in PHP server-side programming and algorithms.",
+                            "media": [
+                                {
+                                    "type": "external",
+                                    "url": "https://www.testdome.com/certificates/635517fd905f48a9b3e00f5e6bd6d892",
+                                    "title": "Verify on TestDome"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "software-engineering-rec",
+                            "title": "Letter of Recommendation",
+                            "organization": "Prof. Igor Peretta",
+                            "date": "2025",
+                            "sort_date": "20251009",
+                            "description": "Exceptional academic and project performance endorsement.",
+                            "media": [
+                                {
+                                    "type": "pdf",
+                                    "url": "data/humbat_jamalov_l2/Humbat Jamalov .pdf",
+                                    "title": "Recommendation Letter"
+                                },
+                                {
+                                    "type": "external",
+                                    "url": "http://www.feelt.ufu.br/pessoas/docentes/igor-santos-peretta",
+                                    "title": "Professor Profile"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
-        {
-          "title": "ICPC 2026 Qualification",
-          "award": "Honorable Mention",
-          "organization": "ICPC Azerbaijan",
-          "date": "Oct 2025",
-          "description": "Continued excellence in the 2025/26 season.",
-          "path": "data/humbat_jamalov_l2/2026-ICPC Azerbaijan Q-Humbat Jamalov-PLACE.pdf"
-        },
-        {
-          "title": "Sumgait ICPC Programming Camp",
-          "role": "UFAZ Representative",
-          "organization": "Sumgait Innovation Hub",
-          "date": "Apr 2025",
-          "description": "Collaborative problem-solving in an intensive camp environment.",
-          "path": "data/humbat_jamalov_l0_to_l1/certificates/sumgayit_cup.jpg"
-        },
-        {
-          "title": "HackerRank Problem Solving (Basic)",
-          "award": "Certified",
-          "organization": "HackerRank",
-          "date": "Aug 2024",
-          "description": "Demonstrated strong foundational algorithmic thinking.",
-          "path": "data/humbat_jamalov_l0_to_l1/certificates/hackerrank_problem_solving_basic certificate.pdf"
+        "projects": {
+            "id": "projects",
+            "title": "Projects",
+            "summary": "Full-stack and infrastructure projects engineering high-performance software.",
+            "items": [
+                {
+                    "id": "enterprise-ecosystem",
+                    "title": "Graph Enterprise Ecosystem",
+                    "type": "Full-Stack System",
+                    "date": "2024",
+                    "sort_date": "20231201",
+                    "description": "A comprehensive mobile and backend ecosystem for corporate management.",
+                    "media": [
+                        {
+                            "type": "pdf",
+                            "url": "data/humbat_jamalov_l0_to_l1/Detailed description of achievements.pdf",
+                            "title": "Tech Stack & Architecture"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
     },
-    {
-      "id": "math",
-      "title": "Mathematics",
-      "icon": "Sigma",
-      "summary": "Top-tier mathematical reasoning proven in multiple olympiads.",
-      "items": [
-        {
-          "title": "Limitless Mathematicians (ADA)",
-          "award": "2nd Place (2023), 3rd Place (2022)",
-          "organization": "ADA University",
-          "date": "2022-2023",
-          "description": "Consistent performance in university-level math olympiads.",
-          "path": "data/achievements.docx"
-        },
-        {
-          "title": "ABB Math Challenge",
-          "award": "Winner",
-          "organization": "ABB / Rusiya",
-          "date": "Before Uni",
-          "description": "Won a 10-day intensive course mentored by Russian math olympiad masters.",
-          "path": "data/achievements.docx"
-        },
-        {
-          "title": "Bu bizə harada lazım olacaq?",
-          "award": "3rd Place",
-          "organization": "BHOS Math Club",
-          "date": "2025",
-          "description": "Proved mathematical reasoning in a competitive team setting.",
-          "path": "data/humbat_jamalov_l0_to_l1/certificates/bu_bize_harda_lazim_olacaq_3_yer.jpg"
-        },
-        {
-          "title": "MathCamp 2024 (Quba)",
-          "role": "Delegate & Volunteer",
-          "organization": "Ministry of Science & Education",
-          "date": "2024",
-          "description": "Contributed innovative ideas at a 5-day national student camp.",
-          "path": "data/humbat_jamalov_l0_to_l1/certificates/math_camp.jpg"
-        }
-      ]
-    },
-    {
-      "id": "professional",
-      "title": "Experience",
-      "icon": "Briefcase",
-      "summary": "Full-stack developer with experience in 4+ mobile apps and startups.",
-      "items": [
-        {
-          "title": "Graph Company",
-          "role": "Software Engineer",
-          "organization": "Graph Compant",
-          "date": "1 Year 10 Months",
-          "description": "Created 4 mobile applications with full backend and devops integration.",
-          "full_detail": "Developed cross-platform mobile apps using Flutter/React Native, handled server-side logic and CI/CD pipelines.",
-          "path": "achievements.docx"
-        },
-        {
-          "title": "Totter (Startup Project)",
-          "role": "Full Stack Dev / Co-Founder",
-          "organization": "Startup School 3",
-          "date": "2025",
-          "description": "Passed to Demo Day in a competitive startup incubator.",
-          "full_detail": "Learned to build a startup from scratch, introduced the concept to business leaders on Demo Day.",
-          "path": "data/humbat_jamalov_l2/Humbat Jamalov Startup School 3.pdf"
-        },
-        {
-          "title": "Buta Group Internship",
-          "role": "IT Intern (VTP’9 NANO)",
-          "organization": "Buta Grup",
-          "date": "Apr - Aug 2024",
-          "description": "Active participation in virtual internship with high honors.",
-          "path": "data/humbat_jamalov_l0_to_l1/certificates/internship_Buta Group Hümbət Camalov (1).pdf"
-        },
-        {
-          "title": "Advanced Backend Mentorship",
-          "role": "Standout Participant",
-          "organization": "Mentored by Ilkin Mehdiyev",
-          "date": "2024",
-          "description": "Exclusive training on Spring Boot and real-world API design.",
-          "path": "Detailed description of achievements.docx"
-        }
-      ]
-    },
-    {
-      "id": "academics",
-      "title": "Academics & Skills",
-      "icon": "GraduationCap",
-      "summary": "L2 CS Student at UFAZ with 98% GPA and advanced technical certifications.",
-      "items": [
-        {
-          "title": "Constructor University Advanced CS 1",
-          "award": "Ranked 5th / 100+",
-          "organization": "ADA University / IDDA",
-          "date": "2023",
-          "description": "Intensive 12-day program on advanced algorithms.",
-          "path": "data/humbat_jamalov_l0_to_l1/certificates/advanced_computer_science_1.jpg"
-        },
-        {
-          "title": "Codestar Fundamentals",
-          "award": "Finished in 1 Month (Fast-track)",
-          "organization": "Codestar",
-          "date": "2024",
-          "description": "Completed a 6-month course in just 30 days.",
-          "path": "data/humbat_jamalov_l0_to_l1/certificates/codestar_humbat--camalov_CodeStar_Certificate.png"
-        },
-        {
-          "title": "Advanced Flutter Course",
-          "award": "Hizli Gelişim",
-          "organization": "Udemy (Max Schwarzmüller / Kanan)",
-          "date": "2025",
-          "description": "30+ hours of full-stack mobile development mastery.",
-          "path": "data/humbat_jamalov_l2/FlutterKanan.pdf"
-        },
-        {
-          "title": "UFAZ GPA Records",
-          "award": "98% Score",
-          "organization": "UFAZ",
-          "date": "2024-2025",
-          "description": "Consistently top-performing student in CS undergraduate.",
-          "path": "data/humbat_jamalov_l0_to_l1/semestrs_gpa/JAMALOV Humbat_L0S2.pdf"
-        }
-      ]
-    },
-    {
-      "id": "community",
-      "title": "Community",
-      "icon": "Users",
-      "summary": "Leader and organizer driving local tech and education initiatives.",
-      "items": [
-        {
-          "title": "UFAZ Math Club Executive",
-          "role": "Core Member",
-          "organization": "UFAZ",
-          "date": "Ongoing",
-          "description": "Organized workshops and competitions fostering collaborative learning.",
-          "path": "Ufaz related activites list.docx"
-        },
-        {
-          "title": "Pigma Quiz Competition",
-          "role": "Organizer",
-          "organization": "UFAZ Math Club",
-          "date": "Mar 2025",
-          "description": "Coordinated a high-impact event for advanced mathematics.",
-          "path": "data/humbat_jamalov_l0_to_l1/certificates/pigma_quiz.pdf"
-        },
-        {
-          "title": "GDG Baku Community",
-          "role": "Active Member",
-          "organization": "Google Developer Group",
-          "date": "2023-Present",
-          "description": "Regular participant in DevFest and local workshops.",
-          "path": "https://gdg.community.dev/u/mhzm2z/"
-        }
-      ]
-    },
-    {
-      "id": "growth",
-      "title": "Growth",
-      "icon": "RefreshCcw",
-      "summary": "Transparent history of attempts, failure, and persistence.",
-      "items": [
-        {
-          "title": "MySQL 8.0 Database Administrator",
-          "result": "21/100 (Fail)",
-          "organization": "Oracle/MySQL",
-          "date": "July 2025",
-          "description": "A challenging exam that provided deep learning on DB architecture.",
-          "path": "data/humbat_jamalov_l2/ScoreReport.pdf MySQL 8.0 Database Administrator - Fail.pdf"
-        },
-        {
-          "title": "MySQL Implementation Associate",
-          "result": "54/100 (Fail)",
-          "organization": "Oracle",
-          "date": "July 2025",
-          "description": "Narrowly missed the pass mark, pushing for further study.",
-          "path": "data/humbat_jamalov_l2/MySQL Implementation Associate - Fail.pdf"
-        }
-      ]
+    "skills": {
+        "Languages": [
+            "Java",
+            "Python",
+            "JavaScript",
+            "C#",
+            "C++",
+            "PHP",
+            "SQL",
+            "Dart"
+        ],
+        "Frameworks": [
+            "Django",
+            "Spring Boot",
+            "Next.js",
+            "Flutter",
+            "React Native"
+        ],
+        "DevOps/Tools": [
+            "Docker",
+            "Nginx",
+            "PostgreSQL",
+            "MySQL",
+            "Git",
+            "GitHub Actions"
+        ]
     }
-  ],
-  "skills": {
-    "Languages": [
-      "Java",
-      "Python",
-      "JavaScript",
-      "C#",
-      "C++",
-      "PHP",
-      "SQL",
-      "Dart"
-    ],
-    "Frameworks": [
-      "Spring Boot",
-      "Django",
-      "Next.js",
-      "Flutter",
-      "React Native"
-    ],
-    "DevOps/Tools": [
-      "Docker",
-      "Git",
-      "GitHub Actions",
-      "MySQL",
-      "PostgreSQL"
-    ],
-    "Specializations": [
-      "Sign Language AI",
-      "Optimization",
-      "Backend Architecture"
-    ]
-  }
 }

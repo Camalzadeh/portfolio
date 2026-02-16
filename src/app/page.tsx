@@ -1,109 +1,82 @@
 "use client";
 import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
-import CategorySection from "@/components/CategorySection";
 import Skills from "@/components/Skills";
-import data from "@/data/portfolio.json";
-import { Github, Linkedin, Mail, ExternalLink, ArrowRight } from "lucide-react";
+import { Linkedin, Mail, ArrowRight, Github } from "lucide-react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main>
-      <Navbar />
       <Hero />
 
-      {/* Short Story / Intro */}
-      <section id="about" className="container" style={{ paddingTop: '100px', paddingBottom: '50px' }}>
-        <div className="grid grid-2" style={{ alignItems: 'center' }}>
-          <div>
-            <span className="section-label">Profile</span>
-            <h2 className="section-title">My Journey So Far</h2>
-            <p className="hero-subtitle" style={{ fontSize: '1.2rem', lineHeight: '1.8', textAlign: 'left', maxWidth: '100%' }}>
-              From winning math challenges at ADA to presenting AI research at international conferences.
-              I believe in fast-track learning and building systems that matter.
-              Currently at UFAZ, maintaining a 98% GPA while architecting real-world applications.
+      {/* Short Dynamic Bio */}
+      <section className="container">
+        <div className="grid grid-cols-12" style={{ alignItems: 'center' }}>
+          <div style={{ gridColumn: 'span 7' }}>
+            <span className="section-label">Identity</span>
+            <h2 className="section-title">Bridging AI & <span className="text-gradient">Real-world</span> Engineering.</h2>
+            <p style={{ fontSize: '1.25rem', color: 'var(--text-secondary)', lineHeight: '1.8', marginBottom: '2.5rem' }}>
+              Specializing in high-performance architectures, I bridge the gap between complex software engineering and intelligent systems. Shipped 4+ production-scale apps with Flutter & Django.
             </p>
             <div className="btn-group">
-              <a href="https://linkedin.com" className="btn-secondary" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <Linkedin size={18} /> View Detailed CV
+              <Link href="/projects" className="btn-primary">
+                View Portfolio <ArrowRight size={20} />
+              </Link>
+              <a href="mailto:h.jamalov@ufaz.az" className="btn-secondary">
+                Contact Me
               </a>
             </div>
           </div>
-          <div style={{ position: 'relative' }}>
+
+          <div style={{ gridColumn: 'span 5', position: 'relative' }}>
             <motion.div
-              initial={{ rotate: -5, opacity: 0 }}
-              whileInView={{ rotate: 0, opacity: 1 }}
               className="card"
-              style={{ padding: '3rem', borderLeft: '5px solid var(--accent-color)', background: 'linear-gradient(to bottom right, rgba(255,255,255,0.05), transparent)' }}
+              initial={{ rotate: 2 }}
+              whileInView={{ rotate: 0 }}
+              style={{ borderLeft: '4px solid var(--accent-color)' }}
             >
-              <h3 style={{ fontSize: '1.5rem', marginBottom: '1.5rem' }}>Core Tenets</h3>
-              <ul style={{ listStyle: 'none', padding: 0, display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                <li style={{ display: 'flex', alignItems: 'center', gap: '12px', color: 'var(--text-secondary)' }}>
-                  <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--accent-color)' }} />
-                  Fast-Track Skill Acquisition
-                </li>
-                <li style={{ display: 'flex', alignItems: 'center', gap: '12px', color: 'var(--text-secondary)' }}>
-                  <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--accent-color)' }} />
-                  Data-Driven AI Research
-                </li>
-                <li style={{ display: 'flex', alignItems: 'center', gap: '12px', color: 'var(--text-secondary)' }}>
-                  <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--accent-color)' }} />
-                  Full-Cycle Software Engineering
-                </li>
-              </ul>
+              <div style={{ padding: '1rem' }}>
+                <h3 style={{ marginBottom: '1rem' }}>Quick Stats</h3>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+                  <div>
+                    <p style={{ fontSize: '0.75rem', opacity: 0.5 }}>GPA Score</p>
+                    <p style={{ fontSize: '1.25rem', fontWeight: 800 }}>98 / 100</p>
+                  </div>
+                  <div>
+                    <p style={{ fontSize: '0.75rem', opacity: 0.5 }}>Apps Shipped</p>
+                    <p style={{ fontSize: '1.25rem', fontWeight: 800 }}>4+ Production Apps</p>
+                  </div>
+                  <div>
+                    <p style={{ fontSize: '0.75rem', opacity: 0.5 }}>Research Citations</p>
+                    <p style={{ fontSize: '1.25rem', fontWeight: 800 }}>IEEE Published</p>
+                  </div>
+                </div>
+              </div>
             </motion.div>
           </div>
         </div>
       </section>
 
-      {/* Dynamic Sections from JSON */}
-      {data.categories.map((category) => (
-        <CategorySection key={category.id} category={category} />
-      ))}
-
       <Skills />
 
-      <footer className="footer container" style={{ marginTop: '150px', borderTop: '1px solid var(--glass-border)', paddingTop: '80px', paddingBottom: '80px' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '4rem' }}>
-          <div>
-            <h2 className="text-gradient" style={{ fontSize: '2rem', fontWeight: 800, marginBottom: '1.5rem' }}>Humbat Jamalov</h2>
-            <p style={{ color: 'var(--text-secondary)', maxWidth: '300px', fontSize: '1rem' }}>
-              Building the future of AI accessibility and software engineering.
-            </p>
+      <footer className="container" style={{ padding: '80px 0', borderTop: '1px solid var(--glass-border)', marginTop: '100px' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '2rem' }}>
+          <div style={{ display: 'flex', gap: '2rem' }}>
+            <Link href="/experience" className="nav-link">Experience</Link>
+            <Link href="/academic" className="nav-link">Academic</Link>
+            <Link href="/projects" className="nav-link">Projects</Link>
           </div>
 
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4rem' }}>
-            <div>
-              <h4 style={{ color: '#fff', marginBottom: '1.5rem', fontWeight: 600 }}>Portal Discovery</h4>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                {data.categories.slice(0, 4).map(cat => (
-                  <a key={cat.id} href={`#${cat.id}`} className="nav-link" style={{ fontSize: '0.9rem' }}>{cat.title}</a>
-                ))}
-              </div>
-            </div>
-
-            <div>
-              <h4 style={{ color: '#fff', marginBottom: '1.5rem', fontWeight: 600 }}>Connectivity</h4>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                <a href="mailto:h.jamalov@ufaz.az" className="nav-link" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  <Mail size={18} /> h.jamalov@ufaz.az
-                </a>
-                <a href="https://linkedin.com" className="nav-link" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                  <Linkedin size={18} /> LinkedIn
-                </a>
-              </div>
-            </div>
+          <div style={{ display: 'flex', gap: '1rem' }}>
+            <a href="https://linkedin.com" className="btn-secondary" style={{ padding: '0.5rem 1rem' }}><Linkedin size={18} /></a>
+            <a href="https://github.com" className="btn-secondary" style={{ padding: '0.5rem 1rem' }}><Github size={18} /></a>
+            <a href="mailto:h.jamalov@ufaz.az" className="btn-secondary" style={{ padding: '0.5rem 1rem' }}><Mail size={18} /></a>
           </div>
         </div>
-
-        <div style={{ marginTop: '80px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
-          <p>© {new Date().getFullYear()} Humbat Jamalov. Deep-Extracted Portfolio Engine.</p>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
-            <span style={{ fontSize: '0.7rem', padding: '4px 8px', border: '1px solid var(--glass-border)', borderRadius: '4px' }}>VERSION 2.0_MASTER_DETAIL</span>
-            <ExternalLink size={14} />
-          </div>
-        </div>
+        <p style={{ marginTop: '2rem', textAlign: 'center', color: 'var(--text-secondary)', fontSize: '0.85rem' }}>
+          © 2026 Humbat Jamalzadeh. Built with precision and Next.js.
+        </p>
       </footer>
     </main>
   );
