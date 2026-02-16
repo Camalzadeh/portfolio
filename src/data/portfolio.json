@@ -76,6 +76,12 @@
   ],
   "experience": [
     {
+      "company": "Totter (Startup Project)",
+      "role": "Software Engineer",
+      "duration": "1 year 10 months",
+      "description": "Joined via a recommendation from Software Engineering teacher Prof. Igor S. Peretta after a success in a hackathon. Focused on building early-stage features and system development."
+    },
+    {
       "company": "Buta Group",
       "role": "IT Internship (VTP'9 NANO)",
       "duration": "01.04.2024 – 10.08.2024 (4 months)",
@@ -89,10 +95,36 @@
     }
   ],
   "skills": {
-    "languages": ["Java", "Python", "JavaScript", "Dart", "C#", "C++", "SQL"],
-    "frameworks": ["Spring Boot", "Next.js", "React", "Node.js", "Flutter", "Django"],
-    "tools": ["Git", "Docker", "MySQL", "PostgreSQL", "Figma"],
-    "concepts": ["Symmetry/Software Architecture", "AI/ML (Computer Vision)", "Competitive Programming", "Technical Interview Prep"]
+    "languages": [
+      "Java",
+      "Python",
+      "JavaScript",
+      "Dart",
+      "C#",
+      "C++",
+      "SQL"
+    ],
+    "frameworks": [
+      "Spring Boot",
+      "Next.js",
+      "React",
+      "Node.js",
+      "Flutter",
+      "Django"
+    ],
+    "tools": [
+      "Git",
+      "Docker",
+      "MySQL",
+      "PostgreSQL",
+      "Figma"
+    ],
+    "concepts": [
+      "Symmetry/Software Architecture",
+      "AI/ML (Computer Vision)",
+      "Competitive Programming",
+      "Technical Interview Prep"
+    ]
   },
   "community": [
     {
