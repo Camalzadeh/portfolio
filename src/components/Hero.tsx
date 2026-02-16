@@ -87,22 +87,25 @@ export default function Hero() {
 
         .pillar-link {
           flex: 1;
-          background: rgba(255, 255, 255, 0.03);
-          border: 1px solid rgba(255, 255, 255, 0.08);
-          border-radius: 20px;
+          background: rgba(255, 255, 255, 0.05); /* Increased opacity for button feel */
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          border-radius: 16px; /* Slightly squarer for button look */
           padding: 1.5rem;
           text-decoration: none;
           color: #fff;
           display: flex;
           justify-content: space-between;
           align-items: center;
-          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+          cursor: pointer;
+          box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* subtle depth */
         }
 
         .pillar-link:hover {
-          background: rgba(255, 255, 255, 0.05);
+          background: rgba(255, 255, 255, 0.1);
           border-color: var(--accent-color);
-          transform: translateY(-5px);
+          transform: translateY(-3px);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
         .pillar-content {
@@ -124,17 +127,24 @@ export default function Hero() {
         .pillar-content h4 {
           margin: 4px 0 0 0;
           font-size: 1.1rem;
+          font-weight: 700;
         }
 
         .pillar-arrow {
-          opacity: 0.3;
-          transition: transform 0.3s ease;
+          opacity: 0.5;
+          transition: transform 0.2s ease;
+          background: rgba(255,255,255,0.1); /* Circle bg for arrow */
+          padding: 4px;
+          border-radius: 50%;
+          width: 28px;
+          height: 28px;
         }
 
         .pillar-link:hover .pillar-arrow {
           transform: translateX(5px);
           opacity: 1;
-          color: var(--accent-color);
+          color: #000;
+          background: var(--accent-color); /* Highlight arrow on hover */
         }
 
         @media (max-width: 992px) {
