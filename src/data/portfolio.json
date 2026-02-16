@@ -1,0 +1,114 @@
+{
+  "personal": {
+    "name": "Humbat Jamalov",
+    "title": "AI Researcher & Software Engineer",
+    "location": "Baku, Azerbaijan",
+    "university": "French-Azerbaijani University (UFAZ)",
+    "major": "BSc in Computer Science",
+    "gpa": "98% (2024)",
+    "email": "humbat.jamalov@example.com",
+    "summary": "Highly motivated Computer Science student at UFAZ with a track record of excellence in AI research, competitive programming, and software engineering. Recognized as a top student with a 98% GPA and supported by strong academic recommendations. Passionate about leveraging technology for social impact, particularly in the field of accessibility."
+  },
+  "achievements": [
+    {
+      "id": "icpc-2026",
+      "title": "ICPC 2026 Azerbaijan Qualification",
+      "award": "Qualified",
+      "date": "2026",
+      "category": "Competitive Programming"
+    },
+    {
+      "id": "icpc-2025-finals",
+      "title": "ICPC 2025 Republican Finals",
+      "award": "3rd Place (National)",
+      "date": "2025",
+      "category": "Competitive Programming"
+    },
+    {
+      "id": "icpc-2025-qual",
+      "title": "ICPC 2025 University Qualification",
+      "award": "2nd Place",
+      "date": "2025",
+      "category": "Competitive Programming"
+    },
+    {
+      "id": "icpc-2024",
+      "title": "ICPC 2024 Qualification",
+      "award": "High Achievement Medal",
+      "date": "2024",
+      "category": "Competitive Programming"
+    },
+    {
+      "id": "ai-accessibility",
+      "title": "AI for Accessibility – Sign Language Research",
+      "description": "Developed a machine learning model for recognizing Azerbaijani Sign Language using adaptive loss functions. Presented at the Young Researchers Conference on AI & Big Data at ADA University.",
+      "date": "2024-2025",
+      "category": "Research"
+    },
+    {
+      "id": "adv-cs-1",
+      "title": "Advanced Computer Science 1 (Constructor University)",
+      "award": "Ranked 5th out of 100+ participants",
+      "date": "2024",
+      "category": "Academics"
+    },
+    {
+      "id": "codestar",
+      "title": "Fundamentals of Programming (Codestar)",
+      "award": "Finished 6-month course in 1 month",
+      "date": "2024",
+      "category": "Academics"
+    },
+    {
+      "id": "startup-school",
+      "title": "Startup School 3",
+      "award": "Participant",
+      "date": "2025",
+      "category": "Entrepreneurship"
+    },
+    {
+      "id": "sustainable-hack",
+      "title": "Sustainable Design Hackathon",
+      "award": "Participant",
+      "date": "2025",
+      "category": "Design"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Buta Group",
+      "role": "IT Internship (VTP'9 NANO)",
+      "duration": "01.04.2024 – 10.08.2024 (4 months)",
+      "description": "Completed an intensive IT internship program with real-world project contributions."
+    },
+    {
+      "company": "Advanced Backend Programming (Mentor: Ilkin Mehdiyev)",
+      "role": "Java Developer Trainee",
+      "duration": "2024",
+      "description": "Selected for an advanced-level backend programming course focused on Java, Spring Boot, and API design."
+    }
+  ],
+  "skills": {
+    "languages": ["Java", "Python", "JavaScript", "Dart", "C#", "C++", "SQL"],
+    "frameworks": ["Spring Boot", "Next.js", "React", "Node.js", "Flutter", "Django"],
+    "tools": ["Git", "Docker", "MySQL", "PostgreSQL", "Figma"],
+    "concepts": ["Symmetry/Software Architecture", "AI/ML (Computer Vision)", "Competitive Programming", "Technical Interview Prep"]
+  },
+  "community": [
+    {
+      "organization": "UFAZ Math Club",
+      "role": "Executive Member",
+      "description": "Organized academic events, workshops, and competitions."
+    },
+    {
+      "organization": "PiGMa Quiz Competition",
+      "role": "Organizer",
+      "description": "Led coordination and content generation for advanced math competition."
+    },
+    {
+      "organization": "GDG Baku",
+      "role": "Active Community Member",
+      "description": "Participated in technical events and knowledge exchange."
+    }
+  ]
+}
