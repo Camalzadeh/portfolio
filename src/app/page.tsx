@@ -11,7 +11,7 @@ export default function Home() {
       <Hero />
 
       {/* Short Dynamic Bio - Identity Section */}
-      <section className="container identity-section">
+      <section id="identity" className="container identity-section">
         <div className="grid grid-cols-12 items-center">
           <div className="col-span-7 bio-content">
             <span className="section-label">Identity</span>
@@ -59,7 +59,7 @@ export default function Home() {
 
       <Skills />
 
-      <footer className="container main-footer">
+      <footer id="contact" className="container main-footer">
         <div className="footer-content">
           <div className="footer-nav">
             <Link href="/experience" className="footer-btn">Experience</Link>
@@ -68,8 +68,8 @@ export default function Home() {
           </div>
 
           <div className="footer-socials">
-            <a href="https://linkedin.com" className="icon-btn"><Linkedin size={18} /></a>
-            <a href="https://github.com" className="icon-btn"><Github size={18} /></a>
+            <a href="https://linkedin.com" className="icon-btn" target="_blank"><Linkedin size={18} /></a>
+            <a href="https://github.com" className="icon-btn" target="_blank"><Github size={18} /></a>
             <a href="mailto:h.jamalov@ufaz.az" className="icon-btn"><Mail size={18} /></a>
           </div>
         </div>
@@ -80,19 +80,13 @@ export default function Home() {
 
       <style jsx>{`
         /* Bio Section Styles */
-        .identity-section {
-          padding: 80px 0;
-        }
-
+        .identity-section { padding: 80px 0; }
         .items-center { align-items: center; }
         .col-span-7 { grid-column: span 7; }
         .col-span-5 { grid-column: span 5; }
         .relative { position: relative; }
 
-        .bio-content {
-           padding-right: 2rem;
-        }
-        
+        .bio-content { padding-right: 2rem; }
         .bio-text {
           font-size: 1.25rem;
           color: var(--text-secondary);
@@ -100,50 +94,27 @@ export default function Home() {
           margin-bottom: 2.5rem;
         }
 
-        .btn-group {
-          display: flex;
-          gap: 1rem;
-        }
+        .btn-group { display: flex; gap: 1rem; }
 
         /* Stats Card */
         .stats-card {
           border-left: 4px solid var(--accent-color);
           background: var(--surface-color); 
-          padding: 0; 
+          padding: 0;
+          border: 1px solid var(--border-color);
+          border-radius: 24px;
         }
 
-        .stats-inner {
-          padding: 2rem;
-        }
+        .stats-inner { padding: 2rem; }
+        .stats-header { margin-bottom: 1.5rem; font-size: 1.2rem; font-weight: 800; }
+        .stats-grid { display: flex; flex-direction: column; gap: 1.5rem; }
+        .stat-label { font-size: 0.7rem; opacity: 0.6; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; font-weight: 800; }
+        .stat-value { font-size: 1.25rem; font-weight: 800; color: var(--text-primary); }
 
-        .stats-header {
-          margin-bottom: 1.5rem;
-          font-size: 1.2rem;
-        }
-
-        .stats-grid {
-          display: flex;
-          flex-direction: column;
-          gap: 1.5rem;
-        }
-
-        .stat-label {
-           font-size: 0.75rem;
-           opacity: 0.5;
-           text-transform: uppercase;
-           letter-spacing: 1px;
-           margin-bottom: 4px;
-        }
-
-        .stat-value {
-           font-size: 1.25rem;
-           font-weight: 800;
-        }
-
-        /* Footer Styles - The Buttons User Asked For */
+        /* Footer Styles */
         .main-footer {
           padding: 80px 0;
-          border-top: 1px solid var(--glass-border);
+          border-top: 1px solid var(--border-color);
           margin-top: 100px;
         }
 
@@ -155,57 +126,46 @@ export default function Home() {
           gap: 2rem;
         }
 
-        .footer-nav {
-          display: flex;
-          gap: 1rem;
-        }
+        .footer-nav { display: flex; gap: 1rem; }
 
         .footer-btn {
-          background: rgba(255, 255, 255, 0.05);
-          border: 1px solid rgba(255, 255, 255, 0.1);
-          color: var(--text-secondary);
-          padding: 0.8rem 1.5rem;
-          border-radius: 12px; /* Button shape */
-          text-decoration: none;
-          font-weight: 600;
+          background: var(--surface-color);
+          border: 1px solid var(--border-color);
+          color: var(--text-primary);
+          padding: 0.9rem 1.8rem;
+          border-radius: 14px;
+          font-weight: 700;
           font-size: 0.9rem;
-          transition: all 0.3s ease;
-          display: inline-flex;
-          align-items: center;
-          justify-content: center;
+          transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
         }
 
         .footer-btn:hover {
-          background: var(--accent-color); /* Highlight on hover */
+          background: var(--accent-color);
           color: #000;
-          transform: translateY(-2px);
-          box-shadow: 0 5px 15px rgba(45, 212, 191, 0.2);
+          transform: translateY(-4px);
           border-color: transparent;
         }
 
-        .footer-socials {
-          display: flex;
-          gap: 1rem;
-        }
+        .footer-socials { display: flex; gap: 1rem; }
 
         .icon-btn {
-          width: 44px;
-          height: 44px;
-          background: transparent;
-          border: 1px solid var(--glass-border);
-          border-radius: 12px;
+          width: 48px;
+          height: 48px;
+          background: var(--surface-color);
+          border: 1px solid var(--border-color);
+          border-radius: 14px;
           display: flex;
           align-items: center;
           justify-content: center;
-          color: #fff;
-          transition: all 0.3s ease;
-          text-decoration: none;
+          color: var(--text-secondary);
+          transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
         }
 
         .icon-btn:hover {
-          background: rgba(255, 255, 255, 0.1);
-          border-color: #fff;
-          transform: translateY(-2px);
+          background: var(--surface-hover);
+          color: var(--accent-color);
+          border-color: var(--accent-color);
+          transform: translateY(-4px) scale(1.1);
         }
 
         .copyright {
@@ -219,9 +179,9 @@ export default function Home() {
         @media (max-width: 768px) {
           .col-span-7, .col-span-5 { grid-column: span 12; }
           .bio-content { padding-right: 0; margin-bottom: 3rem; }
-          .footer-content { flex-direction: column; align-items: center; gap: 2rem; }
-          .footer-nav { flex-direction: column; width: 100%; text-align: center; }
-          .footer-btn { width: 100%; }
+          .footer-content { flex-direction: column; align-items: center; }
+          .footer-nav { flex-direction: column; width: 100%; }
+          .footer-btn { text-align: center; }
         }
       `}</style>
     </main>

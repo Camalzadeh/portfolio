@@ -1,19 +1,28 @@
 {
     "id": "sign-language-ai-research",
     "title": "Sign Language Recognition AI",
+    "path": "fixed_data/academic/researchs/sign_language",
     "organization": "UFAZ / IEEE",
-    "date": "2024",
     "description": "Peer-reviewed research on Azerbaijani Sign Language recognition.",
+    "type": "academic",
+    "subtype": "research",
+    "position": "Lead Researcher",
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2024,
+        "month": null,
+        "day": null
+    },
     "media": [
         {
             "type": "pdf",
-            "url": "fixed_data/academic/researchs/sign_language/IEEE_conference.pdf",
-            "title": "Ieee conference"
+            "url_text": null,
+            "title": "Ieee conference",
+            "path": "fixed_data/academic/researchs/sign_language/IEEE_conference.pdf"
         }
     ],
-    "metadata": {
-        "role": "Lead Researcher",
-        "award": null,
-        "folder": "academic/researchs/sign_language"
-    }
+    "tags": []
 }

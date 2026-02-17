@@ -1,58 +1,63 @@
 "use client";
-import { motion, AnimatePresence } from "framer-motion";
-import { X, FileText, ExternalLink, ChevronLeft, ChevronRight, Maximize2, ShieldCheck, Info } from "lucide-react";
-import { useState, useEffect } from "react";
-
-interface MediaItem {
-  type: 'pdf' | 'image' | 'external';
-  url: string;
-  title: string;
-}
+import { useState, useEffect, useRef } from "react";
+import { ChevronLeft, ChevronRight, Layout, Play, Pause } from "lucide-react";
+import { MediaStage } from "./preview/MediaStage";
+import { useLanguage } from "@/context/LanguageContext";
+import { PortfolioItem } from "@/types/portfolio";
+import { fetchPortfolioItem } from "@/utils/portfolio";
 
 interface IntegratedPreviewProps {
   item: {
     title: string;
-    organization?: string;
-    media?: MediaItem[];
-    full_detail?: string;
     data_folder?: string;
   } | null;
 }
 
 export default function IntegratedPreview({ item }: IntegratedPreviewProps) {
+  const { t } = useLanguage();
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [aboutData, setAboutData] = useState<any>(null);
+  const [fullItem, setFullItem] = useState<PortfolioItem | null>(null);
+  const [isPlaying, setIsPlaying] = useState(true);
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
-    if (!item?.data_folder) {
-      setAboutData(null);
-      return;
+    setCurrentIndex(0);
+    setFullItem(null);
+
+    if (item?.data_folder) {
+      fetchPortfolioItem(item.data_folder).then(data => {
+        if (data) setFullItem(data);
+      });
+    }
+  }, [item]);
+
+  const media = fullItem?.media || [];
+  const totalMedia = media.length;
+
+  const next = () => setCurrentIndex((prev) => (prev + 1) % totalMedia);
+  const prev = () => setCurrentIndex((prev) => (prev - 1 + totalMedia) % totalMedia);
+
+  // Auto-slideshow logic
+  useEffect(() => {
+    if (isPlaying && totalMedia > 1) {
+      timerRef.current = setInterval(() => {
+        next();
+      }, 5000); // 5 seconds interval
+    } else {
+      if (timerRef.current) clearInterval(timerRef.current);
     }
 
-    const fetchAbout = async () => {
-      try {
-        const res = await fetch(`/${item.data_folder}/about.json`);
-        if (res.ok) {
-          const data = await res.json();
-          setAboutData(data);
-        } else {
-          setAboutData(null);
-        }
-      } catch (e) {
-        setAboutData(null);
-      }
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
     };
-
-    fetchAbout();
-    setCurrentIndex(0);
-  }, [item]);
+  }, [isPlaying, totalMedia, currentIndex]);
 
   if (!item) {
     return (
       <div className="preview-empty">
         <div className="empty-state">
-          <div className="pulse-circle" />
-          <p>Select an achievement to view verification</p>
+          <Layout size={40} className="empty-icon" />
+          <p>{t('academic.select')}</p>
         </div>
         <style jsx>{`
           .preview-empty {
@@ -60,344 +65,186 @@ export default function IntegratedPreview({ item }: IntegratedPreviewProps) {
             display: flex;
             align-items: center;
             justify-content: center;
-            background: rgba(45, 212, 191, 0.01);
-            color: #475569;
+            background: var(--surface-color);
+            color: var(--text-secondary);
+            border-radius: 32px;
             text-align: center;
+            min-height: 600px;
+            border: 1px solid var(--border-color);
+            position: relative;
+            overflow: hidden;
           }
           .empty-state {
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 1.5rem;
+            z-index: 2;
           }
-          .pulse-circle {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            border: 2px solid rgba(255,255,255,0.05);
-            position: relative;
-          }
-          .pulse-circle::after {
-            content: '';
-            position: absolute;
-            inset: -4px;
-            border-radius: 50%;
-            border: 2px solid var(--accent-color);
-            opacity: 0.3;
-            animation: pulse-out 2s infinite;
-          }
-          @keyframes pulse-out {
-            0% { transform: scale(1); opacity: 0.5; }
-            100% { transform: scale(1.5); opacity: 0; }
-          }
+          .empty-icon { opacity: 0.1; }
         `}</style>
       </div>
     );
   }
 
-  const media = item.media || [];
-  const currentMedia = media[currentIndex];
-  const totalMedia = media.length;
-
-  const next = () => setCurrentIndex((prev) => (prev + 1) % totalMedia);
-  const prev = () => setCurrentIndex((prev) => (prev - 1 + totalMedia) % totalMedia);
-
-  const displayData = aboutData || item;
+  const currentMedia = media[currentIndex] || null;
 
   return (
-    <div className="preview-wrapper">
-      <div className="preview-top">
-        <div className="top-info">
-          <span className="verify-label"><ShieldCheck size={12} /> Verified Documentation</span>
-          <h3>{displayData.title}</h3>
-          <div className="meta-row">
-            <span className="org-label">{displayData.organization}</span>
-            {displayData.metadata?.role && (
-              <span className="role-tag">{displayData.metadata.role}</span>
-            )}
-            {displayData.metadata?.award && (
-              <span className="award-tag">{displayData.metadata.award}</span>
-            )}
-            <span className="date-tag">{displayData.date}</span>
-          </div>
+    <div className="preview-container no-select">
+      <div className="preview-header-minimal">
+        <div className="header-left">
+          <div className="line-dec" />
+          <span>{fullItem?.title || item.title}</span>
         </div>
+        {totalMedia > 1 && (
+          <button
+            className={`play-pause-btn ${isPlaying ? 'active' : ''}`}
+            onClick={() => setIsPlaying(!isPlaying)}
+            title={isPlaying ? "Pause Slideshow" : "Resume Slideshow"}
+          >
+            {isPlaying ? <Pause size={14} /> : <Play size={14} />}
+          </button>
+        )}
       </div>
 
-      <div className="preview-scroll-area">
-        <div className="view-window">
-          <AnimatePresence mode="wait">
-            {totalMedia > 0 ? (
-              <motion.div
-                key={`${item.title}-${currentIndex}`}
-                initial={{ opacity: 0, scale: 0.98 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 1.02 }}
-                className="viewer-main"
-              >
-                {currentMedia.type === 'pdf' ? (
-                  <iframe
-                    src={`/${currentMedia.url}#toolbar=0&navpanes=0`}
-                    className="pdf-iframe"
-                    title={currentMedia.title}
-                  />
-                ) : currentMedia.type === 'image' ? (
-                  <img src={`/${currentMedia.url}`} alt={currentMedia.title} className="image-node" />
-                ) : (
-                  <div className="external-node">
-                    <div className="ext-box">
-                      <ExternalLink size={32} />
-                      <p>Full Verification Portal</p>
-                      <a href={currentMedia.url} target="_blank" className="ext-btn">Open Link Externally</a>
-                    </div>
-                  </div>
-                )}
-              </motion.div>
-            ) : (
-              <div className="no-media">
-                <div className="placeholder-media">
-                  <FileText size={48} />
-                  <p>Documentation available below</p>
-                </div>
-              </div>
-            )}
-          </AnimatePresence>
+      <div className="viewer-container">
+        <MediaStage
+          currentMedia={currentMedia}
+          itemTitle={fullItem?.title || item.title}
+          onImageClick={() => { }}
+        />
 
-          {totalMedia > 1 && (
-            <div className="view-nav">
-              <button onClick={prev}><ChevronLeft size={20} /></button>
-              <span className="nav-counter">{currentIndex + 1} / {totalMedia}</span>
-              <button onClick={next}><ChevronRight size={20} /></button>
+        {totalMedia > 1 && (
+          <div className="stage-controls">
+            <button onClick={(e) => { e.stopPropagation(); prev(); }} className="nav-btn">
+              <ChevronLeft size={20} />
+            </button>
+            <div className="nav-indicator">
+              {media.map((_, i) => (
+                <div
+                  key={i}
+                  className={`dot ${i === currentIndex ? 'active' : ''}`}
+                  onClick={() => setCurrentIndex(i)}
+                />
+              ))}
             </div>
-          )}
-        </div>
-
-        <div className="documentation-section">
-          <div className="section-head"><Info size={14} /> Description & Insight</div>
-          <div className="about-card">
-            <p className="about-text">{displayData.description || displayData.full_detail}</p>
-          </div>
-        </div>
-
-        {displayData.metadata && (
-          <div className="metadata-section">
-            <div className="section-head"><Maximize2 size={12} /> Technical Context</div>
-            <div className="meta-grid">
-              <div className="meta-item">
-                <label>Identifier</label>
-                <span>{displayData.id}</span>
-              </div>
-              <div className="meta-item">
-                <label>Resource Path</label>
-                <span>{displayData.metadata.folder}</span>
-              </div>
-            </div>
+            <button onClick={(e) => { e.stopPropagation(); next(); }} className="nav-btn">
+              <ChevronRight size={20} />
+            </button>
           </div>
         )}
       </div>
 
       <style jsx>{`
-        .preview-wrapper {
+        .preview-container {
           height: 100%;
-          display: flex;
-          flex-direction: column;
-          background: #000;
-          color: #fff;
-        }
-
-        .preview-top {
-          padding: 1.5rem;
-          background: rgba(255,255,255,0.02);
-          border-bottom: 1px solid rgba(255,255,255,0.05);
-        }
-
-        .verify-label {
-          display: inline-flex;
-          align-items: center;
-          gap: 6px;
-          font-size: 0.65rem;
-          font-weight: 800;
-          text-transform: uppercase;
-          color: var(--accent-color);
-          margin-bottom: 0.5rem;
-        }
-
-        .preview-top h3 {
-          font-size: 1.1rem;
-          margin: 0;
-          line-height: 1.3;
-        }
-
-        .org-label {
-          font-size: 0.8rem;
-          color: #64748b;
-          margin-top: 4px;
-        }
-
-        .view-window {
-          flex: 1;
-          background: #000;
-          position: relative;
-          display: flex;
-          flex-direction: column;
-        }
-
-        .viewer-main {
-          flex: 1;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+          background: var(--surface-color);
+          border-radius: 32px;
           overflow: hidden;
-        }
-
-        .pdf-iframe {
-          width: 100%;
-          height: 100%;
-          border: none;
-        }
-
-        .image-node {
-          max-width: 90%;
-          max-height: 90%;
-          object-fit: contain;
-          border-radius: 8px;
-        }
-
-        .external-node {
-          width: 100%;
-          height: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          background: rgba(255,255,255,0.02);
-        }
-
-        .ext-box {
-          text-align: center;
+          box-shadow: 0 40px 100px rgba(0,0,0,0.2);
+          border: 1px solid var(--border-color);
           display: flex;
           flex-direction: column;
-          align-items: center;
-          gap: 1rem;
+          position: relative;
         }
 
-        .ext-btn {
-          background: var(--accent-color);
-          color: #000;
-          padding: 0.6rem 1.2rem;
-          border-radius: 8px;
-          font-weight: 700;
-          font-size: 0.8rem;
-          text-decoration: none;
+        .no-select { user-select: none; }
+
+        .preview-header-minimal {
+           padding: 1.5rem 2rem;
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           gap: 12px;
+           background: var(--surface-color);
+           border-bottom: 1px solid var(--border-color);
+           z-index: 20;
         }
 
-        .view-nav {
+        .header-left {
+           display: flex;
+           align-items: center;
+           gap: 12px;
+           font-size: 0.65rem;
+           font-weight: 800;
+           letter-spacing: 2px;
+           color: var(--text-secondary);
+           text-transform: uppercase;
+        }
+
+        .play-pause-btn {
+           width: 32px;
+           height: 32px;
+           border-radius: 50%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           background: rgba(var(--accent-color-rgb), 0.1);
+           color: var(--accent-color);
+           transition: all 0.3s;
+        }
+        .play-pause-btn:hover { background: var(--accent-color); color: #000; scale: 1.1; }
+        .play-pause-btn.active { box-shadow: 0 0 15px rgba(var(--accent-color-rgb), 0.3); }
+
+        .line-dec { width: 20px; height: 1px; background: var(--accent-color); }
+
+        .viewer-container {
+          flex: 1;
+          width: 100%;
+          position: relative;
+          background: #000;
+          display: flex;
+          flex-direction: column;
+          min-height: 500px;
+        }
+
+        .stage-controls {
           position: absolute;
-          bottom: 1rem;
+          bottom: 2rem;
           left: 50%;
           transform: translateX(-50%);
-          background: rgba(0,0,0,0.8);
-          backdrop-filter: blur(10px);
-          padding: 0.4rem 1rem;
-          border-radius: 100px;
           display: flex;
           align-items: center;
           gap: 1.5rem;
+          background: rgba(0,0,0,0.8);
+          backdrop-filter: blur(20px);
+          padding: 10px 24px;
+          border-radius: 100px;
           border: 1px solid rgba(255,255,255,0.1);
+          z-index: 30;
+          box-shadow: 0 20px 40px rgba(0,0,0,0.5);
         }
 
-        .view-nav button {
-          background: none;
-          border: none;
+        .nav-btn {
           color: #fff;
-          cursor: pointer;
-          opacity: 0.6;
-          transition: opacity 0.2s;
-        }
-
-        .view-nav button:hover { opacity: 1; }
-
-        .nav-counter { font-size: 0.75rem; font-weight: 700; color: #94a3b8; }
-
-        .preview-details {
-          padding: 1.5rem;
-          background: rgba(255,255,255,0.02);
-          border-top: 1px solid rgba(255,255,255,0.05);
-        }
-
-        .detail-head {
-          font-size: 0.7rem;
-          font-weight: 800;
-          text-transform: uppercase;
-          color: #475569;
-          letter-spacing: 1px;
-          margin-bottom: 0.75rem;
-        }
-
-        .detail-text {
-          font-size: 0.85rem;
-          line-height: 1.6;
-          color: #94a3b8;
-        }
-
-        .preview-scroll-area {
-          flex: 1;
-          overflow-y: auto;
-          display: flex;
-          flex-direction: column;
-        }
-
-        .view-window {
-          min-height: 400px; /* Force minimum height */
-          background: #000;
-          position: relative;
-          display: flex;
-          flex-direction: column;
-        }
-
-        .documentation-section {
-          padding: 1.5rem;
-          background: rgba(45, 212, 191, 0.03);
-          border-top: 1px solid rgba(255, 255, 255, 0.05);
-        }
-
-        .section-head {
+          opacity: 0.5;
+          transition: all 0.2s;
           display: flex;
           align-items: center;
-          gap: 8px;
-          font-size: 0.7rem;
-          font-weight: 800;
-          text-transform: uppercase;
-          color: var(--accent-color);
-          margin-bottom: 1rem;
+          justify-content: center;
+        }
+        .nav-btn:hover { opacity: 1; transform: scale(1.2); color: var(--accent-color); }
+
+        .nav-indicator { display: flex; gap: 6px; align-items: center; }
+        .dot { 
+          width: 6px; 
+          height: 6px; 
+          background: rgba(255,255,255,0.2); 
+          border-radius: 50%; 
+          cursor: pointer;
+          transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        .dot:hover { background: rgba(255,255,255,0.5); transform: scale(1.5); }
+        .dot.active { 
+          width: 24px; 
+          border-radius: 10px; 
+          background: var(--accent-color); 
+          box-shadow: 0 0 10px var(--accent-color);
         }
 
-        .role-tag, .date-tag, .award-tag {
-            font-size: 0.75rem;
-            color: #94a3b8;
-            background: rgba(255,255,255,0.05);
-            padding: 0.2rem 0.6rem;
-            border-radius: 6px;
-        }
-
-        .award-tag {
-            color: #fbbf24;
-            background: rgba(251, 191, 36, 0.1);
-            border: 1px solid rgba(251, 191, 36, 0.2);
-        }
-
-        .about-card {
-          background: rgba(0, 0, 0, 0.4);
-          border: 1px solid rgba(255, 255, 255, 0.05);
-          padding: 1rem;
-          border-radius: 8px;
-        }
-
-        .about-text {
-          font-family: var(--font-main);
-          font-size: 0.8rem;
-          line-height: 1.6;
-          color: #e2e8f0;
-          white-space: pre-wrap;
-          margin: 0;
+        @media (max-width: 768px) {
+           .viewer-container { min-height: 450px; }
+           .stage-controls { bottom: 1.5rem; padding: 8px 20px; gap: 1rem; }
         }
       `}</style>
     </div>

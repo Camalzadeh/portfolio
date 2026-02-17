@@ -1,0 +1,21 @@
+{
+    "id": "advanced-backend-programming",
+    "title": "Advanced backend programming",
+    "path": "fixed_data/academic/courses/advanced_backend_programming",
+    "organization": "Various",
+    "description": "Detailed documentation and proof for Advanced backend programming.",
+    "type": "academic",
+    "subtype": "courses",
+    "position": null,
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2024,
+        "month": null,
+        "day": null
+    },
+    "media": [],
+    "tags": []
+}

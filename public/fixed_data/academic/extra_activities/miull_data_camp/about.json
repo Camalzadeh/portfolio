@@ -1,24 +1,34 @@
 {
     "id": "miull-data-camp",
     "title": "Miull data camp",
+    "path": "fixed_data/academic/extra_activities/miull_data_camp",
     "organization": "Various",
-    "date": "2024 - 2025",
     "description": "Detailed documentation and proof for Miull data camp.",
+    "type": "academic",
+    "subtype": "achievements",
+    "position": null,
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2024,
+        "month": null,
+        "day": null
+    },
     "media": [
         {
             "type": "image",
-            "url": "fixed_data/academic/extra_activities/miull_data_camp/miull_1.png",
-            "title": "Miull 1.png"
+            "url_text": null,
+            "title": "Miull 1",
+            "path": "fixed_data/academic/extra_activities/miull_data_camp/miull_1.png"
         },
         {
             "type": "image",
-            "url": "fixed_data/academic/extra_activities/miull_data_camp/miull_2.png",
-            "title": "Miull 2.png"
+            "url_text": null,
+            "title": "Miull 2",
+            "path": "fixed_data/academic/extra_activities/miull_data_camp/miull_2.png"
         }
     ],
-    "metadata": {
-        "role": null,
-        "award": null,
-        "folder": "academic/extra_activities/miull_data_camp"
-    }
+    "tags": []
 }

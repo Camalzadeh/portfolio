@@ -1,19 +1,28 @@
 {
     "id": "codestar",
     "title": "Codestar",
+    "path": "fixed_data/academic/courses/codestar",
     "organization": "Various",
-    "date": "2024 - 2025",
     "description": "Detailed documentation and proof for Codestar.",
+    "type": "academic",
+    "subtype": "courses",
+    "position": null,
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2024,
+        "month": null,
+        "day": null
+    },
     "media": [
         {
             "type": "image",
-            "url": "fixed_data/academic/courses/codestar/advanced_finished.png",
-            "title": "Advanced finished.png"
+            "url_text": null,
+            "title": "Advanced finished",
+            "path": "fixed_data/academic/courses/codestar/advanced_finished.png"
         }
     ],
-    "metadata": {
-        "role": null,
-        "award": null,
-        "folder": "academic/courses/codestar"
-    }
+    "tags": []
 }

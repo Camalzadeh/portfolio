@@ -11,6 +11,8 @@ export const metadata: Metadata = {
   description: "Portfolio of Humbat Jamalzadeh - Software Engineer specializing in Flutter, Django, and DevOps.",
 };
 
+import { Providers } from "./Providers";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -19,12 +21,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${outfit.variable}`}>
-        <div className="bg-glow">
-          <div className="glow-1"></div>
-          <div className="glow-2"></div>
-        </div>
-        <Navbar />
-        {children}
+        <Providers>
+          <div className="bg-glow">
+            <div className="glow-1"></div>
+            <div className="glow-2"></div>
+          </div>
+          <Navbar />
+          {children}
+        </Providers>
       </body>
     </html>
   );

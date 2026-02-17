@@ -1,0 +1,21 @@
+{
+    "id": "web-skills",
+    "title": "Web skills",
+    "path": "fixed_data/academic/extra_activities/web_skills",
+    "organization": "Various",
+    "description": "Detailed documentation and proof for Web skills.",
+    "type": "academic",
+    "subtype": "achievements",
+    "position": null,
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2024,
+        "month": null,
+        "day": null
+    },
+    "media": [],
+    "tags": []
+}

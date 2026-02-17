@@ -1,19 +1,28 @@
 {
     "id": "aegee-forum",
     "title": "Aegee forum",
+    "path": "fixed_data/academic/extra_activities/aegee_forum",
     "organization": "Various",
-    "date": "2024 - 2025",
     "description": "Detailed documentation and proof for Aegee forum.",
+    "type": "academic",
+    "subtype": "achievements",
+    "position": null,
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2024,
+        "month": null,
+        "day": null
+    },
     "media": [
         {
             "type": "pdf",
-            "url": "fixed_data/academic/extra_activities/aegee_forum/participation.pdf",
-            "title": "Participation"
+            "url_text": null,
+            "title": "Participation",
+            "path": "fixed_data/academic/extra_activities/aegee_forum/participation.pdf"
         }
     ],
-    "metadata": {
-        "role": null,
-        "award": null,
-        "folder": "academic/extra_activities/aegee_forum"
-    }
+    "tags": []
 }

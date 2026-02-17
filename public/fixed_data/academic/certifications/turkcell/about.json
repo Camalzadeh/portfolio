@@ -1,24 +1,34 @@
 {
     "id": "turkcell",
     "title": "Turkcell",
+    "path": "fixed_data/academic/certifications/turkcell",
     "organization": "Various",
-    "date": "2024 - 2025",
     "description": "Detailed documentation and proof for Turkcell.",
+    "type": "academic",
+    "subtype": "certifications",
+    "position": null,
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2024,
+        "month": null,
+        "day": null
+    },
     "media": [
         {
             "type": "pdf",
-            "url": "fixed_data/academic/certifications/turkcell/Humbet Camalov-Web Programlama101.pdf",
-            "title": "Humbet camalov-web programlama101"
+            "url_text": null,
+            "title": "Humbet camalov-web programlama101",
+            "path": "fixed_data/academic/certifications/turkcell/Humbet Camalov-Web Programlama101.pdf"
         },
         {
             "type": "pdf",
-            "url": "fixed_data/academic/certifications/turkcell/Humbet Camalov-Web Programlama201.pdf",
-            "title": "Humbet camalov-web programlama201"
+            "url_text": null,
+            "title": "Humbet camalov-web programlama201",
+            "path": "fixed_data/academic/certifications/turkcell/Humbet Camalov-Web Programlama201.pdf"
         }
     ],
-    "metadata": {
-        "role": null,
-        "award": null,
-        "folder": "academic/certifications/turkcell"
-    }
+    "tags": []
 }

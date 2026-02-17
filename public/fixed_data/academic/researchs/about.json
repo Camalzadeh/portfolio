@@ -1,0 +1,21 @@
+{
+    "id": "researchs",
+    "title": "Researchs",
+    "path": "fixed_data/academic/researchs",
+    "organization": "Various",
+    "description": "Detailed documentation and proof for Researchs.",
+    "type": "academic",
+    "subtype": "research",
+    "position": null,
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2024,
+        "month": null,
+        "day": null
+    },
+    "media": [],
+    "tags": []
+}

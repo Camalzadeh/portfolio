@@ -1,19 +1,28 @@
 {
     "id": "coursera",
     "title": "Coursera",
+    "path": "fixed_data/academic/courses/coursera",
     "organization": "Various",
-    "date": "2024 - 2025",
     "description": "Detailed documentation and proof for Coursera.",
+    "type": "academic",
+    "subtype": "courses",
+    "position": null,
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2024,
+        "month": null,
+        "day": null
+    },
     "media": [
         {
             "type": "pdf",
-            "url": "fixed_data/academic/courses/coursera/Coursera Supervised Machine Learning Regression and Classification.pdf",
-            "title": "Coursera supervised machine learning regression and classification"
+            "url_text": null,
+            "title": "Coursera supervised machine learning regression and classification",
+            "path": "fixed_data/academic/courses/coursera/Coursera Supervised Machine Learning Regression and Classification.pdf"
         }
     ],
-    "metadata": {
-        "role": null,
-        "award": null,
-        "folder": "academic/courses/coursera"
-    }
+    "tags": []
 }

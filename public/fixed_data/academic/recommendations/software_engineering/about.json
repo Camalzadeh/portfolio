@@ -1,19 +1,28 @@
 {
     "id": "software-engineering",
     "title": "Software engineering",
+    "path": "fixed_data/academic/recommendations/software_engineering",
     "organization": "Various",
-    "date": "2024 - 2025",
     "description": "Detailed documentation and proof for Software engineering.",
+    "type": "academic",
+    "subtype": "certifications",
+    "position": null,
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2024,
+        "month": null,
+        "day": null
+    },
     "media": [
         {
             "type": "pdf",
-            "url": "fixed_data/academic/recommendations/software_engineering/Humbat Jamalov .pdf",
-            "title": "Humbat jamalov "
+            "url_text": null,
+            "title": "Humbat jamalov recommendation",
+            "path": "fixed_data/academic/recommendations/software_engineering/humbat_jamalov_recommendation.pdf"
         }
     ],
-    "metadata": {
-        "role": null,
-        "award": null,
-        "folder": "academic/recommendations/software_engineering"
-    }
+    "tags": []
 }

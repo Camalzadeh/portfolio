@@ -1,24 +1,34 @@
 {
     "id": "icpc-republican-2025",
     "title": "ICPC 2025 Republican Finals",
+    "path": "fixed_data/academic/extra_activities/icpc_republican_2025",
     "organization": "ICPC Azerbaijan",
-    "date": "2024",
     "description": "National medalist in the world's most prestigious coding contest.",
+    "type": "academic",
+    "subtype": "achievements",
+    "position": null,
+    "award": "3rd Place (National)",
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2024,
+        "month": null,
+        "day": null
+    },
     "media": [
         {
             "type": "pdf",
-            "url": "fixed_data/academic/extra_activities/icpc_republican_2025/icpc_2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL.pdf",
-            "title": "Icpc 2025-icpc azerbaijan rc-humbat jamalov-medal"
+            "url_text": null,
+            "title": "Icpc 2025-icpc azerbaijan rc-humbat jamalov-medal",
+            "path": "fixed_data/academic/extra_activities/icpc_republican_2025/icpc_2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL.pdf"
         },
         {
             "type": "pdf",
-            "url": "fixed_data/academic/extra_activities/icpc_republican_2025/icpc_team_2025-ICPC Azerbaijan RC-MEDAL.pdf",
-            "title": "Icpc team 2025-icpc azerbaijan rc-medal"
+            "url_text": null,
+            "title": "Icpc team 2025-icpc azerbaijan rc-medal",
+            "path": "fixed_data/academic/extra_activities/icpc_republican_2025/icpc_team_2025-ICPC Azerbaijan RC-MEDAL.pdf"
         }
     ],
-    "metadata": {
-        "role": null,
-        "award": "3rd Place (National)",
-        "folder": "academic/extra_activities/icpc_republican_2025"
-    }
+    "tags": []
 }

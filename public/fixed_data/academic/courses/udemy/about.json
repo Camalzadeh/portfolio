@@ -1,34 +1,46 @@
 {
     "id": "udemy",
     "title": "Udemy: Udemy",
+    "path": "fixed_data/academic/courses/udemy",
     "organization": "Various",
-    "date": "2024 - 2025",
     "description": "Detailed documentation and proof for Udemy: Udemy.",
+    "type": "academic",
+    "subtype": "courses",
+    "position": null,
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2024,
+        "month": null,
+        "day": null
+    },
     "media": [
         {
             "type": "pdf",
-            "url": "fixed_data/academic/courses/udemy/FlutterKanan.pdf",
-            "title": "Flutterkanan"
+            "url_text": null,
+            "title": "Flutterkanan",
+            "path": "fixed_data/academic/courses/udemy/FlutterKanan.pdf"
         },
         {
             "type": "pdf",
-            "url": "fixed_data/academic/courses/udemy/udemy_FlutterDartUdemy.pdf",
-            "title": "Udemy flutterdartudemy"
+            "url_text": null,
+            "title": "Udemy flutterdartudemy",
+            "path": "fixed_data/academic/courses/udemy/udemy_FlutterDartUdemy.pdf"
         },
         {
             "type": "pdf",
-            "url": "fixed_data/academic/courses/udemy/udemy_JavaPreparationUdemy.pdf",
-            "title": "Udemy javapreparationudemy"
+            "url_text": null,
+            "title": "Udemy javapreparationudemy",
+            "path": "fixed_data/academic/courses/udemy/udemy_JavaPreparationUdemy.pdf"
         },
         {
             "type": "pdf",
-            "url": "fixed_data/academic/courses/udemy/udemy_SoftwareArchitecturaUdemy.pdf",
-            "title": "Udemy softwarearchitecturaudemy"
+            "url_text": null,
+            "title": "Udemy softwarearchitecturaudemy",
+            "path": "fixed_data/academic/courses/udemy/udemy_SoftwareArchitecturaUdemy.pdf"
         }
     ],
-    "metadata": {
-        "role": null,
-        "award": null,
-        "folder": "academic/courses/udemy"
-    }
+    "tags": []
 }

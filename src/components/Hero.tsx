@@ -2,19 +2,18 @@
 import { motion } from "framer-motion";
 import { ChevronRight, Briefcase, GraduationCap, Zap } from "lucide-react";
 import Link from "next/link";
-import data from "@/data/portfolio.json";
 
 export default function Hero() {
   return (
-    <section className="hero container">
+    <section className="hero container" style={{ paddingTop: '120px', paddingBottom: '100px' }}>
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
-        className="badge"
+        className="badge-premium"
       >
         <span>L2 CS Student @ UFAZ</span>
-        <span style={{ margin: '0 10px', opacity: 0.3 }}>|</span>
-        <span style={{ color: 'var(--accent-color)' }}>Software Engineer</span>
+        <span className="divider">|</span>
+        <span className="accent-text">Software Engineer</span>
       </motion.div>
 
       <motion.h1
@@ -44,7 +43,7 @@ export default function Hero() {
       >
         <Link href="/experience" className="pillar-link">
           <div className="pillar-content">
-            <Briefcase size={20} />
+            <div className="icon-box"><Briefcase size={20} /></div>
             <div>
               <p className="pillar-label">Execution</p>
               <h4>Experience</h4>
@@ -55,7 +54,7 @@ export default function Hero() {
 
         <Link href="/academic" className="pillar-link">
           <div className="pillar-content">
-            <GraduationCap size={20} />
+            <div className="icon-box"><GraduationCap size={20} /></div>
             <div>
               <p className="pillar-label">Foundations</p>
               <h4>Academic</h4>
@@ -66,7 +65,7 @@ export default function Hero() {
 
         <Link href="/projects" className="pillar-link">
           <div className="pillar-content">
-            <Zap size={20} />
+            <div className="icon-box"><Zap size={20} /></div>
             <div>
               <p className="pillar-label">Innovation</p>
               <h4>Projects</h4>
@@ -77,6 +76,21 @@ export default function Hero() {
       </motion.div>
 
       <style jsx>{`
+        .badge-premium {
+          display: inline-flex;
+          align-items: center;
+          padding: 8px 16px;
+          background: var(--surface-hover);
+          border: 1px solid var(--border-color);
+          border-radius: 100px;
+          font-size: 0.75rem;
+          font-weight: 700;
+          color: var(--text-primary);
+          margin-bottom: 2rem;
+        }
+        .divider { margin: 0 12px; opacity: 0.2; }
+        .accent-text { color: var(--accent-color); }
+
         .hero-pillars {
           display: flex;
           gap: 1.5rem;
@@ -87,64 +101,84 @@ export default function Hero() {
 
         .pillar-link {
           flex: 1;
-          background: rgba(255, 255, 255, 0.05); /* Increased opacity for button feel */
-          border: 1px solid rgba(255, 255, 255, 0.1);
-          border-radius: 16px; /* Slightly squarer for button look */
+          background: var(--surface-color);
+          border: 1px solid var(--border-color);
+          border-radius: 20px;
           padding: 1.5rem;
           text-decoration: none;
-          color: #fff;
+          color: var(--text-primary);
           display: flex;
           justify-content: space-between;
           align-items: center;
-          transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+          transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
           cursor: pointer;
-          box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* subtle depth */
+          position: relative;
+          overflow: hidden;
         }
 
         .pillar-link:hover {
-          background: rgba(255, 255, 255, 0.1);
-          border-color: var(--accent-color);
-          transform: translateY(-3px);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          background: var(--surface-hover);
+          border-color: rgba(var(--accent-color-rgb), 0.3);
+          transform: translateY(-8px);
+          box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
         }
+
+        .pillar-link::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          width: 4px;
+          background: var(--accent-color);
+          opacity: 0;
+          transition: 0.3s;
+        }
+        .pillar-link:hover::before { opacity: 1; }
 
         .pillar-content {
           display: flex;
           align-items: center;
           gap: 1.25rem;
-          text-align: left;
+        }
+
+        .icon-box {
+          width: 44px;
+          height: 44px;
+          background: rgba(var(--accent-color-rgb), 0.1);
+          border-radius: 12px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: var(--accent-color);
         }
 
         .pillar-label {
-          font-size: 0.7rem;
+          font-size: 0.6rem;
           text-transform: uppercase;
-          letter-spacing: 1.5px;
+          letter-spacing: 2px;
           color: var(--text-secondary);
           margin: 0;
-          font-weight: 700;
+          font-weight: 800;
+          opacity: 0.6;
         }
 
         .pillar-content h4 {
           margin: 4px 0 0 0;
-          font-size: 1.1rem;
-          font-weight: 700;
+          font-size: 1.15rem;
+          font-weight: 800;
         }
 
         .pillar-arrow {
-          opacity: 0.5;
-          transition: transform 0.2s ease;
-          background: rgba(255,255,255,0.1); /* Circle bg for arrow */
-          padding: 4px;
-          border-radius: 50%;
-          width: 28px;
-          height: 28px;
+          opacity: 0.3;
+          transition: 0.3s;
+          color: var(--text-secondary);
         }
 
         .pillar-link:hover .pillar-arrow {
-          transform: translateX(5px);
           opacity: 1;
-          color: #000;
-          background: var(--accent-color); /* Highlight arrow on hover */
+          color: var(--accent-color);
+          transform: translateX(4px);
         }
 
         @media (max-width: 992px) {

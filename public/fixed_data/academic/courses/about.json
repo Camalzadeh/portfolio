@@ -1,0 +1,21 @@
+{
+    "id": "courses",
+    "title": "Courses",
+    "path": "fixed_data/academic/courses",
+    "organization": "Various",
+    "description": "Detailed documentation and proof for Courses.",
+    "type": "academic",
+    "subtype": "courses",
+    "position": null,
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2024,
+        "month": null,
+        "day": null
+    },
+    "media": [],
+    "tags": []
+}

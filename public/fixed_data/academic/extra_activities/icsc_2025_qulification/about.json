@@ -1,24 +1,34 @@
 {
     "id": "icsc-2025-qulification",
     "title": "Icsc 2025 qulification",
+    "path": "fixed_data/academic/extra_activities/icsc_2025_qulification",
     "organization": "Various",
-    "date": "2024 - 2025",
     "description": "Detailed documentation and proof for Icsc 2025 qulification.",
+    "type": "academic",
+    "subtype": "achievements",
+    "position": null,
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2024,
+        "month": null,
+        "day": null
+    },
     "media": [
         {
             "type": "pdf",
-            "url": "fixed_data/academic/extra_activities/icsc_2025_qulification/ICSC-Certificate-QR-2025-FFB809803C5-d5ff0f5136aa3a63242c8a544e43df25.pdf",
-            "title": "Icsc-certificate-qr-2025-ffb809803c5-d5ff0f5136aa3a63242c8a544e43df25"
+            "url_text": null,
+            "title": "Icsc-certificate-qr-2025-ffb809803c5-d5ff0f5136aa3a63242c8a544e43df25",
+            "path": "fixed_data/academic/extra_activities/icsc_2025_qulification/ICSC-Certificate-QR-2025-FFB809803C5-d5ff0f5136aa3a63242c8a544e43df25.pdf"
         },
         {
             "type": "pdf",
-            "url": "fixed_data/academic/extra_activities/icsc_2025_qulification/ICSC-PerformanceReport-PR-2025-FFB809803C5-b5275e2c79ec037e4e2ba0d524148130.pdf",
-            "title": "Icsc-performancereport-pr-2025-ffb809803c5-b5275e2c79ec037e4e2ba0d524148130"
+            "url_text": null,
+            "title": "Icsc-performancereport-pr-2025-ffb809803c5-b5275e2c79ec037e4e2ba0d524148130",
+            "path": "fixed_data/academic/extra_activities/icsc_2025_qulification/ICSC-PerformanceReport-PR-2025-FFB809803C5-b5275e2c79ec037e4e2ba0d524148130.pdf"
         }
     ],
-    "metadata": {
-        "role": null,
-        "award": null,
-        "folder": "academic/extra_activities/icsc_2025_qulification"
-    }
+    "tags": []
 }

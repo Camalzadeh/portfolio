@@ -1,34 +1,46 @@
 {
     "id": "hackerrank",
     "title": "HackerRank: Hackerrank",
+    "path": "fixed_data/academic/certifications/hackerrank",
     "organization": "Various",
-    "date": "2024 - 2025",
     "description": "Detailed documentation and proof for HackerRank: Hackerrank.",
+    "type": "academic",
+    "subtype": "certifications",
+    "position": null,
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2024,
+        "month": null,
+        "day": null
+    },
     "media": [
         {
             "type": "pdf",
-            "url": "fixed_data/academic/certifications/hackerrank/hackerrank_c_sharp_basic certificate.pdf",
-            "title": "Hackerrank c sharp basic certificate"
+            "url_text": null,
+            "title": "Hackerrank c sharp basic certificate",
+            "path": "fixed_data/academic/certifications/hackerrank/hackerrank_c_sharp_basic certificate.pdf"
         },
         {
             "type": "pdf",
-            "url": "fixed_data/academic/certifications/hackerrank/hackerrank_javascript_basic certificate.pdf",
-            "title": "Hackerrank javascript basic certificate"
+            "url_text": null,
+            "title": "Hackerrank javascript basic certificate",
+            "path": "fixed_data/academic/certifications/hackerrank/hackerrank_javascript_basic certificate.pdf"
         },
         {
             "type": "pdf",
-            "url": "fixed_data/academic/certifications/hackerrank/hackerrank_java_basic certificate.pdf",
-            "title": "Hackerrank java basic certificate"
+            "url_text": null,
+            "title": "Hackerrank java basic certificate",
+            "path": "fixed_data/academic/certifications/hackerrank/hackerrank_java_basic certificate.pdf"
         },
         {
             "type": "pdf",
-            "url": "fixed_data/academic/certifications/hackerrank/hackerrank_problem_solving_basic certificate.pdf",
-            "title": "Hackerrank problem solving basic certificate"
+            "url_text": null,
+            "title": "Hackerrank problem solving basic certificate",
+            "path": "fixed_data/academic/certifications/hackerrank/hackerrank_problem_solving_basic certificate.pdf"
         }
     ],
-    "metadata": {
-        "role": null,
-        "award": null,
-        "folder": "academic/certifications/hackerrank"
-    }
+    "tags": []
 }

@@ -1,19 +1,28 @@
 {
     "id": "sumgayit-cup",
     "title": "Sumgayit cup",
+    "path": "fixed_data/academic/extra_activities/sumgayit_cup",
     "organization": "Various",
-    "date": "2024 - 2025",
     "description": "Detailed documentation and proof for Sumgayit cup.",
+    "type": "academic",
+    "subtype": "achievements",
+    "position": null,
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2024,
+        "month": null,
+        "day": null
+    },
     "media": [
         {
             "type": "image",
-            "url": "fixed_data/academic/extra_activities/sumgayit_cup/sumgayit_cup.jpg",
-            "title": "Sumgayit cup.jpg"
+            "url_text": null,
+            "title": "Sumgayit cup",
+            "path": "fixed_data/academic/extra_activities/sumgayit_cup/sumgayit_cup.jpg"
         }
     ],
-    "metadata": {
-        "role": null,
-        "award": null,
-        "folder": "academic/extra_activities/sumgayit_cup"
-    }
+    "tags": []
 }

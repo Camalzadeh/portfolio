@@ -1,24 +1,34 @@
 {
     "id": "icpc-2025-qualification",
     "title": "Icpc 2025 qualification",
+    "path": "fixed_data/academic/extra_activities/icpc_2025_qualification",
     "organization": "Various",
-    "date": "2024 - 2025",
     "description": "Detailed documentation and proof for Icpc 2025 qualification.",
+    "type": "academic",
+    "subtype": "achievements",
+    "position": null,
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2024,
+        "month": null,
+        "day": null
+    },
     "media": [
         {
             "type": "pdf",
-            "url": "fixed_data/academic/extra_activities/icpc_2025_qualification/2025-ICPC Azerbaijan Qualification-Humbat Jamalov-MEDAL.pdf",
-            "title": "2025-icpc azerbaijan qualification-humbat jamalov-medal"
+            "url_text": null,
+            "title": "2025-icpc azerbaijan qualification-humbat jamalov-medal",
+            "path": "fixed_data/academic/extra_activities/icpc_2025_qualification/2025-ICPC Azerbaijan Qualification-Humbat Jamalov-MEDAL.pdf"
         },
         {
             "type": "pdf",
-            "url": "fixed_data/academic/extra_activities/icpc_2025_qualification/2025-ICPC Azerbaijan Qualification-Humbat Jamalov-PLACE.pdf",
-            "title": "2025-icpc azerbaijan qualification-humbat jamalov-place"
+            "url_text": null,
+            "title": "2025-icpc azerbaijan qualification-humbat jamalov-place",
+            "path": "fixed_data/academic/extra_activities/icpc_2025_qualification/2025-ICPC Azerbaijan Qualification-Humbat Jamalov-PLACE.pdf"
         }
     ],
-    "metadata": {
-        "role": null,
-        "award": null,
-        "folder": "academic/extra_activities/icpc_2025_qualification"
-    }
+    "tags": []
 }

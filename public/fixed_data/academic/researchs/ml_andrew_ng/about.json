@@ -1,24 +1,34 @@
 {
     "id": "stanford-ml",
     "title": "Supervised Machine Learning",
+    "path": "fixed_data/academic/researchs/ml_andrew_ng",
     "organization": "Coursera / Stanford",
-    "date": "2025",
     "description": "Andrew Ng's world-renowned ML certification.",
+    "type": "academic",
+    "subtype": "research",
+    "position": "Honors Student",
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2025,
+        "month": null,
+        "day": null
+    },
     "media": [
         {
             "type": "pdf",
-            "url": "fixed_data/academic/researchs/ml_andrew_ng/Coursera FZ30VTIC8WN3.pdf",
-            "title": "Coursera fz30vtic8wn3"
+            "url_text": null,
+            "title": "Coursera fz30vtic8wn3",
+            "path": "fixed_data/academic/researchs/ml_andrew_ng/Coursera FZ30VTIC8WN3.pdf"
         },
         {
-            "type": "external",
-            "url": "https://coursera.org/verify/FZ30VTIC8WN3",
-            "title": "Stanford Verify Link"
+            "type": "url",
+            "url_text": "https://coursera.org/verify/FZ30VTIC8WN3",
+            "title": "Stanford Verify Link",
+            "path": null
         }
     ],
-    "metadata": {
-        "role": "Honors Student",
-        "award": null,
-        "folder": "academic/researchs/ml_andrew_ng"
-    }
+    "tags": []
 }

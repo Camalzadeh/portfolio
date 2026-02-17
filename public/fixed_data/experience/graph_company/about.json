@@ -1,24 +1,34 @@
 {
     "id": "graph-company",
     "title": "Graph Company",
+    "path": "fixed_data/experience/graph_company",
     "organization": "Graph Company",
-    "date": "2023 - 2025",
     "description": "Architected and shipped 4 production mobile applications using Flutter. Developed robust backend systems using Django and handled the entire DevOps lifecycle. Integrated complex features and ensured high availability.",
+    "type": "experience",
+    "subtype": null,
+    "position": "Software Engineer (Mobile, Backend & DevOps)",
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2023,
+        "month": null,
+        "day": null
+    },
     "media": [
         {
             "type": "pdf",
-            "url": "fixed_data/experience/graph_company/Detailed description of achievements.pdf",
-            "title": "Detailed description of achievements"
+            "url_text": null,
+            "title": "Detailed description of achievements",
+            "path": "fixed_data/experience/graph_company/Detailed description of achievements.pdf"
         },
         {
             "type": "pdf",
-            "url": "fixed_data/experience/graph_company/udemy_FlutterDartUdemy.pdf",
-            "title": "Udemy flutterdartudemy"
+            "url_text": null,
+            "title": "Udemy flutterdartudemy",
+            "path": "fixed_data/experience/graph_company/udemy_FlutterDartUdemy.pdf"
         }
     ],
-    "metadata": {
-        "role": "Software Engineer (Mobile, Backend & DevOps)",
-        "award": null,
-        "folder": "experience/graph_company"
-    }
+    "tags": []
 }

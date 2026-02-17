@@ -1,19 +1,28 @@
 {
     "id": "icpc-2026-qualification",
     "title": "Icpc 2026 qualification",
+    "path": "fixed_data/academic/extra_activities/icpc_2026_qualification",
     "organization": "Various",
-    "date": "2024 - 2025",
     "description": "Detailed documentation and proof for Icpc 2026 qualification.",
+    "type": "academic",
+    "subtype": "achievements",
+    "position": null,
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2024,
+        "month": null,
+        "day": null
+    },
     "media": [
         {
             "type": "pdf",
-            "url": "fixed_data/academic/extra_activities/icpc_2026_qualification/2026-ICPC Azerbaijan Q-Humbat Jamalov-PLACE.pdf",
-            "title": "2026-icpc azerbaijan q-humbat jamalov-place"
+            "url_text": null,
+            "title": "2026-icpc azerbaijan q-humbat jamalov-place",
+            "path": "fixed_data/academic/extra_activities/icpc_2026_qualification/2026-ICPC Azerbaijan Q-Humbat Jamalov-PLACE.pdf"
         }
     ],
-    "metadata": {
-        "role": null,
-        "award": null,
-        "folder": "academic/extra_activities/icpc_2026_qualification"
-    }
+    "tags": []
 }
