@@ -1,0 +1,34 @@
+{
+    "id": "hackerrank",
+    "title": "HackerRank: Hackerrank",
+    "organization": "Various",
+    "date": "2024 - 2025",
+    "description": "Detailed documentation and proof for HackerRank: Hackerrank.",
+    "media": [
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/certifications/hackerrank/hackerrank_c_sharp_basic certificate.pdf",
+            "title": "Hackerrank c sharp basic certificate"
+        },
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/certifications/hackerrank/hackerrank_javascript_basic certificate.pdf",
+            "title": "Hackerrank javascript basic certificate"
+        },
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/certifications/hackerrank/hackerrank_java_basic certificate.pdf",
+            "title": "Hackerrank java basic certificate"
+        },
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/certifications/hackerrank/hackerrank_problem_solving_basic certificate.pdf",
+            "title": "Hackerrank problem solving basic certificate"
+        }
+    ],
+    "metadata": {
+        "role": null,
+        "award": null,
+        "folder": "academic/certifications/hackerrank"
+    }
+}

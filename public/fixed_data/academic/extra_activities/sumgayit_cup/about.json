@@ -1,0 +1,19 @@
+{
+    "id": "sumgayit-cup",
+    "title": "Sumgayit cup",
+    "organization": "Various",
+    "date": "2024 - 2025",
+    "description": "Detailed documentation and proof for Sumgayit cup.",
+    "media": [
+        {
+            "type": "image",
+            "url": "fixed_data/academic/extra_activities/sumgayit_cup/sumgayit_cup.jpg",
+            "title": "Sumgayit cup.jpg"
+        }
+    ],
+    "metadata": {
+        "role": null,
+        "award": null,
+        "folder": "academic/extra_activities/sumgayit_cup"
+    }
+}

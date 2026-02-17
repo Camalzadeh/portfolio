@@ -9,7 +9,7 @@ import { useState } from "react";
 
 export default function ExperienceDetailPage() {
     const { id } = useParams();
-    const expData = data.pillars.experience as any;
+    const expData = data.experience as any;
     const item = expData.items.find((i: any) => i.id === id);
 
     const [selectedItem, setSelectedItem] = useState<any>(item || null);

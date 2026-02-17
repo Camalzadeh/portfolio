@@ -1,0 +1,19 @@
+{
+    "id": "pigma-quiz",
+    "title": "Pigma quiz",
+    "organization": "Various",
+    "date": "2024 - 2025",
+    "description": "Detailed documentation and proof for Pigma quiz.",
+    "media": [
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/extra_activities/pigma_quiz/pigma_quiz.pdf",
+            "title": "Pigma quiz"
+        }
+    ],
+    "metadata": {
+        "role": null,
+        "award": null,
+        "folder": "academic/extra_activities/pigma_quiz"
+    }
+}

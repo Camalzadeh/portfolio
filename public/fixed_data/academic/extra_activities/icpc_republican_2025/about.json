@@ -1,0 +1,24 @@
+{
+    "id": "icpc-republican-2025",
+    "title": "ICPC 2025 Republican Finals",
+    "organization": "ICPC Azerbaijan",
+    "date": "2024",
+    "description": "National medalist in the world's most prestigious coding contest.",
+    "media": [
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/extra_activities/icpc_republican_2025/icpc_2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL.pdf",
+            "title": "Icpc 2025-icpc azerbaijan rc-humbat jamalov-medal"
+        },
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/extra_activities/icpc_republican_2025/icpc_team_2025-ICPC Azerbaijan RC-MEDAL.pdf",
+            "title": "Icpc team 2025-icpc azerbaijan rc-medal"
+        }
+    ],
+    "metadata": {
+        "role": null,
+        "award": "3rd Place (National)",
+        "folder": "academic/extra_activities/icpc_republican_2025"
+    }
+}

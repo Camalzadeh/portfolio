@@ -1,0 +1,24 @@
+{
+    "id": "stanford-ml",
+    "title": "Supervised Machine Learning",
+    "organization": "Coursera / Stanford",
+    "date": "2025",
+    "description": "Andrew Ng's world-renowned ML certification.",
+    "media": [
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/researchs/ml_andrew_ng/Coursera FZ30VTIC8WN3.pdf",
+            "title": "Coursera fz30vtic8wn3"
+        },
+        {
+            "type": "external",
+            "url": "https://coursera.org/verify/FZ30VTIC8WN3",
+            "title": "Stanford Verify Link"
+        }
+    ],
+    "metadata": {
+        "role": "Honors Student",
+        "award": null,
+        "folder": "academic/researchs/ml_andrew_ng"
+    }
+}

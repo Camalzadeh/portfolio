@@ -1,0 +1,34 @@
+{
+    "id": "udemy",
+    "title": "Udemy: Udemy",
+    "organization": "Various",
+    "date": "2024 - 2025",
+    "description": "Detailed documentation and proof for Udemy: Udemy.",
+    "media": [
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/courses/udemy/FlutterKanan.pdf",
+            "title": "Flutterkanan"
+        },
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/courses/udemy/udemy_FlutterDartUdemy.pdf",
+            "title": "Udemy flutterdartudemy"
+        },
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/courses/udemy/udemy_JavaPreparationUdemy.pdf",
+            "title": "Udemy javapreparationudemy"
+        },
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/courses/udemy/udemy_SoftwareArchitecturaUdemy.pdf",
+            "title": "Udemy softwarearchitecturaudemy"
+        }
+    ],
+    "metadata": {
+        "role": null,
+        "award": null,
+        "folder": "academic/courses/udemy"
+    }
+}

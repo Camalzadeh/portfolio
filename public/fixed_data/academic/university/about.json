@@ -1,0 +1,24 @@
+{
+    "id": "university",
+    "title": "University",
+    "organization": "Various",
+    "date": "2024 - 2025",
+    "description": "Detailed documentation and proof for University.",
+    "media": [
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/university/Humbat JAMALOV_L0S1.pdf",
+            "title": "Humbat jamalov l0s1"
+        },
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/university/JAMALOV Humbat_L0S2.pdf",
+            "title": "Jamalov humbat l0s2"
+        }
+    ],
+    "metadata": {
+        "role": null,
+        "award": null,
+        "folder": "academic/university"
+    }
+}

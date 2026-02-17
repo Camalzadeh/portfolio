@@ -1,0 +1,19 @@
+{
+    "id": "scientific-conference",
+    "title": "Scientific conference",
+    "organization": "Various",
+    "date": "2024 - 2025",
+    "description": "Detailed documentation and proof for Scientific conference.",
+    "media": [
+        {
+            "type": "image",
+            "url": "fixed_data/academic/extra_activities/scientific_conference/IMG-20240913-WA0027.jpg",
+            "title": "Img-20240913-wa0027.jpg"
+        }
+    ],
+    "metadata": {
+        "role": null,
+        "award": null,
+        "folder": "academic/extra_activities/scientific_conference"
+    }
+}

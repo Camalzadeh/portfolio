@@ -1,0 +1,24 @@
+{
+    "id": "icpc-2025-republican",
+    "title": "Icpc 2025 republican",
+    "organization": "Various",
+    "date": "2024 - 2025",
+    "description": "Detailed documentation and proof for Icpc 2025 republican.",
+    "media": [
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/extra_activities/icpc_2025_republican/2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL.pdf",
+            "title": "2025-icpc azerbaijan rc-humbat jamalov-medal"
+        },
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/extra_activities/icpc_2025_republican/2025-ICPC Azerbaijan RC-Humbat Jamalov-PLACE.pdf",
+            "title": "2025-icpc azerbaijan rc-humbat jamalov-place"
+        }
+    ],
+    "metadata": {
+        "role": null,
+        "award": null,
+        "folder": "academic/extra_activities/icpc_2025_republican"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "id": "totter-startup",
+    "title": "Totter (Startup Project)",
+    "organization": "Startup School 3",
+    "date": "2024 - 2025",
+    "description": "Developed the MVP from scratch, pitched to business leaders, and handled the full technical roadmap including scaling strategy.",
+    "media": [
+        {
+            "type": "pdf",
+            "url": "fixed_data/experience/startup_school/Humbat Jamalov Startup School 3.pdf",
+            "title": "Humbat jamalov startup school 3"
+        }
+    ],
+    "metadata": {
+        "role": "Full Stack Dev / Co-Founder",
+        "award": null,
+        "folder": "experience/startup_school"
+    }
+}

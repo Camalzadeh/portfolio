@@ -6,10 +6,10 @@ import IntegratedPreview from "@/components/IntegratedPreview";
 import { motion } from "framer-motion";
 
 export default function AcademicPage() {
-    const academicData = data.pillars.academic as any;
+    const academicData = data.academic as any;
     const allAcademicItems = academicData.categories
         .flatMap((cat: any) => cat.items)
-        .sort((a: any, b: any) => b.sort_date.localeCompare(a.sort_date));
+        .sort((a: any, b: any) => (b.sort_date || '').localeCompare(a.sort_date || ''));
 
     const [selectedItem, setSelectedItem] = useState<any>(allAcademicItems[0] || null);
 

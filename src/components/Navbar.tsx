@@ -22,21 +22,21 @@ export default function Navbar() {
       title: "Experience",
       icon: <Briefcase size={20} />,
       rootPath: "/experience",
-      items: data.pillars.experience.items.map(i => ({ name: i.title, path: `/experience/${i.id}` }))
+      items: data.experience.items.map(i => ({ name: i.title, path: `/experience/${i.id}` }))
     },
     {
       id: "academic",
       title: "Academic",
       icon: <GraduationCap size={20} />,
       rootPath: "/academic",
-      items: data.pillars.academic.categories.flatMap(c => c.items.map(i => ({ name: i.title, path: `/academic#${i.id}` })))
+      items: data.academic.categories.flatMap(c => c.items.map(i => ({ name: i.title, path: `/academic#${i.id}` })))
     },
     {
       id: "projects",
       title: "Projects",
       icon: <Layers size={20} />,
       rootPath: "/projects",
-      items: data.pillars.projects.items.map(i => ({ name: i.title, path: `/projects/${i.id}` }))
+      items: data.projects.items.map(i => ({ name: i.title, path: `/projects/${i.id}` }))
     }
   ];
 

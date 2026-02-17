@@ -1,0 +1,19 @@
+{
+    "id": "math-competition",
+    "title": "Math competition",
+    "organization": "Various",
+    "date": "2024 - 2025",
+    "description": "Detailed documentation and proof for Math competition.",
+    "media": [
+        {
+            "type": "image",
+            "url": "fixed_data/academic/extra_activities/math_competition/bu_bize_harda_lazim_olacaq.jpg",
+            "title": "Bu bize harda lazim olacaq.jpg"
+        }
+    ],
+    "metadata": {
+        "role": null,
+        "award": null,
+        "folder": "academic/extra_activities/math_competition"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "id": "aegee-forum",
+    "title": "Aegee forum",
+    "organization": "Various",
+    "date": "2024 - 2025",
+    "description": "Detailed documentation and proof for Aegee forum.",
+    "media": [
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/extra_activities/aegee_forum/participation.pdf",
+            "title": "Participation"
+        }
+    ],
+    "metadata": {
+        "role": null,
+        "award": null,
+        "folder": "academic/extra_activities/aegee_forum"
+    }
+}

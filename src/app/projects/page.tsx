@@ -6,8 +6,8 @@ import IntegratedPreview from "@/components/IntegratedPreview";
 import { motion } from "framer-motion";
 
 export default function ProjectsPage() {
-    const projectsData = data.pillars.projects as any;
-    const items = [...projectsData.items].sort((a: any, b: any) => b.sort_date.localeCompare(a.sort_date));
+    const projectsData = data.projects as any;
+    const items = [...projectsData.items].sort((a: any, b: any) => (b.sort_date || '').localeCompare(a.sort_date || ''));
 
     const [selectedItem, setSelectedItem] = useState<any>(items[0] || null);
 

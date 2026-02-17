@@ -1,0 +1,19 @@
+{
+    "id": "coursera",
+    "title": "Coursera",
+    "organization": "Various",
+    "date": "2024 - 2025",
+    "description": "Detailed documentation and proof for Coursera.",
+    "media": [
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/courses/coursera/Coursera Supervised Machine Learning Regression and Classification.pdf",
+            "title": "Coursera supervised machine learning regression and classification"
+        }
+    ],
+    "metadata": {
+        "role": null,
+        "award": null,
+        "folder": "academic/courses/coursera"
+    }
+}

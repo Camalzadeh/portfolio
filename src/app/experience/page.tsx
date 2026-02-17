@@ -6,8 +6,8 @@ import IntegratedPreview from "@/components/IntegratedPreview";
 import { motion } from "framer-motion";
 
 export default function ExperiencePage() {
-    const expData = data.pillars.experience as any;
-    const experiences = [...expData.items].sort((a: any, b: any) => b.sort_date.localeCompare(a.sort_date));
+    const expData = data.experience as any;
+    const experiences = [...expData.items].sort((a: any, b: any) => (b.sort_date || '').localeCompare(a.sort_date || ''));
 
     const [selectedItem, setSelectedItem] = useState<any>(experiences[0] || null);
 

@@ -1,0 +1,24 @@
+{
+    "id": "oracle",
+    "title": "Oracle",
+    "organization": "Various",
+    "date": "2024 - 2025",
+    "description": "Detailed documentation and proof for Oracle.",
+    "media": [
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/certifications/oracle/MySQL Implementation Associate - Fail.pdf",
+            "title": "Mysql implementation associate - fail"
+        },
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/certifications/oracle/ScoreReport.pdf MySQL 8.0 Database Administrator - Fail.pdf",
+            "title": "Scorereport mysql 8.0 database administrator - fail"
+        }
+    ],
+    "metadata": {
+        "role": null,
+        "award": null,
+        "folder": "academic/certifications/oracle"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": "advanced-computer-science",
+    "title": "Advanced computer science",
+    "organization": "Various",
+    "date": "2024 - 2025",
+    "description": "Detailed documentation and proof for Advanced computer science.",
+    "media": [
+        {
+            "type": "image",
+            "url": "fixed_data/academic/courses/advanced_computer_science/advanced_computer_science_1.jpg",
+            "title": "Advanced computer science 1.jpg"
+        },
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/courses/advanced_computer_science/advanced_computer_science_2_Humbat Jamalov.pdf",
+            "title": "Advanced computer science 2 humbat jamalov"
+        }
+    ],
+    "metadata": {
+        "role": null,
+        "award": null,
+        "folder": "academic/courses/advanced_computer_science"
+    }
+}

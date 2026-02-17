@@ -9,7 +9,7 @@ import { useState } from "react";
 
 export default function ProjectDetailPage() {
     const { id } = useParams();
-    const projectsData = data.pillars.projects as any;
+    const projectsData = data.projects as any;
     const item = projectsData.items.find((i: any) => i.id === id);
 
     const [selectedItem, setSelectedItem] = useState<any>(item || null);

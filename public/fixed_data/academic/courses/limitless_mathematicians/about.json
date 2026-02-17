@@ -1,0 +1,29 @@
+{
+    "id": "limitless-mathematicians",
+    "title": "Limitless mathematicians",
+    "organization": "Various",
+    "date": "2024 - 2025",
+    "description": "Detailed documentation and proof for Limitless mathematicians.",
+    "media": [
+        {
+            "type": "pdf",
+            "url": "fixed_data/academic/courses/limitless_mathematicians/2 yer 2023.pdf",
+            "title": "2 yer 2023"
+        },
+        {
+            "type": "image",
+            "url": "fixed_data/academic/courses/limitless_mathematicians/3 yer 2022.jpg",
+            "title": "3 yer 2022.jpg"
+        },
+        {
+            "type": "image",
+            "url": "fixed_data/academic/courses/limitless_mathematicians/participation 2023.jpg",
+            "title": "Participation 2023.jpg"
+        }
+    ],
+    "metadata": {
+        "role": null,
+        "award": null,
+        "folder": "academic/courses/limitless_mathematicians"
+    }
+}
