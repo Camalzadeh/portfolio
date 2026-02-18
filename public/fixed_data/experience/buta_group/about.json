@@ -6,7 +6,7 @@
     "description": "Virtual intensive internship focusing on enterprise IT standards.",
     "type": "experience",
     "subtype": null,
-    "position": "IT Intern (VTP\u20199 NANO)",
+    "position": "IT Intern (VTP’9 NANO)",
     "award": null,
     "score": null,
     "duration": null,
@@ -20,9 +20,10 @@
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Internship buta group h\u00fcmb\u0259t camalov (1)",
-            "path": "fixed_data/experience/buta_group/internship_Buta Group H\u00fcmb\u0259t Camalov (1).pdf"
+            "title": "Internship Buta Group HüMbəT Camalov (1)",
+            "path": "fixed_data/experience/buta_group/internship_Buta Group Hümbət Camalov (1).pdf"
         }
     ],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/experience/buta_group"
 }

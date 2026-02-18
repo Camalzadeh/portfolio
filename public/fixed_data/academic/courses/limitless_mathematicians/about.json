@@ -20,13 +20,13 @@
         {
             "type": "pdf",
             "url_text": null,
-            "title": "2 yer 2023",
+            "title": "2 Yer 2023",
             "path": "fixed_data/academic/courses/limitless_mathematicians/2 yer 2023.pdf"
         },
         {
             "type": "image",
             "url_text": null,
-            "title": "3 yer 2022",
+            "title": "3 Yer 2022",
             "path": "fixed_data/academic/courses/limitless_mathematicians/3 yer 2022.jpg"
         },
         {
@@ -36,5 +36,6 @@
             "path": "fixed_data/academic/courses/limitless_mathematicians/participation 2023.jpg"
         }
     ],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/academic/courses/limitless_mathematicians"
 }

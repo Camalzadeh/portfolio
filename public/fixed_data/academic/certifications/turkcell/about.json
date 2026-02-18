@@ -20,15 +20,16 @@
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Humbet camalov-web programlama101",
+            "title": "Humbet Camalov-Web Programlama101",
             "path": "fixed_data/academic/certifications/turkcell/Humbet Camalov-Web Programlama101.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Humbet camalov-web programlama201",
+            "title": "Humbet Camalov-Web Programlama201",
             "path": "fixed_data/academic/certifications/turkcell/Humbet Camalov-Web Programlama201.pdf"
         }
     ],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/academic/certifications/turkcell"
 }

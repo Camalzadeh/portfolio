@@ -20,9 +20,10 @@
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Humbat jamalov sustainable design hackathon participation",
+            "title": "Humbat Jamalov Sustainable Design Hackathon Participation",
             "path": "fixed_data/academic/extra_activities/hackathon_erp/Humbat Jamalov Sustainable Design Hackathon Participation.pdf"
         }
     ],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/academic/extra_activities/hackathon_erp"
 }

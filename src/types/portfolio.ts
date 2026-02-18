@@ -78,7 +78,7 @@ export class PortfolioItem {
     place: string | null = null; // e.g., 'Baku, Azerbaijan'
     date: DateInfo = new DateInfo();
     media: Media[] = [];
-    tags: Tag[] = [];
+    tagIds: string[] = [];
 
     constructor(data?: Partial<PortfolioItem>) {
         if (data) {
@@ -96,7 +96,8 @@ export class PortfolioItem {
             this.place = data.place ?? null;
             this.date = new DateInfo(data.date);
             this.media = (data.media ?? []).map(m => new Media(m));
-            this.tags = (data.tags ?? []).map(t => new Tag(t));
+            this.tagIds = data.tagIds ?? [];
         }
     }
 }
+

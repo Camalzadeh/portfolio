@@ -17,5 +17,6 @@
         "day": null
     },
     "media": [],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/academic/courses/advanced_backend_programming"
 }

@@ -18,17 +18,18 @@
     },
     "media": [
         {
-            "type": "pdf",
-            "url_text": null,
-            "title": "Coursera fz30vtic8wn3",
-            "path": "fixed_data/academic/researchs/ml_andrew_ng/Coursera FZ30VTIC8WN3.pdf"
-        },
-        {
             "type": "url",
             "url_text": "https://coursera.org/verify/FZ30VTIC8WN3",
             "title": "Stanford Verify Link",
             "path": null
+        },
+        {
+            "type": "pdf",
+            "url_text": null,
+            "title": "Coursera FZ30VTIC8WN3",
+            "path": "fixed_data/academic/researchs/ml_andrew_ng/Coursera FZ30VTIC8WN3.pdf"
         }
     ],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/academic/researchs/ml_andrew_ng"
 }

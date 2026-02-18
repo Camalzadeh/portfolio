@@ -20,9 +20,10 @@
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Ieee conference",
+            "title": "IEEE Conference",
             "path": "fixed_data/academic/researchs/sign_language/IEEE_conference.pdf"
         }
     ],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/academic/researchs/sign_language"
 }

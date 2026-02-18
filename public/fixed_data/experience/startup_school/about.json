@@ -20,9 +20,10 @@
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Humbat jamalov startup school 3",
+            "title": "Humbat Jamalov Startup School 3",
             "path": "fixed_data/experience/startup_school/Humbat Jamalov Startup School 3.pdf"
         }
     ],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/experience/startup_school"
 }

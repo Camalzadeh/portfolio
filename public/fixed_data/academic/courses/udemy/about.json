@@ -20,27 +20,28 @@
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Flutterkanan",
+            "title": "FlutterKanan",
             "path": "fixed_data/academic/courses/udemy/FlutterKanan.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Udemy flutterdartudemy",
+            "title": "Udemy FlutterDartUdemy",
             "path": "fixed_data/academic/courses/udemy/udemy_FlutterDartUdemy.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Udemy javapreparationudemy",
+            "title": "Udemy JavaPreparationUdemy",
             "path": "fixed_data/academic/courses/udemy/udemy_JavaPreparationUdemy.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Udemy softwarearchitecturaudemy",
+            "title": "Udemy SoftwareArchitecturaUdemy",
             "path": "fixed_data/academic/courses/udemy/udemy_SoftwareArchitecturaUdemy.pdf"
         }
     ],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/academic/courses/udemy"
 }

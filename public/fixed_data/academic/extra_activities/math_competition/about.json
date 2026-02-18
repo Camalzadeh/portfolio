@@ -20,9 +20,10 @@
         {
             "type": "image",
             "url_text": null,
-            "title": "Bu bize harda lazim olacaq",
+            "title": "Bu Bize Harda Lazim Olacaq",
             "path": "fixed_data/academic/extra_activities/math_competition/bu_bize_harda_lazim_olacaq.jpg"
         }
     ],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/academic/extra_activities/math_competition"
 }

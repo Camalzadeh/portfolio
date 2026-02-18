@@ -14,63 +14,40 @@
         "summary": "Full-cycle software engineering with deep expertise in Flutter, Django, and DevOps.",
         "items": [
             {
-                "id": "graph-company",
-                "title": "Graph Company",
-                "role": "Software Engineer (Mobile, Backend & DevOps)",
-                "organization": "Graph Company",
-                "date": "2023 - 2025",
-                "sort_date": "20230101",
-                "description": "Architected and shipped 4 production mobile applications using Flutter. Developed robust backend systems using Django and handled the entire DevOps lifecycle. Integrated complex features and ensured high availability.",
-                "full_detail": "Architected and shipped 4 production mobile applications using Flutter. Developed robust backend systems using Django and handled the entire DevOps lifecycle. Integrated complex features and ensured high availability.",
-                "media": [
-                    {
-                        "type": "pdf",
-                        "url_text": null,
-                        "title": "Detailed description of achievements",
-                        "path": "fixed_data/experience/graph_company/Detailed description of achievements.pdf"
-                    },
-                    {
-                        "type": "pdf",
-                        "url_text": null,
-                        "title": "Udemy flutterdartudemy",
-                        "path": "fixed_data/experience/graph_company/udemy_FlutterDartUdemy.pdf"
-                    }
-                ],
-                "data_folder": "fixed_data/experience/graph_company",
-                "path": "fixed_data/experience/graph_company",
+                "id": "buta-group",
+                "title": "Buta Group Internship",
+                "path": "fixed_data/experience/buta_group",
+                "organization": "Buta Grup",
+                "description": "Virtual intensive internship focusing on enterprise IT standards.",
                 "type": "experience",
                 "subtype": null,
-                "position": "Software Engineer (Mobile, Backend & DevOps)",
+                "position": "IT Intern (VTP’9 NANO)",
                 "award": null,
                 "score": null,
                 "duration": null,
                 "place": null,
-                "date_info": {
-                    "year": 2023,
+                "date": {
+                    "year": 2024,
                     "month": null,
                     "day": null
                 },
-                "tags": []
-            },
-            {
-                "id": "totter-startup",
-                "title": "Totter (Startup Project)",
-                "role": "Full Stack Dev / Co-Founder",
-                "organization": "Startup School 3",
-                "date": "2024 - 2025",
-                "sort_date": "20240901",
-                "description": "Developed the MVP from scratch, pitched to business leaders, and handled the full technical roadmap including scaling strategy.",
-                "full_detail": "Developed the MVP from scratch, pitched to business leaders, and handled the full technical roadmap including scaling strategy.",
                 "media": [
                     {
                         "type": "pdf",
                         "url_text": null,
-                        "title": "Humbat jamalov startup school 3",
-                        "path": "fixed_data/experience/startup_school/Humbat Jamalov Startup School 3.pdf"
+                        "title": "Internship Buta Group HüMbəT Camalov (1)",
+                        "path": "fixed_data/experience/buta_group/internship_Buta Group Hümbət Camalov (1).pdf"
                     }
                 ],
-                "data_folder": "fixed_data/experience/startup_school",
+                "tagIds": [],
+                "data_folder": "fixed_data/experience/buta_group"
+            },
+            {
+                "id": "totter-startup",
+                "title": "Totter (Startup Project)",
                 "path": "fixed_data/experience/startup_school",
+                "organization": "Startup School 3",
+                "description": "Developed the MVP from scratch, pitched to business leaders, and handled the full technical roadmap including scaling strategy.",
                 "type": "experience",
                 "subtype": null,
                 "position": "Full Stack Dev / Co-Founder",
@@ -78,55 +55,28 @@
                 "score": null,
                 "duration": null,
                 "place": null,
-                "date_info": {
+                "date": {
                     "year": 2024,
                     "month": null,
                     "day": null
                 },
-                "tags": []
-            },
-            {
-                "id": "buta-group",
-                "title": "Buta Group Internship",
-                "role": "IT Intern (VTP\u20199 NANO)",
-                "organization": "Buta Grup",
-                "date": "2024",
-                "sort_date": "20240401",
-                "description": "Virtual intensive internship focusing on enterprise IT standards.",
                 "media": [
                     {
                         "type": "pdf",
                         "url_text": null,
-                        "title": "Internship buta group h\u00fcmb\u0259t camalov (1)",
-                        "path": "fixed_data/experience/buta_group/internship_Buta Group H\u00fcmb\u0259t Camalov (1).pdf"
+                        "title": "Humbat Jamalov Startup School 3",
+                        "path": "fixed_data/experience/startup_school/Humbat Jamalov Startup School 3.pdf"
                     }
                 ],
-                "data_folder": "fixed_data/experience/buta_group",
-                "path": "fixed_data/experience/buta_group",
-                "type": "experience",
-                "subtype": null,
-                "position": "IT Intern (VTP\u20199 NANO)",
-                "award": null,
-                "score": null,
-                "duration": null,
-                "place": null,
-                "date_info": {
-                    "year": 2024,
-                    "month": null,
-                    "day": null
-                },
-                "tags": []
+                "tagIds": [],
+                "data_folder": "fixed_data/experience/startup_school"
             },
             {
                 "id": "sustainable-design-hackathon",
                 "title": "Sustainable design hackathon",
-                "organization": "Various",
-                "date": "2024 - 2025",
-                "description": "Detailed documentation and proof for Sustainable design hackathon.",
-                "media": [],
-                "data_folder": "fixed_data/experience/sustainable_design_hackathon",
-                "sort_date": "20240101",
                 "path": "fixed_data/experience/sustainable_design_hackathon",
+                "organization": "Various",
+                "description": "Detailed documentation and proof for Sustainable design hackathon.",
                 "type": "experience",
                 "subtype": null,
                 "position": null,
@@ -134,35 +84,49 @@
                 "score": null,
                 "duration": null,
                 "place": null,
-                "date_info": {
+                "date": {
                     "year": 2024,
                     "month": null,
                     "day": null
                 },
-                "tags": []
+                "media": [],
+                "tagIds": [],
+                "data_folder": "fixed_data/experience/sustainable_design_hackathon"
             },
             {
-                "id": "experience",
-                "title": "Experience",
-                "organization": "Various",
-                "description": "Detailed documentation and proof for Experience.",
+                "id": "graph-company",
+                "title": "Graph Company",
+                "path": "fixed_data/experience/graph_company",
+                "organization": "Graph Company",
+                "description": "Architected and shipped 4 production mobile applications using Flutter. Developed robust backend systems using Django and handled the entire DevOps lifecycle. Integrated complex features and ensured high availability.",
                 "type": "experience",
                 "subtype": null,
-                "data_folder": "fixed_data/experience",
-                "sort_date": "20240101",
-                "path": "fixed_data/experience",
-                "position": null,
+                "position": "Software Engineer (Mobile, Backend & DevOps)",
                 "award": null,
                 "score": null,
                 "duration": null,
                 "place": null,
-                "date_info": {
-                    "year": 2024,
+                "date": {
+                    "year": 2023,
                     "month": null,
                     "day": null
                 },
-                "media": [],
-                "tags": []
+                "media": [
+                    {
+                        "type": "pdf",
+                        "url_text": null,
+                        "title": "Detailed Description Of Achievements",
+                        "path": "fixed_data/experience/graph_company/Detailed description of achievements.pdf"
+                    },
+                    {
+                        "type": "pdf",
+                        "url_text": null,
+                        "title": "Udemy FlutterDartUdemy",
+                        "path": "fixed_data/experience/graph_company/udemy_FlutterDartUdemy.pdf"
+                    }
+                ],
+                "tagIds": [],
+                "data_folder": "fixed_data/experience/graph_company"
             }
         ]
     },
@@ -176,61 +140,11 @@
                 "title": "Research",
                 "items": [
                     {
-                        "id": "sign-language-ai-research",
-                        "title": "Sign Language Recognition AI",
-                        "role": "Lead Researcher",
-                        "organization": "UFAZ / IEEE",
-                        "date": "2024",
-                        "sort_date": "20241001",
-                        "description": "Peer-reviewed research on Azerbaijani Sign Language recognition.",
-                        "media": [
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "Ieee conference",
-                                "path": "fixed_data/academic/researchs/sign_language/IEEE_conference.pdf"
-                            }
-                        ],
-                        "data_folder": "fixed_data/academic/researchs/sign_language",
-                        "path": "fixed_data/academic/researchs/sign_language",
-                        "type": "academic",
-                        "subtype": "research",
-                        "position": "Lead Researcher",
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date_info": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "tags": []
-                    },
-                    {
                         "id": "stanford-ml",
                         "title": "Supervised Machine Learning",
-                        "role": "Honors Student",
-                        "organization": "Coursera / Stanford",
-                        "date": "2025",
-                        "sort_date": "20250501",
-                        "description": "Andrew Ng's world-renowned ML certification.",
-                        "media": [
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "Coursera fz30vtic8wn3",
-                                "path": "fixed_data/academic/researchs/ml_andrew_ng/Coursera FZ30VTIC8WN3.pdf"
-                            },
-                            {
-                                "type": "url",
-                                "url_text": "https://coursera.org/verify/FZ30VTIC8WN3",
-                                "title": "Stanford Verify Link",
-                                "path": null
-                            }
-                        ],
-                        "data_folder": "fixed_data/academic/researchs/ml_andrew_ng",
                         "path": "fixed_data/academic/researchs/ml_andrew_ng",
+                        "organization": "Coursera / Stanford",
+                        "description": "Andrew Ng's world-renowned ML certification.",
                         "type": "academic",
                         "subtype": "research",
                         "position": "Honors Student",
@@ -238,35 +152,56 @@
                         "score": null,
                         "duration": null,
                         "place": null,
-                        "date_info": {
+                        "date": {
                             "year": 2025,
                             "month": null,
                             "day": null
                         },
-                        "tags": []
+                        "media": [
+                            {
+                                "type": "url",
+                                "url_text": "https://coursera.org/verify/FZ30VTIC8WN3",
+                                "title": "Stanford Verify Link",
+                                "path": null
+                            },
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "Coursera FZ30VTIC8WN3",
+                                "path": "fixed_data/academic/researchs/ml_andrew_ng/Coursera FZ30VTIC8WN3.pdf"
+                            }
+                        ],
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/researchs/ml_andrew_ng"
                     },
                     {
-                        "id": "researchs",
-                        "title": "Researchs",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Researchs.",
+                        "id": "sign-language-ai-research",
+                        "title": "Sign Language Recognition AI",
+                        "path": "fixed_data/academic/researchs/sign_language",
+                        "organization": "UFAZ / IEEE",
+                        "description": "Peer-reviewed research on Azerbaijani Sign Language recognition.",
                         "type": "academic",
                         "subtype": "research",
-                        "data_folder": "fixed_data/academic/researchs",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/researchs",
-                        "position": null,
+                        "position": "Lead Researcher",
                         "award": null,
                         "score": null,
                         "duration": null,
                         "place": null,
-                        "date_info": {
+                        "date": {
                             "year": 2024,
                             "month": null,
                             "day": null
                         },
-                        "media": [],
-                        "tags": []
+                        "media": [
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "IEEE Conference",
+                                "path": "fixed_data/academic/researchs/sign_language/IEEE_conference.pdf"
+                            }
+                        ],
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/researchs/sign_language"
                     }
                 ]
             },
@@ -275,79 +210,52 @@
                 "title": "Achievements & Activities",
                 "items": [
                     {
-                        "id": "icpc-republican-2025",
-                        "title": "ICPC 2025 Republican Finals",
-                        "award": "3rd Place (National)",
-                        "organization": "ICPC Azerbaijan",
-                        "date": "2024",
-                        "sort_date": "20241015",
-                        "description": "National medalist in the world's most prestigious coding contest.",
-                        "media": [
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "Icpc 2025-icpc azerbaijan rc-humbat jamalov-medal",
-                                "path": "fixed_data/academic/extra_activities/icpc_republican_2025/icpc_2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL.pdf"
-                            },
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "Icpc team 2025-icpc azerbaijan rc-medal",
-                                "path": "fixed_data/academic/extra_activities/icpc_republican_2025/icpc_team_2025-ICPC Azerbaijan RC-MEDAL.pdf"
-                            }
-                        ],
-                        "data_folder": "fixed_data/academic/extra_activities/icpc_republican_2025",
-                        "path": "fixed_data/academic/extra_activities/icpc_republican_2025",
-                        "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date_info": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "tags": []
-                    },
-                    {
                         "id": "hackathon-erp",
                         "title": "Sustainable Design Hackathon",
-                        "award": "3rd Place",
-                        "organization": "Siemens / ERP Systems",
-                        "date": "2025",
-                        "sort_date": "20250301",
-                        "description": "Developed sustainable design solutions using Siemens technologies.",
-                        "media": [
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "Humbat jamalov sustainable design hackathon participation",
-                                "path": "fixed_data/academic/extra_activities/hackathon_erp/Humbat Jamalov Sustainable Design Hackathon Participation.pdf"
-                            }
-                        ],
-                        "data_folder": "fixed_data/academic/extra_activities/hackathon_erp",
                         "path": "fixed_data/academic/extra_activities/hackathon_erp",
+                        "organization": "Siemens / ERP Systems",
+                        "description": "Developed sustainable design solutions using Siemens technologies.",
                         "type": "academic",
                         "subtype": "achievements",
                         "position": null,
+                        "award": "3rd Place",
                         "score": null,
                         "duration": null,
                         "place": null,
-                        "date_info": {
+                        "date": {
                             "year": 2025,
                             "month": null,
                             "day": null
                         },
-                        "tags": []
+                        "media": [
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "Humbat Jamalov Sustainable Design Hackathon Participation",
+                                "path": "fixed_data/academic/extra_activities/hackathon_erp/Humbat Jamalov Sustainable Design Hackathon Participation.pdf"
+                            }
+                        ],
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/extra_activities/hackathon_erp"
                     },
                     {
                         "id": "aegee-forum",
                         "title": "Aegee forum",
+                        "path": "fixed_data/academic/extra_activities/aegee_forum",
                         "organization": "Various",
-                        "date": "2024 - 2025",
                         "description": "Detailed documentation and proof for Aegee forum.",
+                        "type": "academic",
+                        "subtype": "achievements",
+                        "position": null,
+                        "award": null,
+                        "score": null,
+                        "duration": null,
+                        "place": null,
+                        "date": {
+                            "year": 2024,
+                            "month": null,
+                            "day": null
+                        },
                         "media": [
                             {
                                 "type": "pdf",
@@ -356,9 +264,15 @@
                                 "path": "fixed_data/academic/extra_activities/aegee_forum/participation.pdf"
                             }
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/aegee_forum",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/extra_activities/aegee_forum",
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/extra_activities/aegee_forum"
+                    },
+                    {
+                        "id": "icpc-2024-qualification",
+                        "title": "Icpc 2024 qualification",
+                        "path": "fixed_data/academic/extra_activities/icpc_2024_qualification",
+                        "organization": "Various",
+                        "description": "Detailed documentation and proof for Icpc 2024 qualification.",
                         "type": "academic",
                         "subtype": "achievements",
                         "position": null,
@@ -366,36 +280,34 @@
                         "score": null,
                         "duration": null,
                         "place": null,
-                        "date_info": {
+                        "date": {
                             "year": 2024,
                             "month": null,
                             "day": null
                         },
-                        "tags": []
-                    },
-                    {
-                        "id": "icpc-2024-qualification",
-                        "title": "Icpc 2024 qualification",
-                        "organization": "Various",
-                        "date": "2024 - 2025",
-                        "description": "Detailed documentation and proof for Icpc 2024 qualification.",
                         "media": [
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "2024-icpc azerbaijan qualification-humbat jamalov-medal(1)",
+                                "title": "2024-ICPC Azerbaijan Qualification-Humbat Jamalov-MEDAL(1)",
                                 "path": "fixed_data/academic/extra_activities/icpc_2024_qualification/2024-ICPC Azerbaijan Qualification-Humbat Jamalov-MEDAL(1).pdf"
                             },
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "2024-icpc azerbaijan qualification-humbat jamalov-place",
+                                "title": "2024-ICPC Azerbaijan Qualification-Humbat Jamalov-PLACE",
                                 "path": "fixed_data/academic/extra_activities/icpc_2024_qualification/2024-ICPC Azerbaijan Qualification-Humbat Jamalov-PLACE.pdf"
                             }
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/icpc_2024_qualification",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/extra_activities/icpc_2024_qualification",
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/extra_activities/icpc_2024_qualification"
+                    },
+                    {
+                        "id": "icpc-2025-qualification",
+                        "title": "Icpc 2025 qualification",
+                        "path": "fixed_data/academic/extra_activities/icpc_2025_qualification",
+                        "organization": "Various",
+                        "description": "Detailed documentation and proof for Icpc 2025 qualification.",
                         "type": "academic",
                         "subtype": "achievements",
                         "position": null,
@@ -403,36 +315,34 @@
                         "score": null,
                         "duration": null,
                         "place": null,
-                        "date_info": {
+                        "date": {
                             "year": 2024,
                             "month": null,
                             "day": null
                         },
-                        "tags": []
-                    },
-                    {
-                        "id": "icpc-2025-qualification",
-                        "title": "Icpc 2025 qualification",
-                        "organization": "Various",
-                        "date": "2024 - 2025",
-                        "description": "Detailed documentation and proof for Icpc 2025 qualification.",
                         "media": [
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "2025-icpc azerbaijan qualification-humbat jamalov-medal",
+                                "title": "2025-ICPC Azerbaijan Qualification-Humbat Jamalov-MEDAL",
                                 "path": "fixed_data/academic/extra_activities/icpc_2025_qualification/2025-ICPC Azerbaijan Qualification-Humbat Jamalov-MEDAL.pdf"
                             },
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "2025-icpc azerbaijan qualification-humbat jamalov-place",
+                                "title": "2025-ICPC Azerbaijan Qualification-Humbat Jamalov-PLACE",
                                 "path": "fixed_data/academic/extra_activities/icpc_2025_qualification/2025-ICPC Azerbaijan Qualification-Humbat Jamalov-PLACE.pdf"
                             }
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/icpc_2025_qualification",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/extra_activities/icpc_2025_qualification",
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/extra_activities/icpc_2025_qualification"
+                    },
+                    {
+                        "id": "icpc-2025-republican",
+                        "title": "Icpc 2025 republican",
+                        "path": "fixed_data/academic/extra_activities/icpc_2025_republican",
+                        "organization": "Various",
+                        "description": "Detailed documentation and proof for Icpc 2025 republican.",
                         "type": "academic",
                         "subtype": "achievements",
                         "position": null,
@@ -440,67 +350,34 @@
                         "score": null,
                         "duration": null,
                         "place": null,
-                        "date_info": {
+                        "date": {
                             "year": 2024,
                             "month": null,
                             "day": null
                         },
-                        "tags": []
-                    },
-                    {
-                        "id": "icpc-2025-republican",
-                        "title": "Icpc 2025 republican",
-                        "organization": "Various",
-                        "date": "2024 - 2025",
-                        "description": "Detailed documentation and proof for Icpc 2025 republican.",
                         "media": [
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "2025-icpc azerbaijan rc-humbat jamalov-medal",
+                                "title": "2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL",
                                 "path": "fixed_data/academic/extra_activities/icpc_2025_republican/2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL.pdf"
                             },
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "2025-icpc azerbaijan rc-humbat jamalov-place",
+                                "title": "2025-ICPC Azerbaijan RC-Humbat Jamalov-PLACE",
                                 "path": "fixed_data/academic/extra_activities/icpc_2025_republican/2025-ICPC Azerbaijan RC-Humbat Jamalov-PLACE.pdf"
                             }
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/icpc_2025_republican",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/extra_activities/icpc_2025_republican",
-                        "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date_info": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "tags": []
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/extra_activities/icpc_2025_republican"
                     },
                     {
                         "id": "icpc-2026-qualification",
                         "title": "Icpc 2026 qualification",
-                        "organization": "Various",
-                        "date": "2024 - 2025",
-                        "description": "Detailed documentation and proof for Icpc 2026 qualification.",
-                        "media": [
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "2026-icpc azerbaijan q-humbat jamalov-place",
-                                "path": "fixed_data/academic/extra_activities/icpc_2026_qualification/2026-ICPC Azerbaijan Q-Humbat Jamalov-PLACE.pdf"
-                            }
-                        ],
-                        "data_folder": "fixed_data/academic/extra_activities/icpc_2026_qualification",
-                        "sort_date": "20240101",
                         "path": "fixed_data/academic/extra_activities/icpc_2026_qualification",
+                        "organization": "Various",
+                        "description": "Detailed documentation and proof for Icpc 2026 qualification.",
                         "type": "academic",
                         "subtype": "achievements",
                         "position": null,
@@ -508,67 +385,98 @@
                         "score": null,
                         "duration": null,
                         "place": null,
-                        "date_info": {
+                        "date": {
                             "year": 2024,
                             "month": null,
                             "day": null
                         },
-                        "tags": []
-                    },
-                    {
-                        "id": "icsc-2025-qulification",
-                        "title": "Icsc 2025 qulification",
-                        "organization": "Various",
-                        "date": "2024 - 2025",
-                        "description": "Detailed documentation and proof for Icsc 2025 qulification.",
                         "media": [
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Icsc-certificate-qr-2025-ffb809803c5-d5ff0f5136aa3a63242c8a544e43df25",
+                                "title": "2026-ICPC Azerbaijan Q-Humbat Jamalov-PLACE",
+                                "path": "fixed_data/academic/extra_activities/icpc_2026_qualification/2026-ICPC Azerbaijan Q-Humbat Jamalov-PLACE.pdf"
+                            }
+                        ],
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/extra_activities/icpc_2026_qualification"
+                    },
+                    {
+                        "id": "icpc-republican-2025",
+                        "title": "ICPC 2025 Republican Finals",
+                        "path": "fixed_data/academic/extra_activities/icpc_republican_2025",
+                        "organization": "ICPC Azerbaijan",
+                        "description": "National medalist in the world's most prestigious coding contest.",
+                        "type": "academic",
+                        "subtype": "achievements",
+                        "position": null,
+                        "award": "3rd Place (National)",
+                        "score": null,
+                        "duration": null,
+                        "place": null,
+                        "date": {
+                            "year": 2024,
+                            "month": null,
+                            "day": null
+                        },
+                        "media": [
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "Icpc 2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL",
+                                "path": "fixed_data/academic/extra_activities/icpc_republican_2025/icpc_2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL.pdf"
+                            },
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "Icpc Team 2025-ICPC Azerbaijan RC-MEDAL",
+                                "path": "fixed_data/academic/extra_activities/icpc_republican_2025/icpc_team_2025-ICPC Azerbaijan RC-MEDAL.pdf"
+                            }
+                        ],
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/extra_activities/icpc_republican_2025"
+                    },
+                    {
+                        "id": "icsc-2025-qulification",
+                        "title": "Icsc 2025 qulification",
+                        "path": "fixed_data/academic/extra_activities/icsc_2025_qulification",
+                        "organization": "Various",
+                        "description": "Detailed documentation and proof for Icsc 2025 qulification.",
+                        "type": "academic",
+                        "subtype": "achievements",
+                        "position": null,
+                        "award": null,
+                        "score": null,
+                        "duration": null,
+                        "place": null,
+                        "date": {
+                            "year": 2024,
+                            "month": null,
+                            "day": null
+                        },
+                        "media": [
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "ICSC-Certificate-QR-2025-FFB809803C5-D5ff0f5136aa3a63242c8a544e43df25",
                                 "path": "fixed_data/academic/extra_activities/icsc_2025_qulification/ICSC-Certificate-QR-2025-FFB809803C5-d5ff0f5136aa3a63242c8a544e43df25.pdf"
                             },
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Icsc-performancereport-pr-2025-ffb809803c5-b5275e2c79ec037e4e2ba0d524148130",
+                                "title": "ICSC-PerformanceReport-PR-2025-FFB809803C5-B5275e2c79ec037e4e2ba0d524148130",
                                 "path": "fixed_data/academic/extra_activities/icsc_2025_qulification/ICSC-PerformanceReport-PR-2025-FFB809803C5-b5275e2c79ec037e4e2ba0d524148130.pdf"
                             }
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/icsc_2025_qulification",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/extra_activities/icsc_2025_qulification",
-                        "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date_info": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "tags": []
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/extra_activities/icsc_2025_qulification"
                     },
                     {
                         "id": "math-camp-2024",
                         "title": "Math camp 2024",
-                        "organization": "Various",
-                        "date": "2024 - 2025",
-                        "description": "Detailed documentation and proof for Math camp 2024.",
-                        "media": [
-                            {
-                                "type": "image",
-                                "url_text": null,
-                                "title": "Math camp",
-                                "path": "fixed_data/academic/extra_activities/math_camp_2024/math_camp.jpg"
-                            }
-                        ],
-                        "data_folder": "fixed_data/academic/extra_activities/math_camp_2024",
-                        "sort_date": "20240101",
                         "path": "fixed_data/academic/extra_activities/math_camp_2024",
+                        "organization": "Various",
+                        "description": "Detailed documentation and proof for Math camp 2024.",
                         "type": "academic",
                         "subtype": "achievements",
                         "position": null,
@@ -576,30 +484,28 @@
                         "score": null,
                         "duration": null,
                         "place": null,
-                        "date_info": {
+                        "date": {
                             "year": 2024,
                             "month": null,
                             "day": null
                         },
-                        "tags": []
+                        "media": [
+                            {
+                                "type": "image",
+                                "url_text": null,
+                                "title": "Math Camp",
+                                "path": "fixed_data/academic/extra_activities/math_camp_2024/math_camp.jpg"
+                            }
+                        ],
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/extra_activities/math_camp_2024"
                     },
                     {
                         "id": "math-competition",
                         "title": "Math competition",
-                        "organization": "Various",
-                        "date": "2024 - 2025",
-                        "description": "Detailed documentation and proof for Math competition.",
-                        "media": [
-                            {
-                                "type": "image",
-                                "url_text": null,
-                                "title": "Bu bize harda lazim olacaq",
-                                "path": "fixed_data/academic/extra_activities/math_competition/bu_bize_harda_lazim_olacaq.jpg"
-                            }
-                        ],
-                        "data_folder": "fixed_data/academic/extra_activities/math_competition",
-                        "sort_date": "20240101",
                         "path": "fixed_data/academic/extra_activities/math_competition",
+                        "organization": "Various",
+                        "description": "Detailed documentation and proof for Math competition.",
                         "type": "academic",
                         "subtype": "achievements",
                         "position": null,
@@ -607,19 +513,40 @@
                         "score": null,
                         "duration": null,
                         "place": null,
-                        "date_info": {
+                        "date": {
                             "year": 2024,
                             "month": null,
                             "day": null
                         },
-                        "tags": []
+                        "media": [
+                            {
+                                "type": "image",
+                                "url_text": null,
+                                "title": "Bu Bize Harda Lazim Olacaq",
+                                "path": "fixed_data/academic/extra_activities/math_competition/bu_bize_harda_lazim_olacaq.jpg"
+                            }
+                        ],
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/extra_activities/math_competition"
                     },
                     {
                         "id": "miull-data-camp",
                         "title": "Miull data camp",
+                        "path": "fixed_data/academic/extra_activities/miull_data_camp",
                         "organization": "Various",
-                        "date": "2024 - 2025",
                         "description": "Detailed documentation and proof for Miull data camp.",
+                        "type": "academic",
+                        "subtype": "achievements",
+                        "position": null,
+                        "award": null,
+                        "score": null,
+                        "duration": null,
+                        "place": null,
+                        "date": {
+                            "year": 2024,
+                            "month": null,
+                            "day": null
+                        },
                         "media": [
                             {
                                 "type": "image",
@@ -634,71 +561,44 @@
                                 "path": "fixed_data/academic/extra_activities/miull_data_camp/miull_2.png"
                             }
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/miull_data_camp",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/extra_activities/miull_data_camp",
-                        "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date_info": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "tags": []
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/extra_activities/miull_data_camp"
                     },
                     {
                         "id": "pigma-quiz",
                         "title": "Pigma quiz",
+                        "path": "fixed_data/academic/extra_activities/pigma_quiz",
                         "organization": "Various",
-                        "date": "2024 - 2025",
                         "description": "Detailed documentation and proof for Pigma quiz.",
+                        "type": "academic",
+                        "subtype": "achievements",
+                        "position": null,
+                        "award": null,
+                        "score": null,
+                        "duration": null,
+                        "place": null,
+                        "date": {
+                            "year": 2024,
+                            "month": null,
+                            "day": null
+                        },
                         "media": [
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Pigma quiz",
+                                "title": "Pigma Quiz",
                                 "path": "fixed_data/academic/extra_activities/pigma_quiz/pigma_quiz.pdf"
                             }
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/pigma_quiz",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/extra_activities/pigma_quiz",
-                        "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date_info": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "tags": []
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/extra_activities/pigma_quiz"
                     },
                     {
                         "id": "scientific-conference",
                         "title": "Scientific conference",
-                        "organization": "Various",
-                        "date": "2024 - 2025",
-                        "description": "Detailed documentation and proof for Scientific conference.",
-                        "media": [
-                            {
-                                "type": "image",
-                                "url_text": null,
-                                "title": "Img-20240913-wa0027",
-                                "path": "fixed_data/academic/extra_activities/scientific_conference/IMG-20240913-WA0027.jpg"
-                            }
-                        ],
-                        "data_folder": "fixed_data/academic/extra_activities/scientific_conference",
-                        "sort_date": "20240101",
                         "path": "fixed_data/academic/extra_activities/scientific_conference",
+                        "organization": "Various",
+                        "description": "Detailed documentation and proof for Scientific conference.",
                         "type": "academic",
                         "subtype": "achievements",
                         "position": null,
@@ -706,30 +606,28 @@
                         "score": null,
                         "duration": null,
                         "place": null,
-                        "date_info": {
+                        "date": {
                             "year": 2024,
                             "month": null,
                             "day": null
                         },
-                        "tags": []
+                        "media": [
+                            {
+                                "type": "image",
+                                "url_text": null,
+                                "title": "IMG-20240913-WA0027",
+                                "path": "fixed_data/academic/extra_activities/scientific_conference/IMG-20240913-WA0027.jpg"
+                            }
+                        ],
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/extra_activities/scientific_conference"
                     },
                     {
                         "id": "sumgayit-cup",
                         "title": "Sumgayit cup",
-                        "organization": "Various",
-                        "date": "2024 - 2025",
-                        "description": "Detailed documentation and proof for Sumgayit cup.",
-                        "media": [
-                            {
-                                "type": "image",
-                                "url_text": null,
-                                "title": "Sumgayit cup",
-                                "path": "fixed_data/academic/extra_activities/sumgayit_cup/sumgayit_cup.jpg"
-                            }
-                        ],
-                        "data_folder": "fixed_data/academic/extra_activities/sumgayit_cup",
-                        "sort_date": "20240101",
                         "path": "fixed_data/academic/extra_activities/sumgayit_cup",
+                        "organization": "Various",
+                        "description": "Detailed documentation and proof for Sumgayit cup.",
                         "type": "academic",
                         "subtype": "achievements",
                         "position": null,
@@ -737,12 +635,43 @@
                         "score": null,
                         "duration": null,
                         "place": null,
-                        "date_info": {
+                        "date": {
                             "year": 2024,
                             "month": null,
                             "day": null
                         },
-                        "tags": []
+                        "media": [
+                            {
+                                "type": "image",
+                                "url_text": null,
+                                "title": "Sumgayit Cup",
+                                "path": "fixed_data/academic/extra_activities/sumgayit_cup/sumgayit_cup.jpg"
+                            }
+                        ],
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/extra_activities/sumgayit_cup"
+                    },
+                    {
+                        "id": "web-skills",
+                        "title": "Web skills",
+                        "path": "fixed_data/academic/extra_activities/web_skills",
+                        "organization": "Various",
+                        "description": "Detailed documentation and proof for Web skills.",
+                        "type": "academic",
+                        "subtype": "achievements",
+                        "position": null,
+                        "award": null,
+                        "score": null,
+                        "duration": null,
+                        "place": null,
+                        "date": {
+                            "year": 2024,
+                            "month": null,
+                            "day": null
+                        },
+                        "media": [],
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/extra_activities/web_skills"
                     }
                 ]
             },
@@ -751,77 +680,58 @@
                 "title": "Certifications",
                 "items": [
                     {
-                        "id": "php-testdome",
-                        "title": "PHP Algorithm Specialist",
-                        "organization": "TestDome",
-                        "date": "2025",
-                        "sort_date": "20250601",
-                        "description": "High-percentile score in PHP server-side programming and algorithms.",
-                        "media": [
-                            {
-                                "type": "external",
-                                "url": "https://www.testdome.com/certificates/635517fd905f48a9b3e00f5e6bd6d892",
-                                "title": "Verify on TestDome"
-                            }
-                        ],
-                        "data_folder": "fixed_data/academic/certifications/php_testdome"
-                    },
-                    {
-                        "id": "software-engineering-rec",
-                        "title": "Letter of Recommendation",
-                        "organization": "Prof. Igor Peretta",
-                        "date": "2025",
-                        "sort_date": "20251009",
-                        "description": "Exceptional academic and project performance endorsement.",
-                        "media": [
-                            {
-                                "type": "pdf",
-                                "url": "fixed_data/academic/certifications/software_engineering/humbat_jamalov_recommendation.pdf",
-                                "title": "Recommendation Letter"
-                            },
-                            {
-                                "type": "external",
-                                "url": "http://www.feelt.ufu.br/pessoas/docentes/igor-santos-peretta",
-                                "title": "Professor Profile"
-                            }
-                        ],
-                        "data_folder": "fixed_data/academic/certifications/software_engineering"
-                    },
-                    {
                         "id": "hackerrank",
-                        "title": "HackerRank: Hackerrank",
-                        "organization": "Various",
-                        "date": "2024 - 2025",
-                        "description": "Detailed documentation and proof for HackerRank: Hackerrank.",
+                        "title": "HackerRank Certiffications",
+                        "path": "fixed_data/academic/certifications/hackerrank",
+                        "organization": "HackerRank",
+                        "description": "A collection of HackerRank Skill Certifications validating fundamental proficiency in software development. These credentials verify core competencies in Problem Solving (Data Structures and Algorithms), alongside technical mastery in Java, C#, and JavaScript. Each certification was earned by passing rigorous skill assessments designed to evaluate logical reasoning and language-specific best practices.",
+                        "type": "academic",
+                        "subtype": "certifications",
+                        "position": null,
+                        "award": "Basic",
+                        "score": null,
+                        "duration": null,
+                        "place": null,
+                        "date": {
+                            "year": 2024,
+                            "month": null,
+                            "day": null
+                        },
                         "media": [
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Hackerrank c sharp basic certificate",
+                                "title": "Hackerrank C Sharp Basic Certificate",
                                 "path": "fixed_data/academic/certifications/hackerrank/hackerrank_c_sharp_basic certificate.pdf"
                             },
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Hackerrank javascript basic certificate",
+                                "title": "Hackerrank Javascript Basic Certificate",
                                 "path": "fixed_data/academic/certifications/hackerrank/hackerrank_javascript_basic certificate.pdf"
                             },
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Hackerrank java basic certificate",
+                                "title": "Hackerrank Java Basic Certificate",
                                 "path": "fixed_data/academic/certifications/hackerrank/hackerrank_java_basic certificate.pdf"
                             },
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Hackerrank problem solving basic certificate",
+                                "title": "Hackerrank Problem Solving Basic Certificate",
                                 "path": "fixed_data/academic/certifications/hackerrank/hackerrank_problem_solving_basic certificate.pdf"
                             }
                         ],
-                        "data_folder": "fixed_data/academic/certifications/hackerrank",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/certifications/hackerrank",
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/certifications/hackerrank"
+                    },
+                    {
+                        "id": "oracle",
+                        "title": "Oracle",
+                        "path": "fixed_data/academic/certifications/oracle",
+                        "organization": "Various",
+                        "description": "Detailed documentation and proof for Oracle.",
                         "type": "academic",
                         "subtype": "certifications",
                         "position": null,
@@ -829,67 +739,34 @@
                         "score": null,
                         "duration": null,
                         "place": null,
-                        "date_info": {
+                        "date": {
                             "year": 2024,
                             "month": null,
                             "day": null
                         },
-                        "tags": []
-                    },
-                    {
-                        "id": "oracle",
-                        "title": "Oracle",
-                        "organization": "Various",
-                        "date": "2024 - 2025",
-                        "description": "Detailed documentation and proof for Oracle.",
                         "media": [
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Mysql implementation associate - fail",
+                                "title": "MySQL Implementation Associate - Fail",
                                 "path": "fixed_data/academic/certifications/oracle/MySQL Implementation Associate - Fail.pdf"
                             },
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Scorereport.pdf mysql 8.0 database administrator - fail",
+                                "title": "ScoreReport.Pdf MySQL 8.0 Database Administrator - Fail",
                                 "path": "fixed_data/academic/certifications/oracle/ScoreReport.pdf MySQL 8.0 Database Administrator - Fail.pdf"
                             }
                         ],
-                        "data_folder": "fixed_data/academic/certifications/oracle",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/certifications/oracle",
-                        "type": "academic",
-                        "subtype": "certifications",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date_info": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "tags": []
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/certifications/oracle"
                     },
                     {
                         "id": "testdome",
                         "title": "Testdome",
-                        "organization": "Various",
-                        "date": "2024 - 2025",
-                        "description": "Detailed documentation and proof for Testdome.",
-                        "media": [
-                            {
-                                "type": "mhtml",
-                                "url_text": null,
-                                "title": "Testdome certificate for humbat jamalov   testdome",
-                                "path": "fixed_data/academic/certifications/testdome/TestDome certificate for Humbat Jamalov _ TestDome.mhtml"
-                            }
-                        ],
-                        "data_folder": "fixed_data/academic/certifications/testdome",
-                        "sort_date": "20240101",
                         "path": "fixed_data/academic/certifications/testdome",
+                        "organization": "Various",
+                        "description": "Detailed documentation and proof for Testdome.",
                         "type": "academic",
                         "subtype": "certifications",
                         "position": null,
@@ -897,126 +774,85 @@
                         "score": null,
                         "duration": null,
                         "place": null,
-                        "date_info": {
+                        "date": {
                             "year": 2024,
                             "month": null,
                             "day": null
                         },
-                        "tags": []
+                        "media": [
+                            {
+                                "type": "mhtml",
+                                "url_text": null,
+                                "title": "TestDome Certificate For Humbat Jamalov   TestDome",
+                                "path": "fixed_data/academic/certifications/testdome/TestDome certificate for Humbat Jamalov _ TestDome.mhtml"
+                            }
+                        ],
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/certifications/testdome"
                     },
                     {
                         "id": "turkcell",
                         "title": "Turkcell",
+                        "path": "fixed_data/academic/certifications/turkcell",
                         "organization": "Various",
-                        "date": "2024 - 2025",
                         "description": "Detailed documentation and proof for Turkcell.",
+                        "type": "academic",
+                        "subtype": "certifications",
+                        "position": null,
+                        "award": null,
+                        "score": null,
+                        "duration": null,
+                        "place": null,
+                        "date": {
+                            "year": 2024,
+                            "month": null,
+                            "day": null
+                        },
                         "media": [
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Humbet camalov-web programlama101",
+                                "title": "Humbet Camalov-Web Programlama101",
                                 "path": "fixed_data/academic/certifications/turkcell/Humbet Camalov-Web Programlama101.pdf"
                             },
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Humbet camalov-web programlama201",
+                                "title": "Humbet Camalov-Web Programlama201",
                                 "path": "fixed_data/academic/certifications/turkcell/Humbet Camalov-Web Programlama201.pdf"
                             }
                         ],
-                        "data_folder": "fixed_data/academic/certifications/turkcell",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/certifications/turkcell",
-                        "type": "academic",
-                        "subtype": "certifications",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date_info": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "tags": []
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/certifications/turkcell"
                     },
                     {
                         "id": "software-engineering",
                         "title": "Software engineering",
+                        "path": "fixed_data/academic/recommendations/software_engineering",
                         "organization": "Various",
-                        "date": "2024 - 2025",
                         "description": "Detailed documentation and proof for Software engineering.",
+                        "type": "academic",
+                        "subtype": "certifications",
+                        "position": null,
+                        "award": null,
+                        "score": null,
+                        "duration": null,
+                        "place": null,
+                        "date": {
+                            "year": 2024,
+                            "month": null,
+                            "day": null
+                        },
                         "media": [
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Humbat jamalov recommendation",
+                                "title": "Humbat Jamalov Recommendation",
                                 "path": "fixed_data/academic/recommendations/software_engineering/humbat_jamalov_recommendation.pdf"
                             }
                         ],
-                        "data_folder": "fixed_data/academic/recommendations/software_engineering",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/recommendations/software_engineering",
-                        "type": "academic",
-                        "subtype": "certifications",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date_info": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "tags": []
-                    },
-                    {
-                        "id": "certifications",
-                        "title": "Certifications",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Certifications.",
-                        "type": "academic",
-                        "subtype": "certifications",
-                        "data_folder": "fixed_data/academic/certifications",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/certifications",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date_info": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [],
-                        "tags": []
-                    },
-                    {
-                        "id": "recommendations",
-                        "title": "Recommendations",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Recommendations.",
-                        "type": "academic",
-                        "subtype": "certifications",
-                        "data_folder": "fixed_data/academic/recommendations",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/recommendations",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date_info": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [],
-                        "tags": []
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/recommendations/software_engineering"
                     }
                 ]
             },
@@ -1027,9 +863,21 @@
                     {
                         "id": "abb-math-challenge",
                         "title": "Abb math challenge",
+                        "path": "fixed_data/academic/courses/abb_math_challenge",
                         "organization": "Various",
-                        "date": "2024 - 2025",
                         "description": "Detailed documentation and proof for Abb math challenge.",
+                        "type": "academic",
+                        "subtype": "courses",
+                        "position": null,
+                        "award": null,
+                        "score": null,
+                        "duration": null,
+                        "place": null,
+                        "date": {
+                            "year": 2024,
+                            "month": null,
+                            "day": null
+                        },
                         "media": [
                             {
                                 "type": "pdf",
@@ -1038,9 +886,15 @@
                                 "path": "fixed_data/academic/courses/abb_math_challenge/participation.pdf"
                             }
                         ],
-                        "data_folder": "fixed_data/academic/courses/abb_math_challenge",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/courses/abb_math_challenge",
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/courses/abb_math_challenge"
+                    },
+                    {
+                        "id": "advanced-backend-programming",
+                        "title": "Advanced backend programming",
+                        "path": "fixed_data/academic/courses/advanced_backend_programming",
+                        "organization": "Various",
+                        "description": "Detailed documentation and proof for Advanced backend programming.",
                         "type": "academic",
                         "subtype": "courses",
                         "position": null,
@@ -1048,98 +902,85 @@
                         "score": null,
                         "duration": null,
                         "place": null,
-                        "date_info": {
+                        "date": {
                             "year": 2024,
                             "month": null,
                             "day": null
                         },
-                        "tags": []
+                        "media": [],
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/courses/advanced_backend_programming"
                     },
                     {
                         "id": "advanced-computer-science",
                         "title": "Advanced computer science",
+                        "path": "fixed_data/academic/courses/advanced_computer_science",
                         "organization": "Various",
-                        "date": "2024 - 2025",
                         "description": "Detailed documentation and proof for Advanced computer science.",
+                        "type": "academic",
+                        "subtype": "courses",
+                        "position": null,
+                        "award": null,
+                        "score": null,
+                        "duration": null,
+                        "place": null,
+                        "date": {
+                            "year": 2024,
+                            "month": null,
+                            "day": null
+                        },
                         "media": [
                             {
                                 "type": "image",
                                 "url_text": null,
-                                "title": "Advanced computer science 1",
+                                "title": "Advanced Computer Science 1",
                                 "path": "fixed_data/academic/courses/advanced_computer_science/advanced_computer_science_1.jpg"
                             },
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Advanced computer science 2 humbat jamalov",
+                                "title": "Advanced Computer Science 2 Humbat Jamalov",
                                 "path": "fixed_data/academic/courses/advanced_computer_science/advanced_computer_science_2_Humbat Jamalov.pdf"
                             }
                         ],
-                        "data_folder": "fixed_data/academic/courses/advanced_computer_science",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/courses/advanced_computer_science",
-                        "type": "academic",
-                        "subtype": "courses",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date_info": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "tags": []
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/courses/advanced_computer_science"
                     },
                     {
                         "id": "codestar",
                         "title": "Codestar",
+                        "path": "fixed_data/academic/courses/codestar",
                         "organization": "Various",
-                        "date": "2024 - 2025",
                         "description": "Detailed documentation and proof for Codestar.",
+                        "type": "academic",
+                        "subtype": "courses",
+                        "position": null,
+                        "award": null,
+                        "score": null,
+                        "duration": null,
+                        "place": null,
+                        "date": {
+                            "year": 2024,
+                            "month": null,
+                            "day": null
+                        },
                         "media": [
                             {
                                 "type": "image",
                                 "url_text": null,
-                                "title": "Advanced finished",
+                                "title": "Advanced Finished",
                                 "path": "fixed_data/academic/courses/codestar/advanced_finished.png"
                             }
                         ],
-                        "data_folder": "fixed_data/academic/courses/codestar",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/courses/codestar",
-                        "type": "academic",
-                        "subtype": "courses",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date_info": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "tags": []
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/courses/codestar"
                     },
                     {
                         "id": "coursera",
                         "title": "Coursera",
-                        "organization": "Various",
-                        "date": "2024 - 2025",
-                        "description": "Detailed documentation and proof for Coursera.",
-                        "media": [
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "Coursera supervised machine learning regression and classification",
-                                "path": "fixed_data/academic/courses/coursera/Coursera Supervised Machine Learning Regression and Classification.pdf"
-                            }
-                        ],
-                        "data_folder": "fixed_data/academic/courses/coursera",
-                        "sort_date": "20240101",
                         "path": "fixed_data/academic/courses/coursera",
+                        "organization": "Various",
+                        "description": "Detailed documentation and proof for Coursera.",
                         "type": "academic",
                         "subtype": "courses",
                         "position": null,
@@ -1147,30 +988,51 @@
                         "score": null,
                         "duration": null,
                         "place": null,
-                        "date_info": {
+                        "date": {
                             "year": 2024,
                             "month": null,
                             "day": null
                         },
-                        "tags": []
-                    },
-                    {
-                        "id": "limitless-mathematicians",
-                        "title": "Limitless mathematicians",
-                        "organization": "Various",
-                        "date": "2024 - 2025",
-                        "description": "Detailed documentation and proof for Limitless mathematicians.",
                         "media": [
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "2 yer 2023",
+                                "title": "Coursera Supervised Machine Learning Regression And Classification",
+                                "path": "fixed_data/academic/courses/coursera/Coursera Supervised Machine Learning Regression and Classification.pdf"
+                            }
+                        ],
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/courses/coursera"
+                    },
+                    {
+                        "id": "limitless-mathematicians",
+                        "title": "Limitless mathematicians",
+                        "path": "fixed_data/academic/courses/limitless_mathematicians",
+                        "organization": "Various",
+                        "description": "Detailed documentation and proof for Limitless mathematicians.",
+                        "type": "academic",
+                        "subtype": "courses",
+                        "position": null,
+                        "award": null,
+                        "score": null,
+                        "duration": null,
+                        "place": null,
+                        "date": {
+                            "year": 2024,
+                            "month": null,
+                            "day": null
+                        },
+                        "media": [
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "2 Yer 2023",
                                 "path": "fixed_data/academic/courses/limitless_mathematicians/2 yer 2023.pdf"
                             },
                             {
                                 "type": "image",
                                 "url_text": null,
-                                "title": "3 yer 2022",
+                                "title": "3 Yer 2022",
                                 "path": "fixed_data/academic/courses/limitless_mathematicians/3 yer 2022.jpg"
                             },
                             {
@@ -1180,9 +1042,15 @@
                                 "path": "fixed_data/academic/courses/limitless_mathematicians/participation 2023.jpg"
                             }
                         ],
-                        "data_folder": "fixed_data/academic/courses/limitless_mathematicians",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/courses/limitless_mathematicians",
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/courses/limitless_mathematicians"
+                    },
+                    {
+                        "id": "udemy",
+                        "title": "Udemy: Udemy",
+                        "path": "fixed_data/academic/courses/udemy",
+                        "organization": "Various",
+                        "description": "Detailed documentation and proof for Udemy: Udemy.",
                         "type": "academic",
                         "subtype": "courses",
                         "position": null,
@@ -1190,107 +1058,39 @@
                         "score": null,
                         "duration": null,
                         "place": null,
-                        "date_info": {
+                        "date": {
                             "year": 2024,
                             "month": null,
                             "day": null
                         },
-                        "tags": []
-                    },
-                    {
-                        "id": "udemy",
-                        "title": "Udemy: Udemy",
-                        "organization": "Various",
-                        "date": "2024 - 2025",
-                        "description": "Detailed documentation and proof for Udemy: Udemy.",
                         "media": [
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Flutterkanan",
+                                "title": "FlutterKanan",
                                 "path": "fixed_data/academic/courses/udemy/FlutterKanan.pdf"
                             },
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Udemy flutterdartudemy",
+                                "title": "Udemy FlutterDartUdemy",
                                 "path": "fixed_data/academic/courses/udemy/udemy_FlutterDartUdemy.pdf"
                             },
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Udemy javapreparationudemy",
+                                "title": "Udemy JavaPreparationUdemy",
                                 "path": "fixed_data/academic/courses/udemy/udemy_JavaPreparationUdemy.pdf"
                             },
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Udemy softwarearchitecturaudemy",
+                                "title": "Udemy SoftwareArchitecturaUdemy",
                                 "path": "fixed_data/academic/courses/udemy/udemy_SoftwareArchitecturaUdemy.pdf"
                             }
                         ],
-                        "data_folder": "fixed_data/academic/courses/udemy",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/courses/udemy",
-                        "type": "academic",
-                        "subtype": "courses",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date_info": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "tags": []
-                    },
-                    {
-                        "id": "courses",
-                        "title": "Courses",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Courses.",
-                        "type": "academic",
-                        "subtype": "courses",
-                        "data_folder": "fixed_data/academic/courses",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/courses",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date_info": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [],
-                        "tags": []
-                    },
-                    {
-                        "id": "advanced-backend-programming",
-                        "title": "Advanced backend programming",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Advanced backend programming.",
-                        "type": "academic",
-                        "subtype": "courses",
-                        "data_folder": "fixed_data/academic/courses/advanced_backend_programming",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/courses/advanced_backend_programming",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date_info": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [],
-                        "tags": []
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/courses/udemy"
                     }
                 ]
             },
@@ -1301,26 +1101,9 @@
                     {
                         "id": "university",
                         "title": "University",
-                        "organization": "Various",
-                        "date": "2024 - 2025",
-                        "description": "Detailed documentation and proof for University.",
-                        "media": [
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "Humbat jamalov l0s1",
-                                "path": "fixed_data/academic/university/Humbat JAMALOV_L0S1.pdf"
-                            },
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "Jamalov humbat l0s2",
-                                "path": "fixed_data/academic/university/JAMALOV Humbat_L0S2.pdf"
-                            }
-                        ],
-                        "data_folder": "fixed_data/academic/university",
-                        "sort_date": "20240101",
                         "path": "fixed_data/academic/university",
+                        "organization": "Various",
+                        "description": "Detailed documentation and proof for University.",
                         "type": "academic",
                         "subtype": "university",
                         "position": null,
@@ -1328,66 +1111,34 @@
                         "score": null,
                         "duration": null,
                         "place": null,
-                        "date_info": {
+                        "date": {
                             "year": 2024,
                             "month": null,
                             "day": null
                         },
-                        "tags": []
+                        "media": [
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "Humbat JAMALOV L0S1",
+                                "path": "fixed_data/academic/university/Humbat JAMALOV_L0S1.pdf"
+                            },
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "JAMALOV Humbat L0S2",
+                                "path": "fixed_data/academic/university/JAMALOV Humbat_L0S2.pdf"
+                            }
+                        ],
+                        "tagIds": [],
+                        "data_folder": "fixed_data/academic/university"
                     }
                 ]
             },
             {
                 "id": "achievements",
                 "title": "Achievements",
-                "items": [
-                    {
-                        "id": "extra-activities",
-                        "title": "Extra activities",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Extra activities.",
-                        "type": "academic",
-                        "subtype": "achievements",
-                        "data_folder": "fixed_data/academic/extra_activities",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/extra_activities",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date_info": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [],
-                        "tags": []
-                    },
-                    {
-                        "id": "web-skills",
-                        "title": "Web skills",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Web skills.",
-                        "type": "academic",
-                        "subtype": "achievements",
-                        "data_folder": "fixed_data/academic/extra_activities/web_skills",
-                        "sort_date": "20240101",
-                        "path": "fixed_data/academic/extra_activities/web_skills",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date_info": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [],
-                        "tags": []
-                    }
-                ]
+                "items": []
             }
         ]
     },
@@ -1395,46 +1146,7 @@
         "id": "projects",
         "title": "Projects",
         "summary": "Full-stack and infrastructure projects engineering high-performance software.",
-        "items": [
-            {
-                "id": "enterprise-ecosystem",
-                "title": "Graph Enterprise Ecosystem",
-                "type": "Full-Stack System",
-                "date": "2024",
-                "sort_date": "20231201",
-                "description": "A comprehensive mobile and backend ecosystem for corporate management.",
-                "media": [
-                    {
-                        "type": "pdf",
-                        "url": "data/humbat_jamalov_l0_to_l1/Detailed description of achievements.pdf",
-                        "title": "Tech Stack & Architecture"
-                    }
-                ]
-            },
-            {
-                "id": "projects",
-                "title": "Projects",
-                "organization": "Various",
-                "description": "Detailed documentation and proof for Projects.",
-                "type": "projects",
-                "subtype": null,
-                "data_folder": "fixed_data/projects",
-                "sort_date": "20240101",
-                "path": "fixed_data/projects",
-                "position": null,
-                "award": null,
-                "score": null,
-                "duration": null,
-                "place": null,
-                "date_info": {
-                    "year": 2024,
-                    "month": null,
-                    "day": null
-                },
-                "media": [],
-                "tags": []
-            }
-        ]
+        "items": []
     },
     "skills": {
         "Languages": [

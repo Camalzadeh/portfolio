@@ -20,15 +20,16 @@
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Humbat jamalov l0s1",
+            "title": "Humbat JAMALOV L0S1",
             "path": "fixed_data/academic/university/Humbat JAMALOV_L0S1.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Jamalov humbat l0s2",
+            "title": "JAMALOV Humbat L0S2",
             "path": "fixed_data/academic/university/JAMALOV Humbat_L0S2.pdf"
         }
     ],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/academic/university"
 }

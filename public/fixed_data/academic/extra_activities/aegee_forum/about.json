@@ -24,5 +24,6 @@
             "path": "fixed_data/academic/extra_activities/aegee_forum/participation.pdf"
         }
     ],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/academic/extra_activities/aegee_forum"
 }

@@ -30,5 +30,6 @@
             "path": "fixed_data/academic/extra_activities/miull_data_camp/miull_2.png"
         }
     ],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/academic/extra_activities/miull_data_camp"
 }

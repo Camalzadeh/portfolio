@@ -9,6 +9,7 @@ import { fetchPortfolioItem } from "@/utils/portfolio";
 interface IntegratedPreviewProps {
   item: {
     title: string;
+    path?: string;
     data_folder?: string;
   } | null;
 }
@@ -24,8 +25,9 @@ export default function IntegratedPreview({ item }: IntegratedPreviewProps) {
     setCurrentIndex(0);
     setFullItem(null);
 
-    if (item?.data_folder) {
-      fetchPortfolioItem(item.data_folder).then(data => {
+    const folderPath = item?.path || item?.data_folder;
+    if (folderPath) {
+      fetchPortfolioItem(folderPath).then(data => {
         if (data) setFullItem(data);
       });
     }

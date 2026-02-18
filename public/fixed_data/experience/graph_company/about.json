@@ -20,15 +20,16 @@
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Detailed description of achievements",
+            "title": "Detailed Description Of Achievements",
             "path": "fixed_data/experience/graph_company/Detailed description of achievements.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Udemy flutterdartudemy",
+            "title": "Udemy FlutterDartUdemy",
             "path": "fixed_data/experience/graph_company/udemy_FlutterDartUdemy.pdf"
         }
     ],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/experience/graph_company"
 }

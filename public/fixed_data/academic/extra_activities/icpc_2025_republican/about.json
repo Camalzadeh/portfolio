@@ -20,15 +20,16 @@
         {
             "type": "pdf",
             "url_text": null,
-            "title": "2025-icpc azerbaijan rc-humbat jamalov-medal",
+            "title": "2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL",
             "path": "fixed_data/academic/extra_activities/icpc_2025_republican/2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "2025-icpc azerbaijan rc-humbat jamalov-place",
+            "title": "2025-ICPC Azerbaijan RC-Humbat Jamalov-PLACE",
             "path": "fixed_data/academic/extra_activities/icpc_2025_republican/2025-ICPC Azerbaijan RC-Humbat Jamalov-PLACE.pdf"
         }
     ],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/academic/extra_activities/icpc_2025_republican"
 }

@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { FileText, ChevronRight, Briefcase, GraduationCap, Award } from "lucide-react";
+import { FileText, ChevronRight, Briefcase, GraduationCap, Award, User, Star, Clock, MapPin, Layers } from "lucide-react";
 
 interface MediaItem {
   type: string;
@@ -12,9 +12,13 @@ interface Item {
   id: string;
   title: string;
   role?: string;
+  position?: string;
   award?: string;
   organization?: string;
-  date: string;
+  score?: string;
+  duration?: string;
+  place?: string;
+  date: string | { year: number | null; month: number | null; day: number | null };
   description: string;
   media?: MediaItem[];
 }
@@ -28,284 +32,281 @@ interface ItemCardProps {
 }
 
 export default function ItemCard({ item, index, isSelected, onSelect, isLast }: ItemCardProps) {
+  // Dynamic color palette for variety
+  const colors = [
+    { primary: "#2dd4bf", secondary: "#14b8a6", glow: "rgba(45, 212, 191, 0.2)" }, // Cyan
+    { primary: "#818cf8", secondary: "#6366f1", glow: "rgba(129, 140, 248, 0.2)" }, // Indigo
+    { primary: "#fb7185", secondary: "#f43f5e", glow: "rgba(251, 113, 133, 0.2)" }, // Rose
+    { primary: "#fbbf24", secondary: "#f59e0b", glow: "rgba(251, 191, 36, 0.2)" },  // Amber
+  ];
+
+  const color = colors[index % colors.length];
+
+  const metaFields = [
+    { label: "Organization", value: item.organization, icon: <Briefcase size={12} /> },
+    { label: "Role/Position", value: item.role || item.position, icon: <User size={12} /> },
+    { label: "Award", value: item.award, icon: <Award size={12} /> },
+    { label: "Score", value: item.score, icon: <Star size={12} /> },
+    { label: "Duration", value: item.duration, icon: <Clock size={12} /> },
+    { label: "Location", value: item.place, icon: <MapPin size={12} /> },
+  ];
+
   return (
     <motion.div
       id={item.id}
-      initial={{ opacity: 0, x: -30 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      viewport={{ once: true, margin: "-50px" }}
-      whileHover={{ scale: 1.02, x: 10 }}
-      whileTap={{ scale: 0.98 }}
-      transition={{ type: "spring", stiffness: 400, damping: 30 }}
-      className={`timeline-entry ${isSelected ? 'is-active' : ''}`}
+      initial={{ opacity: 0, scale: 0.95 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true }}
+      whileHover={{ y: -5 }}
+      transition={{ type: "spring", stiffness: 300 }}
+      className={`luxury-card-wrapper ${isSelected ? 'active' : ''}`}
       onClick={() => onSelect(item)}
+      style={{ '--card-accent': color.primary, '--card-glow': color.glow } as any}
     >
-      <div className="entry-rail">
-        <div className="rail-node">
-          <div className="node-ring" />
-          <div className="node-content">
-            {item.award ? <Award size={16} /> : (item.role ? <Briefcase size={16} /> : <GraduationCap size={16} />)}
-          </div>
-        </div>
-        {!isLast && <div className="rail-line-segment" />}
-      </div>
+      <div className="card-glass-base">
+        {/* Colorful Gradient Bar */}
+        <div className="accent-bar" />
 
-      <div className="entry-card-container">
-        <div className="entry-card">
-          <div className="entry-header">
-            <span className="entry-date">{item.date}</span>
-            {item.award && <div className="entry-badge premium">Achievement</div>}
-          </div>
+        <div className="card-content">
+          <header className="card-header">
+            <div className="date-tag">
+              {typeof item.date === 'string' ? item.date : item.date.year}
+            </div>
+            {isSelected && <div className="status-dot-active" />}
+          </header>
 
-          <h3 className="entry-title">{item.title}</h3>
+          <h3 className="card-title">{item.title}</h3>
 
-          <div className="entry-meta">
-            {item.organization && (
-              <>
-                {item.role && <span className="entry-role-text">{item.role}</span>}
-                <span className="entry-sep">/</span>
-                <span className="entry-org-name">{item.organization}</span>
-              </>
-            )}
+          <div className="meta-compact-grid">
+            {metaFields.map((field, i) => (
+              <div key={i} className={`meta-item ${!field.value ? 'empty' : 'filled'}`}>
+                <span className="meta-icon">{field.icon}</span>
+                <div className="meta-info">
+                  <span className="meta-label">{field.label}</span>
+                  <span className="meta-value">{field.value || "---"}</span>
+                </div>
+              </div>
+            ))}
           </div>
 
-          <p className="entry-description">{item.description}</p>
+          <p className="card-description">{item.description}</p>
 
-          <footer className="entry-footer">
+          <footer className="card-footer">
             {item.media && item.media.length > 0 && (
-              <div className="entry-resources">
-                <FileText size={14} />
-                <span>{item.media.length} Resources</span>
+              <div className="media-counter">
+                <Layers size={12} />
+                <span>{item.media.length} Assets</span>
               </div>
             )}
-            <div className="entry-cta">
-              <span>{isSelected ? 'Viewing' : 'Explore'}</span>
-              <ChevronRight size={16} />
+            <div className="card-action">
+              {isSelected ? 'Viewing Project' : 'Click to Explore'}
             </div>
           </footer>
-
-          <div className="entry-glow-overlay" />
         </div>
+
+        {/* Background glow effects */}
+        <div className="dynamic-glow" />
       </div>
 
       <style jsx>{`
-        .timeline-entry {
-          display: flex;
-          gap: 3rem;
+        .luxury-card-wrapper {
           cursor: pointer;
           position: relative;
-          padding-bottom: 4rem;
-          user-select: none;
-          outline: none;
+          margin-bottom: 2rem;
+          transition: all 0.5s ease;
         }
 
-        /* Rail / Timeline Styles */
-        .entry-rail {
-          width: 60px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          position: relative;
-          flex-shrink: 0;
-        }
-
-        .rail-node {
-          width: 60px;
-          height: 60px;
-          position: relative;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          z-index: 5;
-        }
-
-        .node-ring {
-          position: absolute;
-          inset: 0;
+        .card-glass-base {
+          background: rgba(15, 15, 20, 0.7);
+          backdrop-filter: blur(25px);
+          border: 1px solid rgba(255, 255, 255, 0.05);
           border-radius: 20px;
-          background: var(--surface-hover);
-          border: 2px solid var(--border-color);
-          transform: rotate(45deg);
-          transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-
-        .node-content {
-          position: relative;
-          z-index: 2;
-          color: var(--text-secondary);
-          transition: all 0.5s;
-        }
-
-        .rail-line-segment {
-          position: absolute;
-          top: 60px;
-          bottom: -4rem;
-          width: 2px;
-          background: linear-gradient(180deg, var(--border-color) 0%, transparent 100%);
-          opacity: 0.4;
-        }
-
-        /* Active Entry State */
-        .timeline-entry.is-active .node-ring {
-          background: var(--accent-color);
-          border-color: var(--accent-color);
-          transform: rotate(45deg) scale(1.15);
-          box-shadow: 
-            0 0 30px rgba(var(--accent-color-rgb), 0.4),
-            inset 0 0 10px rgba(255,255,255,0.3);
-        }
-
-        .timeline-entry.is-active .node-content {
-          color: #000;
-          transform: scale(1.1);
-        }
-
-        .timeline-entry.is-active .rail-line-segment {
-          background: linear-gradient(180deg, var(--accent-color) 0%, var(--border-color) 80%);
-          opacity: 1;
-          width: 3px;
-        }
-
-        /* Card Styles */
-        .entry-card-container {
-          flex: 1;
-          perspective: 1000px;
-        }
-
-        .entry-card {
-          background: rgba(var(--surface-color-rgb), 0.6);
-          border: 1px solid var(--border-color);
-          border-radius: 32px;
-          padding: 2.5rem;
-          position: relative;
           overflow: hidden;
-          transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
-          backdrop-filter: blur(20px);
-        }
-
-        .entry-glow-overlay {
-          position: absolute;
-          inset: 0;
-          background: radial-gradient(circle at top right, rgba(var(--accent-color-rgb), 0.1), transparent 70%);
-          opacity: 0;
-          transition: opacity 0.5s;
-          pointer-events: none;
-        }
-
-        .timeline-entry:hover .entry-card {
-          background: rgba(var(--surface-hover-rgb), 0.8);
-          border-color: rgba(var(--accent-color-rgb), 0.3);
-          box-shadow: 0 40px 80px rgba(0,0,0,0.3);
-        }
-
-        .timeline-entry.is-active .entry-card {
-          border-color: var(--accent-color);
-          background: rgba(var(--accent-color-rgb), 0.05);
-          box-shadow: 
-            0 50px 100px rgba(0,0,0,0.4),
-            0 0 0 1px rgba(var(--accent-color-rgb), 0.2);
-        }
-
-        .timeline-entry.is-active .entry-glow-overlay {
-          opacity: 1;
-        }
-
-        /* Typography & Content */
-        .entry-header {
+          position: relative;
           display: flex;
-          justify-content: space-between;
-          align-items: center;
-          margin-bottom: 1.25rem;
+          box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+          transition: all 0.4s;
         }
 
-        .entry-date {
-          font-size: 0.8rem;
-          font-weight: 800;
-          color: var(--accent-color);
-          letter-spacing: 2px;
-          text-transform: uppercase;
+        .luxury-card-wrapper.active .card-glass-base {
+          border-color: var(--card-accent);
+          background: rgba(var(--surface-color-rgb), 0.85);
+          box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+          transform: scale(1.02);
         }
 
-        .entry-badge {
-          background: #facc15;
-          color: #000;
-          font-size: 0.65rem;
-          font-weight: 900;
-          padding: 5px 12px;
-          border-radius: 8px;
-          text-transform: uppercase;
-          letter-spacing: 1px;
-        }
-
-        .entry-title {
-          font-size: 1.8rem;
-          font-weight: 800;
-          color: var(--text-primary);
-          line-height: 1.1;
-          margin-bottom: 1rem;
-          letter-spacing: -0.02em;
-        }
-
-        .entry-meta {
-          display: flex;
-          align-items: center;
-          gap: 12px;
-          font-size: 1.05rem;
-          color: var(--text-secondary);
-          margin-bottom: 1.5rem;
-          font-weight: 600;
-        }
-
-        .entry-role-text { color: var(--text-primary); font-weight: 800; }
-        .entry-sep { opacity: 0.2; font-weight: 300; }
-
-        .entry-description {
-          font-size: 1rem;
-          line-height: 1.7;
-          color: var(--text-secondary);
-          margin-bottom: 2.5rem;
-          opacity: 0.85;
-          display: -webkit-box;
-          -webkit-line-clamp: 3;
-          -webkit-box-orient: vertical;
-          overflow: hidden;
-        }
-
-        .entry-footer {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding-top: 2rem;
-          border-top: 1px solid var(--border-color);
-        }
-
-        .entry-resources {
-          display: flex;
-          align-items: center;
-          gap: 10px;
-          font-size: 0.85rem;
-          font-weight: 800;
-          color: var(--text-secondary);
+        .accent-bar {
+          width: 5px;
+          background: linear-gradient(180deg, var(--card-accent), transparent);
+          flex-shrink: 0;
           opacity: 0.6;
         }
 
-        .entry-cta {
+        .luxury-card-wrapper.active .accent-bar {
+          opacity: 1;
+          width: 6px;
+        }
+
+        .card-content {
+          padding: 1.5rem;
+          flex: 1;
+          z-index: 2;
+        }
+
+        .card-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 0.75rem;
+        }
+
+        .date-tag {
+          font-size: 0.7rem;
+          font-weight: 900;
+          color: var(--card-accent);
+          letter-spacing: 1.5px;
+          text-transform: uppercase;
+          background: rgba(var(--card-accent), 0.1);
+          padding: 4px 10px;
+          border-radius: 6px;
+        }
+
+        .status-dot-active {
+          width: 8px;
+          height: 8px;
+          background: var(--card-accent);
+          border-radius: 50%;
+          box-shadow: 0 0 10px var(--card-accent);
+          animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+          0% { opacity: 0.5; transform: scale(1); }
+          50% { opacity: 1; transform: scale(1.2); }
+          100% { opacity: 0.5; transform: scale(1); }
+        }
+
+        .card-title {
+          font-size: 1.15rem;
+          font-weight: 800;
+          color: #fff;
+          margin-bottom: 1.25rem;
+          letter-spacing: -0.01em;
+          line-height: 1.2;
+        }
+
+        .meta-compact-grid {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 0.6rem;
+          margin-bottom: 1.5rem;
+        }
+
+        .meta-item {
+          display: flex;
+          gap: 10px;
+          padding: 8px;
+          border-radius: 12px;
+          background: rgba(255, 255, 255, 0.02);
+          border: 1px solid rgba(255, 255, 255, 0.03);
+          transition: all 0.3s;
+        }
+
+        .meta-item.filled {
+          background: rgba(255, 255, 255, 0.04);
+        }
+
+        .meta-item.empty {
+          opacity: 0.3;
+          background: transparent;
+        }
+
+        .meta-icon {
+          color: var(--card-accent);
+          opacity: 0.7;
           display: flex;
           align-items: center;
-          gap: 10px;
-          color: var(--accent-color);
-          font-size: 0.9rem;
+        }
+
+        .meta-info {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .meta-label {
+          font-size: 0.55rem;
+          text-transform: uppercase;
+          font-weight: 800;
+          color: var(--text-secondary);
+          letter-spacing: 0.5px;
+        }
+
+        .meta-value {
+          font-size: 0.75rem;
+          font-weight: 700;
+          color: rgba(255,255,255,0.9);
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+
+        .card-description {
+          font-size: 0.8rem;
+          line-height: 1.6;
+          color: var(--text-secondary);
+          margin-bottom: 1.5rem;
+          opacity: 0.8;
+          word-break: break-word;
+        }
+
+        .card-footer {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-top: 1rem;
+          border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .media-counter {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          font-size: 0.65rem;
+          font-weight: 800;
+          color: var(--text-secondary);
+        }
+
+        .card-action {
+          font-size: 0.65rem;
           font-weight: 900;
           text-transform: uppercase;
+          color: var(--card-accent);
           letter-spacing: 1px;
         }
 
+        .dynamic-glow {
+          position: absolute;
+          top: -20%;
+          right: -20%;
+          width: 50%;
+          height: 50%;
+          background: var(--card-glow);
+          filter: blur(60px);
+          border-radius: 50%;
+          z-index: 1;
+          opacity: 0.2;
+          pointer-events: none;
+        }
+
+        .luxury-card-wrapper.active .dynamic-glow {
+          opacity: 0.5;
+          width: 70%;
+          height: 70%;
+        }
+
         @media (max-width: 768px) {
-          .timeline-entry { gap: 1.5rem; padding-bottom: 3rem; }
-          .entry-rail { width: 40px; }
-          .rail-node { width: 40px; height: 40px; }
-          .entry-card { padding: 1.5rem; }
-          .entry-title { font-size: 1.4rem; }
+          .meta-compact-grid { grid-template-columns: 1fr; }
+          .card-title { font-size: 1rem; }
         }
       `}</style>
     </motion.div>

@@ -20,15 +20,16 @@
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Icsc-certificate-qr-2025-ffb809803c5-d5ff0f5136aa3a63242c8a544e43df25",
+            "title": "ICSC-Certificate-QR-2025-FFB809803C5-D5ff0f5136aa3a63242c8a544e43df25",
             "path": "fixed_data/academic/extra_activities/icsc_2025_qulification/ICSC-Certificate-QR-2025-FFB809803C5-d5ff0f5136aa3a63242c8a544e43df25.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Icsc-performancereport-pr-2025-ffb809803c5-b5275e2c79ec037e4e2ba0d524148130",
+            "title": "ICSC-PerformanceReport-PR-2025-FFB809803C5-B5275e2c79ec037e4e2ba0d524148130",
             "path": "fixed_data/academic/extra_activities/icsc_2025_qulification/ICSC-PerformanceReport-PR-2025-FFB809803C5-b5275e2c79ec037e4e2ba0d524148130.pdf"
         }
     ],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/academic/extra_activities/icsc_2025_qulification"
 }

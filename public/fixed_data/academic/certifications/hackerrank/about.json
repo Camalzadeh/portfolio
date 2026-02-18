@@ -3,7 +3,7 @@
     "title": "HackerRank Certiffications",
     "path": "fixed_data/academic/certifications/hackerrank",
     "organization": "HackerRank",
-    "description": "A collection of HackerRank Skill Certifications validating fundamental proficiency in software development. These credentials verify core competencies in Problem Solving (Data Structures and Algorithms), alongside technical mastery in Java, C#, and JavaScript. Each certification was earned by passing rigorous skill assessments designed to evaluate logical reasoning and language-specific best practices.",    
+    "description": "A collection of HackerRank Skill Certifications validating fundamental proficiency in software development. These credentials verify core competencies in Problem Solving (Data Structures and Algorithms), alongside technical mastery in Java, C#, and JavaScript. Each certification was earned by passing rigorous skill assessments designed to evaluate logical reasoning and language-specific best practices.",
     "type": "academic",
     "subtype": "certifications",
     "position": null,
@@ -20,27 +20,28 @@
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Hackerrank c sharp basic certificate",
+            "title": "Hackerrank C Sharp Basic Certificate",
             "path": "fixed_data/academic/certifications/hackerrank/hackerrank_c_sharp_basic certificate.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Hackerrank javascript basic certificate",
+            "title": "Hackerrank Javascript Basic Certificate",
             "path": "fixed_data/academic/certifications/hackerrank/hackerrank_javascript_basic certificate.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Hackerrank java basic certificate",
+            "title": "Hackerrank Java Basic Certificate",
             "path": "fixed_data/academic/certifications/hackerrank/hackerrank_java_basic certificate.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Hackerrank problem solving basic certificate",
+            "title": "Hackerrank Problem Solving Basic Certificate",
             "path": "fixed_data/academic/certifications/hackerrank/hackerrank_problem_solving_basic certificate.pdf"
         }
     ],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/academic/certifications/hackerrank"
 }

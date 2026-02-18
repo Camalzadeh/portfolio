@@ -20,9 +20,10 @@
         {
             "type": "image",
             "url_text": null,
-            "title": "Advanced finished",
+            "title": "Advanced Finished",
             "path": "fixed_data/academic/courses/codestar/advanced_finished.png"
         }
     ],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/academic/courses/codestar"
 }

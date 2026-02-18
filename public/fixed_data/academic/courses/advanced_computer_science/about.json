@@ -20,15 +20,16 @@
         {
             "type": "image",
             "url_text": null,
-            "title": "Advanced computer science 1",
+            "title": "Advanced Computer Science 1",
             "path": "fixed_data/academic/courses/advanced_computer_science/advanced_computer_science_1.jpg"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Advanced computer science 2 humbat jamalov",
+            "title": "Advanced Computer Science 2 Humbat Jamalov",
             "path": "fixed_data/academic/courses/advanced_computer_science/advanced_computer_science_2_Humbat Jamalov.pdf"
         }
     ],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/academic/courses/advanced_computer_science"
 }

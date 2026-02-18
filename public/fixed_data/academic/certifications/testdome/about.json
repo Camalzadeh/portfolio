@@ -20,9 +20,10 @@
         {
             "type": "mhtml",
             "url_text": null,
-            "title": "Testdome certificate for humbat jamalov   testdome",
+            "title": "TestDome Certificate For Humbat Jamalov   TestDome",
             "path": "fixed_data/academic/certifications/testdome/TestDome certificate for Humbat Jamalov _ TestDome.mhtml"
         }
     ],
-    "tags": []
+    "tagIds": [],
+    "data_folder": "fixed_data/academic/certifications/testdome"
 }
