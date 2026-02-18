@@ -32,10 +32,6 @@ export function MediaStage({ currentMedia, itemTitle, onImageClick }: MediaStage
   // Google Viewer only for actual public URLs
   const googleViewerUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(mediaUrl)}&embedded=true`;
 
-  const handleMhtmlOpen = () => {
-    window.open(mediaUrl, '_blank');
-  };
-
   return (
     <AnimatePresence mode="wait">
       {currentMedia ? (
@@ -62,27 +58,7 @@ export function MediaStage({ currentMedia, itemTitle, onImageClick }: MediaStage
               </div>
             )}
 
-            {/* 2. MHTML GÖSTƏRİCİ */}
-            {currentMedia.type === 'mhtml' && (
-              <div className="mhtml-preview-container">
-                <div className="mhtml-card">
-                  <div className="mhtml-header">
-                    <FileSearch size={64} className="mhtml-icon" />
-                    <span className="file-type-badge">MHTML ARCHIVE</span>
-                    <h3>{currentMedia.title}</h3>
-                    <p>This document is optimized for a full-page view to maintain formatting and interactivity.</p>
-                  </div>
-
-                  <button onClick={handleMhtmlOpen} className="premium-btn">
-                    <ExternalLink size={18} />
-                    <span>Open Full Document</span>
-                  </button>
-                  <p className="no-download-hint">No download required. Direct browser preview.</p>
-                </div>
-              </div>
-            )}
-
-            {/* 3. ŞƏKİL GÖSTƏRİCİ */}
+            {/* 2. ŞƏKİL GÖSTƏRİCİ */}
             {currentMedia.type === 'image' && (
               <div className="image-stage" onClick={onImageClick}>
                 <div className="image-bg-blur" style={{ backgroundImage: `url(${encodeURI(mediaUrl)})` }} />
@@ -92,8 +68,8 @@ export function MediaStage({ currentMedia, itemTitle, onImageClick }: MediaStage
               </div>
             )}
 
-            {/* 4. DİGƏR FORMATLAR */}
-            {currentMedia.type !== 'pdf' && currentMedia.type !== 'mhtml' && currentMedia.type !== 'image' && (
+            {/* 3. DİGƏR FORMATLAR (HARİCİ) */}
+            {currentMedia.type !== 'pdf' && currentMedia.type !== 'image' && (
               <div className="external-node">
                 <div className="ext-box">
                   <ExternalLink size={64} className="icon-glow" />
@@ -133,6 +109,7 @@ export function MediaStage({ currentMedia, itemTitle, onImageClick }: MediaStage
               background: #fff;
               display: flex;
               flex-direction: column;
+              user-select: none;
             }
 
             .media-frame {
@@ -140,160 +117,200 @@ export function MediaStage({ currentMedia, itemTitle, onImageClick }: MediaStage
               flex: 1;
               border: none;
               background: #fff;
+              pointer-events: auto;
+            }
+
+            /* Block dragging on iframe */
+            .doc-wrapper::after {
+              content: '';
+              position: absolute;
+              inset: 0;
+              background: transparent;
+              pointer-events: none;
+              z-index: 10;
             }
 
             .secure-badge {
                position: absolute;
-               top: 1rem;
-               right: 1.5rem;
-               background: rgba(0,0,0,0.8);
-               backdrop-filter: blur(10px);
+               top: 1.5rem;
+               right: 2rem;
+               background: rgba(0,0,0,0.85);
+               backdrop-filter: blur(20px);
                color: #fff;
-               padding: 6px 12px;
-               border-radius: 6px;
-               font-size: 0.6rem;
+               padding: 8px 16px;
+               border-radius: 100px;
+               font-size: 0.7rem;
                font-weight: 800;
                display: flex;
                align-items: center;
-               gap: 8px;
-               z-index: 20;
+               gap: 10px;
+               z-index: 25;
                pointer-events: none;
                letter-spacing: 1px;
+               border: 1px solid rgba(255,255,255,0.1);
+               box-shadow: 0 10px 30px rgba(0,0,0,0.5);
             }
 
-            /* MHTML STYLING */
-            .mhtml-preview-container {
-               width: 100%;
-               height: 100%;
-               display: flex;
-               align-items: center;
-               justify-content: center;
-               padding: 2rem;
-               background: #0a0a0a;
-            }
-
-            .mhtml-card {
-               max-width: 400px;
-               width: 100%;
-               background: #0a0a0a;
-               padding: 3rem 2rem;
-               border-radius: 24px;
-               text-align: center;
-            }
-
-            .mhtml-icon {
-               color: #facc15;
-               margin-bottom: 1.5rem;
-               filter: drop-shadow(0 0 20px rgba(250, 204, 21, 0.4));
-            }
-
-            .file-type-badge {
-               display: inline-block;
-               padding: 4px 10px;
-               background: rgba(250, 204, 21, 0.1);
-               color: #facc15;
-               border-radius: 4px;
-               font-size: 0.6rem;
-               font-weight: 900;
-               letter-spacing: 1px;
-               margin-bottom: 1rem;
-            }
-
-            .mhtml-header h3 { color: #fff; font-size: 1.2rem; font-weight: 800; margin-bottom: 1rem; }
-            .mhtml-header p { color: #666; font-size: 0.8rem; line-height: 1.5; margin-bottom: 2rem; }
-
-            .premium-btn {
-               background: #facc15;
-               color: #000;
-               border: none;
-               padding: 0.8rem 1.5rem;
-               border-radius: 10px;
-               font-weight: 800;
-               display: flex;
-               align-items: center;
-               justify-content: center;
-               gap: 10px;
-               width: 100%;
-               cursor: pointer;
-               transition: all 0.3s;
-            }
-
-            .premium-btn:hover { background: #fff; transform: translateY(-2px); box-shadow: 0 10px 20px rgba(250, 204, 21, 0.2); }
-
-            .no-download-hint {
-               display: block;
-               margin-top: 1rem;
-               font-size: 0.65rem;
-               color: #444;
-               font-weight: 600;
-            }
-
-            /* IMAGE STYLING */
+            /* IMAGE STYLING - PERFECT FIT + SCROLL */
             .image-stage {
+               position: absolute;
+               inset: 0;
                width: 100%;
                height: 100%;
-               position: relative;
-               cursor: crosshair;
-               overflow: hidden;
-               display: flex;
-               align-items: center;
-               justify-content: center;
+               overflow-y: auto !important;
+               overflow-x: hidden;
+               background: #000;
+               padding: 2rem;
+               z-index: 5;
+               display: block;
+               scroll-behavior: smooth;
+            }
+
+            /* FORCE VISIBLE SCROLLBARS */
+            .image-stage::-webkit-scrollbar {
+              width: 10px !important;
+              display: block !important;
+            }
+            .image-stage::-webkit-scrollbar-track {
+              background: rgba(0,0,0,0.8) !important;
+            }
+            .image-stage::-webkit-scrollbar-thumb {
+              background: var(--accent-color) !important;
+              border-radius: 10px;
             }
 
             .image-bg-blur {
-               position: absolute;
-               inset: -20px;
+               position: fixed;
+               inset: 0;
                background-size: cover;
                background-position: center;
-               filter: blur(50px) brightness(0.2);
-               opacity: 0.5;
+               filter: blur(120px) brightness(0.1);
+               opacity: 0.8;
                z-index: 1;
+               pointer-events: none;
             }
 
             .image-wrapper {
                position: relative;
                z-index: 2;
-               width: 95%;
-               height: 95%;
+               width: 100%;
                display: flex;
+               flex-direction: column;
                align-items: center;
-               justify-content: center;
             }
 
             .main-image {
+               width: 100%;
                max-width: 100%;
-               max-height: 100%;
+               height: auto;
+               border-radius: 16px;
+               box-shadow: 0 50px 100px rgba(0,0,0,0.8);
+               user-drag: none;
+               -webkit-user-drag: none;
+               border: 1px solid rgba(255,255,255,0.05);
                object-fit: contain;
-               border-radius: 8px;
-               box-shadow: 0 40px 100px rgba(0,0,0,0.9);
             }
 
-            .external-node { text-align: center; padding: 2.5rem; color: #fff; }
-            .icon-glow { color: #facc15; filter: drop-shadow(0 0 15px rgba(250, 204, 21, 0.3)); margin-bottom: 2rem; }
-            .ext-box h3 { margin-bottom: 2rem; font-size: 1.25rem; font-weight: 800; }
+            /* PDF Protection & Full Stretch */
+            .doc-wrapper {
+              position: absolute;
+              inset: 0;
+              width: 100%;
+              height: 100%;
+              background: #fff;
+              display: flex;
+              flex-direction: column;
+              user-select: none;
+              overflow: hidden;
+              z-index: 10;
+            }
+
+            /* Block dragging but allow iframe interactions */
+            .doc-wrapper::before {
+              content: '';
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 60px; /* Protect header */
+              z-index: 15;
+              pointer-events: none;
+            }
+
+            /* Non-blocking overlay for clicks, but stops some context menu items */
+            .doc-wrapper::before {
+              content: '';
+              position: absolute;
+              inset: 0;
+              z-index: 5;
+              pointer-events: none;
+              box-shadow: inset 0 0 100px rgba(0,0,0,0.1);
+            }
+
+            /* EXTERNAL LINK STYLING */
+            .external-node { 
+              width: 100%;
+              height: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              background: radial-gradient(circle at center, #111 0%, #000 100%);
+              padding: 2rem;
+            }
+            .ext-box {
+              max-width: 500px;
+              width: 100%;
+              text-align: center;
+              padding: 5rem 3rem;
+              background: rgba(var(--surface-color-rgb), 0.3);
+              backdrop-filter: blur(40px);
+              border-radius: 40px;
+              border: 1px solid rgba(var(--accent-color-rgb), 0.1);
+              box-shadow: 0 40px 100px rgba(0,0,0,0.7);
+            }
+            .icon-glow { 
+              color: var(--accent-color); 
+              filter: drop-shadow(0 0 20px rgba(var(--accent-color-rgb), 0.4)); 
+              margin-bottom: 2.5rem; 
+            }
+            .ext-box h3 { color: #fff; margin-bottom: 3rem; font-size: 1.8rem; font-weight: 800; letter-spacing: -0.01em; }
+            
             .ext-btn {
-               background: #facc15;
+               background: var(--accent-color);
                color: #000;
-               padding: 12px 24px;
-               border-radius: 8px;
-               font-weight: 800;
+               padding: 1.25rem 3rem;
+               border-radius: 20px;
+               font-weight: 900;
                text-decoration: none;
                display: inline-flex;
                align-items: center;
-               gap: 8px;
+               gap: 12px;
+               text-transform: uppercase;
+               letter-spacing: 2px;
+               transition: all 0.4s;
+               box-shadow: 0 10px 30px rgba(var(--accent-color-rgb), 0.2);
             }
+            .ext-btn:hover { background: #fff; transform: translateY(-5px); box-shadow: 0 20px 40px rgba(var(--accent-color-rgb), 0.4); }
 
             /* NO MEDIA */
             .no-media-state {
               display: flex;
               flex-direction: column;
               align-items: center;
-              gap: 1.5rem;
-              color: rgba(255,255,255,0.1);
+              gap: 2.5rem;
+              color: rgba(var(--accent-color-rgb), 0.05);
               height: 100%;
               width: 100%;
               justify-content: center;
               background: #000;
+              text-align: center;
+            }
+            .no-media-state p {
+              font-size: 1.2rem;
+              font-weight: 800;
+              letter-spacing: 3px;
+              text-transform: uppercase;
+              color: rgba(255,255,255,0.1);
             }
           `}</style>
         </motion.div>

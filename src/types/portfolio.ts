@@ -8,7 +8,6 @@ export enum MediaType {
     PDF = 'pdf',
     IMAGE = 'image',
     URL = 'url',
-    MHTML = 'mhtml',
     OTHER = 'other'
 }
 
