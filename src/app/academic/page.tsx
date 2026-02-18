@@ -27,12 +27,16 @@ export default function AcademicPage() {
                 </motion.div>
             </header>
 
-            <div className="pillar-layout">
-                <div className="content-segment">
+            <div className="academic-experience-layout">
+                {/* Left Side: Timeline */}
+                <div className="timeline-column">
                     {academicData.categories.map((category: any) => (
-                        <section key={category.id} className="category-block" id={category.id}>
-                            <h2 className="category-label">{category.title}</h2>
-                            <div className="items-grid">
+                        <section key={category.id} className="category-section" id={category.id}>
+                            <div className="category-header">
+                                <h2 className="category-title">{category.title}</h2>
+                                <div className="category-line" />
+                            </div>
+                            <div className="timeline-items">
                                 {category.items.map((item: any, idx: number) => (
                                     <ItemCard
                                         key={item.id}
@@ -48,80 +52,150 @@ export default function AcademicPage() {
                     ))}
                 </div>
 
-                <aside className="preview-sticky">
-                    <IntegratedPreview item={selectedItem} />
+                {/* Right Side: Preview */}
+                <aside className="preview-column">
+                    <div className="preview-fixed-wrapper">
+                        <div className="preview-inner-centered">
+                            <IntegratedPreview item={selectedItem} />
+                        </div>
+                    </div>
                 </aside>
             </div>
 
             <style jsx>{`
                 .page-title-section {
-                    margin-bottom: 5rem;
+                    margin-bottom: 6rem;
+                    position: relative;
                 }
                 .page-category {
                     display: inline-block;
-                    padding: 8px 16px;
+                    padding: 12px 28px;
                     background: rgba(var(--accent-color-rgb), 0.1);
                     color: var(--accent-color);
                     border-radius: 100px;
-                    font-size: 0.75rem;
+                    font-size: 0.85rem;
                     font-weight: 800;
                     text-transform: uppercase;
-                    letter-spacing: 2px;
+                    letter-spacing: 4px;
                     margin-bottom: 2rem;
                     border: 1px solid rgba(var(--accent-color-rgb), 0.2);
+                    backdrop-filter: blur(10px);
                 }
                 .text-accent { color: var(--accent-color); }
                 
-                .pillar-layout {
+                .academic-experience-layout {
                     display: grid;
-                    grid-template-columns: 1fr 1.2fr;
-                    gap: 4rem;
+                    grid-template-columns: 1fr 2fr;
+                    gap: 5rem;
                     align-items: start;
+                    position: relative;
+                    max-width: 100%;
                 }
 
-                .content-segment {
+                .timeline-column {
                     display: flex;
                     flex-direction: column;
                     gap: 6rem;
+                    padding-bottom: 15rem;
+                    position: relative;
+                    padding-right: 2rem;
                 }
 
-                .category-label {
-                    font-size: 0.75rem;
-                    font-weight: 800;
-                    text-transform: uppercase;
-                    color: var(--text-secondary);
-                    letter-spacing: 4px;
-                    margin-bottom: 3rem;
+                .category-section {
+                    position: relative;
+                }
+
+                .category-header {
+                    margin-bottom: 4rem;
                     display: flex;
                     align-items: center;
-                    gap: 20px;
+                    gap: 2.5rem;
                 }
 
-                .category-label::after {
-                    content: '';
+                .category-title {
+                    font-size: 1rem;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    color: var(--accent-color);
+                    letter-spacing: 5px;
+                    white-space: nowrap;
+                    opacity: 0.9;
+                }
+
+                .category-line {
                     flex: 1;
-                    height: 1px;
-                    background: linear-gradient(90deg, var(--border-color), transparent);
+                    height: 2px;
+                    background: linear-gradient(90deg, rgba(var(--accent-color-rgb), 0.4), transparent);
+                    border-radius: 2px;
                 }
 
-                .preview-sticky {
+                .timeline-items {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .preview-column {
                     position: sticky;
-                    top: 120px;
-                    height: calc(100vh - 160px);
-                    min-height: 700px;
-                    z-index: 50;
+                    top: 130px;
+                    height: calc(100vh - 180px);
+                    min-width: 800px;
+                }
+
+                .preview-fixed-wrapper {
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: center;
+                    background: rgba(255,255,255,0.02);
+                    border-radius: 40px;
+                    padding: 10px;
+                    border: 1px solid var(--border-color);
+                }
+
+                .preview-inner-centered {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                @media (max-width: 1600px) {
+                    .preview-column { min-width: 700px; }
+                    .academic-experience-layout { grid-template-columns: 1fr 1.5fr; gap: 4rem; }
+                }
+
+                @media (max-width: 1400px) {
+                    .preview-column { min-width: 600px; }
                 }
 
                 @media (max-width: 1200px) {
-                    .pillar-layout {
+                    .academic-experience-layout {
                         grid-template-columns: 1fr;
                     }
-                    .preview-sticky {
+                    .preview-column {
                         position: relative;
                         top: 0;
                         height: auto;
-                        min-height: unset;
+                        order: -1;
+                        margin-bottom: 4rem;
+                        min-width: unset;
                     }
+                    .preview-fixed-wrapper {
+                        height: 700px;
+                        border-radius: 32px;
+                    }
+                    .timeline-column {
+                        padding-bottom: 5rem;
+                        padding-right: 0;
+                    }
+                }
+
+                @media (max-width: 768px) {
+                    .page-title-section { margin-bottom: 4rem; }
+                    .preview-fixed-wrapper { height: 550px; }
+                    .timeline-column { gap: 4rem; }
+                    .category-header { margin-bottom: 3rem; }
                 }
             `}</style>
         </main>

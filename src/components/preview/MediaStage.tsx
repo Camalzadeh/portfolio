@@ -111,32 +111,26 @@ export function MediaStage({ currentMedia, itemTitle, onImageClick }: MediaStage
             .viewer-stage {
               width: 100%;
               height: 100%;
-              display: flex;
-              flex-direction: column;
+              position: relative;
               background: #000;
-              border-radius: 0;
               overflow: hidden;
-              flex: 1;
-              min-height: 0;
             }
 
             .stage-inner {
-              flex: 1;
               width: 100%;
               height: 100%;
-              display: flex;
-              flex-direction: column;
               position: relative;
-              min-height: 0;
+              background: #000;
+              padding: 0;
             }
 
             /* PDF & DOCS */
             .doc-wrapper {
+              position: absolute;
+              inset: 0;
               width: 100%;
               height: 100%;
-              min-height: 600px;
               background: #fff;
-              position: relative;
               display: flex;
               flex-direction: column;
             }
