@@ -9,22 +9,23 @@ export default function ProjectsDetailPage() {
     const { t } = useLanguage();
     const projectsData = data.projects as any;
 
-    const items = [...projectsData.items].sort((a: any, b: any) => (b.sort_date || '').localeCompare(a.sort_date || ''));
-    const initialItem = items.find(i => i.id === id) || null;
+    // Filter to ONLY the requested project
+    const item = projectsData.items.find((i: any) => i.id === id);
+    const filteredItems = item ? [item] : [];
 
     const categories = [{
-        id: 'all-projects',
-        title: t('projects.title_main'),
-        items: items
+        id: 'selected-project',
+        title: item?.title || t('projects.title_main'),
+        items: filteredItems
     }];
 
     return (
         <PortfolioDetailLayout
             categoryLabel={t('nav.projects')}
-            titleMain={t('projects.title_main')}
-            titleSub={t('projects.title_sub')}
+            titleMain={item?.title || t('projects.title_main')}
+            titleSub={""}
             categories={categories}
-            initialSelectedItem={initialItem}
+            initialSelectedItem={item}
         />
     );
 }

@@ -1,6 +1,7 @@
 "use client";
+import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ExternalLink, ShieldCheck } from "lucide-react";
+import { ExternalLink, ShieldCheck, Loader2, Maximize2, FileText, Image as ImageIcon, ChevronRight } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
 interface MediaItem {
@@ -18,6 +19,7 @@ interface MediaStageProps {
 
 export function MediaStage({ currentMedia, itemTitle, onImageClick }: MediaStageProps) {
   const { t } = useLanguage();
+  const [isLoading, setIsLoading] = useState(true);
 
   const getMediaUrl = () => {
     if (!currentMedia) return "";
@@ -28,71 +30,159 @@ export function MediaStage({ currentMedia, itemTitle, onImageClick }: MediaStage
 
   const mediaUrl = getMediaUrl();
   const isLocal = !mediaUrl.startsWith('http');
-
-  // Google Viewer only for actual public URLs
   const googleViewerUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(mediaUrl)}&embedded=true`;
 
   return (
-    <AnimatePresence mode="wait">
-      {currentMedia ? (
-        <motion.div
-          key={`${itemTitle}-${mediaUrl}`}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          className="relative h-full w-full overflow-hidden bg-black"
-        >
-          <div className="relative h-full w-full bg-black p-0" onContextMenu={(e) => e.preventDefault()}>
+    <div className="relative h-full w-full overflow-hidden bg-[#050505]">
+      {/* Background Ambience */}
+      <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_center,rgba(45,212,191,0.03)_0%,transparent_70%)]" />
+      <div className="pointer-events-none absolute inset-0 z-[1] opacity-[0.03] mix-blend-overlay [background-image:url('https://grainy-gradients.vercel.app/noise.svg')]" />
 
-            {/* 1. PDF GÖSTƏRİCİ - Tam ekran dəstəyi ilə */}
-            {currentMedia.type === 'pdf' && (
-              <div className="absolute inset-0 z-10 flex h-full w-full select-none flex-col overflow-hidden bg-white">
-                <div className="pointer-events-none absolute right-8 top-6 z-25 flex items-center gap-[10px] rounded-full border border-white/10 bg-black/85 px-[16px] py-[8px] text-[0.7rem] font-extrabold uppercase tracking-widest text-white shadow-[0_10px_30px_rgba(0,0,0,0.5)] backdrop-blur-[20px]">
-                  <ShieldCheck size={12} /> Secure View
+      <AnimatePresence mode="wait">
+        {currentMedia ? (
+          <motion.div
+            key={`${itemTitle}-${mediaUrl}`}
+            initial={{ opacity: 0, scale: 0.99 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 1.01 }}
+            transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+            className="relative z-10 h-full w-full"
+          >
+            <div className="relative h-full w-full bg-black/40" onContextMenu={(e) => e.preventDefault()}>
+
+              {/* Media Loader */}
+              <AnimatePresence>
+                {isLoading && (
+                  <motion.div
+                    initial={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    className="absolute inset-0 z-[30] flex flex-col items-center justify-center gap-6 bg-[#050505]"
+                  >
+                    <div className="relative">
+                      <Loader2 className="h-12 w-12 animate-spin text-accent/50" />
+                      <div className="absolute inset-0 blur-xl bg-accent/20 animate-pulse rounded-full" />
+                    </div>
+                    <span className="text-[0.65rem] font-black uppercase tracking-[4px] text-text-secondary opacity-50">Encrypting Stream</span>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+
+              {/* 1. PDF / Document Viewer */}
+              {currentMedia.type === 'pdf' && (
+                <div className="absolute inset-0 z-10 flex h-full w-full flex-col bg-white">
+                  <div className="pointer-events-none absolute right-10 top-8 z-30 flex items-center gap-3 rounded-full border border-white/10 bg-black/80 px-6 py-2.5 text-[0.65rem] font-black uppercase tracking-[3px] text-white shadow-2xl backdrop-blur-3xl">
+                    <ShieldCheck size={14} className="text-accent" />
+                    <span>Protected Document</span>
+                  </div>
+
+                  <div className="absolute left-10 top-8 z-30 flex items-center gap-3 rounded-xl bg-black/20 p-2 backdrop-blur-md">
+                    <FileText size={16} className="text-white/40" />
+                  </div>
+
+                  <iframe
+                    src={isLocal ? `${mediaUrl}#view=FitH&toolbar=0&navpanes=0&scrollbar=0` : googleViewerUrl}
+                    className="h-full w-full border-none transition-opacity duration-1000"
+                    title={currentMedia.title}
+                    onLoad={() => setIsLoading(false)}
+                  />
+
+                  {/* Subtle edge shadows for depth */}
+                  <div className="pointer-events-none absolute inset-0 shadow-[inset_0_0_100px_rgba(0,0,0,0.1)]" />
                 </div>
-                <iframe
-                  src={isLocal ? `${mediaUrl}#view=FitH&toolbar=0&navpanes=0` : googleViewerUrl}
-                  className="pointer-events-auto h-full w-full flex-1 border-none bg-white"
-                  title={currentMedia.title}
-                />
-              </div>
-            )}
+              )}
 
-            {/* 2. ŞƏKİL GÖSTƏRİCİ */}
-            {currentMedia.type === 'image' && (
-              <div className="absolute inset-0 z-5 block h-full w-full overflow-x-hidden overflow-y-auto bg-black p-8 scroll-smooth" onClick={onImageClick}>
-                <div className="pointer-events-none fixed inset-0 z-[1] bg-cover bg-center opacity-80 blur-[120px] brightness-[0.1]" style={{ backgroundImage: `url(${encodeURI(mediaUrl)})` }} />
-                <div className="relative z-[2] flex w-full flex-col items-center">
-                  <img src={encodeURI(mediaUrl)} alt={currentMedia.title} className="h-auto w-full max-w-full rounded-2xl border border-white/5 object-contain shadow-[0_50px_100px_rgba(0,0,0,0.8)]" />
+              {/* 2. Enhanced Image Showcase */}
+              {currentMedia.type === 'image' && (
+                <div
+                  className="absolute inset-0 z-5 h-full w-full overflow-y-auto overflow-x-hidden p-8 scrollbar-none md:p-16"
+                  onClick={onImageClick}
+                >
+                  <div className="fixed inset-0 z-[1] bg-cover bg-center transition-all duration-1000" style={{ backgroundImage: `url(${encodeURI(mediaUrl)})`, filter: 'blur(100px) brightness(0.15)' }} />
+
+                  <div className="relative z-[2] flex min-h-full w-full flex-col items-center justify-center py-10">
+                    <motion.div
+                      initial={{ y: 20, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{ delay: 0.2 }}
+                      className="group/img relative max-w-full"
+                    >
+                      <img
+                        src={encodeURI(mediaUrl)}
+                        alt={currentMedia.title}
+                        onLoad={() => setIsLoading(false)}
+                        className="h-auto w-full max-w-[1200px] rounded-[32px] border border-white/5 object-contain shadow-[0_80px_160px_rgba(0,0,0,0.8),0_0_40px_rgba(var(--accent-color-rgb),0.05)] transition-all duration-700 hover:scale-[1.01]"
+                      />
+                      <div className="absolute right-8 bottom-8 rounded-full bg-black/60 p-4 text-white opacity-0 blur-sm transition-all group-hover/img:opacity-100 group-hover/img:translate-y-[-10px] group-hover/img:blur-0">
+                        <Maximize2 size={24} />
+                      </div>
+                    </motion.div>
+
+                    <div className="mt-12 text-center opacity-60 transition-all hover:opacity-100">
+                      <h4 className="font-heading text-lg font-black tracking-tight text-white mb-2">{currentMedia.title}</h4>
+                      <div className="flex items-center justify-center gap-2 text-[0.6rem] font-bold uppercase tracking-widest text-accent">
+                        <ImageIcon size={10} />
+                        High Resolution Capture
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            )}
+              )}
 
-            {/* 3. DİGƏR FORMATLAR (HARİCİ) */}
-            {currentMedia.type !== 'pdf' && currentMedia.type !== 'image' && (
-              <div className="flex h-full w-full items-center justify-center bg-[radial-gradient(circle_at_center,_#111_0%,_#000_100%)] p-8">
-                <div className="w-full max-w-[500px] rounded-[40px] border border-accent/10 bg-[rgba(var(--surface-color-rgb),0.3)] p-[5rem_3rem] text-center shadow-[0_40px_100px_rgba(0,0,0,0.7)] backdrop-blur-[40px]">
-                  <ExternalLink size={64} className="mb-10 text-accent drop-shadow-[0_0_20px_rgba(var(--accent-color-rgb),0.4)]" />
-                  <h3 className="mb-12 text-[1.8rem] font-extrabold tracking-[-0.01em] text-white">{t('preview.external_title')}</h3>
-                  <a href={mediaUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 rounded-[20px] bg-accent px-12 py-5 text-[0.85rem] font-black uppercase tracking-[2px] text-black shadow-[0_10px_30px_rgba(var(--accent-color-rgb),0.2)] transition-all hover:-translate-y-1 hover:bg-white hover:shadow-[0_20px_40px_rgba(var(--accent-color-rgb),0.4)]">
-                    {t('preview.external_btn')} <ExternalLink size={14} />
-                  </a>
+              {/* 3. External & Advanced Connect */}
+              {currentMedia.type !== 'pdf' && currentMedia.type !== 'image' && (
+                <div className="flex h-full w-full items-center justify-center p-8 lg:p-20">
+                  <motion.div
+                    initial={{ scale: 0.9, opacity: 0 }}
+                    animate={{ scale: 1, opacity: 1 }}
+                    className="w-full max-w-[600px] overflow-hidden rounded-[48px] border border-white/10 bg-surface/40 p-16 text-center shadow-2xl backdrop-blur-3xl"
+                  >
+                    <div className="mb-12 flex justify-center">
+                      <div className="relative">
+                        <ExternalLink size={80} className="text-accent drop-shadow-[0_0_30px_rgba(var(--accent-color-rgb),0.4)]" />
+                        <div className="absolute inset-0 animate-pulse text-accent/20 blur-2xl">
+                          <ExternalLink size={80} />
+                        </div>
+                      </div>
+                    </div>
+
+                    <h3 className="mb-8 font-heading text-4xl font-black tracking-tight text-white">{t('preview.external_title')}</h3>
+                    <p className="mb-12 text-lg font-medium leading-relaxed text-text-secondary">This asset is hosted on an external secure server. Click below to establish a direct connection.</p>
+
+                    <a
+                      href={mediaUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onMouseEnter={() => setIsLoading(true)}
+                      onMouseLeave={() => setIsLoading(false)}
+                      className="group inline-flex items-center gap-4 rounded-3xl bg-accent px-14 py-6 text-[0.9rem] font-black uppercase tracking-[3px] text-black shadow-[0_20px_40px_rgba(var(--accent-color-rgb),0.3)] transition-all hover:-translate-y-2 hover:bg-white hover:shadow-[0_30px_60px_rgba(var(--accent-color-rgb),0.5)] active:scale-95"
+                    >
+                      {t('preview.external_btn')}
+                      <ChevronRight size={18} className="transition-transform group-hover:translate-x-1" />
+                    </a>
+                  </motion.div>
                 </div>
-              </div>
-            )}
+              )}
 
-          </div>
-        </motion.div>
-      ) : (
-        <div className="flex h-full w-full flex-col items-center justify-center gap-10 bg-black text-center">
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex flex-col items-center gap-6">
-            <div className="text-white/10">
-              <ExternalLink size={48} />
             </div>
-            <p className="text-[1.2rem] font-extrabold uppercase tracking-[3px] text-white/10">{t('preview.no_media')}</p>
           </motion.div>
-        </div>
-      )}
-    </AnimatePresence>
+        ) : (
+          <div className="flex h-full w-full flex-col items-center justify-center bg-[#050505] text-center">
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="flex flex-col items-center gap-10"
+            >
+              <div className="relative">
+                <FileText size={80} className="text-white/[0.03]" />
+                <div className="absolute inset-0 animate-pulse bg-white/[0.01] blur-3xl fill-white" />
+              </div>
+              <p className="max-w-[200px] text-[0.8rem] font-black uppercase tracking-[6px] text-white/5 leading-relaxed">
+                Vault <br /> Waiting for Input
+              </p>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
+    </div>
   );
 }

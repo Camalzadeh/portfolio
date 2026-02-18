@@ -9,22 +9,23 @@ export default function ExperienceDetailPage() {
     const { t } = useLanguage();
     const expData = data.experience as any;
 
-    const items = [...expData.items].sort((a: any, b: any) => (b.sort_date || '').localeCompare(a.sort_date || ''));
-    const initialItem = items.find(i => i.id === id) || null;
+    // Filter to ONLY the requested item
+    const item = expData.items.find((i: any) => i.id === id);
+    const filteredItems = item ? [item] : [];
 
     const categories = [{
-        id: 'all-experience',
-        title: t('experience.title_main'),
-        items: items
+        id: 'selected-experience',
+        title: item?.title || t('experience.title_main'),
+        items: filteredItems
     }];
 
     return (
         <PortfolioDetailLayout
             categoryLabel={t('nav.experience')}
-            titleMain={t('experience.title_main')}
-            titleSub={t('experience.title_sub')}
+            titleMain={item?.title || t('experience.title_main')}
+            titleSub={""}
             categories={categories}
-            initialSelectedItem={initialItem}
+            initialSelectedItem={item}
         />
     );
 }

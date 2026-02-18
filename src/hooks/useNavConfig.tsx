@@ -23,7 +23,7 @@ export function useNavConfig(data: any): NavSection[] {
             title: t('nav.academic'),
             icon: <GraduationCap size={20} />,
             rootPath: "/academic",
-            items: data.academic.categories.map((c: any) => ({ name: c.title, path: `/academic#${c.id}` }))
+            items: data.academic.categories.map((c: any) => ({ name: c.title, path: `/academic/${c.id}` }))
         },
         {
             id: "experience",
