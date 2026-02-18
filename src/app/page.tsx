@@ -1,189 +1,133 @@
 "use client";
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
-import { Linkedin, Mail, ArrowRight, Github } from "lucide-react";
+import { Linkedin, Mail, ArrowRight, Github, ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main>
+    <main className="relative">
       <Hero />
 
-      {/* Short Dynamic Bio - Identity Section */}
-      <section id="identity" className="container identity-section">
-        <div className="grid grid-cols-12 items-center">
-          <div className="col-span-7 bio-content">
-            <span className="section-label">Identity</span>
-            <h2 className="section-title">Bridging AI & <span className="text-gradient">Real-world</span> Engineering.</h2>
-            <p className="bio-text">
+      {/* Identity Section */}
+      <section id="identity" className="container relative py-32">
+        <div className="absolute top-0 right-0 -z-10 h-64 w-64 rounded-full bg-accent/5 blur-3xl" />
+
+        <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-12">
+          <motion.div
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            className="lg:col-span-7"
+          >
+            <span className="mb-6 inline-block rounded-full bg-accent/10 px-6 py-2 text-[0.7rem] font-black uppercase tracking-[4px] text-accent">Identity</span>
+            <h2 className="mb-8 font-heading text-5xl font-black leading-[1.1] text-text-primary md:text-6xl">
+              Bridging AI & <span className="text-accent underline underline-offset-[12px] decoration-accent/20">Real-world</span> Engineering.
+            </h2>
+            <p className="mb-12 text-xl leading-relaxed text-text-secondary md:text-2xl">
               Specializing in high-performance architectures, I bridge the gap between complex software engineering and intelligent systems. Shipped 4+ production-scale apps with Flutter & Django.
             </p>
-            <div className="btn-group">
-              <Link href="/projects" className="btn-primary">
-                View Portfolio <ArrowRight size={20} />
+            <div className="flex flex-wrap gap-6">
+              <Link href="/projects" className="group flex items-center gap-3 rounded-2xl bg-accent px-10 py-5 text-sm font-black uppercase tracking-widest text-black transition-all hover:-translate-y-1 hover:bg-white hover:shadow-2xl">
+                View Portfolio <ArrowRight size={20} className="transition-transform group-hover:translate-x-1" />
               </Link>
-              <a href="mailto:h.jamalov@ufaz.az" className="btn-secondary">
-                Contact Me
+              <a href="mailto:h.jamalov@ufaz.az" className="flex items-center gap-3 rounded-2xl border border-border bg-white/5 px-10 py-5 text-sm font-black uppercase tracking-widest text-text-primary backdrop-blur-xl transition-all hover:-translate-y-1 hover:bg-white/10">
+                Get in Touch <Mail size={20} />
               </a>
             </div>
-          </div>
+          </motion.div>
 
-          <div className="col-span-5 relative stats-card-wrapper">
-            <motion.div
-              className="card stats-card"
-              initial={{ rotate: 2 }}
-              whileInView={{ rotate: 0 }}
-            >
-              <div className="stats-inner">
-                <h3 className="stats-header">Quick Stats</h3>
-                <div className="stats-grid">
-                  <div className="stat-item">
-                    <p className="stat-label">GPA Score</p>
-                    <p className="stat-value">98 / 100</p>
-                  </div>
-                  <div className="stat-item">
-                    <p className="stat-label">Apps Shipped</p>
-                    <p className="stat-value">4+ Production Apps</p>
-                  </div>
-                  <div className="stat-item">
-                    <p className="stat-label">Research Citations</p>
-                    <p className="stat-value">IEEE Published</p>
-                  </div>
-                </div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            className="relative lg:col-span-5"
+          >
+            <div className="relative rounded-[40px] border border-border bg-surface/40 p-10 shadow-2xl backdrop-blur-2xl transition-transform duration-500 hover:scale-[1.02]">
+              <div className="mb-10 flex items-center justify-between border-b border-border pb-8">
+                <h3 className="font-heading text-2xl font-black">Core Vitals</h3>
+                <div className="rounded-full bg-accent/20 px-3 py-1 text-[0.6rem] font-black uppercase tracking-widest text-accent">Active</div>
               </div>
-            </motion.div>
-          </div>
+
+              <div className="flex flex-col gap-10">
+                <StatItem label="Academic Excellence" value="98 / 100 GPA" sub="UFAZ University" />
+                <StatItem label="Industrial Impact" value="4+ Apps Shipped" sub="Graph Company" />
+                <StatItem label="Research Status" value="IEEE Published" sub="AI & Robotics" />
+              </div>
+
+              {/* Bottom Decoration */}
+              <div className="absolute -bottom-1 -left-1 -right-1 h-[2px] rounded-full bg-gradient-to-r from-transparent via-accent/30 to-transparent" />
+            </div>
+          </motion.div>
         </div>
       </section>
 
       <Skills />
 
-      <footer id="contact" className="container main-footer">
-        <div className="footer-content">
-          <div className="footer-nav">
-            <Link href="/experience" className="footer-btn">Experience</Link>
-            <Link href="/academic" className="footer-btn">Academic</Link>
-            <Link href="/projects" className="footer-btn">Projects</Link>
+      {/* Footer / Connect Section */}
+      <footer id="contact" className="container mt-32 border-t border-border py-24">
+        <div className="flex flex-col items-center justify-between gap-12 lg:flex-row">
+          <div className="flex flex-col gap-6 max-lg:items-center">
+            <div className="flex h-12 w-12 items-center justify-center rounded-[14px] bg-accent text-lg font-black text-black">HJ</div>
+            <p className="max-w-xs text-center text-sm font-bold leading-relaxed text-text-secondary lg:text-left">
+              Building the next generation of intelligent software ecosystems.
+            </p>
           </div>
 
-          <div className="footer-socials">
-            <a href="https://linkedin.com" className="icon-btn" target="_blank"><Linkedin size={18} /></a>
-            <a href="https://github.com" className="icon-btn" target="_blank"><Github size={18} /></a>
-            <a href="mailto:h.jamalov@ufaz.az" className="icon-btn"><Mail size={18} /></a>
+          <div className="flex flex-wrap items-center justify-center gap-4">
+            <FooterNavButton href="/experience" label="Experience" />
+            <FooterNavButton href="/academic" label="Academic" />
+            <FooterNavButton href="/projects" label="Projects" />
+          </div>
+
+          <div className="flex gap-4">
+            <SocialButton href="https://linkedin.com/in/humbat-jamalzadeh" icon={<Linkedin size={20} />} />
+            <SocialButton href="https://github.com/humbatjamalzadeh" icon={<Github size={20} />} />
+            <SocialButton href="mailto:h.jamalov@ufaz.az" icon={<Mail size={20} />} />
           </div>
         </div>
-        <p className="copyright">
-          © 2026 Humbat Jamalzadeh. Built with precision and Next.js.
-        </p>
+
+        <div className="mt-20 flex flex-col items-center justify-between gap-6 border-t border-white/5 pt-10 text-xs font-bold text-text-secondary opacity-50 lg:flex-row">
+          <p>© 2026 Humbat Jamalzadeh. All rights reserved.</p>
+          <p className="flex items-center gap-2">Built with Next.js & Tailwind <ExternalLink size={12} /></p>
+        </div>
       </footer>
-
-      <style jsx>{`
-        /* Bio Section Styles */
-        .identity-section { padding: 80px 0; }
-        .items-center { align-items: center; }
-        .col-span-7 { grid-column: span 7; }
-        .col-span-5 { grid-column: span 5; }
-        .relative { position: relative; }
-
-        .bio-content { padding-right: 2rem; }
-        .bio-text {
-          font-size: 1.25rem;
-          color: var(--text-secondary);
-          line-height: 1.8;
-          margin-bottom: 2.5rem;
-        }
-
-        .btn-group { display: flex; gap: 1rem; }
-
-        /* Stats Card */
-        .stats-card {
-          border-left: 4px solid var(--accent-color);
-          background: var(--surface-color); 
-          padding: 0;
-          border: 1px solid var(--border-color);
-          border-radius: 24px;
-        }
-
-        .stats-inner { padding: 2rem; }
-        .stats-header { margin-bottom: 1.5rem; font-size: 1.2rem; font-weight: 800; }
-        .stats-grid { display: flex; flex-direction: column; gap: 1.5rem; }
-        .stat-label { font-size: 0.7rem; opacity: 0.6; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; font-weight: 800; }
-        .stat-value { font-size: 1.25rem; font-weight: 800; color: var(--text-primary); }
-
-        /* Footer Styles */
-        .main-footer {
-          padding: 80px 0;
-          border-top: 1px solid var(--border-color);
-          margin-top: 100px;
-        }
-
-        .footer-content {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex-wrap: wrap;
-          gap: 2rem;
-        }
-
-        .footer-nav { display: flex; gap: 1rem; }
-
-        .footer-btn {
-          background: var(--surface-color);
-          border: 1px solid var(--border-color);
-          color: var(--text-primary);
-          padding: 0.9rem 1.8rem;
-          border-radius: 14px;
-          font-weight: 700;
-          font-size: 0.9rem;
-          transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-
-        .footer-btn:hover {
-          background: var(--accent-color);
-          color: #000;
-          transform: translateY(-4px);
-          border-color: transparent;
-        }
-
-        .footer-socials { display: flex; gap: 1rem; }
-
-        .icon-btn {
-          width: 48px;
-          height: 48px;
-          background: var(--surface-color);
-          border: 1px solid var(--border-color);
-          border-radius: 14px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          color: var(--text-secondary);
-          transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-
-        .icon-btn:hover {
-          background: var(--surface-hover);
-          color: var(--accent-color);
-          border-color: var(--accent-color);
-          transform: translateY(-4px) scale(1.1);
-        }
-
-        .copyright {
-          margin-top: 3rem;
-          text-align: center;
-          color: var(--text-secondary);
-          font-size: 0.85rem;
-          opacity: 0.5;
-        }
-
-        @media (max-width: 768px) {
-          .col-span-7, .col-span-5 { grid-column: span 12; }
-          .bio-content { padding-right: 0; margin-bottom: 3rem; }
-          .footer-content { flex-direction: column; align-items: center; }
-          .footer-nav { flex-direction: column; width: 100%; }
-          .footer-btn { text-align: center; }
-        }
-      `}</style>
     </main>
+  );
+}
+
+function StatItem({ label, value, sub }: { label: string, value: string, sub: string }) {
+  return (
+    <div className="flex flex-col gap-1.5">
+      <p className="text-[0.65rem] font-black uppercase tracking-[2.5px] text-text-secondary opacity-60">{label}</p>
+      <div className="flex items-baseline gap-3">
+        <p className="font-heading text-2xl font-black text-text-primary">{value}</p>
+        <span className="text-[0.65rem] font-bold text-accent opacity-80">{sub}</span>
+      </div>
+    </div>
+  );
+}
+
+function FooterNavButton({ href, label }: { href: string, label: string }) {
+  return (
+    <Link
+      href={href}
+      className="rounded-2xl border border-border bg-surface/50 px-8 py-3.5 text-[0.75rem] font-black uppercase tracking-widest text-text-secondary transition-all hover:-translate-y-1 hover:border-accent hover:bg-accent hover:text-black"
+    >
+      {label}
+    </Link>
+  );
+}
+
+function SocialButton({ href, icon }: { href: string, icon: any }) {
+  return (
+    <Link
+      href={href}
+      target="_blank"
+      className="flex h-12 w-12 items-center justify-center rounded-2xl border border-border bg-surface/50 text-text-secondary transition-all hover:-translate-y-1 hover:scale-110 hover:border-accent hover:text-accent"
+    >
+      {icon}
+    </Link>
   );
 }

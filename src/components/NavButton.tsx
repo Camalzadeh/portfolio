@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import { Plus } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { NavSection } from "@/types/nav";
@@ -15,26 +14,28 @@ interface NavButtonProps {
 
 export function NavButton({ nav, isCollapsed, isExpanded, isActive, onToggle, children }: NavButtonProps) {
     return (
-        <div className="menu-group">
+        <div className="relative w-full">
             <button
-                className={`menu-header ${isActive ? 'active' : ''} ${isExpanded ? 'expanded' : ''}`}
+                className={`group flex w-full items-center justify-between rounded-2xl p-[0.8rem_1rem] transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:bg-surface-hover ${isActive ? 'bg-surface-color text-text-primary' : 'text-text-secondary'} ${isCollapsed ? 'mx-auto h-[54px] w-[54px] justify-center rounded-full p-0' : ''}`}
                 onClick={onToggle}
             >
-                <div className="group-left">
-                    <div className={`icon-wrapper ${isActive ? 'active' : ''}`}>
+                <div className={`flex items-center gap-3 font-bold ${isCollapsed ? 'p-0 gap-0' : ''}`}>
+                    <div className={`flex h-[38px] w-[38px] items-center justify-center rounded-[10px] bg-surface-hover transition-all duration-300 ${isActive ? 'bg-accent text-black shadow-[0_0_15px_var(--accent-glow)]' : ''}`}>
                         {nav.icon}
                     </div>
-                    {!isCollapsed && <span className="item-title">{nav.title}</span>}
+                    {!isCollapsed && <span className="text-[0.9rem] tracking-tight">{nav.title}</span>}
                 </div>
                 {!isCollapsed && (
                     <motion.div
                         animate={{ rotate: isExpanded ? 45 : 0 }}
-                        className="expand-arrow"
+                        className={`flex h-4 items-center justify-center text-text-secondary opacity-50 transition-opacity duration-300 group-hover:opacity-100 group-hover:text-accent ${isExpanded ? 'opacity-100 text-accent' : ''}`}
                     >
                         <Plus size={16} />
                     </motion.div>
                 )}
-                {isActive && <div className="active-glow" />}
+                {isActive && !isCollapsed && (
+                    <div className="absolute left-0 top-1/2 h-5 w-1 -translate-y-1/2 rounded-[0_4px_4px_0] bg-accent shadow-[0_0_15px_var(--accent-glow)]" />
+                )}
             </button>
 
             <AnimatePresence>
@@ -44,78 +45,12 @@ export function NavButton({ nav, isCollapsed, isExpanded, isActive, onToggle, ch
                         animate={{ height: "auto", opacity: 1 }}
                         exit={{ height: 0, opacity: 0 }}
                         transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-                        className="menu-sub"
+                        className="ml-[19px] mt-1 flex flex-col gap-1 overflow-hidden border-l border-border py-2 pl-3"
                     >
                         {children}
                     </motion.div>
                 )}
             </AnimatePresence>
-            <style jsx>{`
-                .menu-group {
-                    width: 100%;
-                    position: relative;
-                }
-
-                .icon-wrapper {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 38px;
-                    height: 38px;
-                    border-radius: 10px;
-                    background: var(--surface-hover);
-                    transition: all 0.3s;
-                }
-
-                .icon-wrapper.active {
-                    background: var(--accent-color);
-                    color: #000;
-                    box-shadow: 0 0 15px var(--accent-glow);
-                }
-
-                .item-title {
-                    font-size: 0.9rem;
-                    font-weight: 700;
-                    letter-spacing: -0.01em;
-                }
-
-                .expand-arrow {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    color: var(--text-secondary);
-                    opacity: 0.5;
-                    transition: all 0.3s;
-                }
-
-                .menu-header:hover .expand-arrow,
-                .menu-header.expanded .expand-arrow {
-                    opacity: 1;
-                    color: var(--accent-color);
-                }
-
-                .menu-sub {
-                    overflow: hidden;
-                    display: flex;
-                    flex-direction: column;
-                    gap: 4px;
-                    padding: 8px 0 8px 12px;
-                    margin-left: 19px;
-                    border-left: 1px solid var(--border-color);
-                }
-
-                .active-glow {
-                    position: absolute;
-                    left: 0;
-                    top: 50%;
-                    transform: translateY(-50%);
-                    width: 4px;
-                    height: 20px;
-                    background: var(--accent-color);
-                    border-radius: 0 4px 4px 0;
-                    box-shadow: 0 0 15px var(--accent-glow);
-                }
-            `}</style>
         </div>
     );
 }

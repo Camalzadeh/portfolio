@@ -1,11 +1,19 @@
 "use client";
 import { motion } from "framer-motion";
-import { FileText, ChevronRight, Briefcase, GraduationCap, Award, User, Star, Clock, MapPin, Layers } from "lucide-react";
+import { Briefcase, Award, User, Star, Clock, MapPin, Layers, ChevronRight } from "lucide-react";
+
+const hexToRgb = (hex: string) => {
+  const r = parseInt(hex.slice(1, 3), 16);
+  const g = parseInt(hex.slice(3, 5), 16);
+  const b = parseInt(hex.slice(5, 7), 16);
+  return `${r}, ${g}, ${b}`;
+};
 
 interface MediaItem {
   type: string;
   url_text?: string | null;
   title: string;
+  path?: string | null;
 }
 
 interface Item {
@@ -26,289 +34,113 @@ interface Item {
 interface ItemCardProps {
   item: Item;
   index: number;
+  colorIndex?: number;
   isSelected?: boolean;
   onSelect: (item: Item) => void;
-  isLast?: boolean;
 }
 
-export default function ItemCard({ item, index, isSelected, onSelect, isLast }: ItemCardProps) {
-  // Dynamic color palette for variety
+export default function ItemCard({ item, index, colorIndex, isSelected, onSelect }: ItemCardProps) {
   const colors = [
-    { primary: "#2dd4bf", secondary: "#14b8a6", glow: "rgba(45, 212, 191, 0.2)" }, // Cyan
-    { primary: "#818cf8", secondary: "#6366f1", glow: "rgba(129, 140, 248, 0.2)" }, // Indigo
-    { primary: "#fb7185", secondary: "#f43f5e", glow: "rgba(251, 113, 133, 0.2)" }, // Rose
-    { primary: "#fbbf24", secondary: "#f59e0b", glow: "rgba(251, 191, 36, 0.2)" },  // Amber
+    { primary: "#2dd4bf", glow: "rgba(45, 212, 191, 0.5)" }, // Cyan - Innovator
+    { primary: "#818cf8", glow: "rgba(129, 140, 248, 0.5)" }, // Indigo - Academic
+    { primary: "#fb7185", glow: "rgba(251, 113, 133, 0.5)" }, // Rose - Project
+    { primary: "#fbbf24", glow: "rgba(251, 191, 36, 0.5)" },  // Amber - Achievement
   ];
 
-  const color = colors[index % colors.length];
+  const themeColor = colors[(colorIndex !== undefined ? colorIndex : index) % colors.length];
+  const cardAccentRgb = hexToRgb(themeColor.primary);
 
   const metaFields = [
     { label: "Organization", value: item.organization, icon: <Briefcase size={12} /> },
-    { label: "Role/Position", value: item.role || item.position, icon: <User size={12} /> },
+    { label: "Role", value: item.role || item.position, icon: <User size={12} /> },
     { label: "Award", value: item.award, icon: <Award size={12} /> },
     { label: "Score", value: item.score, icon: <Star size={12} /> },
     { label: "Duration", value: item.duration, icon: <Clock size={12} /> },
     { label: "Location", value: item.place, icon: <MapPin size={12} /> },
-  ];
+  ].filter(f => f.value);
+
+  const displayDate = typeof item.date === 'string' ? item.date : (item.date.year || '');
 
   return (
     <motion.div
-      id={item.id}
-      initial={{ opacity: 0, scale: 0.95 }}
-      whileInView={{ opacity: 1, scale: 1 }}
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      whileHover={{ y: -5 }}
-      transition={{ type: "spring", stiffness: 300 }}
-      className={`luxury-card-wrapper ${isSelected ? 'active' : ''}`}
+      transition={{ delay: index * 0.05 }}
+      whileHover={{ scale: 1.01 }}
+      className={`group relative mb-4 cursor-pointer transition-all duration-500 last:mb-0`}
       onClick={() => onSelect(item)}
-      style={{ '--card-accent': color.primary, '--card-glow': color.glow } as any}
+      style={{
+        '--card-accent': themeColor.primary,
+        '--card-glow': themeColor.glow,
+        '--card-accent-rgb': cardAccentRgb
+      } as any}
     >
-      <div className="card-glass-base">
-        {/* Colorful Gradient Bar */}
-        <div className="accent-bar" />
+      {/* Selection Ring */}
+      <AnimatePresence>
+        {isSelected && (
+          <motion.div
+            layoutId="selection-ring"
+            className="absolute -inset-[2px] rounded-[22px] bg-gradient-to-r from-[var(--card-accent)] to-transparent opacity-50 blur-sm"
+          />
+        )}
+      </AnimatePresence>
 
-        <div className="card-content">
-          <header className="card-header">
-            <div className="date-tag">
-              {typeof item.date === 'string' ? item.date : item.date.year}
-            </div>
-            {isSelected && <div className="status-dot-active" />}
-          </header>
+      <div className={`relative flex flex-col overflow-hidden rounded-[20px] border transition-all duration-400 ${isSelected ? 'border-[var(--card-accent)] bg-surface shadow-[0_20px_60px_rgba(0,0,0,0.4)]' : 'border-border bg-surface/40 hover:bg-surface/60 backdrop-blur-xl'}`}>
 
-          <h3 className="card-title">{item.title}</h3>
+        <div className="flex">
+          {/* Accent vertical line */}
+          <div className={`w-1.5 flex-shrink-0 transition-all duration-500 ${isSelected ? 'bg-[var(--card-accent)]' : 'bg-border group-hover:bg-[var(--card-accent)] group-hover:opacity-40'}`} />
 
-          <div className="meta-compact-grid">
-            {metaFields.map((field, i) => (
-              <div key={i} className={`meta-item ${!field.value ? 'empty' : 'filled'}`}>
-                <span className="meta-icon">{field.icon}</span>
-                <div className="meta-info">
-                  <span className="meta-label">{field.label}</span>
-                  <span className="meta-value">{field.value || "---"}</span>
+          <div className="flex-1 p-6 md:p-8">
+            <header className="mb-4 flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <span className="rounded-full border border-[var(--card-accent)]/20 bg-[var(--card-accent)]/5 px-4 py-1 text-[0.65rem] font-black uppercase tracking-widest text-[var(--card-accent)]">
+                  {displayDate}
+                </span>
+              </div>
+              {isSelected && <div className="h-2 w-2 animate-pulse rounded-full bg-[var(--card-accent)] shadow-[0_0_10px_var(--card-accent)]" />}
+            </header>
+
+            <h3 className={`mb-4 text-xl font-bold leading-tight tracking-tight transition-colors md:text-2xl ${isSelected ? 'text-text-primary' : 'text-text-primary/90 group-hover:text-text-primary'}`}>
+              {item.title}
+            </h3>
+
+            {/* Meta Grid Selection-Dependent */}
+            <div className={`mb-6 grid grid-cols-2 gap-4 transition-all duration-500 ${isSelected ? 'opacity-100 max-h-[500px]' : 'opacity-60 grayscale group-hover:grayscale-0'}`}>
+              {metaFields.map((field, i) => (
+                <div key={i} className="flex flex-col gap-1.5">
+                  <div className="flex items-center gap-2 text-[var(--card-accent)]">
+                    {field.icon}
+                    <span className="text-[0.55rem] font-bold uppercase tracking-widest opacity-60">{field.label}</span>
+                  </div>
+                  <span className="text-sm font-bold text-text-primary line-clamp-1">{field.value}</span>
                 </div>
-              </div>
-            ))}
-          </div>
-
-          <p className="card-description">{item.description}</p>
-
-          <footer className="card-footer">
-            {item.media && item.media.length > 0 && (
-              <div className="media-counter">
-                <Layers size={12} />
-                <span>{item.media.length} Assets</span>
-              </div>
-            )}
-            <div className="card-action">
-              {isSelected ? 'Viewing Project' : 'Click to Explore'}
+              ))}
             </div>
-          </footer>
+
+            <p className={`line-clamp-3 text-base leading-relaxed transition-opacity duration-500 ${isSelected ? 'text-text-secondary opacity-100' : 'text-text-secondary opacity-70 group-hover:opacity-100'}`}>
+              {item.description}
+            </p>
+
+            <footer className={`mt-8 flex items-center justify-between border-t border-border pt-6 transition-all duration-500 ${isSelected ? 'opacity-100' : 'opacity-40 group-hover:opacity-100'}`}>
+              <div className="flex items-center gap-2 text-[0.7rem] font-bold text-text-secondary uppercase tracking-widest">
+                <Layers size={14} className="text-[var(--card-accent)]" />
+                {item.media?.length || 0} Assets
+              </div>
+              <div className="flex items-center gap-1 text-[0.7rem] font-black uppercase tracking-widest text-[var(--card-accent)] transition-transform group-hover:translate-x-1">
+                {isSelected ? 'Viewing Now' : 'Click to Explore'}
+                <ChevronRight size={14} />
+              </div>
+            </footer>
+          </div>
         </div>
 
-        {/* Background glow effects */}
-        <div className="dynamic-glow" />
+        {/* Dynamic Glow Background */}
+        <div className={`absolute -right-20 -top-20 z-0 h-64 w-64 rounded-full bg-[var(--card-accent)] blur-[100px] pointer-events-none transition-opacity duration-1000 ${isSelected ? 'opacity-10' : 'opacity-0 group-hover:opacity-5'}`} />
       </div>
-
-      <style jsx>{`
-        .luxury-card-wrapper {
-          cursor: pointer;
-          position: relative;
-          margin-bottom: 2rem;
-          transition: all 0.5s ease;
-        }
-
-        .card-glass-base {
-          background: rgba(15, 15, 20, 0.7);
-          backdrop-filter: blur(25px);
-          border: 1px solid rgba(255, 255, 255, 0.05);
-          border-radius: 20px;
-          overflow: hidden;
-          position: relative;
-          display: flex;
-          box-shadow: 0 10px 40px rgba(0,0,0,0.3);
-          transition: all 0.4s;
-        }
-
-        .luxury-card-wrapper.active .card-glass-base {
-          border-color: var(--card-accent);
-          background: rgba(var(--surface-color-rgb), 0.85);
-          box-shadow: 0 20px 60px rgba(0,0,0,0.5);
-          transform: scale(1.02);
-        }
-
-        .accent-bar {
-          width: 5px;
-          background: linear-gradient(180deg, var(--card-accent), transparent);
-          flex-shrink: 0;
-          opacity: 0.6;
-        }
-
-        .luxury-card-wrapper.active .accent-bar {
-          opacity: 1;
-          width: 6px;
-        }
-
-        .card-content {
-          padding: 1.5rem;
-          flex: 1;
-          z-index: 2;
-        }
-
-        .card-header {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          margin-bottom: 0.75rem;
-        }
-
-        .date-tag {
-          font-size: 0.7rem;
-          font-weight: 900;
-          color: var(--card-accent);
-          letter-spacing: 1.5px;
-          text-transform: uppercase;
-          background: rgba(var(--card-accent), 0.1);
-          padding: 4px 10px;
-          border-radius: 6px;
-        }
-
-        .status-dot-active {
-          width: 8px;
-          height: 8px;
-          background: var(--card-accent);
-          border-radius: 50%;
-          box-shadow: 0 0 10px var(--card-accent);
-          animation: pulse 2s infinite;
-        }
-
-        @keyframes pulse {
-          0% { opacity: 0.5; transform: scale(1); }
-          50% { opacity: 1; transform: scale(1.2); }
-          100% { opacity: 0.5; transform: scale(1); }
-        }
-
-        .card-title {
-          font-size: 1.15rem;
-          font-weight: 800;
-          color: #fff;
-          margin-bottom: 1.25rem;
-          letter-spacing: -0.01em;
-          line-height: 1.2;
-        }
-
-        .meta-compact-grid {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          gap: 0.6rem;
-          margin-bottom: 1.5rem;
-        }
-
-        .meta-item {
-          display: flex;
-          gap: 10px;
-          padding: 8px;
-          border-radius: 12px;
-          background: rgba(255, 255, 255, 0.02);
-          border: 1px solid rgba(255, 255, 255, 0.03);
-          transition: all 0.3s;
-        }
-
-        .meta-item.filled {
-          background: rgba(255, 255, 255, 0.04);
-        }
-
-        .meta-item.empty {
-          opacity: 0.3;
-          background: transparent;
-        }
-
-        .meta-icon {
-          color: var(--card-accent);
-          opacity: 0.7;
-          display: flex;
-          align-items: center;
-        }
-
-        .meta-info {
-          display: flex;
-          flex-direction: column;
-        }
-
-        .meta-label {
-          font-size: 0.55rem;
-          text-transform: uppercase;
-          font-weight: 800;
-          color: var(--text-secondary);
-          letter-spacing: 0.5px;
-        }
-
-        .meta-value {
-          font-size: 0.75rem;
-          font-weight: 700;
-          color: rgba(255,255,255,0.9);
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
-        }
-
-        .card-description {
-          font-size: 0.8rem;
-          line-height: 1.6;
-          color: var(--text-secondary);
-          margin-bottom: 1.5rem;
-          opacity: 0.8;
-          word-break: break-word;
-        }
-
-        .card-footer {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding-top: 1rem;
-          border-top: 1px solid rgba(255, 255, 255, 0.05);
-        }
-
-        .media-counter {
-          display: flex;
-          align-items: center;
-          gap: 6px;
-          font-size: 0.65rem;
-          font-weight: 800;
-          color: var(--text-secondary);
-        }
-
-        .card-action {
-          font-size: 0.65rem;
-          font-weight: 900;
-          text-transform: uppercase;
-          color: var(--card-accent);
-          letter-spacing: 1px;
-        }
-
-        .dynamic-glow {
-          position: absolute;
-          top: -20%;
-          right: -20%;
-          width: 50%;
-          height: 50%;
-          background: var(--card-glow);
-          filter: blur(60px);
-          border-radius: 50%;
-          z-index: 1;
-          opacity: 0.2;
-          pointer-events: none;
-        }
-
-        .luxury-card-wrapper.active .dynamic-glow {
-          opacity: 0.5;
-          width: 70%;
-          height: 70%;
-        }
-
-        @media (max-width: 768px) {
-          .meta-compact-grid { grid-template-columns: 1fr; }
-          .card-title { font-size: 1rem; }
-        }
-      `}</style>
     </motion.div>
   );
 }
+
+import { AnimatePresence } from "framer-motion";

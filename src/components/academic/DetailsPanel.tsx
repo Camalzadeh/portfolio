@@ -1,13 +1,12 @@
 "use client";
 import { motion, AnimatePresence } from "framer-motion";
 import { Info, ShieldCheck, MapPin } from "lucide-react";
+import { useLanguage } from "@/context/LanguageContext";
 
 interface DetailsPanelProps {
   selectedItem: any;
   displayData: any;
 }
-
-import { useLanguage } from "@/context/LanguageContext";
 
 export function DetailsPanel({ selectedItem, displayData }: DetailsPanelProps) {
   const { t } = useLanguage();
@@ -19,118 +18,39 @@ export function DetailsPanel({ selectedItem, displayData }: DetailsPanelProps) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
-          className="item-details-panel"
+          className="mt-16 rounded-[24px] border border-border bg-surface-color p-10 shadow-[0_20px_50px_rgba(0,0,0,0.1)] backdrop-blur-[20px]"
         >
-          <div className="details-header">
-            <h2 className="details-title">
+          <div className="mb-8 flex items-center justify-between border-b border-border pb-6">
+            <h2 className="m-0 flex items-center gap-3 text-[1.25rem] font-black text-text-primary">
               <Info size={20} /> {t('academic.insight')}
             </h2>
-            <span className="verify-badge">
+            <span className="flex items-center gap-1.5 rounded-full bg-accent/10 px-3 py-1.5 text-[0.65rem] font-extrabold uppercase tracking-widest text-accent">
               <ShieldCheck size={14} /> {t('academic.verified')}
             </span>
           </div>
 
-          <div className="details-main">
-            <div className="desc-box">
+          <div className="flex flex-col">
+            <div className="mb-10 text-[1rem] leading-relaxed text-text-secondary">
               <p>{displayData.full_detail || displayData.description}</p>
             </div>
 
             {displayData.metadata && (
-              <div className="metadata-grid">
+              <div className="grid grid-cols-2 gap-6">
                 {Object.entries(displayData.metadata).map(([k, v]: [string, any]) => (
-                  <div key={k} className="meta-cell">
-                    <span className="cell-label">{k}</span>
-                    <span className="cell-val">{String(v)}</span>
+                  <div key={k} className="flex flex-col gap-1.5">
+                    <span className="text-[0.6rem] font-extrabold uppercase tracking-widest text-text-secondary opacity-60">{k}</span>
+                    <span className="flex items-center gap-1.5 text-[0.9rem] font-bold text-text-primary">{String(v)}</span>
                   </div>
                 ))}
-                <div className="meta-cell">
-                  <span className="cell-label">{t('academic.location')}</span>
-                  <span className="cell-val"><MapPin size={12} /> {displayData.organization}</span>
+                <div className="flex flex-col gap-1.5">
+                  <span className="text-[0.6rem] font-extrabold uppercase tracking-widest text-text-secondary opacity-60">{t('academic.location')}</span>
+                  <span className="flex items-center gap-1.5 text-[0.9rem] font-bold text-text-primary">
+                    <MapPin size={12} /> {displayData.organization}
+                  </span>
                 </div>
               </div>
             )}
           </div>
-          <style jsx>{`
-            .item-details-panel {
-              margin-top: 4rem;
-              background: var(--surface-color);
-              border: 1px solid var(--border-color);
-              border-radius: 24px;
-              padding: 2.5rem;
-              backdrop-filter: blur(20px);
-              box-shadow: 0 20px 50px rgba(0,0,0,0.1);
-            }
-
-            .details-header {
-              display: flex;
-              justify-content: space-between;
-              align-items: center;
-              margin-bottom: 2rem;
-              padding-bottom: 1.5rem;
-              border-bottom: 1px solid var(--border-color);
-            }
-
-            .details-title {
-              display: flex;
-              align-items: center;
-              gap: 12px;
-              font-size: 1.25rem;
-              font-weight: 900;
-              color: var(--text-primary);
-              margin: 0;
-            }
-
-            .verify-badge {
-              display: flex;
-              align-items: center;
-              gap: 6px;
-              font-size: 0.65rem;
-              font-weight: 800;
-              background: rgba(var(--accent-color-rgb), 0.1);
-              color: var(--accent-color);
-              padding: 6px 12px;
-              border-radius: 100px;
-              text-transform: uppercase;
-              letter-spacing: 1px;
-            }
-
-            .desc-box p {
-              font-size: 1rem;
-              line-height: 1.8;
-              color: var(--text-secondary);
-              margin-bottom: 2.5rem;
-            }
-
-            .metadata-grid {
-              display: grid;
-              grid-template-columns: 1fr 1fr;
-              gap: 1.5rem;
-            }
-
-            .meta-cell {
-              display: flex;
-              flex-direction: column;
-              gap: 6px;
-            }
-
-            .cell-label {
-              font-size: 0.6rem;
-              font-weight: 800;
-              text-transform: uppercase;
-              letter-spacing: 1.5px;
-              color: var(--text-secondary);
-              opacity: 0.6;
-            }
-
-            .cell-val {
-              font-size: 0.9rem;
-              font-weight: 700;
-              color: var(--text-primary);
-              display: flex;
-              align-items: center;
-              gap: 6px;
-            }
-          `}</style>
         </motion.div>
       )}
     </AnimatePresence>

@@ -1,40 +1,30 @@
 "use client";
 import { useParams } from "next/navigation";
 import data from "@/data/portfolio.json";
-import ItemCard from "@/components/ItemCard";
-import IntegratedPreview from "@/components/IntegratedPreview";
-import Link from "next/link";
-import { ChevronLeft } from "lucide-react";
-import { useState } from "react";
+import PortfolioDetailLayout from "@/components/PortfolioDetailLayout";
+import { useLanguage } from "@/context/LanguageContext";
 
-export default function ProjectDetailPage() {
+export default function ProjectsDetailPage() {
     const { id } = useParams();
+    const { t } = useLanguage();
     const projectsData = data.projects as any;
-    const item = projectsData.items.find((i: any) => i.id === id);
 
-    const [selectedItem, setSelectedItem] = useState<any>(item || null);
+    const items = [...projectsData.items].sort((a: any, b: any) => (b.sort_date || '').localeCompare(a.sort_date || ''));
+    const initialItem = items.find(i => i.id === id) || null;
 
-    if (!item) return <div>Not Found</div>;
+    const categories = [{
+        id: 'all-projects',
+        title: t('projects.title_main'),
+        items: items
+    }];
 
     return (
-        <main className="container page-header">
-            <Link href="/projects" className="btn-secondary" style={{ marginBottom: '2rem' }}>
-                <ChevronLeft size={16} /> Back to Projects
-            </Link>
-
-            <div className="pillar-layout">
-                <div>
-                    <ItemCard
-                        item={item}
-                        index={0}
-                        isSelected={true}
-                        onSelect={setSelectedItem}
-                    />
-                </div>
-                <aside className="preview-sticky">
-                    <IntegratedPreview item={selectedItem} />
-                </aside>
-            </div>
-        </main>
+        <PortfolioDetailLayout
+            categoryLabel={t('nav.projects')}
+            titleMain={t('projects.title_main')}
+            titleSub={t('projects.title_sub')}
+            categories={categories}
+            initialSelectedItem={initialItem}
+        />
     );
 }
