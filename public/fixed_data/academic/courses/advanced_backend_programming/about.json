@@ -1,22 +1,29 @@
 {
     "id": "advanced-backend-programming",
-    "title": "Advanced backend programming",
+    "title": "Advanced Backend Programming with Java",
     "path": "fixed_data/academic/courses/advanced_backend_programming",
-    "organization": "Various",
-    "description": "Detailed documentation and proof for Advanced backend programming.",
+    "organization": "Mentorship by Ilkin Mehdiyev (Senior Software Engineer)",
+    "description": "Selected through a highly competitive process for an exclusive, advanced-level backend engineering program. Under the direct mentorship of Senior Engineer Ilkin Mehdiyev, mastered industry-standard backend development using Java and Spring Boot. The curriculum emphasized production-grade API design, scalable architecture, and real-world software engineering practices. Recognized publicly as a standout participant within a select group of high-potential developers.",
     "type": "academic",
     "subtype": "courses",
-    "position": null,
-    "award": null,
-    "score": null,
-    "duration": null,
-    "place": null,
+    "position": "Participant",
+    "award": "Selective Mentorship Achievement",
+    "score": "Recognized Excellence",
+    "duration": "9 months",
+    "place": "Online",
     "date": {
         "year": 2024,
         "month": null,
         "day": null
     },
-    "media": [],
+    "media": [
+        {
+            "type": "url",
+            "url_text": "https://www.linkedin.com/posts/ilkin-mehdiyev_salam-ke%C3%A7%C9%99n-il-ba%C5%9Flad%C4%B1%C4%9F%C4%B1m%C4%B1z-advanced-activity-7304750370520498176-ym3Q?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEO9jfgB8fUImi3P1BZd2X2GM9FvYt4Kbt0",
+            "title": "Ilkin Mehdiyev Advanced Backend Engineering",
+            "path": null
+        }
+    ],
     "tagIds": [],
     "data_folder": "fixed_data/academic/courses/advanced_backend_programming"
 }

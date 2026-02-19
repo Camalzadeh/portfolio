@@ -2,31 +2,31 @@
     "id": "oracle",
     "title": "Oracle",
     "path": "fixed_data/academic/certifications/oracle",
-    "organization": "Various",
-    "description": "Detailed documentation and proof for Oracle.",
+    "organization": "Oracle",
+    "description": "Currently pursuing professional certification in MySQL through Oracle's academic path. Completed initial attempts for the MySQL Implementation Associate exam, scoring 54/100 (Passing Score: 60/100), and the MySQL 8.0 Database Administrator exam, scoring 20/100 (Passing Score: 62/100). Actively reinforcing technical expertise in database management and architecture in preparation for the upcoming retakes.",
     "type": "academic",
     "subtype": "certifications",
-    "position": null,
+    "position": "MySQL Database Administrator",
     "award": null,
-    "score": null,
+    "score": "In Progress / Attempted",
     "duration": null,
-    "place": null,
+    "place": "Online",
     "date": {
-        "year": 2024,
-        "month": null,
+        "year": 2025,
+        "month": 7,
         "day": null
     },
     "media": [
         {
             "type": "pdf",
             "url_text": null,
-            "title": "MySQL Implementation Associate - Fail",
+            "title": "MySQL Implementation Associate",
             "path": "fixed_data/academic/certifications/oracle/MySQL Implementation Associate - Fail.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "ScoreReport.Pdf MySQL 8.0 Database Administrator - Fail",
+            "title": "ScoreReport.Pdf MySQL 8.0 Database Administrator",
             "path": "fixed_data/academic/certifications/oracle/ScoreReport.pdf MySQL 8.0 Database Administrator - Fail.pdf"
         }
     ],

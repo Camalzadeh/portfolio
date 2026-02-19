@@ -10,10 +10,10 @@
     "award": "Basic",
     "score": null,
     "duration": null,
-    "place": null,
+    "place": "Online",
     "date": {
         "year": 2024,
-        "month": null,
+        "month": 8,
         "day": null
     },
     "media": [

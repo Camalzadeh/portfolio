@@ -3,25 +3,25 @@
     "title": "Testdome",
     "path": "fixed_data/academic/certifications/testdome",
     "organization": "Various",
-    "description": "Detailed documentation and proof for Testdome.",
+    "description": "Successfully earned a PHP certification from Testdome, demonstrating proficiency in back-end development and problem-solving. Achieved a ranking in the Top 25% of all test-takers, validating strong skills in server-side logic, data handling, and efficient coding practices.",
     "type": "academic",
     "subtype": "certifications",
-    "position": null,
-    "award": null,
-    "score": null,
+    "position": "PHP Developer",
+    "award": "Top 25% Merit",
+    "score": "Top 25%",
     "duration": null,
-    "place": null,
+    "place": "Online",
     "date": {
-        "year": 2024,
-        "month": null,
+        "year": 2025,
+        "month": 12,
         "day": null
     },
     "media": [
         {
-            "type": "mhtml",
-            "url_text": null,
-            "title": "TestDome Certificate For Humbat Jamalov   TestDome",
-            "path": "fixed_data/academic/certifications/testdome/TestDome certificate for Humbat Jamalov _ TestDome.mhtml"
+            "type": "url",
+            "url_text": "https://www.testdome.com/certificates/763514d18bc74bf6a1f657cbdcd45503",
+            "title": "PHP certificate",
+            "path": null
         }
     ],
     "tagIds": [],

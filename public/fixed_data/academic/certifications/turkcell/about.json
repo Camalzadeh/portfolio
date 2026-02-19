@@ -3,17 +3,17 @@
     "title": "Turkcell",
     "path": "fixed_data/academic/certifications/turkcell",
     "organization": "Various",
-    "description": "Detailed documentation and proof for Turkcell.",
+    "description": "Completed a comprehensive web development curriculum through Turkcell’s 'Geleceği Yazanlar' initiative. Successfully mastered foundational and intermediate concepts across the Web Programming 101 and 201 series, covering the essential building blocks of modern web technologies, front-end architecture, and development workflows.",
     "type": "academic",
     "subtype": "certifications",
-    "position": null,
-    "award": null,
-    "score": null,
+    "position": "Web Developer",
+    "award": "Certificate of Completion",
+    "score": "Passed",
     "duration": null,
-    "place": null,
+    "place": "Online",
     "date": {
         "year": 2024,
-        "month": null,
+        "month": 8,
         "day": null
     },
     "media": [
