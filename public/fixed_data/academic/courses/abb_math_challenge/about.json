@@ -20,7 +20,7 @@
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Certificate of Participation",
+            "title": "Participation",
             "path": "fixed_data/academic/courses/abb_math_challenge/participation.pdf"
         },
         {
@@ -30,6 +30,10 @@
             "path": null
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "math",
+        "olympiad",
+        "algorithms"
+    ],
     "data_folder": "fixed_data/academic/courses/abb_math_challenge"
 }

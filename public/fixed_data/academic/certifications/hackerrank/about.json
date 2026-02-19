@@ -42,6 +42,11 @@
             "path": "fixed_data/academic/certifications/hackerrank/hackerrank_problem_solving_basic certificate.pdf"
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "c_sharp",
+        "javascript",
+        "java",
+        "algorithms"
+    ],
     "data_folder": "fixed_data/academic/certifications/hackerrank"
 }

@@ -30,6 +30,11 @@
             "path": "fixed_data/academic/certifications/turkcell/Humbet Camalov-Web Programlama201.pdf"
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "html",
+        "css",
+        "js",
+        "web"
+    ],
     "data_folder": "fixed_data/academic/certifications/turkcell"
 }

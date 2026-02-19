@@ -1,0 +1,294 @@
+{
+    "tagTypes": [
+        {
+            "id": "languages",
+            "name": "Languages",
+            "icon": "code",
+            "color": "#2dd4bf"
+        },
+        {
+            "id": "frameworks",
+            "name": "Frameworks",
+            "icon": "layers",
+            "color": "#818cf8"
+        },
+        {
+            "id": "databases",
+            "name": "Databases",
+            "icon": "database",
+            "color": "#fb7185"
+        },
+        {
+            "id": "cloud_infra",
+            "name": "Cloud & Infrastructure",
+            "icon": "server",
+            "color": "#fbbf24"
+        },
+        {
+            "id": "ai_ml",
+            "name": "AI & Intelligence",
+            "icon": "terminal",
+            "color": "#e879f9"
+        },
+        {
+            "id": "academic_research",
+            "name": "Academic & Research",
+            "icon": "palette",
+            "color": "#94a3b8"
+        },
+        {
+            "id": "other",
+            "name": "Tools",
+            "icon": "terminal",
+            "color": "#475569"
+        }
+    ],
+    "tags": [
+        {
+            "id": "flutter",
+            "name": "Flutter",
+            "type": "frameworks",
+            "path": "tags/flutter.jpg"
+        },
+        {
+            "id": "dart",
+            "name": "Dart",
+            "type": "languages",
+            "path": "tags/dart.png"
+        },
+        {
+            "id": "django",
+            "name": "Django",
+            "type": "frameworks",
+            "path": "tags/django.svg"
+        },
+        {
+            "id": "python",
+            "name": "Python",
+            "type": "languages",
+            "path": "tags/python.png"
+        },
+        {
+            "id": "react",
+            "name": "React",
+            "type": "frameworks",
+            "path": "tags/react.png"
+        },
+        {
+            "id": "nextjs",
+            "name": "Next.js",
+            "type": "frameworks",
+            "path": "tags/next.svg"
+        },
+        {
+            "id": "postgresql",
+            "name": "PostgreSQL",
+            "type": "databases",
+            "path": "tags/postgresql.png"
+        },
+        {
+            "id": "docker",
+            "name": "Docker",
+            "type": "cloud_infra",
+            "path": "tags/docker.svg"
+        },
+        {
+            "id": "javascript",
+            "name": "JavaScript",
+            "type": "languages",
+            "path": "tags/js.png"
+        },
+        {
+            "id": "html",
+            "name": "HTML",
+            "type": "languages",
+            "path": "tags/html.png"
+        },
+        {
+            "id": "css",
+            "name": "CSS",
+            "type": "languages",
+            "path": "tags/css.png"
+        },
+        {
+            "id": "php",
+            "name": "PHP",
+            "type": "languages",
+            "path": "tags/php.png"
+        },
+        {
+            "id": "mysql",
+            "name": "MySQL",
+            "type": "databases",
+            "path": "tags/mysql.png"
+        },
+        {
+            "id": "oracle",
+            "name": "Oracle",
+            "type": "databases",
+            "path": "tags/oracle.png"
+        },
+        {
+            "id": "c",
+            "name": "C",
+            "type": "languages",
+            "path": "tags/c.png"
+        },
+        {
+            "id": "cpp",
+            "name": "C++",
+            "type": "languages",
+            "path": "tags/cpp.png"
+        },
+        {
+            "id": "typescript",
+            "name": "TypeScript",
+            "type": "languages",
+            "path": "tags/ts.png"
+        },
+        {
+            "id": "mongodb",
+            "name": "MongoDB",
+            "type": "databases",
+            "path": "tags/mongo.png"
+        },
+        {
+            "id": "java",
+            "name": "Java",
+            "type": "languages",
+            "path": "tags/java.svg"
+        },
+        {
+            "id": "tailwind",
+            "name": "Tailwind CSS",
+            "type": "frameworks",
+            "path": "tags/tailwind.png"
+        },
+        {
+            "id": "bootstrap",
+            "name": "Bootstrap",
+            "type": "frameworks",
+            "path": "tags/bootstrap.png"
+        },
+        {
+            "id": "aws",
+            "name": "AWS",
+            "type": "cloud_infra",
+            "path": "tags/aws.png"
+        },
+        {
+            "id": "firebase",
+            "name": "Firebase",
+            "type": "cloud_infra",
+            "path": "tags/firebase.png"
+        },
+        {
+            "id": "vercel",
+            "name": "Vercel",
+            "type": "cloud_infra",
+            "path": "tags/vercel.svg"
+        },
+        {
+            "id": "github",
+            "name": "GitHub",
+            "type": "cloud_infra",
+            "path": "tags/github.png"
+        },
+        {
+            "id": "ghcr",
+            "name": "GHCR",
+            "type": "cloud_infra",
+            "path": "tags/ghcr.png"
+        },
+        {
+            "id": "cloudrun",
+            "name": "Cloud Run",
+            "type": "cloud_infra",
+            "path": "tags/cloud_run.png"
+        },
+        {
+            "id": "namecheap",
+            "name": "Namecheap",
+            "type": "cloud_infra",
+            "path": "tags/namecheap.webp"
+        },
+        {
+            "id": "alwaysdata",
+            "name": "Alwaysdata",
+            "type": "cloud_infra",
+            "path": "tags/alwaysdata.png"
+        },
+        {
+            "id": "ai",
+            "name": "AI",
+            "type": "ai_ml",
+            "path": "tags/gemini.png"
+        },
+        {
+            "id": "ml",
+            "name": "ML",
+            "type": "ai_ml",
+            "path": "tags/gemini.png"
+        },
+        {
+            "id": "gemini",
+            "name": "Gemini",
+            "type": "ai_ml",
+            "path": "tags/gemini.png"
+        },
+        {
+            "id": "resend",
+            "name": "Resend",
+            "type": "other",
+            "path": "tags/resend.svg"
+        },
+        {
+            "id": "ably",
+            "name": "Ably",
+            "type": "other",
+            "path": "tags/ably.png"
+        },
+        {
+            "id": "unsplash",
+            "name": "Unsplash",
+            "type": "other",
+            "path": "tags/unsplash.webp"
+        },
+        {
+            "id": "math",
+            "name": "Math",
+            "type": "academic_research",
+            "path": "tags/math.png"
+        },
+        {
+            "id": "algorithms",
+            "name": "Algorithms",
+            "type": "academic_research",
+            "path": "tags/algorithm.png"
+        },
+        {
+            "id": "graph",
+            "name": "Graph",
+            "type": "academic_research",
+            "path": "tags/graph.png"
+        },
+        {
+            "id": "turkcell",
+            "name": "Turkcell",
+            "type": "other",
+            "path": "tags/turkcell.png"
+        },
+        {
+            "id": "academic",
+            "name": "Academic",
+            "type": "academic_research",
+            "path": "tags/academic.png"
+        },
+        {
+            "id": "research",
+            "name": "Research",
+            "type": "academic_research",
+            "path": "tags/research.png"
+        }
+    ]
+}

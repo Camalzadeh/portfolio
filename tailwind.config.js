@@ -6,9 +6,9 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: '4rem',
+      padding: '1.5rem',
       screens: {
-        '2xl': '1600px',
+        '2xl': '1400px',
       },
     },
     extend: {
@@ -16,15 +16,20 @@ module.exports = {
         heading: ['var(--font-heading)', 'sans-serif'],
       },
       fontSize: {
-        'clamp-title': ['clamp(3rem, 5vw, 4rem)', '1.1'],
+        'clamp-title': ['clamp(2rem, 5vw, 3rem)', '1.1'],
       },
       colors: {
-        accent: "var(--accent-color)",
-        surface: "var(--surface-color)",
-        border: "var(--border-color)",
+        accent: "rgb(var(--accent-color))",
+        surface: "rgb(var(--surface-color))",
+        border: "rgba(var(--border-color), var(--border-opacity))",
+        'text-primary': "rgb(var(--text-primary))",
+        'text-secondary': "rgb(var(--text-secondary))",
       },
       backgroundColor: {
         background: "var(--bg-color)",
+      },
+      borderColor: {
+        'border-strong': 'rgba(var(--border-color), 0.2)',
       }
     },
   },

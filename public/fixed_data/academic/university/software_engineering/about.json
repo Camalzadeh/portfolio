@@ -1,0 +1,29 @@
+{
+    "id": "software-engineering-recommendation",
+    "title": "Software Engineering Recommendation",
+    "path": "fixed_data/academic/university/software_engineering",
+    "organization": "Various",
+    "description": "Professional recommendation for Software Engineering expertise.",
+    "type": "academic",
+    "subtype": "university",
+    "position": null,
+    "award": null,
+    "score": null,
+    "duration": null,
+    "place": null,
+    "date": {
+        "year": 2024,
+        "month": null,
+        "day": null
+    },
+    "media": [
+        {
+            "type": "pdf",
+            "url_text": null,
+            "title": "Humbat Jamalov Recommendation",
+            "path": "fixed_data/academic/university/software_engineering/humbat_jamalov_recommendation.pdf"
+        }
+    ],
+    "tagIds": [],
+    "data_folder": "fixed_data/academic/university/software_engineering"
+}

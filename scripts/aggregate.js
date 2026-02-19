@@ -2,14 +2,18 @@ const fs = require('fs');
 const path = require('path');
 
 const FIXED_DATA_DIR = path.join(process.cwd(), 'public/fixed_data');
+const TAGS_DIR = path.join(process.cwd(), 'public/tags');
 const PORTFOLIO_JSON_PATH = path.join(process.cwd(), 'src/data/portfolio.json');
+const TAGS_METADATA_PATH = path.join(TAGS_DIR, 'about.json');
 
-// Re-map subtypes to portfolio.json category IDs
+// Re-map subtypes or folder names to portfolio.json category IDs
 const CATEGORY_MAP = {
     'certifications': 'certifications',
     'courses': 'courses',
-    'achievements': 'achievements_and_activities',
+    'extra_activities': 'extra_activities',
+    'achievements': 'extra_activities',
     'research': 'research',
+    'researchs': 'research',
     'university': 'university'
 };
 
@@ -30,19 +34,70 @@ function findAboutFiles(dir, fileList = []) {
 function aggregate() {
     console.log('🚀 Aggregating portfolio data...');
 
-    if (!fs.existsSync(PORTFOLIO_JSON_PATH)) {
-        console.error('Portfolio JSON template not found!');
-        return;
+    // Ensure the data directory exists
+    const dataDir = path.dirname(PORTFOLIO_JSON_PATH);
+    if (!fs.existsSync(dataDir)) {
+        fs.mkdirSync(dataDir, { recursive: true });
     }
 
-    const portfolio = JSON.parse(fs.readFileSync(PORTFOLIO_JSON_PATH, 'utf8'));
+    let portfolio;
+    if (fs.existsSync(PORTFOLIO_JSON_PATH)) {
+        portfolio = JSON.parse(fs.readFileSync(PORTFOLIO_JSON_PATH, 'utf8'));
+    } else {
+        console.log('📝 Portfolio JSON not found, creating from template...');
+        portfolio = {
+            experience: { items: [] },
+            projects: { items: [] },
+            academic: {
+                categories: [
+                    { id: "university", title: "University", items: [] },
+                    { id: "courses", title: "Courses", items: [] },
+                    { id: "certifications", title: "Certifications", items: [] },
+                    { id: "extra_activities", title: "Achievements & Activities", items: [] },
+                    { id: "research", title: "Research", items: [] }
+                ]
+            },
+            tags: [],
+            skillCategories: []
+        };
+    }
 
-    // Clear existing items to rebuild from about.json files
+    // Define the required categories structure
+    const requiredCategories = [
+        { id: "university", title: "University" },
+        { id: "courses", title: "Courses" },
+        { id: "certifications", title: "Certifications" },
+        { id: "extra_activities", title: "Achievements & Activities" },
+        { id: "research", title: "Research" }
+    ];
+
+    // Ensure academic categories are up to date
+    if (!portfolio.academic) portfolio.academic = { categories: [] };
+
+    // Create a new categories array based on requiredCategories, merging existing data if IDs match
+    const updatedCategories = requiredCategories.map(req => {
+        const existing = (portfolio.academic.categories || []).find(c => c.id === req.id);
+        return {
+            id: req.id,
+            title: req.title, // Always use the latest title from template
+            items: [] // Clear items to rebuild
+        };
+    });
+
+    portfolio.academic.categories = updatedCategories;
+
+    // Clear existing items for other sections
     portfolio.experience.items = [];
     portfolio.projects.items = [];
-    portfolio.academic.categories.forEach(cat => {
-        cat.items = [];
-    });
+
+    // Load Tags Metadata
+    let globalTags = [];
+    if (fs.existsSync(TAGS_METADATA_PATH)) {
+        const tagsData = JSON.parse(fs.readFileSync(TAGS_METADATA_PATH, 'utf8'));
+        globalTags = tagsData.tags || [];
+        console.log(`🏷️ Loaded ${globalTags.length} tags from metadata.`);
+    }
+    portfolio.tags = globalTags;
 
     const aboutFiles = findAboutFiles(FIXED_DATA_DIR);
 
@@ -94,18 +149,30 @@ function aggregate() {
         });
         content.media = mediaList;
 
-        // Transform tags to tagIds
+        // Transform tags to tagIds and resolve to full tag objects
         let tagIds = [];
         if (content.tags) {
             tagIds = content.tags.map(tag => typeof tag === 'string' ? tag : (tag.id || ''));
-            delete content.tags;
         } else if (content.tagIds) {
             tagIds = content.tagIds;
         }
+
         content.tagIds = tagIds.filter(id => id !== '');
 
-        // Update the about.json file itself with the new format
-        fs.writeFileSync(filePath, JSON.stringify(content, null, 4), 'utf8');
+        // Resolve full tag objects for the item (for the aggregated portfolio.json)
+        const itemTags = content.tagIds.map(id => {
+            const found = globalTags.find(t => t.id === id);
+            if (found) return found;
+            return { id: id, name: id.charAt(0).toUpperCase() + id.slice(1), path: null };
+        });
+
+        // Update the about.json file itself (keeping it clean)
+        const aboutJsonContent = { ...content };
+        delete aboutJsonContent.tags; // Don't save full objects in sub-files
+        fs.writeFileSync(filePath, JSON.stringify(aboutJsonContent, null, 4), 'utf8');
+
+        // But use the full tags for the aggregated data
+        content.tags = itemTags;
 
         // Add to aggregate data
         if (content.type === 'experience') {
@@ -135,6 +202,36 @@ function aggregate() {
     portfolio.academic.categories.forEach(cat => {
         cat.items.sort(sortByDate);
     });
+
+    // Group tags by their formal types for the skills section
+    let tagTypes = [];
+    if (fs.existsSync(TAGS_METADATA_PATH)) {
+        const tagsData = JSON.parse(fs.readFileSync(TAGS_METADATA_PATH, 'utf8'));
+        tagTypes = tagsData.tagTypes || [];
+    }
+
+    const skillCategories = tagTypes.map(typeDef => {
+        return {
+            ...typeDef,
+            tags: globalTags.filter(tag => tag.type === typeDef.id)
+        };
+    }).filter(cat => cat.tags.length > 0);
+
+    // Fallback for tags with unknown or missing types
+    const knownTypeIds = tagTypes.map(t => t.id);
+    const otherTags = globalTags.filter(tag => !tag.type || !knownTypeIds.includes(tag.type));
+    if (otherTags.length > 0) {
+        skillCategories.push({
+            id: 'other',
+            name: 'Other',
+            icon: 'terminal',
+            color: '#94a3b8',
+            tags: otherTags
+        });
+    }
+
+    portfolio.skillCategories = skillCategories;
+    delete portfolio.skills; // Remove legacy skills object
 
     fs.writeFileSync(PORTFOLIO_JSON_PATH, JSON.stringify(portfolio, null, 4), 'utf8');
     console.log('✅ Portfolio data aggregated successfully!');

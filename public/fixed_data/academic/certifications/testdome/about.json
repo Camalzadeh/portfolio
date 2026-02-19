@@ -24,6 +24,8 @@
             "path": null
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "php"
+    ],
     "data_folder": "fixed_data/academic/certifications/testdome"
 }

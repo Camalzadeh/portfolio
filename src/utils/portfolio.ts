@@ -9,7 +9,7 @@ export async function fetchPortfolioItem(dataFolder: string): Promise<PortfolioI
         if (!res.ok) return null;
 
         const data = await res.json();
-        return new PortfolioItem(data);
+        return data as PortfolioItem;
     } catch (error) {
         console.error("Error fetching portfolio item:", error);
         return null;

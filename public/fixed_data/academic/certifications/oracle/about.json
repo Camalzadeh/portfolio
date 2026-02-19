@@ -20,16 +20,20 @@
         {
             "type": "pdf",
             "url_text": null,
-            "title": "MySQL Implementation Associate",
+            "title": "MySQL Implementation Associate - Fail",
             "path": "fixed_data/academic/certifications/oracle/MySQL Implementation Associate - Fail.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "ScoreReport.Pdf MySQL 8.0 Database Administrator",
+            "title": "ScoreReport.Pdf MySQL 8.0 Database Administrator - Fail",
             "path": "fixed_data/academic/certifications/oracle/ScoreReport.pdf MySQL 8.0 Database Administrator - Fail.pdf"
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "mysql",
+        "oracle",
+        "database_administration"
+    ],
     "data_folder": "fixed_data/academic/certifications/oracle"
 }

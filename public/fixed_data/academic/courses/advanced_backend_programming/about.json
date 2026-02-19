@@ -24,6 +24,16 @@
             "path": null
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "java",
+        "apache_tomcat",
+        "spring",
+        "spring_boot",
+        "maven",
+        "hibernate",
+        "backend",
+        "api",
+        "software_engineering"
+    ],
     "data_folder": "fixed_data/academic/courses/advanced_backend_programming"
 }
