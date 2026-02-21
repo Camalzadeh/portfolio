@@ -2,7 +2,7 @@
 import { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import data from "@/data/portfolio.json";
-import { Code, Server, Layers, Database, Palette, Terminal, Search, ChevronRight, X } from "lucide-react";
+import { Code, Server, Layers, Database, Palette, Terminal, Search, ChevronRight, X, Award, Book, Building2, Cpu, Brain } from "lucide-react";
 import Link from "next/link";
 
 /**
@@ -16,6 +16,11 @@ const IconResolver = ({ name, size = 20 }: { name: string, size?: number }) => {
         case 'server': return <Server size={size} />;
         case 'palette': return <Palette size={size} />;
         case 'terminal': return <Terminal size={size} />;
+        case 'award': return <Award size={size} />;
+        case 'book': return <Book size={size} />;
+        case 'building': return <Building2 size={size} />;
+        case 'cpu': return <Cpu size={size} />;
+        case 'brain': return <Brain size={size} />;
         default: return <Terminal size={size} />;
     }
 };

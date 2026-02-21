@@ -8,7 +8,7 @@
         },
         {
             "id": "frameworks",
-            "name": "Frameworks",
+            "name": "Frameworks & Libs",
             "icon": "layers",
             "color": "#818cf8"
         },
@@ -19,28 +19,34 @@
             "color": "#fb7185"
         },
         {
-            "id": "cloud_infra",
-            "name": "Cloud & Infrastructure",
+            "id": "ai_ml",
+            "name": "AI & Intelligence",
+            "icon": "brain",
+            "color": "#e879f9"
+        },
+        {
+            "id": "cloud_devops",
+            "name": "Cloud & DevOps",
             "icon": "server",
             "color": "#fbbf24"
         },
         {
-            "id": "ai_ml",
-            "name": "AI & Intelligence",
-            "icon": "terminal",
-            "color": "#e879f9"
-        },
-        {
-            "id": "academic_research",
-            "name": "Academic & Research",
-            "icon": "palette",
+            "id": "concepts",
+            "name": "Concepts & Methods",
+            "icon": "book",
             "color": "#94a3b8"
         },
         {
-            "id": "other",
-            "name": "Tools",
-            "icon": "terminal",
-            "color": "#475569"
+            "id": "organizations",
+            "name": "Organizations",
+            "icon": "building",
+            "color": "#4ade80"
+        },
+        {
+            "id": "experience",
+            "name": "Events & Roles",
+            "icon": "award",
+            "color": "#f472b6"
         }
     ],
     "tags": [
@@ -89,7 +95,7 @@
         {
             "id": "docker",
             "name": "Docker",
-            "type": "cloud_infra",
+            "type": "cloud_devops",
             "path": "tags/docker.svg"
         },
         {
@@ -173,49 +179,49 @@
         {
             "id": "aws",
             "name": "AWS",
-            "type": "cloud_infra",
+            "type": "cloud_devops",
             "path": "tags/aws.png"
         },
         {
             "id": "firebase",
             "name": "Firebase",
-            "type": "cloud_infra",
+            "type": "cloud_devops",
             "path": "tags/firebase.png"
         },
         {
             "id": "vercel",
             "name": "Vercel",
-            "type": "cloud_infra",
+            "type": "cloud_devops",
             "path": "tags/vercel.svg"
         },
         {
             "id": "github",
             "name": "GitHub",
-            "type": "cloud_infra",
+            "type": "cloud_devops",
             "path": "tags/github.png"
         },
         {
             "id": "ghcr",
             "name": "GHCR",
-            "type": "cloud_infra",
+            "type": "cloud_devops",
             "path": "tags/ghcr.png"
         },
         {
             "id": "cloudrun",
             "name": "Cloud Run",
-            "type": "cloud_infra",
+            "type": "cloud_devops",
             "path": "tags/cloud_run.png"
         },
         {
             "id": "namecheap",
             "name": "Namecheap",
-            "type": "cloud_infra",
+            "type": "cloud_devops",
             "path": "tags/namecheap.webp"
         },
         {
             "id": "alwaysdata",
             "name": "Alwaysdata",
-            "type": "cloud_infra",
+            "type": "cloud_devops",
             "path": "tags/alwaysdata.png"
         },
         {
@@ -239,56 +245,434 @@
         {
             "id": "resend",
             "name": "Resend",
-            "type": "other",
+            "type": "frameworks",
             "path": "tags/resend.svg"
         },
         {
             "id": "ably",
             "name": "Ably",
-            "type": "other",
+            "type": "frameworks",
             "path": "tags/ably.png"
         },
         {
             "id": "unsplash",
             "name": "Unsplash",
-            "type": "other",
+            "type": "concepts",
             "path": "tags/unsplash.webp"
         },
         {
             "id": "math",
             "name": "Math",
-            "type": "academic_research",
+            "type": "organizations",
             "path": "tags/math.png"
         },
         {
             "id": "algorithms",
             "name": "Algorithms",
-            "type": "academic_research",
+            "type": "concepts",
             "path": "tags/algorithm.png"
-        },
-        {
-            "id": "graph",
-            "name": "Graph",
-            "type": "academic_research",
-            "path": "tags/graph.png"
         },
         {
             "id": "turkcell",
             "name": "Turkcell",
-            "type": "other",
+            "type": "organizations",
             "path": "tags/turkcell.png"
         },
         {
             "id": "academic",
             "name": "Academic",
-            "type": "academic_research",
+            "type": "organizations",
             "path": "tags/academic.png"
         },
         {
             "id": "research",
             "name": "Research",
-            "type": "academic_research",
+            "type": "organizations",
             "path": "tags/research.png"
+        },
+        {
+            "id": "c-sharp",
+            "name": "C Sharp",
+            "type": "languages",
+            "path": "tags/c_sharp.png"
+        },
+        {
+            "id": "database_administration",
+            "name": "Database Administration",
+            "type": "databases",
+            "path": "tags/database_administration.png"
+        },
+        {
+            "id": "web",
+            "name": "Web",
+            "type": "concepts",
+            "path": "tags/web.webp"
+        },
+        {
+            "id": "olympiad",
+            "name": "Olympiad",
+            "type": "concepts",
+            "path": "tags/olympiad.png"
+        },
+        {
+            "id": "abb",
+            "name": "Abb",
+            "type": "organizations",
+            "path": "tags/abb.png"
+        },
+        {
+            "id": "apache-tomcat",
+            "name": "Apache Tomcat",
+            "type": "cloud_devops",
+            "path": "tags/apache_tomcat.png"
+        },
+        {
+            "id": "spring",
+            "name": "Spring",
+            "type": "frameworks",
+            "path": "tags/spring.png"
+        },
+        {
+            "id": "spring-boot",
+            "name": "Spring Boot",
+            "type": "frameworks",
+            "path": "tags/spring_boot.svg"
+        },
+        {
+            "id": "maven",
+            "name": "Maven",
+            "type": "cloud_devops",
+            "path": "tags/maven.webp"
+        },
+        {
+            "id": "data-structures",
+            "name": "Data Structures",
+            "type": "concepts",
+            "path": "tags/data_structures.png"
+        },
+        {
+            "id": "hibernate",
+            "name": "Hibernate",
+            "type": "frameworks",
+            "path": "tags/hibernate_logo.png"
+        },
+        {
+            "id": "backend",
+            "name": "Backend",
+            "type": "concepts",
+            "path": "tags/backend.png"
+        },
+        {
+            "id": "api",
+            "name": "API",
+            "type": "concepts",
+            "path": "tags/api.png"
+        },
+        {
+            "id": "software-engineering",
+            "name": "Software Engineering",
+            "type": "concepts",
+            "path": "tags/software_engineering.png"
+        },
+        {
+            "id": "competitive-programming",
+            "name": "Competitive Programming",
+            "type": "concepts",
+            "path": "tags/competitive_programming.png"
+        },
+        {
+            "id": "graphs",
+            "name": "Graphs",
+            "type": "concepts",
+            "path": "tags/graph.png"
+        },
+        {
+            "id": "ada-university",
+            "name": "Ada University",
+            "type": "organizations",
+            "path": "tags/ada_university.png"
+        },
+        {
+            "id": "constructor-university",
+            "name": "Constructor University",
+            "type": "organizations",
+            "path": "tags/constructor_university.png"
+        },
+        {
+            "id": "idda",
+            "name": "Idda",
+            "type": "organizations",
+            "path": "tags/idda.png"
+        },
+        {
+            "id": "c++",
+            "name": "C++",
+            "type": "languages",
+            "path": "tags/cpp.png"
+        },
+        {
+            "id": "oop",
+            "name": "OOP",
+            "type": "concepts",
+            "path": "tags/oop.png"
+        },
+        {
+            "id": "design-patterns",
+            "name": "Design Patterns",
+            "type": "concepts",
+            "path": "tags/design_patterns.png"
+        },
+        {
+            "id": "codestar",
+            "name": "Codestar",
+            "type": "organizations",
+            "path": "tags/codestar.webp"
+        },
+        {
+            "id": "machine-learning",
+            "name": "Machine Learning",
+            "type": "ai_ml",
+            "path": "tags/machine_learning.png"
+        },
+        {
+            "id": "artificial-intelligence",
+            "name": "Artificial Intelligence",
+            "type": "ai_ml",
+            "path": "tags/artificial_intelligence.png"
+        },
+        {
+            "id": "4sim",
+            "name": "4sim",
+            "type": "organizations",
+            "path": "tags/4sim.png"
+        },
+        {
+            "id": "coursera",
+            "name": "Coursera",
+            "type": "organizations",
+            "path": "tags/coursera.png"
+        },
+        {
+            "id": "software-architecture",
+            "name": "Software Architecture",
+            "type": "concepts",
+            "path": "tags/software_architecture.png"
+        },
+        {
+            "id": "mobile-development",
+            "name": "Mobile Development",
+            "type": "concepts",
+            "path": "tags/mobile_development.png"
+        },
+        {
+            "id": "udemy",
+            "name": "Udemy",
+            "type": "organizations",
+            "path": "tags/udemy.webp"
+        },
+        {
+            "id": "aegee",
+            "name": "Aegee",
+            "type": "organizations",
+            "path": "tags/aegee.png"
+        },
+        {
+            "id": "icpc",
+            "name": "ICPC",
+            "type": "experience",
+            "path": "tags/icpc.png"
+        },
+        {
+            "id": "icsc",
+            "name": "ICSC",
+            "type": "experience",
+            "path": "tags/icsc.png"
+        },
+        {
+            "id": "bir-konullu",
+            "name": "Bir Konullu",
+            "type": "organizations",
+            "path": "tags/bir_konullu.jpeg"
+        },
+        {
+            "id": "math-camp",
+            "name": "Math Camp",
+            "type": "experience",
+            "path": null
+        },
+        {
+            "id": "ufaz",
+            "name": "UFAZ",
+            "type": "organizations",
+            "path": "tags/ufaz.png"
+        },
+        {
+            "id": "bhos",
+            "name": "BHOS",
+            "type": "organizations",
+            "path": "tags/bhos.png"
+        },
+        {
+            "id": "miull",
+            "name": "Miull",
+            "type": "organizations",
+            "path": "tags/miuul.jpg"
+        },
+        {
+            "id": "data-camp",
+            "name": "Data Camp",
+            "type": "experience",
+            "path": null
+        },
+        {
+            "id": "data-science",
+            "name": "Data Science",
+            "type": "ai_ml",
+            "path": "tags/data_science.png"
+        },
+        {
+            "id": "conference",
+            "name": "Conference",
+            "type": "experience",
+            "path": "tags/conference.png"
+        },
+        {
+            "id": "scientific",
+            "name": "Scientific",
+            "type": "concepts",
+            "path": "tags/science.png"
+        },
+        {
+            "id": "world-skills",
+            "name": "World Skills",
+            "type": "experience",
+            "path": "tags/world_skills.png"
+        },
+        {
+            "id": "programming",
+            "name": "Programming",
+            "type": "concepts",
+            "path": null
+        },
+        {
+            "id": "design",
+            "name": "Design",
+            "type": "concepts",
+            "path": null
+        },
+        {
+            "id": "photoshop",
+            "name": "Photoshop",
+            "type": "concepts",
+            "path": "tags/photoshop.png"
+        },
+        {
+            "id": "computer-vision",
+            "name": "Computer Vision",
+            "type": "ai_ml",
+            "path": "tags/computer_vision.png"
+        },
+        {
+            "id": "sign-language",
+            "name": "Sign Language",
+            "type": "ai_ml",
+            "path": "tags/sign_language.png"
+        },
+        {
+            "id": "azerbaijani",
+            "name": "Azerbaijani",
+            "type": "organizations",
+            "path": "tags/azerbaijan.png"
+        },
+        {
+            "id": "ieee",
+            "name": "IEEE",
+            "type": "organizations",
+            "path": "tags/ieee.png"
+        },
+        {
+            "id": "computer-science",
+            "name": "Computer Science",
+            "type": "concepts",
+            "path": "tags/computer_science.png"
+        },
+        {
+            "id": "buta-group",
+            "name": "Buta Group",
+            "type": "organizations",
+            "path": "tags/buta_group.jpeg"
+        },
+        {
+            "id": "internship",
+            "name": "Internship",
+            "type": "experience",
+            "path": "tags/internship.png"
+        },
+        {
+            "id": "no-code",
+            "name": "No Code",
+            "type": "frameworks",
+            "path": "tags/no_code.png"
+        },
+        {
+            "id": "crm",
+            "name": "CRM",
+            "type": "databases",
+            "path": "tags/crm.png"
+        },
+        {
+            "id": "frontend",
+            "name": "Frontend",
+            "type": "concepts",
+            "path": "tags/frontend.png"
+        },
+        {
+            "id": "erp",
+            "name": "ERP",
+            "type": "databases",
+            "path": "tags/erp.png"
+        },
+        {
+            "id": "hackathon",
+            "name": "Hackathon",
+            "type": "experience",
+            "path": "tags/hackathon.png"
+        },
+        {
+            "id": "siemens",
+            "name": "Siemens",
+            "type": "organizations",
+            "path": "tags/siemens.png"
+        },
+        {
+            "id": "erp-systems",
+            "name": "ERP Systems",
+            "type": "databases",
+            "path": "tags/erp_systems.png"
+        },
+        {
+            "id": "sustainable-design",
+            "name": "Sustainable Design",
+            "type": "organizations",
+            "path": "tags/sustainable_design.png"
+        },
+        {
+            "id": "pest-detection",
+            "name": "Pest Detection",
+            "type": "ai_ml",
+            "path": "tags/pest_detection.png"
+        },
+        {
+            "id": "guardian-x",
+            "name": "Guardian X",
+            "type": "organizations",
+            "path": "tags/guardian_x.png"
+        },
+        {
+            "id": "startup",
+            "name": "Startup",
+            "type": "experience",
+            "path": "tags/startup.png"
         }
     ]
 }

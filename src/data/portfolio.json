@@ -2,6 +2,80 @@
     "experience": {
         "items": [
             {
+                "id": "hackathon-erp",
+                "title": "Sustainable Design Hackathon",
+                "path": "fixed_data/experience/hackathon_erp",
+                "organization": "Siemens / ERP Systems",
+                "description": "Developed sustainable design solutions using Siemens technologies.",
+                "type": "experience",
+                "subtype": null,
+                "position": null,
+                "award": "3rd Place",
+                "score": null,
+                "duration": null,
+                "place": null,
+                "date": {
+                    "year": 2025,
+                    "month": null,
+                    "day": null
+                },
+                "media": [
+                    {
+                        "type": "pdf",
+                        "url_text": null,
+                        "title": "Humbat Jamalov Sustainable Design Hackathon Participation",
+                        "path": "fixed_data/experience/hackathon_erp/Humbat Jamalov Sustainable Design Hackathon Participation.pdf"
+                    }
+                ],
+                "tagIds": [
+                    "hackathon",
+                    "siemens",
+                    "erp-systems",
+                    "sustainable-design",
+                    "pest-detection",
+                    "guardian-x"
+                ],
+                "data_folder": "fixed_data/experience/hackathon_erp",
+                "tags": [
+                    {
+                        "id": "hackathon",
+                        "name": "Hackathon",
+                        "type": "experience",
+                        "path": "tags/hackathon.png"
+                    },
+                    {
+                        "id": "siemens",
+                        "name": "Siemens",
+                        "type": "organizations",
+                        "path": "tags/siemens.png"
+                    },
+                    {
+                        "id": "erp-systems",
+                        "name": "ERP Systems",
+                        "type": "databases",
+                        "path": "tags/erp_systems.png"
+                    },
+                    {
+                        "id": "sustainable-design",
+                        "name": "Sustainable Design",
+                        "type": "organizations",
+                        "path": "tags/sustainable_design.png"
+                    },
+                    {
+                        "id": "pest-detection",
+                        "name": "Pest Detection",
+                        "type": "ai_ml",
+                        "path": "tags/pest_detection.png"
+                    },
+                    {
+                        "id": "guardian-x",
+                        "name": "Guardian X",
+                        "type": "organizations",
+                        "path": "tags/guardian_x.png"
+                    }
+                ]
+            },
+            {
                 "id": "buta-group",
                 "title": "Buta Group Internship",
                 "path": "fixed_data/experience/buta_group",
@@ -27,13 +101,64 @@
                         "path": "fixed_data/experience/buta_group/internship_Buta Group Hümbət Camalov (1).pdf"
                     }
                 ],
-                "tagIds": [],
+                "tagIds": [
+                    "buta-group",
+                    "internship",
+                    "no-code",
+                    "crm",
+                    "web",
+                    "frontend",
+                    "erp"
+                ],
                 "data_folder": "fixed_data/experience/buta_group",
-                "tags": []
+                "tags": [
+                    {
+                        "id": "buta-group",
+                        "name": "Buta Group",
+                        "type": "organizations",
+                        "path": "tags/buta_group.jpeg"
+                    },
+                    {
+                        "id": "internship",
+                        "name": "Internship",
+                        "type": "experience",
+                        "path": "tags/internship.png"
+                    },
+                    {
+                        "id": "no-code",
+                        "name": "No Code",
+                        "type": "frameworks",
+                        "path": "tags/no_code.png"
+                    },
+                    {
+                        "id": "crm",
+                        "name": "CRM",
+                        "type": "databases",
+                        "path": "tags/crm.png"
+                    },
+                    {
+                        "id": "web",
+                        "name": "Web",
+                        "type": "concepts",
+                        "path": "tags/web.webp"
+                    },
+                    {
+                        "id": "frontend",
+                        "name": "Frontend",
+                        "type": "concepts",
+                        "path": "tags/frontend.png"
+                    },
+                    {
+                        "id": "erp",
+                        "name": "ERP",
+                        "type": "databases",
+                        "path": "tags/erp.png"
+                    }
+                ]
             },
             {
-                "id": "totter-startup",
-                "title": "Totter (Startup Project)",
+                "id": "startup-school",
+                "title": "Startup School 3",
                 "path": "fixed_data/experience/startup_school",
                 "organization": "Startup School 3",
                 "description": "Developed the MVP from scratch, pitched to business leaders, and handled the full technical roadmap including scaling strategy.",
@@ -57,68 +182,46 @@
                         "path": "fixed_data/experience/startup_school/Humbat Jamalov Startup School 3.pdf"
                     }
                 ],
-                "tagIds": [],
+                "tagIds": [
+                    "startup",
+                    "mobile-development",
+                    "artificial-intelligence",
+                    "pest-detection",
+                    "guardian-x"
+                ],
                 "data_folder": "fixed_data/experience/startup_school",
-                "tags": []
-            },
-            {
-                "id": "sustainable-design-hackathon",
-                "title": "Sustainable design hackathon",
-                "path": "fixed_data/experience/sustainable_design_hackathon",
-                "organization": "Various",
-                "description": "Detailed documentation and proof for Sustainable design hackathon.",
-                "type": "experience",
-                "subtype": null,
-                "position": null,
-                "award": null,
-                "score": null,
-                "duration": null,
-                "place": null,
-                "date": {
-                    "year": 2024,
-                    "month": null,
-                    "day": null
-                },
-                "media": [],
-                "tagIds": [],
-                "data_folder": "fixed_data/experience/sustainable_design_hackathon",
-                "tags": []
-            },
-            {
-                "id": "graph-company",
-                "title": "Graph Company",
-                "path": "fixed_data/experience/graph_company",
-                "organization": "Graph Company",
-                "description": "Architected and shipped 4 production mobile applications using Flutter. Developed robust backend systems using Django and handled the entire DevOps lifecycle. Integrated complex features and ensured high availability.",
-                "type": "experience",
-                "subtype": null,
-                "position": "Software Engineer (Mobile, Backend & DevOps)",
-                "award": null,
-                "score": null,
-                "duration": null,
-                "place": null,
-                "date": {
-                    "year": 2023,
-                    "month": null,
-                    "day": null
-                },
-                "media": [
+                "tags": [
                     {
-                        "type": "pdf",
-                        "url_text": null,
-                        "title": "Detailed Description Of Achievements",
-                        "path": "fixed_data/experience/graph_company/Detailed description of achievements.pdf"
+                        "id": "startup",
+                        "name": "Startup",
+                        "type": "experience",
+                        "path": "tags/startup.png"
                     },
                     {
-                        "type": "pdf",
-                        "url_text": null,
-                        "title": "Udemy FlutterDartUdemy",
-                        "path": "fixed_data/experience/graph_company/udemy_FlutterDartUdemy.pdf"
+                        "id": "mobile-development",
+                        "name": "Mobile Development",
+                        "type": "concepts",
+                        "path": "tags/mobile_development.png"
+                    },
+                    {
+                        "id": "artificial-intelligence",
+                        "name": "Artificial Intelligence",
+                        "type": "ai_ml",
+                        "path": "tags/artificial_intelligence.png"
+                    },
+                    {
+                        "id": "pest-detection",
+                        "name": "Pest Detection",
+                        "type": "ai_ml",
+                        "path": "tags/pest_detection.png"
+                    },
+                    {
+                        "id": "guardian-x",
+                        "name": "Guardian X",
+                        "type": "organizations",
+                        "path": "tags/guardian_x.png"
                     }
-                ],
-                "tagIds": [],
-                "data_folder": "fixed_data/experience/graph_company",
-                "tags": []
+                ]
             }
         ]
     },
@@ -157,9 +260,25 @@
                                 "path": "fixed_data/academic/university/software_engineering/humbat_jamalov_recommendation.pdf"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "software-engineering",
+                            "ufaz"
+                        ],
                         "data_folder": "fixed_data/academic/university/software_engineering",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "software-engineering",
+                                "name": "Software Engineering",
+                                "type": "concepts",
+                                "path": "tags/software_engineering.png"
+                            },
+                            {
+                                "id": "ufaz",
+                                "name": "UFAZ",
+                                "type": "organizations",
+                                "path": "tags/ufaz.png"
+                            }
+                        ]
                     },
                     {
                         "id": "university-transcripts",
@@ -194,22 +313,22 @@
                             }
                         ],
                         "tagIds": [
-                            "academic",
-                            "research"
+                            "computer-science",
+                            "ufaz"
                         ],
                         "data_folder": "fixed_data/academic/university/transcripts",
                         "tags": [
                             {
-                                "id": "academic",
-                                "name": "Academic",
-                                "type": "academic_research",
-                                "path": "tags/academic.png"
+                                "id": "computer-science",
+                                "name": "Computer Science",
+                                "type": "concepts",
+                                "path": "tags/computer_science.png"
                             },
                             {
-                                "id": "research",
-                                "name": "Research",
-                                "type": "academic_research",
-                                "path": "tags/research.png"
+                                "id": "ufaz",
+                                "name": "UFAZ",
+                                "type": "organizations",
+                                "path": "tags/ufaz.png"
                             }
                         ]
                     }
@@ -247,14 +366,15 @@
                         ],
                         "tagIds": [
                             "java",
-                            "apache_tomcat",
+                            "apache-tomcat",
                             "spring",
-                            "spring_boot",
+                            "spring-boot",
                             "maven",
+                            "data-structures",
                             "hibernate",
                             "backend",
                             "api",
-                            "software_engineering"
+                            "software-engineering"
                         ],
                         "data_folder": "fixed_data/academic/courses/advanced_backend_programming",
                         "tags": [
@@ -265,44 +385,58 @@
                                 "path": "tags/java.svg"
                             },
                             {
-                                "id": "apache_tomcat",
-                                "name": "Apache_tomcat",
-                                "path": null
+                                "id": "apache-tomcat",
+                                "name": "Apache Tomcat",
+                                "type": "cloud_devops",
+                                "path": "tags/apache_tomcat.png"
                             },
                             {
                                 "id": "spring",
                                 "name": "Spring",
-                                "path": null
+                                "type": "frameworks",
+                                "path": "tags/spring.png"
                             },
                             {
-                                "id": "spring_boot",
-                                "name": "Spring_boot",
-                                "path": null
+                                "id": "spring-boot",
+                                "name": "Spring Boot",
+                                "type": "frameworks",
+                                "path": "tags/spring_boot.svg"
                             },
                             {
                                 "id": "maven",
                                 "name": "Maven",
-                                "path": null
+                                "type": "cloud_devops",
+                                "path": "tags/maven.webp"
+                            },
+                            {
+                                "id": "data-structures",
+                                "name": "Data Structures",
+                                "type": "concepts",
+                                "path": "tags/data_structures.png"
                             },
                             {
                                 "id": "hibernate",
                                 "name": "Hibernate",
-                                "path": null
+                                "type": "frameworks",
+                                "path": "tags/hibernate_logo.png"
                             },
                             {
                                 "id": "backend",
                                 "name": "Backend",
-                                "path": null
+                                "type": "concepts",
+                                "path": "tags/backend.png"
                             },
                             {
                                 "id": "api",
-                                "name": "Api",
-                                "path": null
+                                "name": "API",
+                                "type": "concepts",
+                                "path": "tags/api.png"
                             },
                             {
-                                "id": "software_engineering",
-                                "name": "Software_engineering",
-                                "path": null
+                                "id": "software-engineering",
+                                "name": "Software Engineering",
+                                "type": "concepts",
+                                "path": "tags/software_engineering.png"
                             }
                         ]
                     },
@@ -343,35 +477,60 @@
                             "algorithms",
                             "data-structures",
                             "olympiad",
-                            "graphs"
+                            "graphs",
+                            "ada-university",
+                            "constructor-university",
+                            "idda"
                         ],
                         "data_folder": "fixed_data/academic/courses/advanced_computer_science",
                         "tags": [
                             {
                                 "id": "competitive-programming",
-                                "name": "Competitive-programming",
-                                "path": null
+                                "name": "Competitive Programming",
+                                "type": "concepts",
+                                "path": "tags/competitive_programming.png"
                             },
                             {
                                 "id": "algorithms",
                                 "name": "Algorithms",
-                                "type": "academic_research",
+                                "type": "concepts",
                                 "path": "tags/algorithm.png"
                             },
                             {
                                 "id": "data-structures",
-                                "name": "Data-structures",
-                                "path": null
+                                "name": "Data Structures",
+                                "type": "concepts",
+                                "path": "tags/data_structures.png"
                             },
                             {
                                 "id": "olympiad",
                                 "name": "Olympiad",
-                                "path": null
+                                "type": "concepts",
+                                "path": "tags/olympiad.png"
                             },
                             {
                                 "id": "graphs",
                                 "name": "Graphs",
-                                "path": null
+                                "type": "concepts",
+                                "path": "tags/graph.png"
+                            },
+                            {
+                                "id": "ada-university",
+                                "name": "Ada University",
+                                "type": "organizations",
+                                "path": "tags/ada_university.png"
+                            },
+                            {
+                                "id": "constructor-university",
+                                "name": "Constructor University",
+                                "type": "organizations",
+                                "path": "tags/constructor_university.png"
+                            },
+                            {
+                                "id": "idda",
+                                "name": "Idda",
+                                "type": "organizations",
+                                "path": "tags/idda.png"
                             }
                         ]
                     },
@@ -401,9 +560,67 @@
                                 "path": "fixed_data/academic/courses/codestar/advanced_finished.png"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "c++",
+                            "algorithms",
+                            "data-structures",
+                            "oop",
+                            "design-patterns",
+                            "competitive-programming",
+                            "graphs",
+                            "codestar"
+                        ],
                         "data_folder": "fixed_data/academic/courses/codestar",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "c++",
+                                "name": "C++",
+                                "type": "languages",
+                                "path": "tags/cpp.png"
+                            },
+                            {
+                                "id": "algorithms",
+                                "name": "Algorithms",
+                                "type": "concepts",
+                                "path": "tags/algorithm.png"
+                            },
+                            {
+                                "id": "data-structures",
+                                "name": "Data Structures",
+                                "type": "concepts",
+                                "path": "tags/data_structures.png"
+                            },
+                            {
+                                "id": "oop",
+                                "name": "OOP",
+                                "type": "concepts",
+                                "path": "tags/oop.png"
+                            },
+                            {
+                                "id": "design-patterns",
+                                "name": "Design Patterns",
+                                "type": "concepts",
+                                "path": "tags/design_patterns.png"
+                            },
+                            {
+                                "id": "competitive-programming",
+                                "name": "Competitive Programming",
+                                "type": "concepts",
+                                "path": "tags/competitive_programming.png"
+                            },
+                            {
+                                "id": "graphs",
+                                "name": "Graphs",
+                                "type": "concepts",
+                                "path": "tags/graph.png"
+                            },
+                            {
+                                "id": "codestar",
+                                "name": "Codestar",
+                                "type": "organizations",
+                                "path": "tags/codestar.webp"
+                            }
+                        ]
                     },
                     {
                         "id": "coursera",
@@ -431,9 +648,39 @@
                                 "path": "fixed_data/academic/courses/coursera/Coursera Supervised Machine Learning Regression and Classification.pdf"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "machine-learning",
+                            "artificial-intelligence",
+                            "4sim",
+                            "coursera"
+                        ],
                         "data_folder": "fixed_data/academic/courses/coursera",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "machine-learning",
+                                "name": "Machine Learning",
+                                "type": "ai_ml",
+                                "path": "tags/machine_learning.png"
+                            },
+                            {
+                                "id": "artificial-intelligence",
+                                "name": "Artificial Intelligence",
+                                "type": "ai_ml",
+                                "path": "tags/artificial_intelligence.png"
+                            },
+                            {
+                                "id": "4sim",
+                                "name": "4sim",
+                                "type": "organizations",
+                                "path": "tags/4sim.png"
+                            },
+                            {
+                                "id": "coursera",
+                                "name": "Coursera",
+                                "type": "organizations",
+                                "path": "tags/coursera.png"
+                            }
+                        ]
                     },
                     {
                         "id": "limitless-mathematicians",
@@ -473,9 +720,32 @@
                                 "path": "fixed_data/academic/courses/limitless_mathematicians/participation 2023.jpg"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "math",
+                            "olympiad",
+                            "ada-university"
+                        ],
                         "data_folder": "fixed_data/academic/courses/limitless_mathematicians",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "math",
+                                "name": "Math",
+                                "type": "organizations",
+                                "path": "tags/math.png"
+                            },
+                            {
+                                "id": "olympiad",
+                                "name": "Olympiad",
+                                "type": "concepts",
+                                "path": "tags/olympiad.png"
+                            },
+                            {
+                                "id": "ada-university",
+                                "name": "Ada University",
+                                "type": "organizations",
+                                "path": "tags/ada_university.png"
+                            }
+                        ]
                     },
                     {
                         "id": "udemy",
@@ -521,9 +791,53 @@
                                 "path": "fixed_data/academic/courses/udemy/udemy_SoftwareArchitecturaUdemy.pdf"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "flutter",
+                            "dart",
+                            "java",
+                            "software-architecture",
+                            "mobile-development",
+                            "udemy"
+                        ],
                         "data_folder": "fixed_data/academic/courses/udemy",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "flutter",
+                                "name": "Flutter",
+                                "type": "frameworks",
+                                "path": "tags/flutter.jpg"
+                            },
+                            {
+                                "id": "dart",
+                                "name": "Dart",
+                                "type": "languages",
+                                "path": "tags/dart.png"
+                            },
+                            {
+                                "id": "java",
+                                "name": "Java",
+                                "type": "languages",
+                                "path": "tags/java.svg"
+                            },
+                            {
+                                "id": "software-architecture",
+                                "name": "Software Architecture",
+                                "type": "concepts",
+                                "path": "tags/software_architecture.png"
+                            },
+                            {
+                                "id": "mobile-development",
+                                "name": "Mobile Development",
+                                "type": "concepts",
+                                "path": "tags/mobile_development.png"
+                            },
+                            {
+                                "id": "udemy",
+                                "name": "Udemy",
+                                "type": "organizations",
+                                "path": "tags/udemy.webp"
+                            }
+                        ]
                     },
                     {
                         "id": "abb-math-challenge",
@@ -560,26 +874,34 @@
                         "tagIds": [
                             "math",
                             "olympiad",
-                            "algorithms"
+                            "algorithms",
+                            "abb"
                         ],
                         "data_folder": "fixed_data/academic/courses/abb_math_challenge",
                         "tags": [
                             {
                                 "id": "math",
                                 "name": "Math",
-                                "type": "academic_research",
+                                "type": "organizations",
                                 "path": "tags/math.png"
                             },
                             {
                                 "id": "olympiad",
                                 "name": "Olympiad",
-                                "path": null
+                                "type": "concepts",
+                                "path": "tags/olympiad.png"
                             },
                             {
                                 "id": "algorithms",
                                 "name": "Algorithms",
-                                "type": "academic_research",
+                                "type": "concepts",
                                 "path": "tags/algorithm.png"
+                            },
+                            {
+                                "id": "abb",
+                                "name": "Abb",
+                                "type": "organizations",
+                                "path": "tags/abb.png"
                             }
                         ]
                     }
@@ -642,8 +964,9 @@
                             },
                             {
                                 "id": "database_administration",
-                                "name": "Database_administration",
-                                "path": null
+                                "name": "Database Administration",
+                                "type": "databases",
+                                "path": "tags/database_administration.png"
                             }
                         ]
                     },
@@ -731,7 +1054,7 @@
                             }
                         ],
                         "tagIds": [
-                            "c_sharp",
+                            "c-sharp",
                             "javascript",
                             "java",
                             "algorithms"
@@ -739,9 +1062,10 @@
                         "data_folder": "fixed_data/academic/certifications/hackerrank",
                         "tags": [
                             {
-                                "id": "c_sharp",
-                                "name": "C_sharp",
-                                "path": null
+                                "id": "c-sharp",
+                                "name": "C Sharp",
+                                "type": "languages",
+                                "path": "tags/c_sharp.png"
                             },
                             {
                                 "id": "javascript",
@@ -758,7 +1082,7 @@
                             {
                                 "id": "algorithms",
                                 "name": "Algorithms",
-                                "type": "academic_research",
+                                "type": "concepts",
                                 "path": "tags/algorithm.png"
                             }
                         ]
@@ -798,7 +1122,7 @@
                         "tagIds": [
                             "html",
                             "css",
-                            "js",
+                            "javascript",
                             "web"
                         ],
                         "data_folder": "fixed_data/academic/certifications/turkcell",
@@ -816,14 +1140,16 @@
                                 "path": "tags/css.png"
                             },
                             {
-                                "id": "js",
-                                "name": "Js",
-                                "path": null
+                                "id": "javascript",
+                                "name": "JavaScript",
+                                "type": "languages",
+                                "path": "tags/js.png"
                             },
                             {
                                 "id": "web",
                                 "name": "Web",
-                                "path": null
+                                "type": "concepts",
+                                "path": "tags/web.webp"
                             }
                         ]
                     }
@@ -833,36 +1159,6 @@
                 "id": "extra_activities",
                 "title": "Achievements & Activities",
                 "items": [
-                    {
-                        "id": "hackathon-erp",
-                        "title": "Sustainable Design Hackathon",
-                        "path": "fixed_data/academic/extra_activities/hackathon_erp",
-                        "organization": "Siemens / ERP Systems",
-                        "description": "Developed sustainable design solutions using Siemens technologies.",
-                        "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "award": "3rd Place",
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date": {
-                            "year": 2025,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "Humbat Jamalov Sustainable Design Hackathon Participation",
-                                "path": "fixed_data/academic/extra_activities/hackathon_erp/Humbat Jamalov Sustainable Design Hackathon Participation.pdf"
-                            }
-                        ],
-                        "tagIds": [],
-                        "data_folder": "fixed_data/academic/extra_activities/hackathon_erp",
-                        "tags": []
-                    },
                     {
                         "id": "aegee-forum",
                         "title": "Aegee forum",
@@ -889,9 +1185,25 @@
                                 "path": "fixed_data/academic/extra_activities/aegee_forum/participation.pdf"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "aegee",
+                            "artificial-intelligence"
+                        ],
                         "data_folder": "fixed_data/academic/extra_activities/aegee_forum",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "aegee",
+                                "name": "Aegee",
+                                "type": "organizations",
+                                "path": "tags/aegee.png"
+                            },
+                            {
+                                "id": "artificial-intelligence",
+                                "name": "Artificial Intelligence",
+                                "type": "ai_ml",
+                                "path": "tags/artificial_intelligence.png"
+                            }
+                        ]
                     },
                     {
                         "id": "icpc-2024-qualification",
@@ -925,9 +1237,60 @@
                                 "path": "fixed_data/academic/extra_activities/icpc_2024_qualification/2024-ICPC Azerbaijan Qualification-Humbat Jamalov-PLACE.pdf"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "icpc",
+                            "algorithms",
+                            "data-structures",
+                            "olympiad",
+                            "graphs",
+                            "competitive-programming",
+                            "c++"
+                        ],
                         "data_folder": "fixed_data/academic/extra_activities/icpc_2024_qualification",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "icpc",
+                                "name": "ICPC",
+                                "type": "experience",
+                                "path": "tags/icpc.png"
+                            },
+                            {
+                                "id": "algorithms",
+                                "name": "Algorithms",
+                                "type": "concepts",
+                                "path": "tags/algorithm.png"
+                            },
+                            {
+                                "id": "data-structures",
+                                "name": "Data Structures",
+                                "type": "concepts",
+                                "path": "tags/data_structures.png"
+                            },
+                            {
+                                "id": "olympiad",
+                                "name": "Olympiad",
+                                "type": "concepts",
+                                "path": "tags/olympiad.png"
+                            },
+                            {
+                                "id": "graphs",
+                                "name": "Graphs",
+                                "type": "concepts",
+                                "path": "tags/graph.png"
+                            },
+                            {
+                                "id": "competitive-programming",
+                                "name": "Competitive Programming",
+                                "type": "concepts",
+                                "path": "tags/competitive_programming.png"
+                            },
+                            {
+                                "id": "c++",
+                                "name": "C++",
+                                "type": "languages",
+                                "path": "tags/cpp.png"
+                            }
+                        ]
                     },
                     {
                         "id": "icpc-2025-qualification",
@@ -961,9 +1324,60 @@
                                 "path": "fixed_data/academic/extra_activities/icpc_2025_qualification/2025-ICPC Azerbaijan Qualification-Humbat Jamalov-PLACE.pdf"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "icpc",
+                            "algorithms",
+                            "data-structures",
+                            "olympiad",
+                            "graphs",
+                            "competitive-programming",
+                            "c++"
+                        ],
                         "data_folder": "fixed_data/academic/extra_activities/icpc_2025_qualification",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "icpc",
+                                "name": "ICPC",
+                                "type": "experience",
+                                "path": "tags/icpc.png"
+                            },
+                            {
+                                "id": "algorithms",
+                                "name": "Algorithms",
+                                "type": "concepts",
+                                "path": "tags/algorithm.png"
+                            },
+                            {
+                                "id": "data-structures",
+                                "name": "Data Structures",
+                                "type": "concepts",
+                                "path": "tags/data_structures.png"
+                            },
+                            {
+                                "id": "olympiad",
+                                "name": "Olympiad",
+                                "type": "concepts",
+                                "path": "tags/olympiad.png"
+                            },
+                            {
+                                "id": "graphs",
+                                "name": "Graphs",
+                                "type": "concepts",
+                                "path": "tags/graph.png"
+                            },
+                            {
+                                "id": "competitive-programming",
+                                "name": "Competitive Programming",
+                                "type": "concepts",
+                                "path": "tags/competitive_programming.png"
+                            },
+                            {
+                                "id": "c++",
+                                "name": "C++",
+                                "type": "languages",
+                                "path": "tags/cpp.png"
+                            }
+                        ]
                     },
                     {
                         "id": "icpc-2025-republican",
@@ -997,9 +1411,60 @@
                                 "path": "fixed_data/academic/extra_activities/icpc_2025_republican/2025-ICPC Azerbaijan RC-Humbat Jamalov-PLACE.pdf"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "icpc",
+                            "algorithms",
+                            "data-structures",
+                            "olympiad",
+                            "graphs",
+                            "competitive-programming",
+                            "c++"
+                        ],
                         "data_folder": "fixed_data/academic/extra_activities/icpc_2025_republican",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "icpc",
+                                "name": "ICPC",
+                                "type": "experience",
+                                "path": "tags/icpc.png"
+                            },
+                            {
+                                "id": "algorithms",
+                                "name": "Algorithms",
+                                "type": "concepts",
+                                "path": "tags/algorithm.png"
+                            },
+                            {
+                                "id": "data-structures",
+                                "name": "Data Structures",
+                                "type": "concepts",
+                                "path": "tags/data_structures.png"
+                            },
+                            {
+                                "id": "olympiad",
+                                "name": "Olympiad",
+                                "type": "concepts",
+                                "path": "tags/olympiad.png"
+                            },
+                            {
+                                "id": "graphs",
+                                "name": "Graphs",
+                                "type": "concepts",
+                                "path": "tags/graph.png"
+                            },
+                            {
+                                "id": "competitive-programming",
+                                "name": "Competitive Programming",
+                                "type": "concepts",
+                                "path": "tags/competitive_programming.png"
+                            },
+                            {
+                                "id": "c++",
+                                "name": "C++",
+                                "type": "languages",
+                                "path": "tags/cpp.png"
+                            }
+                        ]
                     },
                     {
                         "id": "icpc-2026-qualification",
@@ -1027,9 +1492,60 @@
                                 "path": "fixed_data/academic/extra_activities/icpc_2026_qualification/2026-ICPC Azerbaijan Q-Humbat Jamalov-PLACE.pdf"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "icpc",
+                            "algorithms",
+                            "data-structures",
+                            "olympiad",
+                            "graphs",
+                            "competitive-programming",
+                            "c++"
+                        ],
                         "data_folder": "fixed_data/academic/extra_activities/icpc_2026_qualification",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "icpc",
+                                "name": "ICPC",
+                                "type": "experience",
+                                "path": "tags/icpc.png"
+                            },
+                            {
+                                "id": "algorithms",
+                                "name": "Algorithms",
+                                "type": "concepts",
+                                "path": "tags/algorithm.png"
+                            },
+                            {
+                                "id": "data-structures",
+                                "name": "Data Structures",
+                                "type": "concepts",
+                                "path": "tags/data_structures.png"
+                            },
+                            {
+                                "id": "olympiad",
+                                "name": "Olympiad",
+                                "type": "concepts",
+                                "path": "tags/olympiad.png"
+                            },
+                            {
+                                "id": "graphs",
+                                "name": "Graphs",
+                                "type": "concepts",
+                                "path": "tags/graph.png"
+                            },
+                            {
+                                "id": "competitive-programming",
+                                "name": "Competitive Programming",
+                                "type": "concepts",
+                                "path": "tags/competitive_programming.png"
+                            },
+                            {
+                                "id": "c++",
+                                "name": "C++",
+                                "type": "languages",
+                                "path": "tags/cpp.png"
+                            }
+                        ]
                     },
                     {
                         "id": "icpc-republican-2025",
@@ -1063,9 +1579,60 @@
                                 "path": "fixed_data/academic/extra_activities/icpc_republican_2025/icpc_team_2025-ICPC Azerbaijan RC-MEDAL.pdf"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "icpc",
+                            "algorithms",
+                            "data-structures",
+                            "olympiad",
+                            "graphs",
+                            "competitive-programming",
+                            "c++"
+                        ],
                         "data_folder": "fixed_data/academic/extra_activities/icpc_republican_2025",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "icpc",
+                                "name": "ICPC",
+                                "type": "experience",
+                                "path": "tags/icpc.png"
+                            },
+                            {
+                                "id": "algorithms",
+                                "name": "Algorithms",
+                                "type": "concepts",
+                                "path": "tags/algorithm.png"
+                            },
+                            {
+                                "id": "data-structures",
+                                "name": "Data Structures",
+                                "type": "concepts",
+                                "path": "tags/data_structures.png"
+                            },
+                            {
+                                "id": "olympiad",
+                                "name": "Olympiad",
+                                "type": "concepts",
+                                "path": "tags/olympiad.png"
+                            },
+                            {
+                                "id": "graphs",
+                                "name": "Graphs",
+                                "type": "concepts",
+                                "path": "tags/graph.png"
+                            },
+                            {
+                                "id": "competitive-programming",
+                                "name": "Competitive Programming",
+                                "type": "concepts",
+                                "path": "tags/competitive_programming.png"
+                            },
+                            {
+                                "id": "c++",
+                                "name": "C++",
+                                "type": "languages",
+                                "path": "tags/cpp.png"
+                            }
+                        ]
                     },
                     {
                         "id": "icsc-2025-qulification",
@@ -1099,9 +1666,60 @@
                                 "path": "fixed_data/academic/extra_activities/icsc_2025_qulification/ICSC-PerformanceReport-PR-2025-FFB809803C5-b5275e2c79ec037e4e2ba0d524148130.pdf"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "icsc",
+                            "algorithms",
+                            "data-structures",
+                            "olympiad",
+                            "competitive-programming",
+                            "c++",
+                            "math"
+                        ],
                         "data_folder": "fixed_data/academic/extra_activities/icsc_2025_qulification",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "icsc",
+                                "name": "ICSC",
+                                "type": "experience",
+                                "path": "tags/icsc.png"
+                            },
+                            {
+                                "id": "algorithms",
+                                "name": "Algorithms",
+                                "type": "concepts",
+                                "path": "tags/algorithm.png"
+                            },
+                            {
+                                "id": "data-structures",
+                                "name": "Data Structures",
+                                "type": "concepts",
+                                "path": "tags/data_structures.png"
+                            },
+                            {
+                                "id": "olympiad",
+                                "name": "Olympiad",
+                                "type": "concepts",
+                                "path": "tags/olympiad.png"
+                            },
+                            {
+                                "id": "competitive-programming",
+                                "name": "Competitive Programming",
+                                "type": "concepts",
+                                "path": "tags/competitive_programming.png"
+                            },
+                            {
+                                "id": "c++",
+                                "name": "C++",
+                                "type": "languages",
+                                "path": "tags/cpp.png"
+                            },
+                            {
+                                "id": "math",
+                                "name": "Math",
+                                "type": "organizations",
+                                "path": "tags/math.png"
+                            }
+                        ]
                     },
                     {
                         "id": "math-camp-2024",
@@ -1129,9 +1747,39 @@
                                 "path": "fixed_data/academic/extra_activities/math_camp_2024/math_camp.jpg"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "math",
+                            "olympiad",
+                            "bir-konullu",
+                            "math-camp"
+                        ],
                         "data_folder": "fixed_data/academic/extra_activities/math_camp_2024",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "math",
+                                "name": "Math",
+                                "type": "organizations",
+                                "path": "tags/math.png"
+                            },
+                            {
+                                "id": "olympiad",
+                                "name": "Olympiad",
+                                "type": "concepts",
+                                "path": "tags/olympiad.png"
+                            },
+                            {
+                                "id": "bir-konullu",
+                                "name": "Bir Konullu",
+                                "type": "organizations",
+                                "path": "tags/bir_konullu.jpeg"
+                            },
+                            {
+                                "id": "math-camp",
+                                "name": "Math Camp",
+                                "type": "experience",
+                                "path": null
+                            }
+                        ]
                     },
                     {
                         "id": "math-competition",
@@ -1159,9 +1807,39 @@
                                 "path": "fixed_data/academic/extra_activities/math_competition/bu_bize_harda_lazim_olacaq.jpg"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "math",
+                            "olympiad",
+                            "ufaz",
+                            "bhos"
+                        ],
                         "data_folder": "fixed_data/academic/extra_activities/math_competition",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "math",
+                                "name": "Math",
+                                "type": "organizations",
+                                "path": "tags/math.png"
+                            },
+                            {
+                                "id": "olympiad",
+                                "name": "Olympiad",
+                                "type": "concepts",
+                                "path": "tags/olympiad.png"
+                            },
+                            {
+                                "id": "ufaz",
+                                "name": "UFAZ",
+                                "type": "organizations",
+                                "path": "tags/ufaz.png"
+                            },
+                            {
+                                "id": "bhos",
+                                "name": "BHOS",
+                                "type": "organizations",
+                                "path": "tags/bhos.png"
+                            }
+                        ]
                     },
                     {
                         "id": "miull-data-camp",
@@ -1195,9 +1873,53 @@
                                 "path": "fixed_data/academic/extra_activities/miull_data_camp/miull_2.png"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "miull",
+                            "data-camp",
+                            "data-science",
+                            "machine-learning",
+                            "artificial-intelligence",
+                            "python"
+                        ],
                         "data_folder": "fixed_data/academic/extra_activities/miull_data_camp",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "miull",
+                                "name": "Miull",
+                                "type": "organizations",
+                                "path": "tags/miuul.jpg"
+                            },
+                            {
+                                "id": "data-camp",
+                                "name": "Data Camp",
+                                "type": "experience",
+                                "path": null
+                            },
+                            {
+                                "id": "data-science",
+                                "name": "Data Science",
+                                "type": "ai_ml",
+                                "path": "tags/data_science.png"
+                            },
+                            {
+                                "id": "machine-learning",
+                                "name": "Machine Learning",
+                                "type": "ai_ml",
+                                "path": "tags/machine_learning.png"
+                            },
+                            {
+                                "id": "artificial-intelligence",
+                                "name": "Artificial Intelligence",
+                                "type": "ai_ml",
+                                "path": "tags/artificial_intelligence.png"
+                            },
+                            {
+                                "id": "python",
+                                "name": "Python",
+                                "type": "languages",
+                                "path": "tags/python.png"
+                            }
+                        ]
                     },
                     {
                         "id": "pigma-quiz",
@@ -1225,9 +1947,32 @@
                                 "path": "fixed_data/academic/extra_activities/pigma_quiz/pigma_quiz.pdf"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "math",
+                            "olympiad",
+                            "ufaz"
+                        ],
                         "data_folder": "fixed_data/academic/extra_activities/pigma_quiz",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "math",
+                                "name": "Math",
+                                "type": "organizations",
+                                "path": "tags/math.png"
+                            },
+                            {
+                                "id": "olympiad",
+                                "name": "Olympiad",
+                                "type": "concepts",
+                                "path": "tags/olympiad.png"
+                            },
+                            {
+                                "id": "ufaz",
+                                "name": "UFAZ",
+                                "type": "organizations",
+                                "path": "tags/ufaz.png"
+                            }
+                        ]
                     },
                     {
                         "id": "scientific-conference",
@@ -1255,9 +2000,39 @@
                                 "path": "fixed_data/academic/extra_activities/scientific_conference/IMG-20240913-WA0027.jpg"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "conference",
+                            "scientific",
+                            "research",
+                            "math"
+                        ],
                         "data_folder": "fixed_data/academic/extra_activities/scientific_conference",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "conference",
+                                "name": "Conference",
+                                "type": "experience",
+                                "path": "tags/conference.png"
+                            },
+                            {
+                                "id": "scientific",
+                                "name": "Scientific",
+                                "type": "concepts",
+                                "path": "tags/science.png"
+                            },
+                            {
+                                "id": "research",
+                                "name": "Research",
+                                "type": "organizations",
+                                "path": "tags/research.png"
+                            },
+                            {
+                                "id": "math",
+                                "name": "Math",
+                                "type": "organizations",
+                                "path": "tags/math.png"
+                            }
+                        ]
                     },
                     {
                         "id": "sumgayit-cup",
@@ -1285,9 +2060,67 @@
                                 "path": "fixed_data/academic/extra_activities/sumgayit_cup/sumgayit_cup.jpg"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "icpc",
+                            "idda",
+                            "olympiad",
+                            "competitive-programming",
+                            "algorithms",
+                            "data-structures",
+                            "c++",
+                            "math"
+                        ],
                         "data_folder": "fixed_data/academic/extra_activities/sumgayit_cup",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "icpc",
+                                "name": "ICPC",
+                                "type": "experience",
+                                "path": "tags/icpc.png"
+                            },
+                            {
+                                "id": "idda",
+                                "name": "Idda",
+                                "type": "organizations",
+                                "path": "tags/idda.png"
+                            },
+                            {
+                                "id": "olympiad",
+                                "name": "Olympiad",
+                                "type": "concepts",
+                                "path": "tags/olympiad.png"
+                            },
+                            {
+                                "id": "competitive-programming",
+                                "name": "Competitive Programming",
+                                "type": "concepts",
+                                "path": "tags/competitive_programming.png"
+                            },
+                            {
+                                "id": "algorithms",
+                                "name": "Algorithms",
+                                "type": "concepts",
+                                "path": "tags/algorithm.png"
+                            },
+                            {
+                                "id": "data-structures",
+                                "name": "Data Structures",
+                                "type": "concepts",
+                                "path": "tags/data_structures.png"
+                            },
+                            {
+                                "id": "c++",
+                                "name": "C++",
+                                "type": "languages",
+                                "path": "tags/cpp.png"
+                            },
+                            {
+                                "id": "math",
+                                "name": "Math",
+                                "type": "organizations",
+                                "path": "tags/math.png"
+                            }
+                        ]
                     },
                     {
                         "id": "web-skills",
@@ -1308,9 +2141,74 @@
                             "day": null
                         },
                         "media": [],
-                        "tagIds": [],
+                        "tagIds": [
+                            "world-skills",
+                            "web",
+                            "programming",
+                            "design",
+                            "photoshop",
+                            "html",
+                            "css",
+                            "javascript",
+                            "react"
+                        ],
                         "data_folder": "fixed_data/academic/extra_activities/web_skills",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "world-skills",
+                                "name": "World Skills",
+                                "type": "experience",
+                                "path": "tags/world_skills.png"
+                            },
+                            {
+                                "id": "web",
+                                "name": "Web",
+                                "type": "concepts",
+                                "path": "tags/web.webp"
+                            },
+                            {
+                                "id": "programming",
+                                "name": "Programming",
+                                "type": "concepts",
+                                "path": null
+                            },
+                            {
+                                "id": "design",
+                                "name": "Design",
+                                "type": "concepts",
+                                "path": null
+                            },
+                            {
+                                "id": "photoshop",
+                                "name": "Photoshop",
+                                "type": "concepts",
+                                "path": "tags/photoshop.png"
+                            },
+                            {
+                                "id": "html",
+                                "name": "HTML",
+                                "type": "languages",
+                                "path": "tags/html.png"
+                            },
+                            {
+                                "id": "css",
+                                "name": "CSS",
+                                "type": "languages",
+                                "path": "tags/css.png"
+                            },
+                            {
+                                "id": "javascript",
+                                "name": "JavaScript",
+                                "type": "languages",
+                                "path": "tags/js.png"
+                            },
+                            {
+                                "id": "react",
+                                "name": "React",
+                                "type": "frameworks",
+                                "path": "tags/react.png"
+                            }
+                        ]
                     }
                 ]
             },
@@ -1344,9 +2242,67 @@
                                 "path": "fixed_data/academic/researchs/sign_language/IEEE_conference.pdf"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "research",
+                            "artificial-intelligence",
+                            "machine-learning",
+                            "computer-vision",
+                            "sign-language",
+                            "azerbaijani",
+                            "ieee",
+                            "conference"
+                        ],
                         "data_folder": "fixed_data/academic/researchs/sign_language",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "research",
+                                "name": "Research",
+                                "type": "organizations",
+                                "path": "tags/research.png"
+                            },
+                            {
+                                "id": "artificial-intelligence",
+                                "name": "Artificial Intelligence",
+                                "type": "ai_ml",
+                                "path": "tags/artificial_intelligence.png"
+                            },
+                            {
+                                "id": "machine-learning",
+                                "name": "Machine Learning",
+                                "type": "ai_ml",
+                                "path": "tags/machine_learning.png"
+                            },
+                            {
+                                "id": "computer-vision",
+                                "name": "Computer Vision",
+                                "type": "ai_ml",
+                                "path": "tags/computer_vision.png"
+                            },
+                            {
+                                "id": "sign-language",
+                                "name": "Sign Language",
+                                "type": "ai_ml",
+                                "path": "tags/sign_language.png"
+                            },
+                            {
+                                "id": "azerbaijani",
+                                "name": "Azerbaijani",
+                                "type": "organizations",
+                                "path": "tags/azerbaijan.png"
+                            },
+                            {
+                                "id": "ieee",
+                                "name": "IEEE",
+                                "type": "organizations",
+                                "path": "tags/ieee.png"
+                            },
+                            {
+                                "id": "conference",
+                                "name": "Conference",
+                                "type": "experience",
+                                "path": "tags/conference.png"
+                            }
+                        ]
                     }
                 ]
             }
@@ -1398,7 +2354,7 @@
         {
             "id": "docker",
             "name": "Docker",
-            "type": "cloud_infra",
+            "type": "cloud_devops",
             "path": "tags/docker.svg"
         },
         {
@@ -1482,49 +2438,49 @@
         {
             "id": "aws",
             "name": "AWS",
-            "type": "cloud_infra",
+            "type": "cloud_devops",
             "path": "tags/aws.png"
         },
         {
             "id": "firebase",
             "name": "Firebase",
-            "type": "cloud_infra",
+            "type": "cloud_devops",
             "path": "tags/firebase.png"
         },
         {
             "id": "vercel",
             "name": "Vercel",
-            "type": "cloud_infra",
+            "type": "cloud_devops",
             "path": "tags/vercel.svg"
         },
         {
             "id": "github",
             "name": "GitHub",
-            "type": "cloud_infra",
+            "type": "cloud_devops",
             "path": "tags/github.png"
         },
         {
             "id": "ghcr",
             "name": "GHCR",
-            "type": "cloud_infra",
+            "type": "cloud_devops",
             "path": "tags/ghcr.png"
         },
         {
             "id": "cloudrun",
             "name": "Cloud Run",
-            "type": "cloud_infra",
+            "type": "cloud_devops",
             "path": "tags/cloud_run.png"
         },
         {
             "id": "namecheap",
             "name": "Namecheap",
-            "type": "cloud_infra",
+            "type": "cloud_devops",
             "path": "tags/namecheap.webp"
         },
         {
             "id": "alwaysdata",
             "name": "Alwaysdata",
-            "type": "cloud_infra",
+            "type": "cloud_devops",
             "path": "tags/alwaysdata.png"
         },
         {
@@ -1548,56 +2504,434 @@
         {
             "id": "resend",
             "name": "Resend",
-            "type": "other",
+            "type": "frameworks",
             "path": "tags/resend.svg"
         },
         {
             "id": "ably",
             "name": "Ably",
-            "type": "other",
+            "type": "frameworks",
             "path": "tags/ably.png"
         },
         {
             "id": "unsplash",
             "name": "Unsplash",
-            "type": "other",
+            "type": "concepts",
             "path": "tags/unsplash.webp"
         },
         {
             "id": "math",
             "name": "Math",
-            "type": "academic_research",
+            "type": "organizations",
             "path": "tags/math.png"
         },
         {
             "id": "algorithms",
             "name": "Algorithms",
-            "type": "academic_research",
+            "type": "concepts",
             "path": "tags/algorithm.png"
-        },
-        {
-            "id": "graph",
-            "name": "Graph",
-            "type": "academic_research",
-            "path": "tags/graph.png"
         },
         {
             "id": "turkcell",
             "name": "Turkcell",
-            "type": "other",
+            "type": "organizations",
             "path": "tags/turkcell.png"
         },
         {
             "id": "academic",
             "name": "Academic",
-            "type": "academic_research",
+            "type": "organizations",
             "path": "tags/academic.png"
         },
         {
             "id": "research",
             "name": "Research",
-            "type": "academic_research",
+            "type": "organizations",
             "path": "tags/research.png"
+        },
+        {
+            "id": "c-sharp",
+            "name": "C Sharp",
+            "type": "languages",
+            "path": "tags/c_sharp.png"
+        },
+        {
+            "id": "database_administration",
+            "name": "Database Administration",
+            "type": "databases",
+            "path": "tags/database_administration.png"
+        },
+        {
+            "id": "web",
+            "name": "Web",
+            "type": "concepts",
+            "path": "tags/web.webp"
+        },
+        {
+            "id": "olympiad",
+            "name": "Olympiad",
+            "type": "concepts",
+            "path": "tags/olympiad.png"
+        },
+        {
+            "id": "abb",
+            "name": "Abb",
+            "type": "organizations",
+            "path": "tags/abb.png"
+        },
+        {
+            "id": "apache-tomcat",
+            "name": "Apache Tomcat",
+            "type": "cloud_devops",
+            "path": "tags/apache_tomcat.png"
+        },
+        {
+            "id": "spring",
+            "name": "Spring",
+            "type": "frameworks",
+            "path": "tags/spring.png"
+        },
+        {
+            "id": "spring-boot",
+            "name": "Spring Boot",
+            "type": "frameworks",
+            "path": "tags/spring_boot.svg"
+        },
+        {
+            "id": "maven",
+            "name": "Maven",
+            "type": "cloud_devops",
+            "path": "tags/maven.webp"
+        },
+        {
+            "id": "data-structures",
+            "name": "Data Structures",
+            "type": "concepts",
+            "path": "tags/data_structures.png"
+        },
+        {
+            "id": "hibernate",
+            "name": "Hibernate",
+            "type": "frameworks",
+            "path": "tags/hibernate_logo.png"
+        },
+        {
+            "id": "backend",
+            "name": "Backend",
+            "type": "concepts",
+            "path": "tags/backend.png"
+        },
+        {
+            "id": "api",
+            "name": "API",
+            "type": "concepts",
+            "path": "tags/api.png"
+        },
+        {
+            "id": "software-engineering",
+            "name": "Software Engineering",
+            "type": "concepts",
+            "path": "tags/software_engineering.png"
+        },
+        {
+            "id": "competitive-programming",
+            "name": "Competitive Programming",
+            "type": "concepts",
+            "path": "tags/competitive_programming.png"
+        },
+        {
+            "id": "graphs",
+            "name": "Graphs",
+            "type": "concepts",
+            "path": "tags/graph.png"
+        },
+        {
+            "id": "ada-university",
+            "name": "Ada University",
+            "type": "organizations",
+            "path": "tags/ada_university.png"
+        },
+        {
+            "id": "constructor-university",
+            "name": "Constructor University",
+            "type": "organizations",
+            "path": "tags/constructor_university.png"
+        },
+        {
+            "id": "idda",
+            "name": "Idda",
+            "type": "organizations",
+            "path": "tags/idda.png"
+        },
+        {
+            "id": "c++",
+            "name": "C++",
+            "type": "languages",
+            "path": "tags/cpp.png"
+        },
+        {
+            "id": "oop",
+            "name": "OOP",
+            "type": "concepts",
+            "path": "tags/oop.png"
+        },
+        {
+            "id": "design-patterns",
+            "name": "Design Patterns",
+            "type": "concepts",
+            "path": "tags/design_patterns.png"
+        },
+        {
+            "id": "codestar",
+            "name": "Codestar",
+            "type": "organizations",
+            "path": "tags/codestar.webp"
+        },
+        {
+            "id": "machine-learning",
+            "name": "Machine Learning",
+            "type": "ai_ml",
+            "path": "tags/machine_learning.png"
+        },
+        {
+            "id": "artificial-intelligence",
+            "name": "Artificial Intelligence",
+            "type": "ai_ml",
+            "path": "tags/artificial_intelligence.png"
+        },
+        {
+            "id": "4sim",
+            "name": "4sim",
+            "type": "organizations",
+            "path": "tags/4sim.png"
+        },
+        {
+            "id": "coursera",
+            "name": "Coursera",
+            "type": "organizations",
+            "path": "tags/coursera.png"
+        },
+        {
+            "id": "software-architecture",
+            "name": "Software Architecture",
+            "type": "concepts",
+            "path": "tags/software_architecture.png"
+        },
+        {
+            "id": "mobile-development",
+            "name": "Mobile Development",
+            "type": "concepts",
+            "path": "tags/mobile_development.png"
+        },
+        {
+            "id": "udemy",
+            "name": "Udemy",
+            "type": "organizations",
+            "path": "tags/udemy.webp"
+        },
+        {
+            "id": "aegee",
+            "name": "Aegee",
+            "type": "organizations",
+            "path": "tags/aegee.png"
+        },
+        {
+            "id": "icpc",
+            "name": "ICPC",
+            "type": "experience",
+            "path": "tags/icpc.png"
+        },
+        {
+            "id": "icsc",
+            "name": "ICSC",
+            "type": "experience",
+            "path": "tags/icsc.png"
+        },
+        {
+            "id": "bir-konullu",
+            "name": "Bir Konullu",
+            "type": "organizations",
+            "path": "tags/bir_konullu.jpeg"
+        },
+        {
+            "id": "math-camp",
+            "name": "Math Camp",
+            "type": "experience",
+            "path": null
+        },
+        {
+            "id": "ufaz",
+            "name": "UFAZ",
+            "type": "organizations",
+            "path": "tags/ufaz.png"
+        },
+        {
+            "id": "bhos",
+            "name": "BHOS",
+            "type": "organizations",
+            "path": "tags/bhos.png"
+        },
+        {
+            "id": "miull",
+            "name": "Miull",
+            "type": "organizations",
+            "path": "tags/miuul.jpg"
+        },
+        {
+            "id": "data-camp",
+            "name": "Data Camp",
+            "type": "experience",
+            "path": null
+        },
+        {
+            "id": "data-science",
+            "name": "Data Science",
+            "type": "ai_ml",
+            "path": "tags/data_science.png"
+        },
+        {
+            "id": "conference",
+            "name": "Conference",
+            "type": "experience",
+            "path": "tags/conference.png"
+        },
+        {
+            "id": "scientific",
+            "name": "Scientific",
+            "type": "concepts",
+            "path": "tags/science.png"
+        },
+        {
+            "id": "world-skills",
+            "name": "World Skills",
+            "type": "experience",
+            "path": "tags/world_skills.png"
+        },
+        {
+            "id": "programming",
+            "name": "Programming",
+            "type": "concepts",
+            "path": null
+        },
+        {
+            "id": "design",
+            "name": "Design",
+            "type": "concepts",
+            "path": null
+        },
+        {
+            "id": "photoshop",
+            "name": "Photoshop",
+            "type": "concepts",
+            "path": "tags/photoshop.png"
+        },
+        {
+            "id": "computer-vision",
+            "name": "Computer Vision",
+            "type": "ai_ml",
+            "path": "tags/computer_vision.png"
+        },
+        {
+            "id": "sign-language",
+            "name": "Sign Language",
+            "type": "ai_ml",
+            "path": "tags/sign_language.png"
+        },
+        {
+            "id": "azerbaijani",
+            "name": "Azerbaijani",
+            "type": "organizations",
+            "path": "tags/azerbaijan.png"
+        },
+        {
+            "id": "ieee",
+            "name": "IEEE",
+            "type": "organizations",
+            "path": "tags/ieee.png"
+        },
+        {
+            "id": "computer-science",
+            "name": "Computer Science",
+            "type": "concepts",
+            "path": "tags/computer_science.png"
+        },
+        {
+            "id": "buta-group",
+            "name": "Buta Group",
+            "type": "organizations",
+            "path": "tags/buta_group.jpeg"
+        },
+        {
+            "id": "internship",
+            "name": "Internship",
+            "type": "experience",
+            "path": "tags/internship.png"
+        },
+        {
+            "id": "no-code",
+            "name": "No Code",
+            "type": "frameworks",
+            "path": "tags/no_code.png"
+        },
+        {
+            "id": "crm",
+            "name": "CRM",
+            "type": "databases",
+            "path": "tags/crm.png"
+        },
+        {
+            "id": "frontend",
+            "name": "Frontend",
+            "type": "concepts",
+            "path": "tags/frontend.png"
+        },
+        {
+            "id": "erp",
+            "name": "ERP",
+            "type": "databases",
+            "path": "tags/erp.png"
+        },
+        {
+            "id": "hackathon",
+            "name": "Hackathon",
+            "type": "experience",
+            "path": "tags/hackathon.png"
+        },
+        {
+            "id": "siemens",
+            "name": "Siemens",
+            "type": "organizations",
+            "path": "tags/siemens.png"
+        },
+        {
+            "id": "erp-systems",
+            "name": "ERP Systems",
+            "type": "databases",
+            "path": "tags/erp_systems.png"
+        },
+        {
+            "id": "sustainable-design",
+            "name": "Sustainable Design",
+            "type": "organizations",
+            "path": "tags/sustainable_design.png"
+        },
+        {
+            "id": "pest-detection",
+            "name": "Pest Detection",
+            "type": "ai_ml",
+            "path": "tags/pest_detection.png"
+        },
+        {
+            "id": "guardian-x",
+            "name": "Guardian X",
+            "type": "organizations",
+            "path": "tags/guardian_x.png"
+        },
+        {
+            "id": "startup",
+            "name": "Startup",
+            "type": "experience",
+            "path": "tags/startup.png"
         }
     ],
     "skillCategories": [
@@ -1666,12 +3000,24 @@
                     "name": "Java",
                     "type": "languages",
                     "path": "tags/java.svg"
+                },
+                {
+                    "id": "c-sharp",
+                    "name": "C Sharp",
+                    "type": "languages",
+                    "path": "tags/c_sharp.png"
+                },
+                {
+                    "id": "c++",
+                    "name": "C++",
+                    "type": "languages",
+                    "path": "tags/cpp.png"
                 }
             ]
         },
         {
             "id": "frameworks",
-            "name": "Frameworks",
+            "name": "Frameworks & Libs",
             "icon": "layers",
             "color": "#818cf8",
             "tags": [
@@ -1710,6 +3056,42 @@
                     "name": "Bootstrap",
                     "type": "frameworks",
                     "path": "tags/bootstrap.png"
+                },
+                {
+                    "id": "resend",
+                    "name": "Resend",
+                    "type": "frameworks",
+                    "path": "tags/resend.svg"
+                },
+                {
+                    "id": "ably",
+                    "name": "Ably",
+                    "type": "frameworks",
+                    "path": "tags/ably.png"
+                },
+                {
+                    "id": "spring",
+                    "name": "Spring",
+                    "type": "frameworks",
+                    "path": "tags/spring.png"
+                },
+                {
+                    "id": "spring-boot",
+                    "name": "Spring Boot",
+                    "type": "frameworks",
+                    "path": "tags/spring_boot.svg"
+                },
+                {
+                    "id": "hibernate",
+                    "name": "Hibernate",
+                    "type": "frameworks",
+                    "path": "tags/hibernate_logo.png"
+                },
+                {
+                    "id": "no-code",
+                    "name": "No Code",
+                    "type": "frameworks",
+                    "path": "tags/no_code.png"
                 }
             ]
         },
@@ -1742,75 +3124,37 @@
                     "name": "MongoDB",
                     "type": "databases",
                     "path": "tags/mongo.png"
-                }
-            ]
-        },
-        {
-            "id": "cloud_infra",
-            "name": "Cloud & Infrastructure",
-            "icon": "server",
-            "color": "#fbbf24",
-            "tags": [
-                {
-                    "id": "docker",
-                    "name": "Docker",
-                    "type": "cloud_infra",
-                    "path": "tags/docker.svg"
                 },
                 {
-                    "id": "aws",
-                    "name": "AWS",
-                    "type": "cloud_infra",
-                    "path": "tags/aws.png"
+                    "id": "database_administration",
+                    "name": "Database Administration",
+                    "type": "databases",
+                    "path": "tags/database_administration.png"
                 },
                 {
-                    "id": "firebase",
-                    "name": "Firebase",
-                    "type": "cloud_infra",
-                    "path": "tags/firebase.png"
+                    "id": "crm",
+                    "name": "CRM",
+                    "type": "databases",
+                    "path": "tags/crm.png"
                 },
                 {
-                    "id": "vercel",
-                    "name": "Vercel",
-                    "type": "cloud_infra",
-                    "path": "tags/vercel.svg"
+                    "id": "erp",
+                    "name": "ERP",
+                    "type": "databases",
+                    "path": "tags/erp.png"
                 },
                 {
-                    "id": "github",
-                    "name": "GitHub",
-                    "type": "cloud_infra",
-                    "path": "tags/github.png"
-                },
-                {
-                    "id": "ghcr",
-                    "name": "GHCR",
-                    "type": "cloud_infra",
-                    "path": "tags/ghcr.png"
-                },
-                {
-                    "id": "cloudrun",
-                    "name": "Cloud Run",
-                    "type": "cloud_infra",
-                    "path": "tags/cloud_run.png"
-                },
-                {
-                    "id": "namecheap",
-                    "name": "Namecheap",
-                    "type": "cloud_infra",
-                    "path": "tags/namecheap.webp"
-                },
-                {
-                    "id": "alwaysdata",
-                    "name": "Alwaysdata",
-                    "type": "cloud_infra",
-                    "path": "tags/alwaysdata.png"
+                    "id": "erp-systems",
+                    "name": "ERP Systems",
+                    "type": "databases",
+                    "path": "tags/erp_systems.png"
                 }
             ]
         },
         {
             "id": "ai_ml",
             "name": "AI & Intelligence",
-            "icon": "terminal",
+            "icon": "brain",
             "color": "#e879f9",
             "tags": [
                 {
@@ -1830,76 +3174,452 @@
                     "name": "Gemini",
                     "type": "ai_ml",
                     "path": "tags/gemini.png"
+                },
+                {
+                    "id": "machine-learning",
+                    "name": "Machine Learning",
+                    "type": "ai_ml",
+                    "path": "tags/machine_learning.png"
+                },
+                {
+                    "id": "artificial-intelligence",
+                    "name": "Artificial Intelligence",
+                    "type": "ai_ml",
+                    "path": "tags/artificial_intelligence.png"
+                },
+                {
+                    "id": "data-science",
+                    "name": "Data Science",
+                    "type": "ai_ml",
+                    "path": "tags/data_science.png"
+                },
+                {
+                    "id": "computer-vision",
+                    "name": "Computer Vision",
+                    "type": "ai_ml",
+                    "path": "tags/computer_vision.png"
+                },
+                {
+                    "id": "sign-language",
+                    "name": "Sign Language",
+                    "type": "ai_ml",
+                    "path": "tags/sign_language.png"
+                },
+                {
+                    "id": "pest-detection",
+                    "name": "Pest Detection",
+                    "type": "ai_ml",
+                    "path": "tags/pest_detection.png"
                 }
             ]
         },
         {
-            "id": "academic_research",
-            "name": "Academic & Research",
-            "icon": "palette",
+            "id": "cloud_devops",
+            "name": "Cloud & DevOps",
+            "icon": "server",
+            "color": "#fbbf24",
+            "tags": [
+                {
+                    "id": "docker",
+                    "name": "Docker",
+                    "type": "cloud_devops",
+                    "path": "tags/docker.svg"
+                },
+                {
+                    "id": "aws",
+                    "name": "AWS",
+                    "type": "cloud_devops",
+                    "path": "tags/aws.png"
+                },
+                {
+                    "id": "firebase",
+                    "name": "Firebase",
+                    "type": "cloud_devops",
+                    "path": "tags/firebase.png"
+                },
+                {
+                    "id": "vercel",
+                    "name": "Vercel",
+                    "type": "cloud_devops",
+                    "path": "tags/vercel.svg"
+                },
+                {
+                    "id": "github",
+                    "name": "GitHub",
+                    "type": "cloud_devops",
+                    "path": "tags/github.png"
+                },
+                {
+                    "id": "ghcr",
+                    "name": "GHCR",
+                    "type": "cloud_devops",
+                    "path": "tags/ghcr.png"
+                },
+                {
+                    "id": "cloudrun",
+                    "name": "Cloud Run",
+                    "type": "cloud_devops",
+                    "path": "tags/cloud_run.png"
+                },
+                {
+                    "id": "namecheap",
+                    "name": "Namecheap",
+                    "type": "cloud_devops",
+                    "path": "tags/namecheap.webp"
+                },
+                {
+                    "id": "alwaysdata",
+                    "name": "Alwaysdata",
+                    "type": "cloud_devops",
+                    "path": "tags/alwaysdata.png"
+                },
+                {
+                    "id": "apache-tomcat",
+                    "name": "Apache Tomcat",
+                    "type": "cloud_devops",
+                    "path": "tags/apache_tomcat.png"
+                },
+                {
+                    "id": "maven",
+                    "name": "Maven",
+                    "type": "cloud_devops",
+                    "path": "tags/maven.webp"
+                }
+            ]
+        },
+        {
+            "id": "concepts",
+            "name": "Concepts & Methods",
+            "icon": "book",
             "color": "#94a3b8",
             "tags": [
                 {
-                    "id": "math",
-                    "name": "Math",
-                    "type": "academic_research",
-                    "path": "tags/math.png"
+                    "id": "unsplash",
+                    "name": "Unsplash",
+                    "type": "concepts",
+                    "path": "tags/unsplash.webp"
                 },
                 {
                     "id": "algorithms",
                     "name": "Algorithms",
-                    "type": "academic_research",
+                    "type": "concepts",
                     "path": "tags/algorithm.png"
                 },
                 {
-                    "id": "graph",
-                    "name": "Graph",
-                    "type": "academic_research",
+                    "id": "web",
+                    "name": "Web",
+                    "type": "concepts",
+                    "path": "tags/web.webp"
+                },
+                {
+                    "id": "olympiad",
+                    "name": "Olympiad",
+                    "type": "concepts",
+                    "path": "tags/olympiad.png"
+                },
+                {
+                    "id": "data-structures",
+                    "name": "Data Structures",
+                    "type": "concepts",
+                    "path": "tags/data_structures.png"
+                },
+                {
+                    "id": "backend",
+                    "name": "Backend",
+                    "type": "concepts",
+                    "path": "tags/backend.png"
+                },
+                {
+                    "id": "api",
+                    "name": "API",
+                    "type": "concepts",
+                    "path": "tags/api.png"
+                },
+                {
+                    "id": "software-engineering",
+                    "name": "Software Engineering",
+                    "type": "concepts",
+                    "path": "tags/software_engineering.png"
+                },
+                {
+                    "id": "competitive-programming",
+                    "name": "Competitive Programming",
+                    "type": "concepts",
+                    "path": "tags/competitive_programming.png"
+                },
+                {
+                    "id": "graphs",
+                    "name": "Graphs",
+                    "type": "concepts",
                     "path": "tags/graph.png"
+                },
+                {
+                    "id": "oop",
+                    "name": "OOP",
+                    "type": "concepts",
+                    "path": "tags/oop.png"
+                },
+                {
+                    "id": "design-patterns",
+                    "name": "Design Patterns",
+                    "type": "concepts",
+                    "path": "tags/design_patterns.png"
+                },
+                {
+                    "id": "software-architecture",
+                    "name": "Software Architecture",
+                    "type": "concepts",
+                    "path": "tags/software_architecture.png"
+                },
+                {
+                    "id": "mobile-development",
+                    "name": "Mobile Development",
+                    "type": "concepts",
+                    "path": "tags/mobile_development.png"
+                },
+                {
+                    "id": "scientific",
+                    "name": "Scientific",
+                    "type": "concepts",
+                    "path": "tags/science.png"
+                },
+                {
+                    "id": "programming",
+                    "name": "Programming",
+                    "type": "concepts",
+                    "path": null
+                },
+                {
+                    "id": "design",
+                    "name": "Design",
+                    "type": "concepts",
+                    "path": null
+                },
+                {
+                    "id": "photoshop",
+                    "name": "Photoshop",
+                    "type": "concepts",
+                    "path": "tags/photoshop.png"
+                },
+                {
+                    "id": "computer-science",
+                    "name": "Computer Science",
+                    "type": "concepts",
+                    "path": "tags/computer_science.png"
+                },
+                {
+                    "id": "frontend",
+                    "name": "Frontend",
+                    "type": "concepts",
+                    "path": "tags/frontend.png"
+                }
+            ]
+        },
+        {
+            "id": "organizations",
+            "name": "Organizations",
+            "icon": "building",
+            "color": "#4ade80",
+            "tags": [
+                {
+                    "id": "math",
+                    "name": "Math",
+                    "type": "organizations",
+                    "path": "tags/math.png"
+                },
+                {
+                    "id": "turkcell",
+                    "name": "Turkcell",
+                    "type": "organizations",
+                    "path": "tags/turkcell.png"
                 },
                 {
                     "id": "academic",
                     "name": "Academic",
-                    "type": "academic_research",
+                    "type": "organizations",
                     "path": "tags/academic.png"
                 },
                 {
                     "id": "research",
                     "name": "Research",
-                    "type": "academic_research",
+                    "type": "organizations",
                     "path": "tags/research.png"
+                },
+                {
+                    "id": "abb",
+                    "name": "Abb",
+                    "type": "organizations",
+                    "path": "tags/abb.png"
+                },
+                {
+                    "id": "ada-university",
+                    "name": "Ada University",
+                    "type": "organizations",
+                    "path": "tags/ada_university.png"
+                },
+                {
+                    "id": "constructor-university",
+                    "name": "Constructor University",
+                    "type": "organizations",
+                    "path": "tags/constructor_university.png"
+                },
+                {
+                    "id": "idda",
+                    "name": "Idda",
+                    "type": "organizations",
+                    "path": "tags/idda.png"
+                },
+                {
+                    "id": "codestar",
+                    "name": "Codestar",
+                    "type": "organizations",
+                    "path": "tags/codestar.webp"
+                },
+                {
+                    "id": "4sim",
+                    "name": "4sim",
+                    "type": "organizations",
+                    "path": "tags/4sim.png"
+                },
+                {
+                    "id": "coursera",
+                    "name": "Coursera",
+                    "type": "organizations",
+                    "path": "tags/coursera.png"
+                },
+                {
+                    "id": "udemy",
+                    "name": "Udemy",
+                    "type": "organizations",
+                    "path": "tags/udemy.webp"
+                },
+                {
+                    "id": "aegee",
+                    "name": "Aegee",
+                    "type": "organizations",
+                    "path": "tags/aegee.png"
+                },
+                {
+                    "id": "bir-konullu",
+                    "name": "Bir Konullu",
+                    "type": "organizations",
+                    "path": "tags/bir_konullu.jpeg"
+                },
+                {
+                    "id": "ufaz",
+                    "name": "UFAZ",
+                    "type": "organizations",
+                    "path": "tags/ufaz.png"
+                },
+                {
+                    "id": "bhos",
+                    "name": "BHOS",
+                    "type": "organizations",
+                    "path": "tags/bhos.png"
+                },
+                {
+                    "id": "miull",
+                    "name": "Miull",
+                    "type": "organizations",
+                    "path": "tags/miuul.jpg"
+                },
+                {
+                    "id": "azerbaijani",
+                    "name": "Azerbaijani",
+                    "type": "organizations",
+                    "path": "tags/azerbaijan.png"
+                },
+                {
+                    "id": "ieee",
+                    "name": "IEEE",
+                    "type": "organizations",
+                    "path": "tags/ieee.png"
+                },
+                {
+                    "id": "buta-group",
+                    "name": "Buta Group",
+                    "type": "organizations",
+                    "path": "tags/buta_group.jpeg"
+                },
+                {
+                    "id": "siemens",
+                    "name": "Siemens",
+                    "type": "organizations",
+                    "path": "tags/siemens.png"
+                },
+                {
+                    "id": "sustainable-design",
+                    "name": "Sustainable Design",
+                    "type": "organizations",
+                    "path": "tags/sustainable_design.png"
+                },
+                {
+                    "id": "guardian-x",
+                    "name": "Guardian X",
+                    "type": "organizations",
+                    "path": "tags/guardian_x.png"
                 }
             ]
         },
         {
-            "id": "other",
-            "name": "Tools",
-            "icon": "terminal",
-            "color": "#475569",
+            "id": "experience",
+            "name": "Events & Roles",
+            "icon": "award",
+            "color": "#f472b6",
             "tags": [
                 {
-                    "id": "resend",
-                    "name": "Resend",
-                    "type": "other",
-                    "path": "tags/resend.svg"
+                    "id": "icpc",
+                    "name": "ICPC",
+                    "type": "experience",
+                    "path": "tags/icpc.png"
                 },
                 {
-                    "id": "ably",
-                    "name": "Ably",
-                    "type": "other",
-                    "path": "tags/ably.png"
+                    "id": "icsc",
+                    "name": "ICSC",
+                    "type": "experience",
+                    "path": "tags/icsc.png"
                 },
                 {
-                    "id": "unsplash",
-                    "name": "Unsplash",
-                    "type": "other",
-                    "path": "tags/unsplash.webp"
+                    "id": "math-camp",
+                    "name": "Math Camp",
+                    "type": "experience",
+                    "path": null
                 },
                 {
-                    "id": "turkcell",
-                    "name": "Turkcell",
-                    "type": "other",
-                    "path": "tags/turkcell.png"
+                    "id": "data-camp",
+                    "name": "Data Camp",
+                    "type": "experience",
+                    "path": null
+                },
+                {
+                    "id": "conference",
+                    "name": "Conference",
+                    "type": "experience",
+                    "path": "tags/conference.png"
+                },
+                {
+                    "id": "world-skills",
+                    "name": "World Skills",
+                    "type": "experience",
+                    "path": "tags/world_skills.png"
+                },
+                {
+                    "id": "internship",
+                    "name": "Internship",
+                    "type": "experience",
+                    "path": "tags/internship.png"
+                },
+                {
+                    "id": "hackathon",
+                    "name": "Hackathon",
+                    "type": "experience",
+                    "path": "tags/hackathon.png"
+                },
+                {
+                    "id": "startup",
+                    "name": "Startup",
+                    "type": "experience",
+                    "path": "tags/startup.png"
                 }
             ]
         }
