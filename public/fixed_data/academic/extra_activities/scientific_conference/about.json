@@ -24,6 +24,11 @@
             "path": "fixed_data/academic/extra_activities/scientific_conference/IMG-20240913-WA0027.jpg"
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "conference",
+        "scientific",
+        "research",
+        "math"
+    ],
     "data_folder": "fixed_data/academic/extra_activities/scientific_conference"
 }

@@ -24,6 +24,9 @@
             "path": "fixed_data/academic/extra_activities/aegee_forum/participation.pdf"
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "aegee",
+        "artificial-intelligence"
+    ],
     "data_folder": "fixed_data/academic/extra_activities/aegee_forum"
 }

@@ -24,6 +24,11 @@
             "path": "fixed_data/academic/courses/coursera/Coursera Supervised Machine Learning Regression and Classification.pdf"
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "machine-learning",
+        "artificial-intelligence",
+        "4sim",
+        "coursera"
+    ],
     "data_folder": "fixed_data/academic/courses/coursera"
 }

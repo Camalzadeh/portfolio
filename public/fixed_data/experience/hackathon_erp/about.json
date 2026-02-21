@@ -1,11 +1,11 @@
 {
     "id": "hackathon-erp",
     "title": "Sustainable Design Hackathon",
-    "path": "fixed_data/academic/extra_activities/hackathon_erp",
+    "path": "fixed_data/experience/hackathon_erp",
     "organization": "Siemens / ERP Systems",
     "description": "Developed sustainable design solutions using Siemens technologies.",
-    "type": "academic",
-    "subtype": "achievements",
+    "type": "experience",
+    "subtype": null,
     "position": null,
     "award": "3rd Place",
     "score": null,
@@ -21,9 +21,16 @@
             "type": "pdf",
             "url_text": null,
             "title": "Humbat Jamalov Sustainable Design Hackathon Participation",
-            "path": "fixed_data/academic/extra_activities/hackathon_erp/Humbat Jamalov Sustainable Design Hackathon Participation.pdf"
+            "path": "fixed_data/experience/hackathon_erp/Humbat Jamalov Sustainable Design Hackathon Participation.pdf"
         }
     ],
-    "tagIds": [],
-    "data_folder": "fixed_data/academic/extra_activities/hackathon_erp"
+    "tagIds": [
+        "hackathon",
+        "siemens",
+        "erp-systems",
+        "sustainable-design",
+        "pest-detection",
+        "guardian-x"
+    ],
+    "data_folder": "fixed_data/experience/hackathon_erp"
 }

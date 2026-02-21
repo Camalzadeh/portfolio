@@ -24,6 +24,11 @@
             "path": "fixed_data/academic/extra_activities/math_camp_2024/math_camp.jpg"
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "math",
+        "olympiad",
+        "bir-konullu",
+        "math-camp"
+    ],
     "data_folder": "fixed_data/academic/extra_activities/math_camp_2024"
 }

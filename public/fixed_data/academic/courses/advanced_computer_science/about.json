@@ -19,14 +19,14 @@
     "media": [
         {
             "type": "image",
-            "url_text": "Phase 1 Certificate",
+            "url_text": null,
             "title": "Advanced Computer Science 1",
             "path": "fixed_data/academic/courses/advanced_computer_science/advanced_computer_science_1.jpg"
         },
         {
             "type": "pdf",
-            "url_text": "Phase 2 Certificate",
-            "title": "Advanced Computer Science 2 - Humbat Jamalov",
+            "url_text": null,
+            "title": "Advanced Computer Science 2 Humbat Jamalov",
             "path": "fixed_data/academic/courses/advanced_computer_science/advanced_computer_science_2_Humbat Jamalov.pdf"
         }
     ],
@@ -35,7 +35,10 @@
         "algorithms",
         "data-structures",
         "olympiad",
-        "graphs"
+        "graphs",
+        "ada-university",
+        "constructor-university",
+        "idda"
     ],
     "data_folder": "fixed_data/academic/courses/advanced_computer_science"
 }

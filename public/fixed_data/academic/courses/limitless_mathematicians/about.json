@@ -36,6 +36,10 @@
             "path": "fixed_data/academic/courses/limitless_mathematicians/participation 2023.jpg"
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "math",
+        "olympiad",
+        "ada-university"
+    ],
     "data_folder": "fixed_data/academic/courses/limitless_mathematicians"
 }

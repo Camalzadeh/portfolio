@@ -24,6 +24,14 @@
             "path": "fixed_data/experience/buta_group/internship_Buta Group Hümbət Camalov (1).pdf"
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "buta-group",
+        "internship",
+        "no-code",
+        "crm",
+        "web",
+        "frontend",
+        "erp"
+    ],
     "data_folder": "fixed_data/experience/buta_group"
 }

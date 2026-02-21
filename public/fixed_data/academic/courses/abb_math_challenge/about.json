@@ -18,22 +18,23 @@
     },
     "media": [
         {
-            "type": "pdf",
-            "url_text": null,
-            "title": "Participation",
-            "path": "fixed_data/academic/courses/abb_math_challenge/participation.pdf"
-        },
-        {
             "type": "url",
             "url_text": "https://www.credential.net/8dd08972-eb5b-40ea-9e0e-6c287a20bf26#acc.4E6bP03e",
             "title": "Credential",
             "path": null
+        },
+        {
+            "type": "pdf",
+            "url_text": null,
+            "title": "Participation",
+            "path": "fixed_data/academic/courses/abb_math_challenge/participation.pdf"
         }
     ],
     "tagIds": [
         "math",
         "olympiad",
-        "algorithms"
+        "algorithms",
+        "abb"
     ],
     "data_folder": "fixed_data/academic/courses/abb_math_challenge"
 }

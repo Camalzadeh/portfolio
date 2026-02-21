@@ -17,6 +17,16 @@
         "day": null
     },
     "media": [],
-    "tagIds": [],
+    "tagIds": [
+        "world-skills",
+        "web",
+        "programming",
+        "design",
+        "photoshop",
+        "html",
+        "css",
+        "javascript",
+        "react"
+    ],
     "data_folder": "fixed_data/academic/extra_activities/web_skills"
 }

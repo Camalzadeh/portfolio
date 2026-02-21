@@ -30,6 +30,14 @@
             "path": "fixed_data/academic/extra_activities/icsc_2025_qulification/ICSC-PerformanceReport-PR-2025-FFB809803C5-b5275e2c79ec037e4e2ba0d524148130.pdf"
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "icsc",
+        "algorithms",
+        "data-structures",
+        "olympiad",
+        "competitive-programming",
+        "c++",
+        "math"
+    ],
     "data_folder": "fixed_data/academic/extra_activities/icsc_2025_qulification"
 }

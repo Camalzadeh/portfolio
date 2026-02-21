@@ -1,6 +1,6 @@
 {
-    "id": "totter-startup",
-    "title": "Totter (Startup Project)",
+    "id": "startup-school",
+    "title": "Startup School 3",
     "path": "fixed_data/experience/startup_school",
     "organization": "Startup School 3",
     "description": "Developed the MVP from scratch, pitched to business leaders, and handled the full technical roadmap including scaling strategy.",
@@ -24,6 +24,12 @@
             "path": "fixed_data/experience/startup_school/Humbat Jamalov Startup School 3.pdf"
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "startup",
+        "mobile-development",
+        "artificial-intelligence",
+        "pest-detection",
+        "guardian-x"
+    ],
     "data_folder": "fixed_data/experience/startup_school"
 }

@@ -308,20 +308,20 @@
                     },
                     {
                         "id": "advanced-computer-science",
-                        "title": "Advanced computer science",
+                        "title": "Advanced Computer Science Courses",
                         "path": "fixed_data/academic/courses/advanced_computer_science",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Advanced computer science.",
+                        "organization": "Constructor University & IDDA & ADA University",
+                        "description": "Completed intensive Advanced Computer Science programs. In Phase I (at ADA University, supported by IDDA), ranked 5th out of 100+ participants. In Phase II (online), earned a Progress Certificate for consistent engagement and over 50% performance.",
                         "type": "academic",
                         "subtype": "courses",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
+                        "position": "Participant",
+                        "award": "Progress Certificate",
+                        "score": "Top 5 / +50%",
+                        "duration": "12 days / 3 months",
+                        "place": "ADA University / Online",
                         "date": {
                             "year": 2024,
-                            "month": null,
+                            "month": 8,
                             "day": null
                         },
                         "media": [
@@ -338,9 +338,42 @@
                                 "path": "fixed_data/academic/courses/advanced_computer_science/advanced_computer_science_2_Humbat Jamalov.pdf"
                             }
                         ],
-                        "tagIds": [],
+                        "tagIds": [
+                            "competitive-programming",
+                            "algorithms",
+                            "data-structures",
+                            "olympiad",
+                            "graphs"
+                        ],
                         "data_folder": "fixed_data/academic/courses/advanced_computer_science",
-                        "tags": []
+                        "tags": [
+                            {
+                                "id": "competitive-programming",
+                                "name": "Competitive-programming",
+                                "path": null
+                            },
+                            {
+                                "id": "algorithms",
+                                "name": "Algorithms",
+                                "type": "academic_research",
+                                "path": "tags/algorithm.png"
+                            },
+                            {
+                                "id": "data-structures",
+                                "name": "Data-structures",
+                                "path": null
+                            },
+                            {
+                                "id": "olympiad",
+                                "name": "Olympiad",
+                                "path": null
+                            },
+                            {
+                                "id": "graphs",
+                                "name": "Graphs",
+                                "path": null
+                            }
+                        ]
                     },
                     {
                         "id": "codestar",

@@ -42,6 +42,13 @@
             "path": "fixed_data/academic/courses/udemy/udemy_SoftwareArchitecturaUdemy.pdf"
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "flutter",
+        "dart",
+        "java",
+        "software-architecture",
+        "mobile-development",
+        "udemy"
+    ],
     "data_folder": "fixed_data/academic/courses/udemy"
 }

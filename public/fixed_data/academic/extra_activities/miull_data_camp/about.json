@@ -30,6 +30,13 @@
             "path": "fixed_data/academic/extra_activities/miull_data_camp/miull_2.png"
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "miull",
+        "data-camp",
+        "data-science",
+        "machine-learning",
+        "artificial-intelligence",
+        "python"
+    ],
     "data_folder": "fixed_data/academic/extra_activities/miull_data_camp"
 }

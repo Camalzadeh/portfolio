@@ -24,6 +24,10 @@
             "path": "fixed_data/academic/extra_activities/pigma_quiz/pigma_quiz.pdf"
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "math",
+        "olympiad",
+        "ufaz"
+    ],
     "data_folder": "fixed_data/academic/extra_activities/pigma_quiz"
 }

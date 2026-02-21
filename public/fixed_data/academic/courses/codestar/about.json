@@ -24,6 +24,15 @@
             "path": "fixed_data/academic/courses/codestar/advanced_finished.png"
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "c++",
+        "algorithms",
+        "data-structures",
+        "oop",
+        "design-patterns",
+        "competitive-programming",
+        "graphs",
+        "codestar"
+    ],
     "data_folder": "fixed_data/academic/courses/codestar"
 }

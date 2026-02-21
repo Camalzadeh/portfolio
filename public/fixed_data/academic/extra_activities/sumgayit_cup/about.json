@@ -24,6 +24,15 @@
             "path": "fixed_data/academic/extra_activities/sumgayit_cup/sumgayit_cup.jpg"
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "icpc",
+        "idda",
+        "olympiad",
+        "competitive-programming",
+        "algorithms",
+        "data-structures",
+        "c++",
+        "math"
+    ],
     "data_folder": "fixed_data/academic/extra_activities/sumgayit_cup"
 }

@@ -24,6 +24,9 @@
             "path": "fixed_data/academic/university/software_engineering/humbat_jamalov_recommendation.pdf"
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "software-engineering",
+        "ufaz"
+    ],
     "data_folder": "fixed_data/academic/university/software_engineering"
 }

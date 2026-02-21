@@ -24,6 +24,11 @@
             "path": "fixed_data/academic/extra_activities/math_competition/bu_bize_harda_lazim_olacaq.jpg"
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "math",
+        "olympiad",
+        "ufaz",
+        "bhos"
+    ],
     "data_folder": "fixed_data/academic/extra_activities/math_competition"
 }

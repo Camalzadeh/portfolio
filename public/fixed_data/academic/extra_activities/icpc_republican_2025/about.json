@@ -30,6 +30,14 @@
             "path": "fixed_data/academic/extra_activities/icpc_republican_2025/icpc_team_2025-ICPC Azerbaijan RC-MEDAL.pdf"
         }
     ],
-    "tagIds": [],
+    "tagIds": [
+        "icpc",
+        "algorithms",
+        "data-structures",
+        "olympiad",
+        "graphs",
+        "competitive-programming",
+        "c++"
+    ],
     "data_folder": "fixed_data/academic/extra_activities/icpc_republican_2025"
 }
