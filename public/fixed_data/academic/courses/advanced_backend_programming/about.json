@@ -3,7 +3,7 @@
     "title": "Advanced Backend Programming with Java",
     "path": "fixed_data/academic/courses/advanced_backend_programming",
     "organization": "Mentorship by Ilkin Mehdiyev (Senior Software Engineer)",
-    "description": "Selected through a highly competitive process for an exclusive, advanced-level backend engineering program. Under the direct mentorship of Senior Engineer Ilkin Mehdiyev, mastered industry-standard backend development using Java and Spring Boot. The curriculum emphasized production-grade API design, scalable architecture, and real-world software engineering practices. Recognized publicly as a standout participant within a select group of high-potential developers.",
+    "description": "Selected for an exclusive, 9-month intensive mentorship program focused on professional backend engineering. Under the guidance of Senior Engineer Ilkin Mehdiyev, mastered Java Fundamentals and Advanced Java programming. The program specialized in Spring Boot development, covering industry-standard practices for building robust and scalable APIs. Emphasized clean code principles, effective backend architecture, and real-world problem-solving. Participated in high-level technical discussions and collaborative learning within a select group of high-potential developers.",
     "type": "academic",
     "subtype": "courses",
     "position": "Participant",
@@ -13,7 +13,7 @@
     "place": "Online",
     "date": {
         "year": 2024,
-        "month": null,
+        "month": 4,
         "day": null
     },
     "media": [
@@ -33,6 +33,7 @@
         "data-structures",
         "hibernate",
         "backend",
+        "design-patterns",
         "api",
         "software-engineering"
     ],

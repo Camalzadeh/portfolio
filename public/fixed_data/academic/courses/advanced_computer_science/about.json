@@ -3,14 +3,14 @@
     "title": "Advanced Computer Science Courses",
     "path": "fixed_data/academic/courses/advanced_computer_science",
     "organization": "Constructor University & IDDA & ADA University",
-    "description": "Completed intensive Advanced Computer Science programs. In Phase I (at ADA University, supported by IDDA), ranked 5th out of 100+ participants. In Phase II (online), earned a Progress Certificate for consistent engagement and over 50% performance.",
+    "description": "Completed intensive Advanced Computer Science programs focusing on high-level competitive programming and algorithmic mathematics. The curriculum covered advanced topics such as Dynamic Programming (DP), Suffix Array, and complex data structures including Trie, Treap, Implicit Treap, and Palindromic Tree. Gained deep expertise in Graph Theory (Bipartite Matching, Maximum Flow, Min-Cost Max-Flow), Computational Geometry (Convex Hull Trick), Number Theory, Sqrt Decomposition, and Triple Search. Explored Advanced Game Theory and sophisticated search algorithms. In Phase I (at ADA University), ranked 5th out of 100+ participants; in Phase II, maintained high engagement with a Progress Certificate.",
     "type": "academic",
     "subtype": "courses",
     "position": "Participant",
     "award": "Progress Certificate",
     "score": "Top 5 / +50%",
     "duration": "12 days / 3 months",
-    "place": "ADA University / Online",
+    "place": "ADA University / Holberton School / Online",
     "date": {
         "year": 2024,
         "month": 8,
@@ -20,13 +20,13 @@
         {
             "type": "image",
             "url_text": null,
-            "title": "Advanced Computer Science 1",
+            "title": "Advanced Computer Science 1 Participation",
             "path": "fixed_data/academic/courses/advanced_computer_science/advanced_computer_science_1.jpg"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Advanced Computer Science 2 Humbat Jamalov",
+            "title": "Advanced Computer Science 2 Progress",
             "path": "fixed_data/academic/courses/advanced_computer_science/advanced_computer_science_2_Humbat Jamalov.pdf"
         }
     ],
@@ -34,8 +34,13 @@
         "competitive-programming",
         "algorithms",
         "data-structures",
+        "dynamic-programming",
         "olympiad",
         "graphs",
+        "number-theory",
+        "geometry",
+        "game-theory",
+        "holberton-school",
         "ada-university",
         "constructor-university",
         "idda"
