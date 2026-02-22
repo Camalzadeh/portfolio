@@ -38,9 +38,10 @@ interface ItemCardProps {
   colorIndex?: number;
   isSelected?: boolean;
   onSelect: (item: Item) => void;
+  onTagClick?: (tag: Tag) => void;
 }
 
-export default function ItemCard({ item, index, colorIndex, isSelected, onSelect }: ItemCardProps) {
+export default function ItemCard({ item, index, colorIndex, isSelected, onSelect, onTagClick }: ItemCardProps) {
   // Ultra-vibrant luxury color palette
   const colors = [
     { primary: "rgb(20, 184, 166)", glow: "rgba(20, 184, 166, 0.4)", bg: "rgba(20, 184, 166, 0.03)" }, // Teal
@@ -60,7 +61,20 @@ export default function ItemCard({ item, index, colorIndex, isSelected, onSelect
     { label: "Location", value: item.place, icon: <MapPin size={12} /> },
   ].filter(f => f.value);
 
-  const displayDate = typeof item.date === 'string' ? item.date : (item.date.year || 'Current');
+  const displayDate = (() => {
+    if (typeof item.date === 'string') return item.date;
+    const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    const { year, month } = item.date;
+    if (year && month && month >= 1 && month <= 12) {
+      return `${monthNames[month - 1]} ${year}`;
+    }
+    return year || 'Current';
+  })();
+
+  const handleTagClick = (e: React.MouseEvent, tag: Tag) => {
+    e.stopPropagation();
+    if (onTagClick) onTagClick(tag);
+  };
 
   return (
     <motion.div
@@ -111,56 +125,66 @@ export default function ItemCard({ item, index, colorIndex, isSelected, onSelect
               )}
             </header>
 
-            <h3 className={`mb-4 font-heading text-xl font-black leading-tight tracking-tight transition-all duration-300 md:text-2xl ${isSelected ? 'text-text-primary translate-x-1' : 'text-text-primary/90 group-hover:text-text-primary'}`}>
+            <h3 className={`mb-6 font-heading text-xl font-black leading-tight tracking-tight transition-all duration-300 md:text-2xl ${isSelected ? 'text-text-primary translate-x-1' : 'text-text-primary/90 group-hover:text-text-primary'}`}>
               {item.title}
             </h3>
 
             {/* Tags System - HIGH VISIBILITY */}
             {item.tags && item.tags.length > 0 && (
-              <div className="mb-6 flex flex-wrap gap-2">
+              <div className="mb-8 flex flex-wrap gap-2.5">
                 {item.tags.map((tag) => (
-                  <div
+                  <button
                     key={tag.id}
-                    className={`flex items-center gap-2 rounded-xl border px-3 py-1.5 transition-all duration-300 ${isSelected ? 'border-[var(--card-accent)]/30 bg-[var(--card-accent)]/10 text-[var(--card-accent)]' : 'border-border bg-surface/80 text-text-secondary hover:border-text-secondary/30 shadow-sm'}`}
+                    onClick={(e) => handleTagClick(e, tag)}
+                    className={`group/tag flex items-center gap-2.5 rounded-2xl border px-4 py-2 transition-all duration-500 active:scale-95 ${isSelected ? 'border-[var(--card-accent)]/30 bg-[var(--card-accent)]/10 text-[var(--card-accent)]' : 'border-border bg-surface/80 text-text-secondary hover:border-accent/40 hover:bg-accent/5 hover:text-white shadow-sm'}`}
                   >
                     {tag.path ? (
-                      <img src={`/${tag.path}`} alt="" className={`h-4 w-4 object-contain transition-opacity ${isSelected ? 'opacity-100' : 'opacity-60 group-hover:opacity-100'}`} />
+                      <img src={`/${tag.path}`} alt="" className={`h-3.5 w-3.5 object-contain transition-all duration-500 ${isSelected ? 'opacity-100' : 'opacity-50 grayscale group-hover/tag:grayscale-0 group-hover/tag:opacity-100 group-hover/tag:scale-110'}`} />
                     ) : (
-                      <div className={`h-1.5 w-1.5 rounded-full ${isSelected ? 'bg-[var(--card-accent)]' : 'bg-text-secondary/40'}`} />
+                      <div className={`h-1.5 w-1.5 rounded-full transition-all duration-500 ${isSelected ? 'bg-[var(--card-accent)]' : 'bg-text-secondary/40 group-hover/tag:bg-white'}`} />
                     )}
-                    <span className="text-[0.7rem] font-black uppercase tracking-wider">{tag.name}</span>
-                  </div>
+                    <span className={`text-[0.75rem] font-black uppercase tracking-wider transition-all duration-500 ${isSelected ? '' : 'text-text-secondary group-hover/tag:text-white'}`}>{tag.name}</span>
+                  </button>
                 ))}
               </div>
             )}
 
-            {/* Metadata Detail Grid - Professional Spacing */}
-            <div className={`mb-8 grid grid-cols-1 gap-y-4 gap-x-8 transition-all duration-500 sm:grid-cols-2 ${isSelected ? 'opacity-100' : 'opacity-60 grayscale-[0.5] group-hover:grayscale-0'}`}>
+            {/* Metadata Detail Grid - Vibrant Redesign */}
+            <div className={`mb-10 grid grid-cols-1 gap-5 sm:grid-cols-2 ${isSelected ? 'opacity-100' : 'opacity-60 grayscale-[0.8] group-hover:grayscale-0'}`}>
               {metaFields.map((field, i) => (
-                <div key={i} className="flex flex-col gap-1">
-                  <div className="flex items-center gap-2 text-text-secondary/50">
-                    <div className={`p-1 rounded-md bg-border/10 transition-colors ${isSelected ? 'text-[var(--card-accent)]' : ''}`}>
-                      {field.icon}
-                    </div>
-                    <span className="text-[0.55rem] font-black uppercase tracking-[3px]">{field.label}</span>
+                <div key={i} className="flex items-center gap-4 rounded-2xl bg-white/[0.03] p-3 border border-white/5 transition-all hover:bg-white/[0.05]">
+                  <div
+                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl shadow-lg"
+                    style={{
+                      background: `${colors[i % colors.length].primary}15`,
+                      color: colors[i % colors.length].primary,
+                      border: `1px solid ${colors[i % colors.length].primary}30`
+                    }}
+                  >
+                    {field.icon}
                   </div>
-                  <span className="text-[0.85rem] font-bold text-text-primary leading-snug pl-1">{field.value}</span>
+                  <div className="flex flex-col gap-0.5 overflow-hidden">
+                    <span className="text-[0.55rem] font-black uppercase tracking-[2px] text-text-secondary/40 whitespace-nowrap">{field.label}</span>
+                    <span className={`text-[0.8rem] font-bold text-text-primary transition-all duration-300 ${isSelected ? '' : 'truncate'}`}>{field.value}</span>
+                  </div>
                 </div>
               ))}
             </div>
 
-            {/* Description - High Readability */}
-            <p className={`text-[0.9rem] font-medium leading-[1.8] transition-colors duration-500 ${isSelected ? 'text-text-secondary/90' : 'text-text-secondary/70 group-hover:text-text-secondary'}`}>
+            {/* Description - High Readability with Truncation */}
+            <p className={`text-[0.9rem] font-medium leading-[1.8] transition-all duration-500 ${isSelected ? 'text-text-secondary/90' : 'text-text-secondary/70 group-hover:text-text-secondary line-clamp-3'}`}>
               {item.description}
             </p>
 
             <footer className={`mt-10 flex items-center justify-between border-t border-border/60 pt-6 transition-all duration-500 ${isSelected ? 'opacity-100' : 'opacity-40 group-hover:opacity-100'}`}>
-              <div className="text-[0.65rem] font-black uppercase tracking-[2px] text-text-secondary/50 flex items-center gap-2">
-                <div className={`h-1.5 w-1.5 rounded-full ${isSelected ? 'bg-[var(--card-accent)]' : 'bg-text-secondary/30'}`} />
-                {item.media?.length || 0} Professional Assets
+              <div className="text-[0.65rem] font-black uppercase tracking-[2px] text-text-secondary/50 flex items-center gap-3">
+                <div className={`h-1.5 w-1.5 rounded-full ${isSelected ? 'bg-[var(--card-accent)] animate-pulse' : 'bg-text-secondary/30'}`} />
+                <span>{item.media?.length || 0} Assets</span>
+                <span className="opacity-20">|</span>
+                <span className="text-[0.6rem] opacity-60 font-bold">{isSelected ? 'Active View' : 'Click to Open'}</span>
               </div>
               <div className={`flex items-center gap-2 text-[0.7rem] font-black uppercase tracking-[3px] transition-all ${isSelected ? 'text-[var(--card-accent)] scale-110' : 'text-text-secondary'}`}>
-                {isSelected ? 'OPENING' : 'EXPLORE'}
+                {isSelected ? 'VIEWING' : 'EXPLORE'}
                 <ChevronRight size={14} className={`${isSelected ? 'translate-x-1 animate-pulse' : ''}`} />
               </div>
             </footer>

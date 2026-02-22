@@ -3,8 +3,14 @@ const path = require('path');
 
 const FIXED_DATA_DIR = path.join(process.cwd(), 'public/fixed_data');
 const TAGS_DIR = path.join(process.cwd(), 'public/tags');
+const CV_DIR = path.join(process.cwd(), 'public/cv');
+
 const PORTFOLIO_JSON_PATH = path.join(process.cwd(), 'src/data/portfolio.json');
+const TAGS_JSON_PATH = path.join(process.cwd(), 'src/data/tags.json');
+const CV_CONFIG_PATH = path.join(process.cwd(), 'src/data/cv_config.json');
+
 const TAGS_METADATA_PATH = path.join(TAGS_DIR, 'about.json');
+const CV_METADATA_PATH = path.join(CV_DIR, 'about.json');
 
 // Re-map subtypes or folder names to portfolio.json category IDs
 const CATEGORY_MAP = {
@@ -32,209 +38,163 @@ function findAboutFiles(dir, fileList = []) {
 }
 
 function aggregate() {
-    console.log('🚀 Aggregating portfolio data...');
+    console.log('🚀 Starting Deep Data Aggregation...');
 
-    // Ensure the data directory exists
-    const dataDir = path.dirname(PORTFOLIO_JSON_PATH);
-    if (!fs.existsSync(dataDir)) {
-        fs.mkdirSync(dataDir, { recursive: true });
-    }
+    // 0. Ensure target directory exists
+    const dataDir = path.join(process.cwd(), 'src/data');
+    if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
 
-    let portfolio;
-    if (fs.existsSync(PORTFOLIO_JSON_PATH)) {
-        portfolio = JSON.parse(fs.readFileSync(PORTFOLIO_JSON_PATH, 'utf8'));
-    } else {
-        console.log('📝 Portfolio JSON not found, creating from template...');
-        portfolio = {
-            experience: { items: [] },
-            projects: { items: [] },
-            academic: {
-                categories: [
-                    { id: "university", title: "University", items: [] },
-                    { id: "courses", title: "Courses", items: [] },
-                    { id: "certifications", title: "Certifications", items: [] },
-                    { id: "extra_activities", title: "Achievements & Activities", items: [] },
-                    { id: "research", title: "Research", items: [] }
-                ]
-            },
-            tags: [],
-            skillCategories: []
-        };
-    }
+    // 1. Fresh start for portfolio structure
+    const portfolio = {
+        experience: { items: [] },
+        projects: { items: [] },
+        academic: {
+            categories: [
+                { id: "university", title: "University", items: [] },
+                { id: "courses", title: "Courses", items: [] },
+                { id: "certifications", title: "Certifications", items: [] },
+                { id: "extra_activities", title: "Achievements & Activities", items: [] },
+                { id: "research", title: "Research", items: [] }
+            ]
+        }
+    };
 
-    // Define the required categories structure
-    const requiredCategories = [
-        { id: "university", title: "University" },
-        { id: "courses", title: "Courses" },
-        { id: "certifications", title: "Certifications" },
-        { id: "extra_activities", title: "Achievements & Activities" },
-        { id: "research", title: "Research" }
-    ];
-
-    // Ensure academic categories are up to date
-    if (!portfolio.academic) portfolio.academic = { categories: [] };
-
-    // Create a new categories array based on requiredCategories, merging existing data if IDs match
-    const updatedCategories = requiredCategories.map(req => {
-        const existing = (portfolio.academic.categories || []).find(c => c.id === req.id);
-        return {
-            id: req.id,
-            title: req.title, // Always use the latest title from template
-            items: [] // Clear items to rebuild
-        };
-    });
-
-    portfolio.academic.categories = updatedCategories;
-
-    // Clear existing items for other sections
-    portfolio.experience.items = [];
-    portfolio.projects.items = [];
-
-    // Load Tags Metadata
+    // 2. Load Tags Metadata
     let globalTags = [];
+    let tagTypes = [];
     if (fs.existsSync(TAGS_METADATA_PATH)) {
-        const tagsData = JSON.parse(fs.readFileSync(TAGS_METADATA_PATH, 'utf8'));
-        globalTags = tagsData.tags || [];
-        console.log(`🏷️ Loaded ${globalTags.length} tags from metadata.`);
+        const tagsSource = JSON.parse(fs.readFileSync(TAGS_METADATA_PATH, 'utf8'));
+        globalTags = tagsSource.tags || [];
+        tagTypes = tagsSource.tagTypes || [];
     }
-    portfolio.tags = globalTags;
 
+    // 3. Sync CV Configuration
+    if (fs.existsSync(CV_METADATA_PATH)) {
+        const cvConfig = fs.readFileSync(CV_METADATA_PATH, 'utf8');
+        fs.writeFileSync(CV_CONFIG_PATH, cvConfig, 'utf8');
+        console.log('📄 CV configuration synced.');
+    }
+
+    // 4. Process Fixed Data and Count Tags
+    const tagCounts = {};
     const aboutFiles = findAboutFiles(FIXED_DATA_DIR);
 
     aboutFiles.forEach(filePath => {
         const content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
         const folderDir = path.dirname(filePath);
-
-        // Ensure path and data_folder are correctly set
-        const relPath = path.relative(FIXED_DATA_DIR, path.dirname(filePath)).replace(/\\/g, '/');
+        const relPath = path.relative(FIXED_DATA_DIR, folderDir).replace(/\\/g, '/');
         const folderPath = `fixed_data/${relPath}`;
+
         content.path = folderPath;
         content.data_folder = folderPath;
 
-        // Sync media files in the folder
-        const mediaFiles = fs.readdirSync(folderDir);
+        // Auto-sync local media files
+        const filesInFolder = fs.readdirSync(folderDir);
         const mediaList = [];
 
-        // Keep external URLs from existing media
+        // Keep existing external URLs
         if (content.media) {
             content.media.forEach(m => {
-                if (m.type === 'url' || m.type === 'external' || (m.url_text && !m.path) || (m.path && m.path.startsWith('http'))) {
+                if (m.type === 'url' || m.type === 'external' || (m.path && m.path.startsWith('http'))) {
                     mediaList.push(m);
                 }
             });
         }
 
-        // Add local files
-        mediaFiles.forEach(f => {
+        filesInFolder.forEach(f => {
             const fLower = f.toLowerCase();
-            if (fLower.endsWith('.pdf') || fLower.endsWith('.png') || fLower.endsWith('.jpg') || fLower.endsWith('.jpeg') || fLower.endsWith('.webp') || fLower.endsWith('.mhtml')) {
-                if (!fLower.startsWith('about')) {
-                    const fPath = `${folderPath}/${f}`;
+            const validExts = ['.pdf', '.png', '.jpg', '.jpeg', '.webp', '.mhtml'];
+            if (validExts.some(ext => fLower.endsWith(ext)) && !fLower.startsWith('about')) {
+                const fPath = `${folderPath}/${f}`;
+                if (!mediaList.some(m => m.path === fPath)) {
                     let mType = "other";
                     if (fLower.endsWith('.pdf')) mType = "pdf";
                     else if (['.png', '.jpg', '.jpeg', '.webp'].some(ext => fLower.endsWith(ext))) mType = "image";
                     else if (fLower.endsWith('.mhtml')) mType = "mhtml";
 
-                    // Check if already in list (avoid duplicates)
-                    if (!mediaList.some(m => m.path === fPath)) {
-                        mediaList.push({
-                            type: mType,
-                            url_text: null,
-                            title: f.split('.').slice(0, -1).join('.').replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
-                            path: fPath
-                        });
-                    }
+                    mediaList.push({
+                        type: mType,
+                        url_text: null,
+                        title: f.split('.').slice(0, -1).join('.').replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
+                        path: fPath
+                    });
                 }
             }
         });
         content.media = mediaList;
 
-        // Transform tags to tagIds and resolve to full tag objects
-        let tagIds = [];
-        if (content.tags) {
-            tagIds = content.tags.map(tag => typeof tag === 'string' ? tag : (tag.id || ''));
-        } else if (content.tagIds) {
-            tagIds = content.tagIds;
-        }
+        // Resolve and Count Tags
+        let tagIds = content.tagIds || (content.tags ? content.tags.map(t => typeof t === 'string' ? t : t.id) : []);
+        content.tagIds = [...new Set(tagIds.filter(Boolean))];
 
-        content.tagIds = tagIds.filter(id => id !== '');
-
-        // Resolve full tag objects for the item (for the aggregated portfolio.json)
-        const itemTags = content.tagIds.map(id => {
-            const found = globalTags.find(t => t.id === id);
-            if (found) return found;
-            return { id: id, name: id.charAt(0).toUpperCase() + id.slice(1), path: null };
+        content.tagIds.forEach(id => {
+            tagCounts[id] = (tagCounts[id] || 0) + 1;
         });
 
-        // Update the about.json file itself (keeping it clean)
-        const aboutJsonContent = { ...content };
-        delete aboutJsonContent.tags; // Don't save full objects in sub-files
-        fs.writeFileSync(filePath, JSON.stringify(aboutJsonContent, null, 4), 'utf8');
+        // Attach full tag objects for aggregated JSON
+        content.tags = content.tagIds.map(id => {
+            const found = globalTags.find(t => t.id === id);
+            return found || { id, name: id.charAt(0).toUpperCase() + id.slice(1), path: null };
+        });
 
-        // But use the full tags for the aggregated data
-        content.tags = itemTags;
+        // Clean sub-file about.json
+        const subFileClean = { ...content };
+        delete subFileClean.tags; // Sub-files only need IDs
+        fs.writeFileSync(filePath, JSON.stringify(subFileClean, null, 4), 'utf8');
 
-        // Add to aggregate data
+        // Add to main structure
         if (content.type === 'experience') {
             portfolio.experience.items.push(content);
         } else if (content.type === 'projects') {
             portfolio.projects.items.push(content);
         } else if (content.type === 'academic') {
             const catId = CATEGORY_MAP[content.subtype] || content.subtype;
-            const category = portfolio.academic.categories.find(c => c.id === catId);
-            if (category) {
-                category.items.push(content);
-            } else {
-                console.warn(`Unknown academic subtype: ${content.subtype} in ${filePath}`);
-            }
+            const targetCat = portfolio.academic.categories.find(c => c.id === catId);
+            if (targetCat) targetCat.items.push(content);
+            else console.warn(`⚠️  Unknown academic subtype: ${content.subtype} at ${relPath}`);
         }
     });
 
-    // Optional: Sort items by date if needed
+    // 5. Update Global Tags with counts and sort
+    const finalTags = globalTags.map(tag => ({
+        ...tag,
+        count: tagCounts[tag.id] || 0
+    }));
+
+    // Re-build Skill Categories with sorted tags
+    const skillCategories = tagTypes.map(typeDef => {
+        const catTags = finalTags.filter(tag => tag.type === typeDef.id);
+        // Sort tags by count (descending)
+        catTags.sort((a, b) => (b.count || 0) - (a.count || 0));
+
+        return {
+            ...typeDef,
+            tags: catTags
+        };
+    }).filter(cat => cat.tags.length > 0);
+
+    // 6. Sorting Items Logic
     const sortByDate = (a, b) => {
         const yearA = a.date?.year || 0;
         const yearB = b.date?.year || 0;
-        return yearB - yearA; // Newest first
+        const monthA = a.date?.month || 0;
+        const monthB = b.date?.month || 0;
+        if (yearA !== yearB) return yearB - yearA;
+        return monthB - monthA;
     };
 
     portfolio.experience.items.sort(sortByDate);
     portfolio.projects.items.sort(sortByDate);
-    portfolio.academic.categories.forEach(cat => {
-        cat.items.sort(sortByDate);
-    });
+    portfolio.academic.categories.forEach(c => c.items.sort(sortByDate));
 
-    // Group tags by their formal types for the skills section
-    let tagTypes = [];
-    if (fs.existsSync(TAGS_METADATA_PATH)) {
-        const tagsData = JSON.parse(fs.readFileSync(TAGS_METADATA_PATH, 'utf8'));
-        tagTypes = tagsData.tagTypes || [];
-    }
-
-    const skillCategories = tagTypes.map(typeDef => {
-        return {
-            ...typeDef,
-            tags: globalTags.filter(tag => tag.type === typeDef.id)
-        };
-    }).filter(cat => cat.tags.length > 0);
-
-    // Fallback for tags with unknown or missing types
-    const knownTypeIds = tagTypes.map(t => t.id);
-    const otherTags = globalTags.filter(tag => !tag.type || !knownTypeIds.includes(tag.type));
-    if (otherTags.length > 0) {
-        skillCategories.push({
-            id: 'other',
-            name: 'Other',
-            icon: 'terminal',
-            color: '#94a3b8',
-            tags: otherTags
-        });
-    }
-
-    portfolio.skillCategories = skillCategories;
-    delete portfolio.skills; // Remove legacy skills object
-
+    // 7. Write Final Files
     fs.writeFileSync(PORTFOLIO_JSON_PATH, JSON.stringify(portfolio, null, 4), 'utf8');
-    console.log('✅ Portfolio data aggregated successfully!');
+    fs.writeFileSync(TAGS_JSON_PATH, JSON.stringify({ tags: finalTags, skillCategories }, null, 4), 'utf8');
+
+    console.log(`✅ Aggregation complete! Found ${finalTags.length} tags.`);
+    console.log(`📦 Portfolio: ${PORTFOLIO_JSON_PATH}`);
+    console.log(`🏷️  Tags: ${TAGS_JSON_PATH}`);
+    console.log(`📄 CV Config: ${CV_CONFIG_PATH}`);
 }
 
 aggregate();

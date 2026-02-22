@@ -50,44 +50,38 @@ export function MediaStage({ currentMedia, itemTitle, onImageClick }: MediaStage
           >
             <div className="relative h-full w-full bg-black/40" onContextMenu={(e) => e.preventDefault()}>
 
-              {/* Media Loader */}
-              <AnimatePresence>
-                {isLoading && (
-                  <motion.div
-                    initial={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
-                    className="absolute inset-0 z-[30] flex flex-col items-center justify-center gap-6 bg-[#050505]"
-                  >
-                    <div className="relative">
-                      <Loader2 className="h-12 w-12 animate-spin text-accent/50" />
-                      <div className="absolute inset-0 blur-xl bg-accent/20 animate-pulse rounded-full" />
-                    </div>
-                    <span className="text-[0.65rem] font-black uppercase tracking-[4px] text-text-secondary opacity-50">Encrypting Stream</span>
-                  </motion.div>
-                )}
-              </AnimatePresence>
+              {/* Media Loader removed for instant feedback */}
 
-              {/* 1. PDF / Document Viewer */}
+              {/* 1. PDF / Document Viewer WITH PROTECTION */}
               {currentMedia.type === 'pdf' && (
-                <div className="absolute inset-0 z-10 flex h-full w-full flex-col bg-white">
-                  <div className="pointer-events-none absolute right-10 top-8 z-30 flex items-center gap-3 rounded-full border border-white/10 bg-black/80 px-6 py-2.5 text-[0.65rem] font-black uppercase tracking-[3px] text-white shadow-2xl backdrop-blur-3xl">
+                <div className="absolute inset-0 z-10 flex h-full w-full flex-col bg-white overflow-hidden select-none">
+                  {/* Protection Overlays */}
+                  <div className="pointer-events-none absolute right-10 top-8 z-[40] flex items-center gap-3 rounded-full border border-white/10 bg-black/80 px-6 py-2.5 text-[0.65rem] font-black uppercase tracking-[3px] text-white shadow-2xl backdrop-blur-3xl">
                     <ShieldCheck size={14} className="text-accent" />
                     <span>Protected Document</span>
                   </div>
 
-                  <div className="absolute left-10 top-8 z-30 flex items-center gap-3 rounded-xl bg-black/20 p-2 backdrop-blur-md">
+                  {/* Anti-Download Blockers (Blocks top bar icons in many viewers) */}
+                  <div className="absolute top-0 right-0 z-[35] h-16 w-48 transition-all bg-transparent" title="Download Restricted" />
+                  <div className="absolute top-0 left-0 right-0 z-[35] h-1 transition-all bg-transparent" />
+
+                  <div className="absolute left-10 top-8 z-[40] flex items-center gap-3 rounded-xl bg-black/20 p-2 backdrop-blur-md">
                     <FileText size={16} className="text-white/40" />
                   </div>
 
                   <iframe
-                    src={isLocal ? `${mediaUrl}#view=FitH&toolbar=0&navpanes=0&scrollbar=0` : googleViewerUrl}
-                    className="h-full w-full border-none transition-opacity duration-1000"
+                    src={isLocal ? `${mediaUrl}#view=FitH&toolbar=0&navpanes=0&scrollbar=0&statusbar=0&messages=0` : googleViewerUrl}
+                    className="h-full w-full border-none transition-opacity duration-1000 select-none"
                     title={currentMedia.title}
                     onLoad={() => setIsLoading(false)}
+                    style={{ pointerEvents: 'auto' }}
                   />
 
+                  {/* Internal Guard: Invisible layer to prevent drag/drop or easy selection */}
+                  <div className="absolute inset-0 z-[30] pointer-events-none bg-transparent" onContextMenu={(e) => e.preventDefault()} />
+
                   {/* Subtle edge shadows for depth */}
-                  <div className="pointer-events-none absolute inset-0 shadow-[inset_0_0_100px_rgba(0,0,0,0.1)]" />
+                  <div className="pointer-events-none absolute inset-0 shadow-[inset_0_0_100px_rgba(0,0,0,0.1)] z-20" />
                 </div>
               )}
 
@@ -146,7 +140,17 @@ export function MediaStage({ currentMedia, itemTitle, onImageClick }: MediaStage
                     </div>
 
                     <h3 className="mb-8 font-heading text-4xl font-black tracking-tight text-white">{t('preview.external_title')}</h3>
-                    <p className="mb-12 text-lg font-medium leading-relaxed text-text-secondary">This asset is hosted on an external secure server. Click below to establish a direct connection.</p>
+                    <div className="mb-12 flex flex-col items-center gap-4">
+                      <p className="max-w-[320px] text-lg font-medium leading-relaxed text-text-secondary">
+                        {t('preview.external_desc')}
+                      </p>
+                      <div className="flex items-center gap-2 rounded-full bg-white/5 px-4 py-2 border border-white/10">
+                        <div className="h-1.5 w-1.5 rounded-full bg-accent animate-pulse" />
+                        <span className="text-[0.65rem] font-bold uppercase tracking-widest text-text-secondary opacity-60">
+                          {mediaUrl ? `Verified Source: ${new URL(mediaUrl).hostname}` : "Secure Verification Required"}
+                        </span>
+                      </div>
+                    </div>
 
                     <a
                       href={mediaUrl}

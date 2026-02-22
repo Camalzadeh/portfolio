@@ -56,10 +56,14 @@ export default function IntegratedPreview({ item }: IntegratedPreviewProps) {
 
   if (!item) {
     return (
-      <div className="relative flex h-full min-h-[600px] items-center justify-center overflow-hidden rounded-[32px] border border-[var(--border-color)] bg-[var(--surface-color)] text-center text-[var(--text-secondary)]">
-        <div className="relative z-[2] flex flex-col items-center gap-[1.5rem]">
-          <Layout size={40} className="opacity-10" />
-          <p>{t('academic.select')}</p>
+      <div className="relative flex h-full min-h-[500px] flex-col items-center justify-center overflow-hidden rounded-[32px] border border-border bg-surface-color/50 text-center">
+        <div className="relative z-[2] flex flex-col items-center gap-8 p-12">
+          <div className="flex h-16 w-16 items-center justify-center rounded-3xl bg-accent/10 text-accent/20">
+            <Layout size={32} />
+          </div>
+          <div>
+            <p className="text-[0.7rem] font-black uppercase tracking-[4px] text-text-secondary opacity-40">{t('academic.select')}</p>
+          </div>
         </div>
       </div>
     );

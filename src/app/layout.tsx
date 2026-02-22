@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Humbat Jamalzadeh | Software Engineer & Backend Specialist",
@@ -23,7 +24,10 @@ export default function RootLayout({
             <div className="glow-2"></div>
           </div>
           <Navbar />
-          {children}
+          <main className="min-h-screen">
+            {children}
+          </main>
+          <Footer />
         </Providers>
       </body>
     </html>

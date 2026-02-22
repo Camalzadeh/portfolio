@@ -22,35 +22,65 @@
 
 @layer base {
   :root {
-    --background: #050505;
-    --foreground: #f8fafc;
-    --bg-color: #050505;
-    --surface-color: 12, 12, 14;
-    /* RGB values */
-    --surface-hover: 22, 22, 29;
-    --accent-color: 45, 212, 191;
-    --secondary-color: 129, 140, 248;
+    /* PREMIUM DARK (Midnight Obsidian) */
+    --background: #0a0a0b;
+    --bg-color: #0a0a0b;
+    --foreground: #e2e8f0;
 
-    --text-primary: 248, 250, 252;
-    --text-secondary: 148, 163, 184;
-    --border-color: 255, 255, 255;
-    --border-opacity: 0.08;
+    --surface-color-rgb: 15, 15, 18;
+    --surface-color: rgb(var(--surface-color-rgb));
+    --surface-hover: #16161a;
+
+    --accent-color-rgb: 20, 184, 166;
+    /* Sophisticated Teal */
+    --accent-color: rgb(var(--accent-color-rgb));
+
+    --secondary-color-rgb: 99, 102, 241;
+    --secondary-color: rgb(var(--secondary-color-rgb));
+
+    --text-primary-rgb: 241, 245, 249;
+    /* Softer White */
+    --text-primary: rgb(var(--text-primary-rgb));
+
+    --text-secondary-rgb: 100, 116, 139;
+    --text-secondary: rgb(var(--text-secondary-rgb));
+
+    --border-color-rgb: 255, 255, 255;
+    --border-opacity: 0.05;
+    --border: rgba(var(--border-color-rgb), var(--border-opacity));
 
     --font-main: 'Ysabeau', 'Inter', sans-serif;
     --font-heading: 'Ysabeau', 'Outfit', sans-serif;
+
+    --heading-gradient: linear-gradient(135deg, #f8fafc 0%, #cbd5e1 50%, var(--accent-color) 100%);
+    --logo-gradient: linear-gradient(135deg, var(--accent-color), #38bdf8);
   }
 
   [data-theme='light'] {
-    --background: #f8fafc;
-    --foreground: #0f172a;
-    --bg-color: #f1f5f9;
-    --surface-color: 255, 255, 255;
-    --surface-hover: 241, 245, 249;
-    --text-primary: 15, 23, 42;
-    --text-secondary: 71, 85, 105;
-    --border-color: 0, 0, 0;
-    --border-opacity: 0.1;
-    --accent-color: 13, 148, 136;
+    /* PREMIUM LIGHT (Soft Pearl) */
+    --background: #fafafb;
+    --bg-color: #fafafb;
+    --foreground: #1e293b;
+
+    --surface-color-rgb: 255, 255, 255;
+    --surface-color: rgb(var(--surface-color-rgb));
+    --surface-hover: #f1f5f9;
+
+    --text-primary-rgb: 15, 23, 42;
+    --text-primary: rgb(var(--text-primary-rgb));
+
+    --text-secondary-rgb: 71, 85, 105;
+    --text-secondary: rgb(var(--text-secondary-rgb));
+
+    --border-color-rgb: 0, 0, 0;
+    --border-opacity: 0.08;
+    --border: rgba(var(--border-color-rgb), var(--border-opacity));
+
+    --accent-color-rgb: 13, 148, 136;
+    --accent-color: rgb(var(--accent-color-rgb));
+
+    --heading-gradient: linear-gradient(135deg, #0f172a 0%, #334155 50%, var(--accent-color) 100%);
+    --logo-gradient: linear-gradient(135deg, var(--accent-color), #0ea5e9);
   }
 
   * {
@@ -65,7 +95,7 @@
 
   body {
     background-color: var(--bg-color);
-    color: rgb(var(--text-primary));
+    color: var(--text-primary);
     font-family: var(--font-main);
     line-height: 1.6;
     overflow-x: hidden;
@@ -79,6 +109,7 @@
     font-family: var(--font-heading);
     font-weight: 800;
     letter-spacing: -0.02em;
+    color: var(--text-primary);
   }
 
   a {

@@ -42,16 +42,17 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="fixed inset-x-0 top-0 z-[1000] flex justify-center pointer-events-none">
+      <header className="fixed inset-x-0 top-0 z-[1000] flex justify-center px-4 sm:px-6 pointer-events-none">
         <motion.div
           initial={false}
           animate={{
-            width: scrolled ? "90%" : "100%",
+            width: scrolled ? "100%" : "100%",
+            maxWidth: scrolled ? "1200px" : "1400px",
             y: scrolled ? 15 : 0,
-            height: scrolled ? 70 : 80,
+            height: scrolled ? 64 : 80,
             borderRadius: scrolled ? 100 : 0,
-            paddingLeft: scrolled ? "2rem" : "2.5rem",
-            paddingRight: scrolled ? "2rem" : "2.5rem",
+            paddingLeft: scrolled ? "1.5rem" : "2rem",
+            paddingRight: scrolled ? "1.5rem" : "2rem",
           }}
           transition={{
             type: "spring",
@@ -60,21 +61,30 @@ export default function Navbar() {
             mass: 1
           }}
           className={`pointer-events-auto relative flex items-center justify-between border-b transition-colors duration-500 overflow-visible ${scrolled
-              ? "border-white/10 bg-[var(--nav-bg)] shadow-[0_20px_50px_rgba(0,0,0,0.3)] backdrop-blur-[24px]"
-              : "border-transparent bg-transparent"
+            ? "border-white/10 bg-[var(--nav-bg)] shadow-[0_20px_50px_rgba(0,0,0,0.3)] backdrop-blur-[32px]"
+            : "border-transparent bg-transparent"
             }`}
         >
           {/* Main Logo */}
-          <Link href="/" className="flex items-center gap-3 no-underline group">
+          <Link href="/" className="flex items-center gap-4 no-underline group pointer-events-auto">
             <motion.div
-              whileHover={{ scale: 1.05, rotate: 5 }}
-              className="flex h-10 w-10 items-center justify-center rounded-[12px] bg-text-primary text-background text-[0.95rem] font-black shadow-lg"
+              whileHover={{ scale: 1.05, rotate: -5 }}
+              whileTap={{ scale: 0.95 }}
+              className="relative flex h-12 w-12 items-center justify-center overflow-hidden rounded-[16px] p-[1.5px] shadow-[0_10px_40px_rgba(var(--accent-color-rgb),0.25)] transition-shadow duration-500 group-hover:shadow-[0_15px_50px_rgba(var(--accent-color-rgb),0.4)]"
+              style={{ background: 'var(--logo-gradient)' }}
             >
-              HJ
+              <div className="flex h-full w-full items-center justify-center rounded-[14.5px] bg-background text-[1rem] font-black text-accent transition-colors duration-500 group-hover:bg-transparent group-hover:text-white">
+                HJ
+              </div>
+              {/* Subtle inner glow */}
+              <div className="absolute inset-0 z-10 bg-gradient-to-br from-white/30 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
             </motion.div>
-            <span className="font-heading text-[1.25rem] font-black tracking-tight text-text-primary">
-              Humbat<span className="text-accent">.</span>
-            </span>
+            <div className="flex flex-col">
+              <span className="font-heading text-[1.4rem] font-black leading-none tracking-tight text-text-primary">
+                Humbat<span className="text-accent">.</span>
+              </span>
+              <span className="text-[0.6rem] font-black uppercase tracking-[3px] text-text-secondary/60 group-hover:text-accent transition-colors duration-300">Portfolio</span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
@@ -148,9 +158,9 @@ export default function Navbar() {
 
             <Link
               href="/#contact"
-              className="hidden h-11 items-center rounded-full bg-accent px-7 text-[0.8rem] font-black uppercase tracking-widest text-black shadow-lg shadow-accent/20 transition-all hover:-translate-y-1 hover:bg-white lg:flex"
+              className="hidden h-11 items-center rounded-full bg-accent px-8 text-[0.75rem] font-black uppercase tracking-[2px] text-black shadow-[0_10px_25px_rgba(var(--accent-color-rgb),0.2)] transition-all hover:-translate-y-1 hover:scale-105 hover:bg-white hover:shadow-[0_15px_35px_rgba(var(--accent-color-rgb),0.35)] active:scale-95 lg:flex border border-white/10"
             >
-              {language === 'az' ? 'Əlaqə' : 'Connect'}
+              {t('nav.contact')}
             </Link>
 
             <button

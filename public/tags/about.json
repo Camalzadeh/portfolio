@@ -14,7 +14,7 @@
         },
         {
             "id": "databases",
-            "name": "Databases",
+            "name": "Databases & Data",
             "icon": "database",
             "color": "#fb7185"
         },
@@ -26,21 +26,27 @@
         },
         {
             "id": "cloud_devops",
-            "name": "Cloud & DevOps",
+            "name": "Cloud & Infrastructure",
             "icon": "server",
             "color": "#fbbf24"
         },
         {
             "id": "concepts",
-            "name": "Concepts & Methods",
-            "icon": "book",
+            "name": "Engineering & Theory",
+            "icon": "cpu",
             "color": "#94a3b8"
         },
         {
             "id": "organizations",
-            "name": "Organizations",
+            "name": "Partners & Tech",
             "icon": "building",
             "color": "#4ade80"
+        },
+        {
+            "id": "institutions",
+            "name": "Institutions",
+            "icon": "award",
+            "color": "#60a5fa"
         },
         {
             "id": "experience",
@@ -281,13 +287,13 @@
         {
             "id": "academic",
             "name": "Academic",
-            "type": "organizations",
+            "type": "institutions",
             "path": "tags/academic.png"
         },
         {
             "id": "research",
             "name": "Research",
-            "type": "organizations",
+            "type": "institutions",
             "path": "tags/research.png"
         },
         {
@@ -389,13 +395,13 @@
         {
             "id": "ada-university",
             "name": "Ada University",
-            "type": "organizations",
+            "type": "institutions",
             "path": "tags/ada_university.png"
         },
         {
             "id": "constructor-university",
             "name": "Constructor University",
-            "type": "organizations",
+            "type": "institutions",
             "path": "tags/constructor_university.png"
         },
         {
@@ -503,19 +509,19 @@
         {
             "id": "ufaz",
             "name": "UFAZ",
-            "type": "organizations",
+            "type": "institutions",
             "path": "tags/ufaz.png"
         },
         {
             "id": "bhos",
             "name": "BHOS",
-            "type": "organizations",
+            "type": "institutions",
             "path": "tags/bhos.png"
         },
         {
             "id": "miull",
             "name": "Miull",
-            "type": "organizations",
+            "type": "institutions",
             "path": "tags/miuul.jpg"
         },
         {

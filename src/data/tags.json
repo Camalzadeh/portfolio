@@ -1,0 +1,1534 @@
+{
+    "tags": [
+        {
+            "id": "flutter",
+            "name": "Flutter",
+            "type": "frameworks",
+            "path": "tags/flutter.jpg",
+            "count": 1
+        },
+        {
+            "id": "dart",
+            "name": "Dart",
+            "type": "languages",
+            "path": "tags/dart.png",
+            "count": 1
+        },
+        {
+            "id": "django",
+            "name": "Django",
+            "type": "frameworks",
+            "path": "tags/django.svg",
+            "count": 0
+        },
+        {
+            "id": "python",
+            "name": "Python",
+            "type": "languages",
+            "path": "tags/python.png",
+            "count": 1
+        },
+        {
+            "id": "react",
+            "name": "React",
+            "type": "frameworks",
+            "path": "tags/react.png",
+            "count": 1
+        },
+        {
+            "id": "nextjs",
+            "name": "Next.js",
+            "type": "frameworks",
+            "path": "tags/next.svg",
+            "count": 0
+        },
+        {
+            "id": "postgresql",
+            "name": "PostgreSQL",
+            "type": "databases",
+            "path": "tags/postgresql.png",
+            "count": 0
+        },
+        {
+            "id": "docker",
+            "name": "Docker",
+            "type": "cloud_devops",
+            "path": "tags/docker.svg",
+            "count": 0
+        },
+        {
+            "id": "javascript",
+            "name": "JavaScript",
+            "type": "languages",
+            "path": "tags/js.png",
+            "count": 3
+        },
+        {
+            "id": "html",
+            "name": "HTML",
+            "type": "languages",
+            "path": "tags/html.png",
+            "count": 2
+        },
+        {
+            "id": "css",
+            "name": "CSS",
+            "type": "languages",
+            "path": "tags/css.png",
+            "count": 2
+        },
+        {
+            "id": "php",
+            "name": "PHP",
+            "type": "languages",
+            "path": "tags/php.png",
+            "count": 1
+        },
+        {
+            "id": "mysql",
+            "name": "MySQL",
+            "type": "databases",
+            "path": "tags/mysql.png",
+            "count": 1
+        },
+        {
+            "id": "oracle",
+            "name": "Oracle",
+            "type": "databases",
+            "path": "tags/oracle.png",
+            "count": 1
+        },
+        {
+            "id": "c",
+            "name": "C",
+            "type": "languages",
+            "path": "tags/c.png",
+            "count": 0
+        },
+        {
+            "id": "cpp",
+            "name": "C++",
+            "type": "languages",
+            "path": "tags/cpp.png",
+            "count": 0
+        },
+        {
+            "id": "typescript",
+            "name": "TypeScript",
+            "type": "languages",
+            "path": "tags/ts.png",
+            "count": 0
+        },
+        {
+            "id": "mongodb",
+            "name": "MongoDB",
+            "type": "databases",
+            "path": "tags/mongo.png",
+            "count": 0
+        },
+        {
+            "id": "java",
+            "name": "Java",
+            "type": "languages",
+            "path": "tags/java.svg",
+            "count": 3
+        },
+        {
+            "id": "tailwind",
+            "name": "Tailwind CSS",
+            "type": "frameworks",
+            "path": "tags/tailwind.png",
+            "count": 0
+        },
+        {
+            "id": "bootstrap",
+            "name": "Bootstrap",
+            "type": "frameworks",
+            "path": "tags/bootstrap.png",
+            "count": 0
+        },
+        {
+            "id": "aws",
+            "name": "AWS",
+            "type": "cloud_devops",
+            "path": "tags/aws.png",
+            "count": 0
+        },
+        {
+            "id": "firebase",
+            "name": "Firebase",
+            "type": "cloud_devops",
+            "path": "tags/firebase.png",
+            "count": 0
+        },
+        {
+            "id": "vercel",
+            "name": "Vercel",
+            "type": "cloud_devops",
+            "path": "tags/vercel.svg",
+            "count": 0
+        },
+        {
+            "id": "github",
+            "name": "GitHub",
+            "type": "cloud_devops",
+            "path": "tags/github.png",
+            "count": 0
+        },
+        {
+            "id": "ghcr",
+            "name": "GHCR",
+            "type": "cloud_devops",
+            "path": "tags/ghcr.png",
+            "count": 0
+        },
+        {
+            "id": "cloudrun",
+            "name": "Cloud Run",
+            "type": "cloud_devops",
+            "path": "tags/cloud_run.png",
+            "count": 0
+        },
+        {
+            "id": "namecheap",
+            "name": "Namecheap",
+            "type": "cloud_devops",
+            "path": "tags/namecheap.webp",
+            "count": 0
+        },
+        {
+            "id": "alwaysdata",
+            "name": "Alwaysdata",
+            "type": "cloud_devops",
+            "path": "tags/alwaysdata.png",
+            "count": 0
+        },
+        {
+            "id": "ai",
+            "name": "AI",
+            "type": "ai_ml",
+            "path": "tags/gemini.png",
+            "count": 0
+        },
+        {
+            "id": "ml",
+            "name": "ML",
+            "type": "ai_ml",
+            "path": "tags/gemini.png",
+            "count": 0
+        },
+        {
+            "id": "gemini",
+            "name": "Gemini",
+            "type": "ai_ml",
+            "path": "tags/gemini.png",
+            "count": 0
+        },
+        {
+            "id": "resend",
+            "name": "Resend",
+            "type": "frameworks",
+            "path": "tags/resend.svg",
+            "count": 0
+        },
+        {
+            "id": "ably",
+            "name": "Ably",
+            "type": "frameworks",
+            "path": "tags/ably.png",
+            "count": 0
+        },
+        {
+            "id": "unsplash",
+            "name": "Unsplash",
+            "type": "concepts",
+            "path": "tags/unsplash.webp",
+            "count": 0
+        },
+        {
+            "id": "math",
+            "name": "Math",
+            "type": "organizations",
+            "path": "tags/math.png",
+            "count": 8
+        },
+        {
+            "id": "algorithms",
+            "name": "Algorithms",
+            "type": "concepts",
+            "path": "tags/algorithm.png",
+            "count": 11
+        },
+        {
+            "id": "turkcell",
+            "name": "Turkcell",
+            "type": "organizations",
+            "path": "tags/turkcell.png",
+            "count": 0
+        },
+        {
+            "id": "academic",
+            "name": "Academic",
+            "type": "institutions",
+            "path": "tags/academic.png",
+            "count": 0
+        },
+        {
+            "id": "research",
+            "name": "Research",
+            "type": "institutions",
+            "path": "tags/research.png",
+            "count": 2
+        },
+        {
+            "id": "c-sharp",
+            "name": "C Sharp",
+            "type": "languages",
+            "path": "tags/c_sharp.png",
+            "count": 1
+        },
+        {
+            "id": "database_administration",
+            "name": "Database Administration",
+            "type": "databases",
+            "path": "tags/database_administration.png",
+            "count": 1
+        },
+        {
+            "id": "web",
+            "name": "Web",
+            "type": "concepts",
+            "path": "tags/web.webp",
+            "count": 3
+        },
+        {
+            "id": "olympiad",
+            "name": "Olympiad",
+            "type": "concepts",
+            "path": "tags/olympiad.png",
+            "count": 13
+        },
+        {
+            "id": "abb",
+            "name": "Abb",
+            "type": "organizations",
+            "path": "tags/abb.png",
+            "count": 1
+        },
+        {
+            "id": "apache-tomcat",
+            "name": "Apache Tomcat",
+            "type": "cloud_devops",
+            "path": "tags/apache_tomcat.png",
+            "count": 1
+        },
+        {
+            "id": "spring",
+            "name": "Spring",
+            "type": "frameworks",
+            "path": "tags/spring.png",
+            "count": 1
+        },
+        {
+            "id": "spring-boot",
+            "name": "Spring Boot",
+            "type": "frameworks",
+            "path": "tags/spring_boot.svg",
+            "count": 1
+        },
+        {
+            "id": "maven",
+            "name": "Maven",
+            "type": "cloud_devops",
+            "path": "tags/maven.webp",
+            "count": 1
+        },
+        {
+            "id": "data-structures",
+            "name": "Data Structures",
+            "type": "concepts",
+            "path": "tags/data_structures.png",
+            "count": 10
+        },
+        {
+            "id": "hibernate",
+            "name": "Hibernate",
+            "type": "frameworks",
+            "path": "tags/hibernate_logo.png",
+            "count": 1
+        },
+        {
+            "id": "backend",
+            "name": "Backend",
+            "type": "concepts",
+            "path": "tags/backend.png",
+            "count": 1
+        },
+        {
+            "id": "api",
+            "name": "API",
+            "type": "concepts",
+            "path": "tags/api.png",
+            "count": 1
+        },
+        {
+            "id": "software-engineering",
+            "name": "Software Engineering",
+            "type": "concepts",
+            "path": "tags/software_engineering.png",
+            "count": 2
+        },
+        {
+            "id": "competitive-programming",
+            "name": "Competitive Programming",
+            "type": "concepts",
+            "path": "tags/competitive_programming.png",
+            "count": 9
+        },
+        {
+            "id": "graphs",
+            "name": "Graphs",
+            "type": "concepts",
+            "path": "tags/graph.png",
+            "count": 7
+        },
+        {
+            "id": "ada-university",
+            "name": "Ada University",
+            "type": "institutions",
+            "path": "tags/ada_university.png",
+            "count": 2
+        },
+        {
+            "id": "constructor-university",
+            "name": "Constructor University",
+            "type": "institutions",
+            "path": "tags/constructor_university.png",
+            "count": 1
+        },
+        {
+            "id": "idda",
+            "name": "Idda",
+            "type": "organizations",
+            "path": "tags/idda.png",
+            "count": 2
+        },
+        {
+            "id": "c++",
+            "name": "C++",
+            "type": "languages",
+            "path": "tags/cpp.png",
+            "count": 8
+        },
+        {
+            "id": "oop",
+            "name": "OOP",
+            "type": "concepts",
+            "path": "tags/oop.png",
+            "count": 1
+        },
+        {
+            "id": "design-patterns",
+            "name": "Design Patterns",
+            "type": "concepts",
+            "path": "tags/design_patterns.png",
+            "count": 1
+        },
+        {
+            "id": "codestar",
+            "name": "Codestar",
+            "type": "organizations",
+            "path": "tags/codestar.webp",
+            "count": 1
+        },
+        {
+            "id": "machine-learning",
+            "name": "Machine Learning",
+            "type": "ai_ml",
+            "path": "tags/machine_learning.png",
+            "count": 3
+        },
+        {
+            "id": "artificial-intelligence",
+            "name": "Artificial Intelligence",
+            "type": "ai_ml",
+            "path": "tags/artificial_intelligence.png",
+            "count": 5
+        },
+        {
+            "id": "4sim",
+            "name": "4sim",
+            "type": "organizations",
+            "path": "tags/4sim.png",
+            "count": 1
+        },
+        {
+            "id": "coursera",
+            "name": "Coursera",
+            "type": "organizations",
+            "path": "tags/coursera.png",
+            "count": 1
+        },
+        {
+            "id": "software-architecture",
+            "name": "Software Architecture",
+            "type": "concepts",
+            "path": "tags/software_architecture.png",
+            "count": 1
+        },
+        {
+            "id": "mobile-development",
+            "name": "Mobile Development",
+            "type": "concepts",
+            "path": "tags/mobile_development.png",
+            "count": 2
+        },
+        {
+            "id": "udemy",
+            "name": "Udemy",
+            "type": "organizations",
+            "path": "tags/udemy.webp",
+            "count": 1
+        },
+        {
+            "id": "aegee",
+            "name": "Aegee",
+            "type": "organizations",
+            "path": "tags/aegee.png",
+            "count": 1
+        },
+        {
+            "id": "icpc",
+            "name": "ICPC",
+            "type": "experience",
+            "path": "tags/icpc.png",
+            "count": 6
+        },
+        {
+            "id": "icsc",
+            "name": "ICSC",
+            "type": "experience",
+            "path": "tags/icsc.png",
+            "count": 1
+        },
+        {
+            "id": "bir-konullu",
+            "name": "Bir Konullu",
+            "type": "organizations",
+            "path": "tags/bir_konullu.jpeg",
+            "count": 1
+        },
+        {
+            "id": "math-camp",
+            "name": "Math Camp",
+            "type": "experience",
+            "path": null,
+            "count": 1
+        },
+        {
+            "id": "ufaz",
+            "name": "UFAZ",
+            "type": "institutions",
+            "path": "tags/ufaz.png",
+            "count": 4
+        },
+        {
+            "id": "bhos",
+            "name": "BHOS",
+            "type": "institutions",
+            "path": "tags/bhos.png",
+            "count": 1
+        },
+        {
+            "id": "miull",
+            "name": "Miull",
+            "type": "institutions",
+            "path": "tags/miuul.jpg",
+            "count": 1
+        },
+        {
+            "id": "data-camp",
+            "name": "Data Camp",
+            "type": "experience",
+            "path": null,
+            "count": 1
+        },
+        {
+            "id": "data-science",
+            "name": "Data Science",
+            "type": "ai_ml",
+            "path": "tags/data_science.png",
+            "count": 1
+        },
+        {
+            "id": "conference",
+            "name": "Conference",
+            "type": "experience",
+            "path": "tags/conference.png",
+            "count": 2
+        },
+        {
+            "id": "scientific",
+            "name": "Scientific",
+            "type": "concepts",
+            "path": "tags/science.png",
+            "count": 1
+        },
+        {
+            "id": "world-skills",
+            "name": "World Skills",
+            "type": "experience",
+            "path": "tags/world_skills.png",
+            "count": 1
+        },
+        {
+            "id": "programming",
+            "name": "Programming",
+            "type": "concepts",
+            "path": null,
+            "count": 1
+        },
+        {
+            "id": "design",
+            "name": "Design",
+            "type": "concepts",
+            "path": null,
+            "count": 1
+        },
+        {
+            "id": "photoshop",
+            "name": "Photoshop",
+            "type": "concepts",
+            "path": "tags/photoshop.png",
+            "count": 1
+        },
+        {
+            "id": "computer-vision",
+            "name": "Computer Vision",
+            "type": "ai_ml",
+            "path": "tags/computer_vision.png",
+            "count": 1
+        },
+        {
+            "id": "sign-language",
+            "name": "Sign Language",
+            "type": "ai_ml",
+            "path": "tags/sign_language.png",
+            "count": 1
+        },
+        {
+            "id": "azerbaijani",
+            "name": "Azerbaijani",
+            "type": "organizations",
+            "path": "tags/azerbaijan.png",
+            "count": 1
+        },
+        {
+            "id": "ieee",
+            "name": "IEEE",
+            "type": "organizations",
+            "path": "tags/ieee.png",
+            "count": 1
+        },
+        {
+            "id": "computer-science",
+            "name": "Computer Science",
+            "type": "concepts",
+            "path": "tags/computer_science.png",
+            "count": 1
+        },
+        {
+            "id": "buta-group",
+            "name": "Buta Group",
+            "type": "organizations",
+            "path": "tags/buta_group.jpeg",
+            "count": 1
+        },
+        {
+            "id": "internship",
+            "name": "Internship",
+            "type": "experience",
+            "path": "tags/internship.png",
+            "count": 1
+        },
+        {
+            "id": "no-code",
+            "name": "No Code",
+            "type": "frameworks",
+            "path": "tags/no_code.png",
+            "count": 1
+        },
+        {
+            "id": "crm",
+            "name": "CRM",
+            "type": "databases",
+            "path": "tags/crm.png",
+            "count": 1
+        },
+        {
+            "id": "frontend",
+            "name": "Frontend",
+            "type": "concepts",
+            "path": "tags/frontend.png",
+            "count": 1
+        },
+        {
+            "id": "erp",
+            "name": "ERP",
+            "type": "databases",
+            "path": "tags/erp.png",
+            "count": 1
+        },
+        {
+            "id": "hackathon",
+            "name": "Hackathon",
+            "type": "experience",
+            "path": "tags/hackathon.png",
+            "count": 1
+        },
+        {
+            "id": "siemens",
+            "name": "Siemens",
+            "type": "organizations",
+            "path": "tags/siemens.png",
+            "count": 1
+        },
+        {
+            "id": "erp-systems",
+            "name": "ERP Systems",
+            "type": "databases",
+            "path": "tags/erp_systems.png",
+            "count": 1
+        },
+        {
+            "id": "sustainable-design",
+            "name": "Sustainable Design",
+            "type": "organizations",
+            "path": "tags/sustainable_design.png",
+            "count": 1
+        },
+        {
+            "id": "pest-detection",
+            "name": "Pest Detection",
+            "type": "ai_ml",
+            "path": "tags/pest_detection.png",
+            "count": 2
+        },
+        {
+            "id": "guardian-x",
+            "name": "Guardian X",
+            "type": "organizations",
+            "path": "tags/guardian_x.png",
+            "count": 2
+        },
+        {
+            "id": "startup",
+            "name": "Startup",
+            "type": "experience",
+            "path": "tags/startup.png",
+            "count": 1
+        }
+    ],
+    "skillCategories": [
+        {
+            "id": "languages",
+            "name": "Languages",
+            "icon": "code",
+            "color": "#2dd4bf",
+            "tags": [
+                {
+                    "id": "c++",
+                    "name": "C++",
+                    "type": "languages",
+                    "path": "tags/cpp.png",
+                    "count": 8
+                },
+                {
+                    "id": "javascript",
+                    "name": "JavaScript",
+                    "type": "languages",
+                    "path": "tags/js.png",
+                    "count": 3
+                },
+                {
+                    "id": "java",
+                    "name": "Java",
+                    "type": "languages",
+                    "path": "tags/java.svg",
+                    "count": 3
+                },
+                {
+                    "id": "html",
+                    "name": "HTML",
+                    "type": "languages",
+                    "path": "tags/html.png",
+                    "count": 2
+                },
+                {
+                    "id": "css",
+                    "name": "CSS",
+                    "type": "languages",
+                    "path": "tags/css.png",
+                    "count": 2
+                },
+                {
+                    "id": "dart",
+                    "name": "Dart",
+                    "type": "languages",
+                    "path": "tags/dart.png",
+                    "count": 1
+                },
+                {
+                    "id": "python",
+                    "name": "Python",
+                    "type": "languages",
+                    "path": "tags/python.png",
+                    "count": 1
+                },
+                {
+                    "id": "php",
+                    "name": "PHP",
+                    "type": "languages",
+                    "path": "tags/php.png",
+                    "count": 1
+                },
+                {
+                    "id": "c-sharp",
+                    "name": "C Sharp",
+                    "type": "languages",
+                    "path": "tags/c_sharp.png",
+                    "count": 1
+                },
+                {
+                    "id": "c",
+                    "name": "C",
+                    "type": "languages",
+                    "path": "tags/c.png",
+                    "count": 0
+                },
+                {
+                    "id": "cpp",
+                    "name": "C++",
+                    "type": "languages",
+                    "path": "tags/cpp.png",
+                    "count": 0
+                },
+                {
+                    "id": "typescript",
+                    "name": "TypeScript",
+                    "type": "languages",
+                    "path": "tags/ts.png",
+                    "count": 0
+                }
+            ]
+        },
+        {
+            "id": "frameworks",
+            "name": "Frameworks & Libs",
+            "icon": "layers",
+            "color": "#818cf8",
+            "tags": [
+                {
+                    "id": "flutter",
+                    "name": "Flutter",
+                    "type": "frameworks",
+                    "path": "tags/flutter.jpg",
+                    "count": 1
+                },
+                {
+                    "id": "react",
+                    "name": "React",
+                    "type": "frameworks",
+                    "path": "tags/react.png",
+                    "count": 1
+                },
+                {
+                    "id": "spring",
+                    "name": "Spring",
+                    "type": "frameworks",
+                    "path": "tags/spring.png",
+                    "count": 1
+                },
+                {
+                    "id": "spring-boot",
+                    "name": "Spring Boot",
+                    "type": "frameworks",
+                    "path": "tags/spring_boot.svg",
+                    "count": 1
+                },
+                {
+                    "id": "hibernate",
+                    "name": "Hibernate",
+                    "type": "frameworks",
+                    "path": "tags/hibernate_logo.png",
+                    "count": 1
+                },
+                {
+                    "id": "no-code",
+                    "name": "No Code",
+                    "type": "frameworks",
+                    "path": "tags/no_code.png",
+                    "count": 1
+                },
+                {
+                    "id": "django",
+                    "name": "Django",
+                    "type": "frameworks",
+                    "path": "tags/django.svg",
+                    "count": 0
+                },
+                {
+                    "id": "nextjs",
+                    "name": "Next.js",
+                    "type": "frameworks",
+                    "path": "tags/next.svg",
+                    "count": 0
+                },
+                {
+                    "id": "tailwind",
+                    "name": "Tailwind CSS",
+                    "type": "frameworks",
+                    "path": "tags/tailwind.png",
+                    "count": 0
+                },
+                {
+                    "id": "bootstrap",
+                    "name": "Bootstrap",
+                    "type": "frameworks",
+                    "path": "tags/bootstrap.png",
+                    "count": 0
+                },
+                {
+                    "id": "resend",
+                    "name": "Resend",
+                    "type": "frameworks",
+                    "path": "tags/resend.svg",
+                    "count": 0
+                },
+                {
+                    "id": "ably",
+                    "name": "Ably",
+                    "type": "frameworks",
+                    "path": "tags/ably.png",
+                    "count": 0
+                }
+            ]
+        },
+        {
+            "id": "databases",
+            "name": "Databases & Data",
+            "icon": "database",
+            "color": "#fb7185",
+            "tags": [
+                {
+                    "id": "mysql",
+                    "name": "MySQL",
+                    "type": "databases",
+                    "path": "tags/mysql.png",
+                    "count": 1
+                },
+                {
+                    "id": "oracle",
+                    "name": "Oracle",
+                    "type": "databases",
+                    "path": "tags/oracle.png",
+                    "count": 1
+                },
+                {
+                    "id": "database_administration",
+                    "name": "Database Administration",
+                    "type": "databases",
+                    "path": "tags/database_administration.png",
+                    "count": 1
+                },
+                {
+                    "id": "crm",
+                    "name": "CRM",
+                    "type": "databases",
+                    "path": "tags/crm.png",
+                    "count": 1
+                },
+                {
+                    "id": "erp",
+                    "name": "ERP",
+                    "type": "databases",
+                    "path": "tags/erp.png",
+                    "count": 1
+                },
+                {
+                    "id": "erp-systems",
+                    "name": "ERP Systems",
+                    "type": "databases",
+                    "path": "tags/erp_systems.png",
+                    "count": 1
+                },
+                {
+                    "id": "postgresql",
+                    "name": "PostgreSQL",
+                    "type": "databases",
+                    "path": "tags/postgresql.png",
+                    "count": 0
+                },
+                {
+                    "id": "mongodb",
+                    "name": "MongoDB",
+                    "type": "databases",
+                    "path": "tags/mongo.png",
+                    "count": 0
+                }
+            ]
+        },
+        {
+            "id": "ai_ml",
+            "name": "AI & Intelligence",
+            "icon": "brain",
+            "color": "#e879f9",
+            "tags": [
+                {
+                    "id": "artificial-intelligence",
+                    "name": "Artificial Intelligence",
+                    "type": "ai_ml",
+                    "path": "tags/artificial_intelligence.png",
+                    "count": 5
+                },
+                {
+                    "id": "machine-learning",
+                    "name": "Machine Learning",
+                    "type": "ai_ml",
+                    "path": "tags/machine_learning.png",
+                    "count": 3
+                },
+                {
+                    "id": "pest-detection",
+                    "name": "Pest Detection",
+                    "type": "ai_ml",
+                    "path": "tags/pest_detection.png",
+                    "count": 2
+                },
+                {
+                    "id": "data-science",
+                    "name": "Data Science",
+                    "type": "ai_ml",
+                    "path": "tags/data_science.png",
+                    "count": 1
+                },
+                {
+                    "id": "computer-vision",
+                    "name": "Computer Vision",
+                    "type": "ai_ml",
+                    "path": "tags/computer_vision.png",
+                    "count": 1
+                },
+                {
+                    "id": "sign-language",
+                    "name": "Sign Language",
+                    "type": "ai_ml",
+                    "path": "tags/sign_language.png",
+                    "count": 1
+                },
+                {
+                    "id": "ai",
+                    "name": "AI",
+                    "type": "ai_ml",
+                    "path": "tags/gemini.png",
+                    "count": 0
+                },
+                {
+                    "id": "ml",
+                    "name": "ML",
+                    "type": "ai_ml",
+                    "path": "tags/gemini.png",
+                    "count": 0
+                },
+                {
+                    "id": "gemini",
+                    "name": "Gemini",
+                    "type": "ai_ml",
+                    "path": "tags/gemini.png",
+                    "count": 0
+                }
+            ]
+        },
+        {
+            "id": "cloud_devops",
+            "name": "Cloud & Infrastructure",
+            "icon": "server",
+            "color": "#fbbf24",
+            "tags": [
+                {
+                    "id": "apache-tomcat",
+                    "name": "Apache Tomcat",
+                    "type": "cloud_devops",
+                    "path": "tags/apache_tomcat.png",
+                    "count": 1
+                },
+                {
+                    "id": "maven",
+                    "name": "Maven",
+                    "type": "cloud_devops",
+                    "path": "tags/maven.webp",
+                    "count": 1
+                },
+                {
+                    "id": "docker",
+                    "name": "Docker",
+                    "type": "cloud_devops",
+                    "path": "tags/docker.svg",
+                    "count": 0
+                },
+                {
+                    "id": "aws",
+                    "name": "AWS",
+                    "type": "cloud_devops",
+                    "path": "tags/aws.png",
+                    "count": 0
+                },
+                {
+                    "id": "firebase",
+                    "name": "Firebase",
+                    "type": "cloud_devops",
+                    "path": "tags/firebase.png",
+                    "count": 0
+                },
+                {
+                    "id": "vercel",
+                    "name": "Vercel",
+                    "type": "cloud_devops",
+                    "path": "tags/vercel.svg",
+                    "count": 0
+                },
+                {
+                    "id": "github",
+                    "name": "GitHub",
+                    "type": "cloud_devops",
+                    "path": "tags/github.png",
+                    "count": 0
+                },
+                {
+                    "id": "ghcr",
+                    "name": "GHCR",
+                    "type": "cloud_devops",
+                    "path": "tags/ghcr.png",
+                    "count": 0
+                },
+                {
+                    "id": "cloudrun",
+                    "name": "Cloud Run",
+                    "type": "cloud_devops",
+                    "path": "tags/cloud_run.png",
+                    "count": 0
+                },
+                {
+                    "id": "namecheap",
+                    "name": "Namecheap",
+                    "type": "cloud_devops",
+                    "path": "tags/namecheap.webp",
+                    "count": 0
+                },
+                {
+                    "id": "alwaysdata",
+                    "name": "Alwaysdata",
+                    "type": "cloud_devops",
+                    "path": "tags/alwaysdata.png",
+                    "count": 0
+                }
+            ]
+        },
+        {
+            "id": "concepts",
+            "name": "Engineering & Theory",
+            "icon": "cpu",
+            "color": "#94a3b8",
+            "tags": [
+                {
+                    "id": "olympiad",
+                    "name": "Olympiad",
+                    "type": "concepts",
+                    "path": "tags/olympiad.png",
+                    "count": 13
+                },
+                {
+                    "id": "algorithms",
+                    "name": "Algorithms",
+                    "type": "concepts",
+                    "path": "tags/algorithm.png",
+                    "count": 11
+                },
+                {
+                    "id": "data-structures",
+                    "name": "Data Structures",
+                    "type": "concepts",
+                    "path": "tags/data_structures.png",
+                    "count": 10
+                },
+                {
+                    "id": "competitive-programming",
+                    "name": "Competitive Programming",
+                    "type": "concepts",
+                    "path": "tags/competitive_programming.png",
+                    "count": 9
+                },
+                {
+                    "id": "graphs",
+                    "name": "Graphs",
+                    "type": "concepts",
+                    "path": "tags/graph.png",
+                    "count": 7
+                },
+                {
+                    "id": "web",
+                    "name": "Web",
+                    "type": "concepts",
+                    "path": "tags/web.webp",
+                    "count": 3
+                },
+                {
+                    "id": "software-engineering",
+                    "name": "Software Engineering",
+                    "type": "concepts",
+                    "path": "tags/software_engineering.png",
+                    "count": 2
+                },
+                {
+                    "id": "mobile-development",
+                    "name": "Mobile Development",
+                    "type": "concepts",
+                    "path": "tags/mobile_development.png",
+                    "count": 2
+                },
+                {
+                    "id": "backend",
+                    "name": "Backend",
+                    "type": "concepts",
+                    "path": "tags/backend.png",
+                    "count": 1
+                },
+                {
+                    "id": "api",
+                    "name": "API",
+                    "type": "concepts",
+                    "path": "tags/api.png",
+                    "count": 1
+                },
+                {
+                    "id": "oop",
+                    "name": "OOP",
+                    "type": "concepts",
+                    "path": "tags/oop.png",
+                    "count": 1
+                },
+                {
+                    "id": "design-patterns",
+                    "name": "Design Patterns",
+                    "type": "concepts",
+                    "path": "tags/design_patterns.png",
+                    "count": 1
+                },
+                {
+                    "id": "software-architecture",
+                    "name": "Software Architecture",
+                    "type": "concepts",
+                    "path": "tags/software_architecture.png",
+                    "count": 1
+                },
+                {
+                    "id": "scientific",
+                    "name": "Scientific",
+                    "type": "concepts",
+                    "path": "tags/science.png",
+                    "count": 1
+                },
+                {
+                    "id": "programming",
+                    "name": "Programming",
+                    "type": "concepts",
+                    "path": null,
+                    "count": 1
+                },
+                {
+                    "id": "design",
+                    "name": "Design",
+                    "type": "concepts",
+                    "path": null,
+                    "count": 1
+                },
+                {
+                    "id": "photoshop",
+                    "name": "Photoshop",
+                    "type": "concepts",
+                    "path": "tags/photoshop.png",
+                    "count": 1
+                },
+                {
+                    "id": "computer-science",
+                    "name": "Computer Science",
+                    "type": "concepts",
+                    "path": "tags/computer_science.png",
+                    "count": 1
+                },
+                {
+                    "id": "frontend",
+                    "name": "Frontend",
+                    "type": "concepts",
+                    "path": "tags/frontend.png",
+                    "count": 1
+                },
+                {
+                    "id": "unsplash",
+                    "name": "Unsplash",
+                    "type": "concepts",
+                    "path": "tags/unsplash.webp",
+                    "count": 0
+                }
+            ]
+        },
+        {
+            "id": "organizations",
+            "name": "Partners & Tech",
+            "icon": "building",
+            "color": "#4ade80",
+            "tags": [
+                {
+                    "id": "math",
+                    "name": "Math",
+                    "type": "organizations",
+                    "path": "tags/math.png",
+                    "count": 8
+                },
+                {
+                    "id": "idda",
+                    "name": "Idda",
+                    "type": "organizations",
+                    "path": "tags/idda.png",
+                    "count": 2
+                },
+                {
+                    "id": "guardian-x",
+                    "name": "Guardian X",
+                    "type": "organizations",
+                    "path": "tags/guardian_x.png",
+                    "count": 2
+                },
+                {
+                    "id": "abb",
+                    "name": "Abb",
+                    "type": "organizations",
+                    "path": "tags/abb.png",
+                    "count": 1
+                },
+                {
+                    "id": "codestar",
+                    "name": "Codestar",
+                    "type": "organizations",
+                    "path": "tags/codestar.webp",
+                    "count": 1
+                },
+                {
+                    "id": "4sim",
+                    "name": "4sim",
+                    "type": "organizations",
+                    "path": "tags/4sim.png",
+                    "count": 1
+                },
+                {
+                    "id": "coursera",
+                    "name": "Coursera",
+                    "type": "organizations",
+                    "path": "tags/coursera.png",
+                    "count": 1
+                },
+                {
+                    "id": "udemy",
+                    "name": "Udemy",
+                    "type": "organizations",
+                    "path": "tags/udemy.webp",
+                    "count": 1
+                },
+                {
+                    "id": "aegee",
+                    "name": "Aegee",
+                    "type": "organizations",
+                    "path": "tags/aegee.png",
+                    "count": 1
+                },
+                {
+                    "id": "bir-konullu",
+                    "name": "Bir Konullu",
+                    "type": "organizations",
+                    "path": "tags/bir_konullu.jpeg",
+                    "count": 1
+                },
+                {
+                    "id": "azerbaijani",
+                    "name": "Azerbaijani",
+                    "type": "organizations",
+                    "path": "tags/azerbaijan.png",
+                    "count": 1
+                },
+                {
+                    "id": "ieee",
+                    "name": "IEEE",
+                    "type": "organizations",
+                    "path": "tags/ieee.png",
+                    "count": 1
+                },
+                {
+                    "id": "buta-group",
+                    "name": "Buta Group",
+                    "type": "organizations",
+                    "path": "tags/buta_group.jpeg",
+                    "count": 1
+                },
+                {
+                    "id": "siemens",
+                    "name": "Siemens",
+                    "type": "organizations",
+                    "path": "tags/siemens.png",
+                    "count": 1
+                },
+                {
+                    "id": "sustainable-design",
+                    "name": "Sustainable Design",
+                    "type": "organizations",
+                    "path": "tags/sustainable_design.png",
+                    "count": 1
+                },
+                {
+                    "id": "turkcell",
+                    "name": "Turkcell",
+                    "type": "organizations",
+                    "path": "tags/turkcell.png",
+                    "count": 0
+                }
+            ]
+        },
+        {
+            "id": "institutions",
+            "name": "Institutions",
+            "icon": "award",
+            "color": "#60a5fa",
+            "tags": [
+                {
+                    "id": "ufaz",
+                    "name": "UFAZ",
+                    "type": "institutions",
+                    "path": "tags/ufaz.png",
+                    "count": 4
+                },
+                {
+                    "id": "research",
+                    "name": "Research",
+                    "type": "institutions",
+                    "path": "tags/research.png",
+                    "count": 2
+                },
+                {
+                    "id": "ada-university",
+                    "name": "Ada University",
+                    "type": "institutions",
+                    "path": "tags/ada_university.png",
+                    "count": 2
+                },
+                {
+                    "id": "constructor-university",
+                    "name": "Constructor University",
+                    "type": "institutions",
+                    "path": "tags/constructor_university.png",
+                    "count": 1
+                },
+                {
+                    "id": "bhos",
+                    "name": "BHOS",
+                    "type": "institutions",
+                    "path": "tags/bhos.png",
+                    "count": 1
+                },
+                {
+                    "id": "miull",
+                    "name": "Miull",
+                    "type": "institutions",
+                    "path": "tags/miuul.jpg",
+                    "count": 1
+                },
+                {
+                    "id": "academic",
+                    "name": "Academic",
+                    "type": "institutions",
+                    "path": "tags/academic.png",
+                    "count": 0
+                }
+            ]
+        },
+        {
+            "id": "experience",
+            "name": "Events & Roles",
+            "icon": "award",
+            "color": "#f472b6",
+            "tags": [
+                {
+                    "id": "icpc",
+                    "name": "ICPC",
+                    "type": "experience",
+                    "path": "tags/icpc.png",
+                    "count": 6
+                },
+                {
+                    "id": "conference",
+                    "name": "Conference",
+                    "type": "experience",
+                    "path": "tags/conference.png",
+                    "count": 2
+                },
+                {
+                    "id": "icsc",
+                    "name": "ICSC",
+                    "type": "experience",
+                    "path": "tags/icsc.png",
+                    "count": 1
+                },
+                {
+                    "id": "math-camp",
+                    "name": "Math Camp",
+                    "type": "experience",
+                    "path": null,
+                    "count": 1
+                },
+                {
+                    "id": "data-camp",
+                    "name": "Data Camp",
+                    "type": "experience",
+                    "path": null,
+                    "count": 1
+                },
+                {
+                    "id": "world-skills",
+                    "name": "World Skills",
+                    "type": "experience",
+                    "path": "tags/world_skills.png",
+                    "count": 1
+                },
+                {
+                    "id": "internship",
+                    "name": "Internship",
+                    "type": "experience",
+                    "path": "tags/internship.png",
+                    "count": 1
+                },
+                {
+                    "id": "hackathon",
+                    "name": "Hackathon",
+                    "type": "experience",
+                    "path": "tags/hackathon.png",
+                    "count": 1
+                },
+                {
+                    "id": "startup",
+                    "name": "Startup",
+                    "type": "experience",
+                    "path": "tags/startup.png",
+                    "count": 1
+                }
+            ]
+        }
+    ]
+}
