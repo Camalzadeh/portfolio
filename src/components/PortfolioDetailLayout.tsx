@@ -1,8 +1,8 @@
-import React, { useState, useMemo, useEffect } from "react";
+import React, { useState, useMemo, useEffect, Suspense } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import ItemCard from "./ItemCard";
 import IntegratedPreview from "./IntegratedPreview";
-import { Search, X, ChevronRight, Terminal } from "lucide-react";
+import { Search, X, ChevronRight, Terminal, Loader2 } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import data from "@/data/portfolio.json";
@@ -31,7 +31,7 @@ interface PortfolioDetailLayoutProps {
     initialSelectedItem?: Item | null;
 }
 
-export default function PortfolioDetailLayout({
+function PortfolioDetailContent({
     titleMain,
     titleSub,
     categoryLabel,
@@ -268,5 +268,20 @@ export default function PortfolioDetailLayout({
                 )}
             </AnimatePresence>
         </main>
+    );
+}
+
+export default function PortfolioDetailLayout(props: PortfolioDetailLayoutProps) {
+    return (
+        <Suspense fallback={
+            <div className="flex h-screen w-full items-center justify-center bg-background">
+                <div className="flex flex-col items-center gap-6">
+                    <Loader2 className="h-12 w-12 animate-spin text-accent/20" />
+                    <p className="text-[0.7rem] font-black uppercase tracking-[4px] text-text-secondary opacity-40">Initialising Vault</p>
+                </div>
+            </div>
+        }>
+            <PortfolioDetailContent {...props} />
+        </Suspense>
     );
 }

@@ -90,16 +90,9 @@ function aggregate() {
 
         // Auto-sync local media files
         const filesInFolder = fs.readdirSync(folderDir);
-        const mediaList = [];
+        const mediaList = content.media ? [...content.media] : [];
 
-        // Keep existing external URLs
-        if (content.media) {
-            content.media.forEach(m => {
-                if (m.type === 'url' || m.type === 'external' || (m.path && m.path.startsWith('http'))) {
-                    mediaList.push(m);
-                }
-            });
-        }
+        // Check for new files to add
 
         filesInFolder.forEach(f => {
             const fLower = f.toLowerCase();
