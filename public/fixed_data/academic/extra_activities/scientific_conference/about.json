@@ -1,34 +1,35 @@
 {
-    "id": "scientific-conference",
-    "title": "Scientific conference",
+    "id": "scientific-conference-heydar-aliyev-100",
+    "title": "III Student Republic Scientific-Practical Conference",
     "path": "fixed_data/academic/extra_activities/scientific_conference",
-    "organization": "Various",
-    "description": "Detailed documentation and proof for Scientific conference.",
+    "organization": "Ministry of Science and Education of Azerbaijan & Various Institutes",
+    "description": "Awarded 1st place at the III Student Republic Scientific-Practical Conference dedicated to the 100th anniversary of National Leader Heydar Aliyev. Conducted extensive research on 'Modular Arithmetic and Remainder Division,' advocating for its earlier introduction in the national secondary education curriculum. Argued that modular arithmetic, currently primarily taught at the university level in Azerbaijan, is essential for developing logical reasoning from lower grades. The research was supported by the R.H.F.G. named after S.C. Pishavari and several academic institutes.",
     "type": "academic",
-    "subtype": "achievements",
-    "position": null,
-    "award": null,
-    "score": null,
-    "duration": null,
-    "place": null,
+    "subtype": "extra_activities",
+    "position": "Winner",
+    "award": "1st Place",
+    "score": "Excellence in Research",
+    "duration": "3 months",
+    "place": "S.C Pishavari Gymnasium",
     "date": {
-        "year": 2024,
-        "month": null,
+        "year": 2023,
+        "month": 5,
         "day": null
     },
     "media": [
         {
             "type": "image",
             "url_text": null,
-            "title": "IMG-20240913-WA0027",
+            "title": "1st Place Certificate - Scientific Conference",
             "path": "fixed_data/academic/extra_activities/scientific_conference/IMG-20240913-WA0027.jpg"
         }
     ],
     "tagIds": [
         "conference",
-        "scientific",
         "research",
-        "math"
+        "scientific",
+        "math",
+        "number-theory"
     ],
     "data_folder": "fixed_data/academic/extra_activities/scientific_conference"
 }

@@ -1,32 +1,32 @@
 {
     "id": "icpc-2025-republican",
-    "title": "Icpc 2025 republican",
+    "title": "ICPC Azerbaijan Regional Contest 2025",
     "path": "fixed_data/academic/extra_activities/icpc_2025_republican",
-    "organization": "Various",
-    "description": "Detailed documentation and proof for Icpc 2025 republican.",
+    "organization": "ICPC Foundation / Azerbaijan Higher Education Institutions",
+    "description": "Achieved a standout performance at the ICPC Azerbaijan Regional (Republican) Championship, competing against the nation's elite university teams. Earned a 'Third Award' for exceptional algorithmic problem-solving and efficiency in a high-stakes competitive environment. Recognized with an 'Honorable Mention' for technical excellence. The contest required solving complex challenges involving advanced data structures, dynamic programming, and sophisticated graph algorithms under intense time pressure.",
     "type": "academic",
-    "subtype": "achievements",
-    "position": null,
-    "award": null,
-    "score": null,
-    "duration": null,
-    "place": null,
+    "subtype": "extra_activities",
+    "position": "Contestant",
+    "award": "Third Award",
+    "score": "Honorable Mention",
+    "duration": "5 Hours",
+    "place": "Baku Engineering University",
     "date": {
         "year": 2024,
-        "month": null,
+        "month": 10,
         "day": null
     },
     "media": [
         {
             "type": "pdf",
             "url_text": null,
-            "title": "2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL",
+            "title": "ICPC 2025 Republican Medal - Third Award",
             "path": "fixed_data/academic/extra_activities/icpc_2025_republican/2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "2025-ICPC Azerbaijan RC-Humbat Jamalov-PLACE",
+            "title": "ICPC 2025 Republican Honorable Mention",
             "path": "fixed_data/academic/extra_activities/icpc_2025_republican/2025-ICPC Azerbaijan RC-Humbat Jamalov-PLACE.pdf"
         }
     ],
@@ -35,9 +35,14 @@
         "algorithms",
         "data-structures",
         "olympiad",
-        "graphs",
         "competitive-programming",
-        "c++"
+        "graphs",
+        "dynamic-programming",
+        "greedy-algorithms",
+        "c++",
+        "problem-solving",
+        "ufaz",
+        "beu"
     ],
     "data_folder": "fixed_data/academic/extra_activities/icpc_2025_republican"
 }

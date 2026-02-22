@@ -1,26 +1,26 @@
 {
     "id": "icpc-2026-qualification",
-    "title": "Icpc 2026 qualification",
+    "title": "ICPC Azerbaijan Qualification 2026",
     "path": "fixed_data/academic/extra_activities/icpc_2026_qualification",
-    "organization": "Various",
-    "description": "Detailed documentation and proof for Icpc 2026 qualification.",
+    "organization": "ICPC Foundation / Azerbaijan Higher Education Institutions",
+    "description": "Participated in the Azerbaijan Qualification round of the 2026 International Collegiate Programming Contest (ICPC). Recognized with an 'Honorable Mention' for successful problem-solving performance in a highly competitive national field. Continued to demonstrate consistent participation and technical skill in algorithmic challenges, maintaining a strong presence in the competitive programming community.",
     "type": "academic",
-    "subtype": "achievements",
-    "position": null,
-    "award": null,
+    "subtype": "extra_activities",
+    "position": "Contestant",
+    "award": "Honorable Mention",
     "score": null,
-    "duration": null,
-    "place": null,
+    "duration": "5 Hours",
+    "place": "French-Azerbaijani University",
     "date": {
-        "year": 2024,
-        "month": null,
+        "year": 2025,
+        "month": 10,
         "day": null
     },
     "media": [
         {
             "type": "pdf",
             "url_text": null,
-            "title": "2026-ICPC Azerbaijan Q-Humbat Jamalov-PLACE",
+            "title": "ICPC 2026 Qualification Honorable Mention",
             "path": "fixed_data/academic/extra_activities/icpc_2026_qualification/2026-ICPC Azerbaijan Q-Humbat Jamalov-PLACE.pdf"
         }
     ],
@@ -29,9 +29,13 @@
         "algorithms",
         "data-structures",
         "olympiad",
-        "graphs",
         "competitive-programming",
-        "c++"
+        "graphs",
+        "dynamic-programming",
+        "greedy-algorithms",
+        "c++",
+        "problem-solving",
+        "ufaz"
     ],
     "data_folder": "fixed_data/academic/extra_activities/icpc_2026_qualification"
 }

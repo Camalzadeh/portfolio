@@ -1,31 +1,33 @@
 {
-    "id": "aegee-forum",
-    "title": "Aegee forum",
+    "id": "aegee-youth-forum",
+    "title": "AEGEE Youth Forum",
     "path": "fixed_data/academic/extra_activities/aegee_forum",
-    "organization": "Various",
-    "description": "Detailed documentation and proof for Aegee forum.",
+    "organization": "AEGEE-Bakı",
+    "description": "Participated in the 'AEGEE Youth Forum,' a multidisciplinary event focused on the integration of emerging technologies and professional growth. The forum covered key contemporary fields including Cybersecurity, Data Analytics, and Artificial Intelligence (AI). Additionally, engaged in sessions dedicated to Personal and Career Development, gaining insights into the evolving job market and tech landscape.",
     "type": "academic",
-    "subtype": "achievements",
-    "position": null,
-    "award": null,
+    "subtype": "extra_activities",
+    "position": "Participant",
+    "award": "Certificate of Participation",
     "score": null,
-    "duration": null,
-    "place": null,
+    "duration": "1 Day",
+    "place": "Baku",
     "date": {
         "year": 2024,
-        "month": null,
+        "month": 5,
         "day": null
     },
     "media": [
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Participation",
+            "title": "AEGEE Youth Forum Participation Certificate",
             "path": "fixed_data/academic/extra_activities/aegee_forum/participation.pdf"
         }
     ],
     "tagIds": [
         "aegee",
+        "cybersecurity",
+        "data-analytics",
         "artificial-intelligence"
     ],
     "data_folder": "fixed_data/academic/extra_activities/aegee_forum"

@@ -1,42 +1,39 @@
 {
-    "id": "miull-data-camp",
-    "title": "Miull data camp",
-    "path": "fixed_data/academic/extra_activities/miull_data_camp",
-    "organization": "Various",
-    "description": "Detailed documentation and proof for Miull data camp.",
+    "id": "miuul-data-science-ai-bootcamp",
+    "title": "Data Science and AI Engineering Mini Bootcamps",
+    "path": "fixed_data/academic/extra_activities/miuul_data_camp",
+    "organization": "Miuul",
+    "description": "Completed a series of intensive 8-hour Machine Learning bootcamps focused on the end-to-end data science lifecycle. The curriculum integrated Python programming for data science, statistical analysis, feature engineering, and machine learning model development. Additionally, explored Generative AI applications and practical implementations in engineering contexts.",
     "type": "academic",
-    "subtype": "achievements",
-    "position": null,
-    "award": null,
-    "score": null,
-    "duration": null,
-    "place": null,
+    "subtype": "extra_activities",
+    "position": "Participant",
+    "award": "Certificates of Participation",
+    "score": "Successful Completion",
+    "duration": "2 days",
+    "place": "Online",
     "date": {
         "year": 2024,
-        "month": null,
+        "month": 12,
         "day": null
     },
     "media": [
         {
             "type": "image",
             "url_text": null,
-            "title": "Miull 1",
-            "path": "fixed_data/academic/extra_activities/miull_data_camp/miull_1.png"
-        },
-        {
-            "type": "image",
-            "url_text": null,
-            "title": "Miull 2",
-            "path": "fixed_data/academic/extra_activities/miull_data_camp/miull_2.png"
+            "title": "Data Science & AI Engineering (Dec 2024) / Data Science & AI Engineering (April 2025)",
+            "path": "fixed_data/academic/extra_activities/miull_data_camp/miull_1.png / fixed_data/academic/extra_activities/miull_data_camp/miull_2.png"
         }
     ],
     "tagIds": [
-        "miull",
-        "data-camp",
+        "miuul",
+        "math",
         "data-science",
         "machine-learning",
         "artificial-intelligence",
-        "python"
+        "python",
+        "generative-ai",
+        "statistics",
+        "feature-engineering"
     ],
-    "data_folder": "fixed_data/academic/extra_activities/miull_data_camp"
+    "data_folder": "fixed_data/academic/extra_activities/miuul_data_camp"
 }

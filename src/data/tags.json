@@ -26,7 +26,7 @@
             "name": "Python",
             "type": "languages",
             "path": "tags/python.png",
-            "count": 1
+            "count": 2
         },
         {
             "id": "react",
@@ -257,7 +257,7 @@
             "name": "Algorithms",
             "type": "concepts",
             "path": "tags/algorithm.png",
-            "count": 11
+            "count": 12
         },
         {
             "id": "turkcell",
@@ -390,7 +390,7 @@
             "name": "Graphs",
             "type": "concepts",
             "path": "tags/graph.png",
-            "count": 7
+            "count": 6
         },
         {
             "id": "ada-university",
@@ -432,7 +432,7 @@
             "name": "Design Patterns",
             "type": "concepts",
             "path": "tags/design_patterns.png",
-            "count": 1
+            "count": 2
         },
         {
             "id": "codestar",
@@ -758,6 +758,13 @@
                     "count": 3
                 },
                 {
+                    "id": "python",
+                    "name": "Python",
+                    "type": "languages",
+                    "path": "tags/python.png",
+                    "count": 2
+                },
+                {
                     "id": "html",
                     "name": "HTML",
                     "type": "languages",
@@ -776,13 +783,6 @@
                     "name": "Dart",
                     "type": "languages",
                     "path": "tags/dart.png",
-                    "count": 1
-                },
-                {
-                    "id": "python",
-                    "name": "Python",
-                    "type": "languages",
-                    "path": "tags/python.png",
                     "count": 1
                 },
                 {
@@ -1152,7 +1152,7 @@
                     "name": "Algorithms",
                     "type": "concepts",
                     "path": "tags/algorithm.png",
-                    "count": 11
+                    "count": 12
                 },
                 {
                     "id": "data-structures",
@@ -1173,7 +1173,7 @@
                     "name": "Graphs",
                     "type": "concepts",
                     "path": "tags/graph.png",
-                    "count": 7
+                    "count": 6
                 },
                 {
                     "id": "web",
@@ -1187,6 +1187,13 @@
                     "name": "Software Engineering",
                     "type": "concepts",
                     "path": "tags/software_engineering.png",
+                    "count": 2
+                },
+                {
+                    "id": "design-patterns",
+                    "name": "Design Patterns",
+                    "type": "concepts",
+                    "path": "tags/design_patterns.png",
                     "count": 2
                 },
                 {
@@ -1215,13 +1222,6 @@
                     "name": "OOP",
                     "type": "concepts",
                     "path": "tags/oop.png",
-                    "count": 1
-                },
-                {
-                    "id": "design-patterns",
-                    "name": "Design Patterns",
-                    "type": "concepts",
-                    "path": "tags/design_patterns.png",
                     "count": 1
                 },
                 {

@@ -339,18 +339,103 @@
                 "title": "Courses",
                 "items": [
                     {
+                        "id": "coursera",
+                        "title": "Coursera",
+                        "path": "fixed_data/academic/courses/coursera",
+                        "organization": "Stanford University & DeepLearning.AI via 4Sİ Academy",
+                        "description": "Selected as a participant in Azerbaijan’s national '4Sİ Akademiyası' (Fourth Industrial Revolution Academy) initiative—a joint project by the Center for Analysis and Coordination of the Fourth Industrial Revolution (4Sİ) under the Ministry of Economy, the Education Development Fund, and Coursera. Awarded full scholarship access to the global platform. Successfully completed the professional certification course authorized by Stanford University and DeepLearning.AI, taught by industry pioneer Andrew Ng. The curriculum covered core Machine Learning concepts, including linear regression, logistic regression, and model optimization techniques.",
+                        "type": "academic",
+                        "subtype": "courses",
+                        "position": "4Sİ Academy Participant",
+                        "award": "Completion Certificate",
+                        "score": "Successfully Completed",
+                        "duration": "6 weeks",
+                        "place": "Online",
+                        "date": {
+                            "year": 2025,
+                            "month": 5,
+                            "day": null
+                        },
+                        "media": [
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "Coursera Supervised Machine Learning Certificate",
+                                "path": "fixed_data/academic/courses/coursera/Coursera Supervised Machine Learning Regression and Classification.pdf"
+                            }
+                        ],
+                        "tagIds": [
+                            "machine-learning",
+                            "artificial-intelligence",
+                            "4sim",
+                            "python",
+                            "stanford-university",
+                            "deeplearning-ai",
+                            "andrew-ng",
+                            "coursera"
+                        ],
+                        "data_folder": "fixed_data/academic/courses/coursera",
+                        "tags": [
+                            {
+                                "id": "machine-learning",
+                                "name": "Machine Learning",
+                                "type": "ai_ml",
+                                "path": "tags/machine_learning.png"
+                            },
+                            {
+                                "id": "artificial-intelligence",
+                                "name": "Artificial Intelligence",
+                                "type": "ai_ml",
+                                "path": "tags/artificial_intelligence.png"
+                            },
+                            {
+                                "id": "4sim",
+                                "name": "4sim",
+                                "type": "organizations",
+                                "path": "tags/4sim.png"
+                            },
+                            {
+                                "id": "python",
+                                "name": "Python",
+                                "type": "languages",
+                                "path": "tags/python.png"
+                            },
+                            {
+                                "id": "stanford-university",
+                                "name": "Stanford-university",
+                                "path": null
+                            },
+                            {
+                                "id": "deeplearning-ai",
+                                "name": "Deeplearning-ai",
+                                "path": null
+                            },
+                            {
+                                "id": "andrew-ng",
+                                "name": "Andrew-ng",
+                                "path": null
+                            },
+                            {
+                                "id": "coursera",
+                                "name": "Coursera",
+                                "type": "organizations",
+                                "path": "tags/coursera.png"
+                            }
+                        ]
+                    },
+                    {
                         "id": "advanced-computer-science",
                         "title": "Advanced Computer Science Courses",
                         "path": "fixed_data/academic/courses/advanced_computer_science",
                         "organization": "Constructor University & IDDA & ADA University",
-                        "description": "Completed intensive Advanced Computer Science programs. In Phase I (at ADA University, supported by IDDA), ranked 5th out of 100+ participants. In Phase II (online), earned a Progress Certificate for consistent engagement and over 50% performance.",
+                        "description": "Completed intensive Advanced Computer Science programs focusing on high-level competitive programming and algorithmic mathematics. The curriculum covered advanced topics such as Dynamic Programming (DP), Suffix Array, and complex data structures including Trie, Treap, Implicit Treap, and Palindromic Tree. Gained deep expertise in Graph Theory (Bipartite Matching, Maximum Flow, Min-Cost Max-Flow), Computational Geometry (Convex Hull Trick), Number Theory, Sqrt Decomposition, and Triple Search. Explored Advanced Game Theory and sophisticated search algorithms. In Phase I (at ADA University), ranked 5th out of 100+ participants; in Phase II, maintained high engagement with a Progress Certificate.",
                         "type": "academic",
                         "subtype": "courses",
                         "position": "Participant",
                         "award": "Progress Certificate",
                         "score": "Top 5 / +50%",
                         "duration": "12 days / 3 months",
-                        "place": "ADA University / Online",
+                        "place": "ADA University / Holberton School / Online",
                         "date": {
                             "year": 2024,
                             "month": 8,
@@ -360,13 +445,13 @@
                             {
                                 "type": "image",
                                 "url_text": null,
-                                "title": "Advanced Computer Science 1",
+                                "title": "Advanced Computer Science 1 Participation",
                                 "path": "fixed_data/academic/courses/advanced_computer_science/advanced_computer_science_1.jpg"
                             },
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Advanced Computer Science 2 Humbat Jamalov",
+                                "title": "Advanced Computer Science 2 Progress",
                                 "path": "fixed_data/academic/courses/advanced_computer_science/advanced_computer_science_2_Humbat Jamalov.pdf"
                             }
                         ],
@@ -374,8 +459,13 @@
                             "competitive-programming",
                             "algorithms",
                             "data-structures",
+                            "dynamic-programming",
                             "olympiad",
                             "graphs",
+                            "number-theory",
+                            "geometry",
+                            "game-theory",
+                            "holberton-school",
                             "ada-university",
                             "constructor-university",
                             "idda"
@@ -401,6 +491,11 @@
                                 "path": "tags/data_structures.png"
                             },
                             {
+                                "id": "dynamic-programming",
+                                "name": "Dynamic-programming",
+                                "path": null
+                            },
+                            {
                                 "id": "olympiad",
                                 "name": "Olympiad",
                                 "type": "concepts",
@@ -411,6 +506,26 @@
                                 "name": "Graphs",
                                 "type": "concepts",
                                 "path": "tags/graph.png"
+                            },
+                            {
+                                "id": "number-theory",
+                                "name": "Number-theory",
+                                "path": null
+                            },
+                            {
+                                "id": "geometry",
+                                "name": "Geometry",
+                                "path": null
+                            },
+                            {
+                                "id": "game-theory",
+                                "name": "Game-theory",
+                                "path": null
+                            },
+                            {
+                                "id": "holberton-school",
+                                "name": "Holberton-school",
+                                "path": null
                             },
                             {
                                 "id": "ada-university",
@@ -433,11 +548,121 @@
                         ]
                     },
                     {
+                        "id": "udemy",
+                        "title": "Udemy: Udemy",
+                        "path": "fixed_data/academic/courses/udemy",
+                        "organization": "Udemy",
+                        "description": "Comprehensive software engineering track focusing on mobile development, system design, and backend excellence. Course 1: Flutter & Dart (Maximilian Schwarzmüller) - Full SDK mastery and native integration. Course 2: Advanced Flutter (Kanan Yusubov) - Clean Architecture, SOLID, and Monorepo management. Course 3: Software Architecture (Andrii Sviatobatko) - Structural patterns and system scaling. Course 4: Java Technical Interview (Andrii Piatakha) - Core Java internals and Spring Framework deep-dive.",
+                        "type": "academic",
+                        "subtype": "courses",
+                        "position": "Self-Paced Learner",
+                        "award": "Professional Certificates",
+                        "score": "Successfully Completed",
+                        "duration": "30 hours / 3 hours / 8.5 hours / 5 hours",
+                        "place": "Online",
+                        "date": {
+                            "year": 2024,
+                            "month": 7,
+                            "day": null
+                        },
+                        "media": [
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "Flutter Advanced",
+                                "path": "fixed_data/academic/courses/udemy/FlutterKanan.pdf"
+                            },
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "Flutter & Dart",
+                                "path": "fixed_data/academic/courses/udemy/udemy_FlutterDartUdemy.pdf"
+                            },
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "Java Technical Interview Preparation",
+                                "path": "fixed_data/academic/courses/udemy/udemy_JavaPreparationUdemy.pdf"
+                            },
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "Software Architecture",
+                                "path": "fixed_data/academic/courses/udemy/udemy_SoftwareArchitecturaUdemy.pdf"
+                            }
+                        ],
+                        "tagIds": [
+                            "flutter",
+                            "dart",
+                            "java",
+                            "software-architecture",
+                            "technical-interview",
+                            "solid-principles",
+                            "clean-architecture",
+                            "mobile-development",
+                            "udemy"
+                        ],
+                        "data_folder": "fixed_data/academic/courses/udemy",
+                        "tags": [
+                            {
+                                "id": "flutter",
+                                "name": "Flutter",
+                                "type": "frameworks",
+                                "path": "tags/flutter.jpg"
+                            },
+                            {
+                                "id": "dart",
+                                "name": "Dart",
+                                "type": "languages",
+                                "path": "tags/dart.png"
+                            },
+                            {
+                                "id": "java",
+                                "name": "Java",
+                                "type": "languages",
+                                "path": "tags/java.svg"
+                            },
+                            {
+                                "id": "software-architecture",
+                                "name": "Software Architecture",
+                                "type": "concepts",
+                                "path": "tags/software_architecture.png"
+                            },
+                            {
+                                "id": "technical-interview",
+                                "name": "Technical-interview",
+                                "path": null
+                            },
+                            {
+                                "id": "solid-principles",
+                                "name": "Solid-principles",
+                                "path": null
+                            },
+                            {
+                                "id": "clean-architecture",
+                                "name": "Clean-architecture",
+                                "path": null
+                            },
+                            {
+                                "id": "mobile-development",
+                                "name": "Mobile Development",
+                                "type": "concepts",
+                                "path": "tags/mobile_development.png"
+                            },
+                            {
+                                "id": "udemy",
+                                "name": "Udemy",
+                                "type": "organizations",
+                                "path": "tags/udemy.webp"
+                            }
+                        ]
+                    },
+                    {
                         "id": "advanced-backend-programming",
                         "title": "Advanced Backend Programming with Java",
                         "path": "fixed_data/academic/courses/advanced_backend_programming",
                         "organization": "Mentorship by Ilkin Mehdiyev (Senior Software Engineer)",
-                        "description": "Selected through a highly competitive process for an exclusive, advanced-level backend engineering program. Under the direct mentorship of Senior Engineer Ilkin Mehdiyev, mastered industry-standard backend development using Java and Spring Boot. The curriculum emphasized production-grade API design, scalable architecture, and real-world software engineering practices. Recognized publicly as a standout participant within a select group of high-potential developers.",
+                        "description": "Selected for an exclusive, 9-month intensive mentorship program focused on professional backend engineering. Under the guidance of Senior Engineer Ilkin Mehdiyev, mastered Java Fundamentals and Advanced Java programming. The program specialized in Spring Boot development, covering industry-standard practices for building robust and scalable APIs. Emphasized clean code principles, effective backend architecture, and real-world problem-solving. Participated in high-level technical discussions and collaborative learning within a select group of high-potential developers.",
                         "type": "academic",
                         "subtype": "courses",
                         "position": "Participant",
@@ -447,7 +672,7 @@
                         "place": "Online",
                         "date": {
                             "year": 2024,
-                            "month": null,
+                            "month": 4,
                             "day": null
                         },
                         "media": [
@@ -467,6 +692,7 @@
                             "data-structures",
                             "hibernate",
                             "backend",
+                            "design-patterns",
                             "api",
                             "software-engineering"
                         ],
@@ -521,6 +747,12 @@
                                 "path": "tags/backend.png"
                             },
                             {
+                                "id": "design-patterns",
+                                "name": "Design Patterns",
+                                "type": "concepts",
+                                "path": "tags/design_patterns.png"
+                            },
+                            {
                                 "id": "api",
                                 "name": "API",
                                 "type": "concepts",
@@ -536,17 +768,17 @@
                     },
                     {
                         "id": "codestar",
-                        "title": "Codestar",
+                        "title": "Codestar: Advanced Programming Fast-Track",
                         "path": "fixed_data/academic/courses/codestar",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Codestar.",
+                        "organization": "Codestar",
+                        "description": "Achieved an exceptional milestone by completing a comprehensive 6-month Fundamentals of Programming and Advanced Algorithms course in just 1 month. This record-breaking fast-track completion demonstrates extraordinary learning speed and mastery of core concepts. The curriculum focused on C++ Mastery, Advanced Data Structures, and Object-Oriented Programming (OOP). Successfully applied Design Patterns and Competitive Programming techniques to solve complex algorithmic challenges, finishing significantly ahead of schedule with top-tier performance.",
                         "type": "academic",
                         "subtype": "courses",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
+                        "position": "Student",
+                        "award": "Advanced Certificate",
+                        "score": "Finished 6-month course in 1 month",
+                        "duration": "1 Month (Intensive)",
+                        "place": "Online",
                         "date": {
                             "year": 2024,
                             "month": null,
@@ -556,8 +788,14 @@
                             {
                                 "type": "image",
                                 "url_text": null,
-                                "title": "Advanced Finished",
+                                "title": "Advanced Finished Certificate",
                                 "path": "fixed_data/academic/courses/codestar/advanced_finished.png"
+                            },
+                            {
+                                "type": "url",
+                                "url_text": "https://www.instagram.com/p/C9H8-t7iqXQ/?igsh=MTZ0YWFib3U3OXg0dg==",
+                                "title": "Codestar Recognition Post",
+                                "path": null
                             }
                         ],
                         "tagIds": [
@@ -567,7 +805,8 @@
                             "oop",
                             "design-patterns",
                             "competitive-programming",
-                            "graphs",
+                            "problem-solving",
+                            "functional-programming",
                             "codestar"
                         ],
                         "data_folder": "fixed_data/academic/courses/codestar",
@@ -609,10 +848,14 @@
                                 "path": "tags/competitive_programming.png"
                             },
                             {
-                                "id": "graphs",
-                                "name": "Graphs",
-                                "type": "concepts",
-                                "path": "tags/graph.png"
+                                "id": "problem-solving",
+                                "name": "Problem-solving",
+                                "path": null
+                            },
+                            {
+                                "id": "functional-programming",
+                                "name": "Functional-programming",
+                                "path": null
                             },
                             {
                                 "id": "codestar",
@@ -623,235 +866,18 @@
                         ]
                     },
                     {
-                        "id": "coursera",
-                        "title": "Coursera",
-                        "path": "fixed_data/academic/courses/coursera",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Coursera.",
-                        "type": "academic",
-                        "subtype": "courses",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "Coursera Supervised Machine Learning Regression And Classification",
-                                "path": "fixed_data/academic/courses/coursera/Coursera Supervised Machine Learning Regression and Classification.pdf"
-                            }
-                        ],
-                        "tagIds": [
-                            "machine-learning",
-                            "artificial-intelligence",
-                            "4sim",
-                            "coursera"
-                        ],
-                        "data_folder": "fixed_data/academic/courses/coursera",
-                        "tags": [
-                            {
-                                "id": "machine-learning",
-                                "name": "Machine Learning",
-                                "type": "ai_ml",
-                                "path": "tags/machine_learning.png"
-                            },
-                            {
-                                "id": "artificial-intelligence",
-                                "name": "Artificial Intelligence",
-                                "type": "ai_ml",
-                                "path": "tags/artificial_intelligence.png"
-                            },
-                            {
-                                "id": "4sim",
-                                "name": "4sim",
-                                "type": "organizations",
-                                "path": "tags/4sim.png"
-                            },
-                            {
-                                "id": "coursera",
-                                "name": "Coursera",
-                                "type": "organizations",
-                                "path": "tags/coursera.png"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "limitless-mathematicians",
-                        "title": "Limitless mathematicians",
-                        "path": "fixed_data/academic/courses/limitless_mathematicians",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Limitless mathematicians.",
-                        "type": "academic",
-                        "subtype": "courses",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "2 Yer 2023",
-                                "path": "fixed_data/academic/courses/limitless_mathematicians/2 yer 2023.pdf"
-                            },
-                            {
-                                "type": "image",
-                                "url_text": null,
-                                "title": "3 Yer 2022",
-                                "path": "fixed_data/academic/courses/limitless_mathematicians/3 yer 2022.jpg"
-                            },
-                            {
-                                "type": "image",
-                                "url_text": null,
-                                "title": "Participation 2023",
-                                "path": "fixed_data/academic/courses/limitless_mathematicians/participation 2023.jpg"
-                            }
-                        ],
-                        "tagIds": [
-                            "math",
-                            "olympiad",
-                            "ada-university"
-                        ],
-                        "data_folder": "fixed_data/academic/courses/limitless_mathematicians",
-                        "tags": [
-                            {
-                                "id": "math",
-                                "name": "Math",
-                                "type": "organizations",
-                                "path": "tags/math.png"
-                            },
-                            {
-                                "id": "olympiad",
-                                "name": "Olympiad",
-                                "type": "concepts",
-                                "path": "tags/olympiad.png"
-                            },
-                            {
-                                "id": "ada-university",
-                                "name": "Ada University",
-                                "type": "institutions",
-                                "path": "tags/ada_university.png"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "udemy",
-                        "title": "Udemy: Udemy",
-                        "path": "fixed_data/academic/courses/udemy",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Udemy: Udemy.",
-                        "type": "academic",
-                        "subtype": "courses",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "FlutterKanan",
-                                "path": "fixed_data/academic/courses/udemy/FlutterKanan.pdf"
-                            },
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "Udemy FlutterDartUdemy",
-                                "path": "fixed_data/academic/courses/udemy/udemy_FlutterDartUdemy.pdf"
-                            },
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "Udemy JavaPreparationUdemy",
-                                "path": "fixed_data/academic/courses/udemy/udemy_JavaPreparationUdemy.pdf"
-                            },
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "Udemy SoftwareArchitecturaUdemy",
-                                "path": "fixed_data/academic/courses/udemy/udemy_SoftwareArchitecturaUdemy.pdf"
-                            }
-                        ],
-                        "tagIds": [
-                            "flutter",
-                            "dart",
-                            "java",
-                            "software-architecture",
-                            "mobile-development",
-                            "udemy"
-                        ],
-                        "data_folder": "fixed_data/academic/courses/udemy",
-                        "tags": [
-                            {
-                                "id": "flutter",
-                                "name": "Flutter",
-                                "type": "frameworks",
-                                "path": "tags/flutter.jpg"
-                            },
-                            {
-                                "id": "dart",
-                                "name": "Dart",
-                                "type": "languages",
-                                "path": "tags/dart.png"
-                            },
-                            {
-                                "id": "java",
-                                "name": "Java",
-                                "type": "languages",
-                                "path": "tags/java.svg"
-                            },
-                            {
-                                "id": "software-architecture",
-                                "name": "Software Architecture",
-                                "type": "concepts",
-                                "path": "tags/software_architecture.png"
-                            },
-                            {
-                                "id": "mobile-development",
-                                "name": "Mobile Development",
-                                "type": "concepts",
-                                "path": "tags/mobile_development.png"
-                            },
-                            {
-                                "id": "udemy",
-                                "name": "Udemy",
-                                "type": "organizations",
-                                "path": "tags/udemy.webp"
-                            }
-                        ]
-                    },
-                    {
                         "id": "abb-math-challenge",
                         "title": "ABB Math Challenge",
                         "path": "fixed_data/academic/courses/abb_math_challenge",
                         "organization": "ABB (International Bank of Azerbaijan)",
-                        "description": "Selected as a winner of the ABB Math Challenge to participate in an intensive 10-day Olympiad Mathematics training program conducted by expert instructors from Russia. The program focused on advanced mathematical theories, followed by seminars and daily competitive assessments. Gained deep insights into complex problem-solving techniques and rigorous mathematical logic, contributing to a high-ranking performance in the final evaluations.",
+                        "description": "Selected as a winner of the ABB Math Challenge to participate in an intensive 10-day Olympiad Mathematics training program conducted by expert instructors from Russia. The curriculum involved a deep dive into advanced mathematical and algorithmic disciplines, including Game Theory, Graph Theory, and Number Theory. Mastered complex concepts in Probability, Computational Geometry, and advanced Algorithm design. The program was characterized by rigorous seminars and daily competitive assessments, focusing on high-level mathematical logic and sophisticated problem-solving techniques, contributing to a high-ranking performance in final evaluations.",
                         "type": "academic",
                         "subtype": "courses",
                         "position": "Participant",
                         "award": "Intensive Olympiad Mathematics Training",
                         "score": "High Ranking Performance",
                         "duration": "10 Days (Intensive)",
-                        "place": "Baku, Azerbaijan, ABB Innovation",
+                        "place": "ABB Innovation",
                         "date": {
                             "year": 2023,
                             "month": 2,
@@ -859,22 +885,27 @@
                         },
                         "media": [
                             {
-                                "type": "url",
-                                "url_text": "https://www.credential.net/8dd08972-eb5b-40ea-9e0e-6c287a20bf26#acc.4E6bP03e",
-                                "title": "Credential",
-                                "path": null
-                            },
-                            {
                                 "type": "pdf",
                                 "url_text": null,
                                 "title": "Participation",
                                 "path": "fixed_data/academic/courses/abb_math_challenge/participation.pdf"
+                            },
+                            {
+                                "type": "url",
+                                "url_text": "https://www.credential.net/8dd08972-eb5b-40ea-9e0e-6c287a20bf26#acc.4E6bP03e",
+                                "title": "Credential",
+                                "path": null
                             }
                         ],
                         "tagIds": [
                             "math",
                             "olympiad",
                             "algorithms",
+                            "game-theory",
+                            "graph-theory",
+                            "number-theory",
+                            "probability",
+                            "geometry",
                             "abb"
                         ],
                         "data_folder": "fixed_data/academic/courses/abb_math_challenge",
@@ -898,10 +929,131 @@
                                 "path": "tags/algorithm.png"
                             },
                             {
+                                "id": "game-theory",
+                                "name": "Game-theory",
+                                "path": null
+                            },
+                            {
+                                "id": "graph-theory",
+                                "name": "Graph-theory",
+                                "path": null
+                            },
+                            {
+                                "id": "number-theory",
+                                "name": "Number-theory",
+                                "path": null
+                            },
+                            {
+                                "id": "probability",
+                                "name": "Probability",
+                                "path": null
+                            },
+                            {
+                                "id": "geometry",
+                                "name": "Geometry",
+                                "path": null
+                            },
+                            {
                                 "id": "abb",
                                 "name": "Abb",
                                 "type": "organizations",
                                 "path": "tags/abb.png"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "limitless-mathematicians",
+                        "title": "Limitless Mathematicians Program",
+                        "path": "fixed_data/academic/courses/limitless_mathematicians",
+                        "organization": "ADA University",
+                        "description": "Selected for the prestigious 'Limitless Mathematicians' program at ADA University for two consecutive years. In the first year, mastered Geometry, Number Theory, and Advanced Algorithms under the mentorship of Prof. Yagub Aliyev, securing 3rd place in the final evaluations. In the second year, expanded expertise into Cryptography and Probability, guided by a team of ADA professors including Samir and Rafael alongside Prof. Aliyev, achieving an improved ranking of 2nd place. The program focused on high-level mathematical reasoning, complex problem-solving, and the application of abstract theories to computational challenges.",
+                        "type": "academic",
+                        "subtype": "courses",
+                        "position": "Winner",
+                        "award": "2nd Place (2023) / 3rd Place (2022)",
+                        "score": "Silver / Bronze Achievement",
+                        "duration": "6 months / 3 weeks",
+                        "place": "ADA University",
+                        "date": {
+                            "year": 2022,
+                            "month": 5,
+                            "day": null
+                        },
+                        "media": [
+                            {
+                                "type": "image",
+                                "url_text": null,
+                                "title": "3rd Place Certificate 2022",
+                                "path": "fixed_data/academic/courses/limitless_mathematicians/3 yer 2022.jpg"
+                            },
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "2nd Place Certificate 2023",
+                                "path": "fixed_data/academic/courses/limitless_mathematicians/2 yer 2023.pdf"
+                            },
+                            {
+                                "type": "image",
+                                "url_text": null,
+                                "title": "Participation Recognition 2023",
+                                "path": "fixed_data/academic/courses/limitless_mathematicians/participation 2023.jpg"
+                            }
+                        ],
+                        "tagIds": [
+                            "math",
+                            "olympiad",
+                            "geometry",
+                            "number-theory",
+                            "algorithms",
+                            "cryptography",
+                            "probability",
+                            "ada-university"
+                        ],
+                        "data_folder": "fixed_data/academic/courses/limitless_mathematicians",
+                        "tags": [
+                            {
+                                "id": "math",
+                                "name": "Math",
+                                "type": "organizations",
+                                "path": "tags/math.png"
+                            },
+                            {
+                                "id": "olympiad",
+                                "name": "Olympiad",
+                                "type": "concepts",
+                                "path": "tags/olympiad.png"
+                            },
+                            {
+                                "id": "geometry",
+                                "name": "Geometry",
+                                "path": null
+                            },
+                            {
+                                "id": "number-theory",
+                                "name": "Number-theory",
+                                "path": null
+                            },
+                            {
+                                "id": "algorithms",
+                                "name": "Algorithms",
+                                "type": "concepts",
+                                "path": "tags/algorithm.png"
+                            },
+                            {
+                                "id": "cryptography",
+                                "name": "Cryptography",
+                                "path": null
+                            },
+                            {
+                                "id": "probability",
+                                "name": "Probability",
+                                "path": null
+                            },
+                            {
+                                "id": "ada-university",
+                                "name": "Ada University",
+                                "type": "institutions",
+                                "path": "tags/ada_university.png"
                             }
                         ]
                     }

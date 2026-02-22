@@ -1,32 +1,32 @@
 {
     "id": "icpc-2024-qualification",
-    "title": "Icpc 2024 qualification",
+    "title": "ICPC Azerbaijan Qualification 2024",
     "path": "fixed_data/academic/extra_activities/icpc_2024_qualification",
-    "organization": "Various",
-    "description": "Detailed documentation and proof for Icpc 2024 qualification.",
+    "organization": "ICPC Foundation / Azerbaijan Higher Education Institutions",
+    "description": "Competed in the Azerbaijan Qualification round of the International Collegiate Programming Contest (ICPC), the premier global competitive programming competition. Ranked 67th overall in a highly competitive field of university-level problem solvers. Awarded the 'High Achievement' medal for exceptional performance in solving complex algorithmic challenges under strict time constraints. Demonstrated mastery in advanced data structures, graph theory, and dynamic programming using C++.",
     "type": "academic",
-    "subtype": "achievements",
-    "position": null,
-    "award": null,
-    "score": null,
-    "duration": null,
-    "place": null,
+    "subtype": "extra_activities",
+    "position": "Contestant",
+    "award": "High Achievement",
+    "score": "67th Place",
+    "duration": "5 Hours",
+    "place": "French-Azerbaijani University",
     "date": {
-        "year": 2024,
-        "month": null,
+        "year": 2023,
+        "month": 10,
         "day": null
     },
     "media": [
         {
             "type": "pdf",
             "url_text": null,
-            "title": "2024-ICPC Azerbaijan Qualification-Humbat Jamalov-MEDAL(1)",
+            "title": "ICPC 2024 High Achievement Medal",
             "path": "fixed_data/academic/extra_activities/icpc_2024_qualification/2024-ICPC Azerbaijan Qualification-Humbat Jamalov-MEDAL(1).pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "2024-ICPC Azerbaijan Qualification-Humbat Jamalov-PLACE",
+            "title": "ICPC 2024 Ranking Certificate",
             "path": "fixed_data/academic/extra_activities/icpc_2024_qualification/2024-ICPC Azerbaijan Qualification-Humbat Jamalov-PLACE.pdf"
         }
     ],
@@ -35,9 +35,13 @@
         "algorithms",
         "data-structures",
         "olympiad",
-        "graphs",
         "competitive-programming",
-        "c++"
+        "graphs",
+        "dynamic-programming",
+        "greedy-algorithms",
+        "c++",
+        "problem-solving",
+        "ufaz"
     ],
     "data_folder": "fixed_data/academic/extra_activities/icpc_2024_qualification"
 }

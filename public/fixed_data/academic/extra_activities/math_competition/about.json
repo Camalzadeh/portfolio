@@ -1,16 +1,16 @@
 {
-    "id": "math-competition",
-    "title": "Math competition",
+    "id": "math-competition-bhos",
+    "title": "Bu bizə harda lazım olacaq?",
     "path": "fixed_data/academic/extra_activities/math_competition",
-    "organization": "Various",
-    "description": "Detailed documentation and proof for Math competition.",
+    "organization": "BHOS Math Club (Baku Higher Oil School)",
+    "description": "Awarded 3rd place in the mathematics competition titled 'Bu bizə harda lazım olacaq?' (Where will we need this?), organized by the Baku Higher Oil School (BHOS) Mathematics Club. The competition tested students' ability to apply theoretical mathematical concepts to practical, real-world scenarios and complex problem-solving challenges.",
     "type": "academic",
-    "subtype": "achievements",
-    "position": null,
-    "award": null,
-    "score": null,
-    "duration": null,
-    "place": null,
+    "subtype": "extra_activities",
+    "position": "Winner",
+    "award": "Bronze Medal",
+    "score": "3rd Place",
+    "duration": "1 Day",
+    "place": "Baku Higher Oil School (BHOS)",
     "date": {
         "year": 2024,
         "month": null,
@@ -20,15 +20,16 @@
         {
             "type": "image",
             "url_text": null,
-            "title": "Bu Bize Harda Lazim Olacaq",
+            "title": "3rd Place Certificate - BHOS Math Club",
             "path": "fixed_data/academic/extra_activities/math_competition/bu_bize_harda_lazim_olacaq.jpg"
         }
     ],
     "tagIds": [
         "math",
-        "olympiad",
+        "competition",
+        "bhos",
         "ufaz",
-        "bhos"
+        "problem-solving"
     ],
     "data_folder": "fixed_data/academic/extra_activities/math_competition"
 }

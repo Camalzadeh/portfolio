@@ -1,32 +1,32 @@
 {
-    "id": "icsc-2025-qulification",
-    "title": "Icsc 2025 qulification",
+    "id": "icsc-2025-qualification",
+    "title": "International Computer Science Competition 2025",
     "path": "fixed_data/academic/extra_activities/icsc_2025_qulification",
-    "organization": "Various",
-    "description": "Detailed documentation and proof for Icsc 2025 qulification.",
+    "organization": "International Computer Science Competition (ICSC)",
+    "description": "Successfully participated in the Qualification Round of the 2025 International Computer Science Competition. Received special honor for submitting high-quality code that passed all evaluated test cases. Based on performance in the qualification, advanced to the Pre-Final Round 2025 as a qualified participant. The competition is a prestigious global extracurricular science challenge for high school and university students, focusing on rigorous algorithmic problem solving.",
     "type": "academic",
-    "subtype": "achievements",
-    "position": null,
-    "award": null,
-    "score": null,
-    "duration": null,
-    "place": null,
+    "subtype": "extra_activities",
+    "position": "Qualified Contestant",
+    "award": "Pre-Final Qualification",
+    "score": "Qualified for Pre-Finals",
+    "duration": "1 month",
+    "place": "Online",
     "date": {
-        "year": 2024,
-        "month": null,
+        "year": 2025,
+        "month": 9,
         "day": null
     },
     "media": [
         {
             "type": "pdf",
             "url_text": null,
-            "title": "ICSC-Certificate-QR-2025-FFB809803C5-D5ff0f5136aa3a63242c8a544e43df25",
+            "title": "ICSC Participation Certificate (QR-2025-FFB809803C5)",
             "path": "fixed_data/academic/extra_activities/icsc_2025_qulification/ICSC-Certificate-QR-2025-FFB809803C5-d5ff0f5136aa3a63242c8a544e43df25.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "ICSC-PerformanceReport-PR-2025-FFB809803C5-B5275e2c79ec037e4e2ba0d524148130",
+            "title": "ICSC Performance Report 2025 (PR-2025-FFB809803C5)",
             "path": "fixed_data/academic/extra_activities/icsc_2025_qulification/ICSC-PerformanceReport-PR-2025-FFB809803C5-b5275e2c79ec037e4e2ba0d524148130.pdf"
         }
     ],
@@ -34,10 +34,10 @@
         "icsc",
         "algorithms",
         "data-structures",
-        "olympiad",
         "competitive-programming",
-        "c++",
-        "math"
+        "olympiad",
+        "math",
+        "c++"
     ],
     "data_folder": "fixed_data/academic/extra_activities/icsc_2025_qulification"
 }

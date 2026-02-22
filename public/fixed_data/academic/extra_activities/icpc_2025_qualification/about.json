@@ -1,32 +1,32 @@
 {
     "id": "icpc-2025-qualification",
-    "title": "Icpc 2025 qualification",
+    "title": "ICPC Azerbaijan Qualification 2025",
     "path": "fixed_data/academic/extra_activities/icpc_2025_qualification",
-    "organization": "Various",
-    "description": "Detailed documentation and proof for Icpc 2025 qualification.",
+    "organization": "ICPC Foundation / Azerbaijan Higher Education Institutions",
+    "description": "Demonstrated significant competitive growth by ranking 18th in the Azerbaijan Qualification round of the International Collegiate Programming Contest (ICPC). Awarded the 'Second Award' for high-level algorithmic problem-solving and efficiency. This performance represents a major leap from previous standings, showcasing advanced proficiency in C++, complex data structures, and optimized algorithm design under high-pressure competitive environments.",
     "type": "academic",
-    "subtype": "achievements",
-    "position": null,
-    "award": null,
-    "score": null,
-    "duration": null,
-    "place": null,
+    "subtype": "extra_activities",
+    "position": "Contestant",
+    "award": "Second Award",
+    "score": "18th Place",
+    "duration": "5 Hours",
+    "place": "French-Azerbaijani University",
     "date": {
         "year": 2024,
-        "month": null,
+        "month": 10,
         "day": null
     },
     "media": [
         {
             "type": "pdf",
             "url_text": null,
-            "title": "2025-ICPC Azerbaijan Qualification-Humbat Jamalov-MEDAL",
+            "title": "ICPC 2025 Second Award Certificate",
             "path": "fixed_data/academic/extra_activities/icpc_2025_qualification/2025-ICPC Azerbaijan Qualification-Humbat Jamalov-MEDAL.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "2025-ICPC Azerbaijan Qualification-Humbat Jamalov-PLACE",
+            "title": "ICPC 2025 Ranking (18th Place)",
             "path": "fixed_data/academic/extra_activities/icpc_2025_qualification/2025-ICPC Azerbaijan Qualification-Humbat Jamalov-PLACE.pdf"
         }
     ],
@@ -35,9 +35,13 @@
         "algorithms",
         "data-structures",
         "olympiad",
-        "graphs",
         "competitive-programming",
-        "c++"
+        "graphs",
+        "dynamic-programming",
+        "greedy-algorithms",
+        "c++",
+        "problem-solving",
+        "ufaz"
     ],
     "data_folder": "fixed_data/academic/extra_activities/icpc_2025_qualification"
 }

@@ -1,34 +1,37 @@
 {
     "id": "math-camp-2024",
-    "title": "Math camp 2024",
+    "title": "MathCamp 2024 Student Spring Camp",
     "path": "fixed_data/academic/extra_activities/math_camp_2024",
-    "organization": "Various",
-    "description": "Detailed documentation and proof for Math camp 2024.",
+    "organization": "Ministry of Science and Education of Azerbaijan & 'Bir Könüllü' Student Cooperation Public Union",
+    "description": "Successfully participated in 'MathCamp 2024,' a student spring camp held in the Guba region. The program, supported by the Ministry of Science and Education, focused on intensive mathematical problem-solving and collaboration among high-achieving students. Gained practical insights into complex mathematical theories and logic through team-based activities and academic seminars.",
     "type": "academic",
-    "subtype": "achievements",
-    "position": null,
-    "award": null,
+    "subtype": "extra_activities",
+    "position": "Participant",
+    "award": "Certificate of Completion",
     "score": null,
-    "duration": null,
-    "place": null,
+    "duration": "5 Days",
+    "place": "Guba, Azerbaijan",
     "date": {
         "year": 2024,
-        "month": null,
+        "month": 3,
         "day": null
     },
     "media": [
         {
             "type": "image",
             "url_text": null,
-            "title": "Math Camp",
+            "title": "MathCamp 2024 Official Certificate",
             "path": "fixed_data/academic/extra_activities/math_camp_2024/math_camp.jpg"
         }
     ],
     "tagIds": [
         "math",
         "olympiad",
-        "bir-konullu",
-        "math-camp"
+        "algorithms",
+        "graphs",
+        "number-theory",
+        "artificial-intelligence",
+        "bir-konullu"
     ],
     "data_folder": "fixed_data/academic/extra_activities/math_camp_2024"
 }

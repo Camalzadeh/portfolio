@@ -1,38 +1,44 @@
 {
-    "id": "sumgayit-cup",
-    "title": "Sumgayit cup",
+    "id": "sumgayit-cup-programming",
+    "title": "Sumgait Cup – Programming Camp",
     "path": "fixed_data/academic/extra_activities/sumgayit_cup",
-    "organization": "Various",
-    "description": "Detailed documentation and proof for Sumgayit cup.",
+    "organization": "IDDA, ARTI, Sumgait State University & ICPC Azerbaijan",
+    "description": "Actively participated in the 'Sumgait Cup – Programming Camp,' an intensive competitive programming event organized by the Innovation and Digital Development Agency (IDDA), the Institute of Education (ARTI), and Sumgait State University. The camp, supported by the ICPC Azerbaijan Regional Contest, focused on advanced algorithmic problem solving, efficient data structure implementation, and collaborative coding practices in C++.",
     "type": "academic",
-    "subtype": "achievements",
-    "position": null,
-    "award": null,
-    "score": null,
-    "duration": null,
-    "place": null,
+    "subtype": "extra_activities",
+    "position": "Participant",
+    "award": "Certificate of Participation",
+    "score": "Successful Engagement",
+    "duration": "1 day",
+    "place": "Sumgayit",
     "date": {
-        "year": 2024,
-        "month": null,
+        "year": 2025,
+        "month": 4,
         "day": null
     },
     "media": [
         {
             "type": "image",
             "url_text": null,
-            "title": "Sumgayit Cup",
+            "title": "Sumgayit Cup Participation Certificate",
             "path": "fixed_data/academic/extra_activities/sumgayit_cup/sumgayit_cup.jpg"
         }
     ],
     "tagIds": [
         "icpc",
         "idda",
-        "olympiad",
-        "competitive-programming",
+        "arti",
         "algorithms",
         "data-structures",
+        "olympiad",
+        "competitive-programming",
+        "graphs",
+        "dynamic-programming",
+        "greedy-algorithms",
         "c++",
-        "math"
+        "problem-solving",
+        "ufaz",
+        "eolymp"
     ],
     "data_folder": "fixed_data/academic/extra_activities/sumgayit_cup"
 }
