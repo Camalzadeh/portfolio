@@ -1,44 +1,49 @@
 {
     "id": "limitless-mathematicians",
-    "title": "Limitless mathematicians",
+    "title": "Limitless Mathematicians Program",
     "path": "fixed_data/academic/courses/limitless_mathematicians",
-    "organization": "Various",
-    "description": "Detailed documentation and proof for Limitless mathematicians.",
+    "organization": "ADA University",
+    "description": "Selected for the prestigious 'Limitless Mathematicians' program at ADA University for two consecutive years. In the first year, mastered Geometry, Number Theory, and Advanced Algorithms under the mentorship of Prof. Yagub Aliyev, securing 3rd place in the final evaluations. In the second year, expanded expertise into Cryptography and Probability, guided by a team of ADA professors including Samir and Rafael alongside Prof. Aliyev, achieving an improved ranking of 2nd place. The program focused on high-level mathematical reasoning, complex problem-solving, and the application of abstract theories to computational challenges.",
     "type": "academic",
     "subtype": "courses",
-    "position": null,
-    "award": null,
-    "score": null,
-    "duration": null,
-    "place": null,
+    "position": "Winner",
+    "award": "2nd Place (2023) / 3rd Place (2022)",
+    "score": "Silver / Bronze Achievement",
+    "duration": "6 months / 3 weeks",
+    "place": "ADA University",
     "date": {
-        "year": 2024,
-        "month": null,
+        "year": 2022,
+        "month": 5,
         "day": null
     },
     "media": [
         {
+            "type": "image",
+            "url_text": null,
+            "title": "3rd Place Certificate 2022",
+            "path": "fixed_data/academic/courses/limitless_mathematicians/3 yer 2022.jpg"
+        },
+        {
             "type": "pdf",
             "url_text": null,
-            "title": "2 Yer 2023",
+            "title": "2nd Place Certificate 2023",
             "path": "fixed_data/academic/courses/limitless_mathematicians/2 yer 2023.pdf"
         },
         {
             "type": "image",
             "url_text": null,
-            "title": "3 Yer 2022",
-            "path": "fixed_data/academic/courses/limitless_mathematicians/3 yer 2022.jpg"
-        },
-        {
-            "type": "image",
-            "url_text": null,
-            "title": "Participation 2023",
+            "title": "Participation Recognition 2023",
             "path": "fixed_data/academic/courses/limitless_mathematicians/participation 2023.jpg"
         }
     ],
     "tagIds": [
         "math",
         "olympiad",
+        "geometry",
+        "number-theory",
+        "algorithms",
+        "cryptography",
+        "probability",
         "ada-university"
     ],
     "data_folder": "fixed_data/academic/courses/limitless_mathematicians"

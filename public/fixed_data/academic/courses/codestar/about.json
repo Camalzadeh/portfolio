@@ -1,16 +1,16 @@
 {
     "id": "codestar",
-    "title": "Codestar",
+    "title": "Codestar: Advanced Programming Fast-Track",
     "path": "fixed_data/academic/courses/codestar",
-    "organization": "Various",
-    "description": "Detailed documentation and proof for Codestar.",
+    "organization": "Codestar",
+    "description": "Achieved an exceptional milestone by completing a comprehensive 6-month Fundamentals of Programming and Advanced Algorithms course in just 1 month. This record-breaking fast-track completion demonstrates extraordinary learning speed and mastery of core concepts. The curriculum focused on C++ Mastery, Advanced Data Structures, and Object-Oriented Programming (OOP). Successfully applied Design Patterns and Competitive Programming techniques to solve complex algorithmic challenges, finishing significantly ahead of schedule with top-tier performance.",
     "type": "academic",
     "subtype": "courses",
-    "position": null,
-    "award": null,
-    "score": null,
-    "duration": null,
-    "place": null,
+    "position": "Student",
+    "award": "Advanced Certificate",
+    "score": "Finished 6-month course in 1 month",
+    "duration": "1 Month (Intensive)",
+    "place": "Online",
     "date": {
         "year": 2024,
         "month": null,
@@ -20,8 +20,14 @@
         {
             "type": "image",
             "url_text": null,
-            "title": "Advanced Finished",
+            "title": "Advanced Finished Certificate",
             "path": "fixed_data/academic/courses/codestar/advanced_finished.png"
+        },
+        {
+            "type": "url",
+            "url_text": "https://www.instagram.com/p/C9H8-t7iqXQ/?igsh=MTZ0YWFib3U3OXg0dg==",
+            "title": "Codestar Recognition Post",
+            "path": null
         }
     ],
     "tagIds": [
@@ -31,7 +37,8 @@
         "oop",
         "design-patterns",
         "competitive-programming",
-        "graphs",
+        "problem-solving",
+        "functional-programming",
         "codestar"
     ],
     "data_folder": "fixed_data/academic/courses/codestar"

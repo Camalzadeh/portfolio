@@ -2,25 +2,25 @@
     "id": "coursera",
     "title": "Coursera",
     "path": "fixed_data/academic/courses/coursera",
-    "organization": "Various",
-    "description": "Detailed documentation and proof for Coursera.",
+    "organization": "Stanford University & DeepLearning.AI via 4Sİ Academy",
+    "description": "Selected as a participant in Azerbaijan’s national '4Sİ Akademiyası' (Fourth Industrial Revolution Academy) initiative—a joint project by the Center for Analysis and Coordination of the Fourth Industrial Revolution (4Sİ) under the Ministry of Economy, the Education Development Fund, and Coursera. Awarded full scholarship access to the global platform. Successfully completed the professional certification course authorized by Stanford University and DeepLearning.AI, taught by industry pioneer Andrew Ng. The curriculum covered core Machine Learning concepts, including linear regression, logistic regression, and model optimization techniques.",
     "type": "academic",
     "subtype": "courses",
-    "position": null,
-    "award": null,
-    "score": null,
-    "duration": null,
-    "place": null,
+    "position": "4Sİ Academy Participant",
+    "award": "Completion Certificate",
+    "score": "Successfully Completed",
+    "duration": "6 weeks",
+    "place": "Online",
     "date": {
-        "year": 2024,
-        "month": null,
+        "year": 2025,
+        "month": 5,
         "day": null
     },
     "media": [
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Coursera Supervised Machine Learning Regression And Classification",
+            "title": "Coursera Supervised Machine Learning Certificate",
             "path": "fixed_data/academic/courses/coursera/Coursera Supervised Machine Learning Regression and Classification.pdf"
         }
     ],
@@ -28,6 +28,10 @@
         "machine-learning",
         "artificial-intelligence",
         "4sim",
+        "python",
+        "stanford-university",
+        "deeplearning-ai",
+        "andrew-ng",
         "coursera"
     ],
     "data_folder": "fixed_data/academic/courses/coursera"

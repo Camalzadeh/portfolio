@@ -2,43 +2,43 @@
     "id": "udemy",
     "title": "Udemy: Udemy",
     "path": "fixed_data/academic/courses/udemy",
-    "organization": "Various",
-    "description": "Detailed documentation and proof for Udemy: Udemy.",
+    "organization": "Udemy",
+    "description": "Comprehensive software engineering track focusing on mobile development, system design, and backend excellence. Course 1: Flutter & Dart (Maximilian Schwarzmüller) - Full SDK mastery and native integration. Course 2: Advanced Flutter (Kanan Yusubov) - Clean Architecture, SOLID, and Monorepo management. Course 3: Software Architecture (Andrii Sviatobatko) - Structural patterns and system scaling. Course 4: Java Technical Interview (Andrii Piatakha) - Core Java internals and Spring Framework deep-dive.",
     "type": "academic",
     "subtype": "courses",
-    "position": null,
-    "award": null,
-    "score": null,
-    "duration": null,
-    "place": null,
+    "position": "Self-Paced Learner",
+    "award": "Professional Certificates",
+    "score": "Successfully Completed",
+    "duration": "30 hours / 3 hours / 8.5 hours / 5 hours",
+    "place": "Online",
     "date": {
         "year": 2024,
-        "month": null,
+        "month": 7,
         "day": null
     },
     "media": [
         {
             "type": "pdf",
             "url_text": null,
-            "title": "FlutterKanan",
+            "title": "Flutter Advanced",
             "path": "fixed_data/academic/courses/udemy/FlutterKanan.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Udemy FlutterDartUdemy",
+            "title": "Flutter & Dart",
             "path": "fixed_data/academic/courses/udemy/udemy_FlutterDartUdemy.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Udemy JavaPreparationUdemy",
+            "title": "Java Technical Interview Preparation",
             "path": "fixed_data/academic/courses/udemy/udemy_JavaPreparationUdemy.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Udemy SoftwareArchitecturaUdemy",
+            "title": "Software Architecture",
             "path": "fixed_data/academic/courses/udemy/udemy_SoftwareArchitecturaUdemy.pdf"
         }
     ],
@@ -47,6 +47,9 @@
         "dart",
         "java",
         "software-architecture",
+        "technical-interview",
+        "solid-principles",
+        "clean-architecture",
         "mobile-development",
         "udemy"
     ],
