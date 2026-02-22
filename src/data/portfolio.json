@@ -1312,335 +1312,28 @@
                 "title": "Achievements & Activities",
                 "items": [
                     {
-                        "id": "aegee-forum",
-                        "title": "Aegee forum",
-                        "path": "fixed_data/academic/extra_activities/aegee_forum",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Aegee forum.",
-                        "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "Participation",
-                                "path": "fixed_data/academic/extra_activities/aegee_forum/participation.pdf"
-                            }
-                        ],
-                        "tagIds": [
-                            "aegee",
-                            "artificial-intelligence"
-                        ],
-                        "data_folder": "fixed_data/academic/extra_activities/aegee_forum",
-                        "tags": [
-                            {
-                                "id": "aegee",
-                                "name": "Aegee",
-                                "type": "organizations",
-                                "path": "tags/aegee.png"
-                            },
-                            {
-                                "id": "artificial-intelligence",
-                                "name": "Artificial Intelligence",
-                                "type": "ai_ml",
-                                "path": "tags/artificial_intelligence.png"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "icpc-2024-qualification",
-                        "title": "Icpc 2024 qualification",
-                        "path": "fixed_data/academic/extra_activities/icpc_2024_qualification",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Icpc 2024 qualification.",
-                        "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "2024-ICPC Azerbaijan Qualification-Humbat Jamalov-MEDAL(1)",
-                                "path": "fixed_data/academic/extra_activities/icpc_2024_qualification/2024-ICPC Azerbaijan Qualification-Humbat Jamalov-MEDAL(1).pdf"
-                            },
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "2024-ICPC Azerbaijan Qualification-Humbat Jamalov-PLACE",
-                                "path": "fixed_data/academic/extra_activities/icpc_2024_qualification/2024-ICPC Azerbaijan Qualification-Humbat Jamalov-PLACE.pdf"
-                            }
-                        ],
-                        "tagIds": [
-                            "icpc",
-                            "algorithms",
-                            "data-structures",
-                            "olympiad",
-                            "graphs",
-                            "competitive-programming",
-                            "c++"
-                        ],
-                        "data_folder": "fixed_data/academic/extra_activities/icpc_2024_qualification",
-                        "tags": [
-                            {
-                                "id": "icpc",
-                                "name": "ICPC",
-                                "type": "experience",
-                                "path": "tags/icpc.png"
-                            },
-                            {
-                                "id": "algorithms",
-                                "name": "Algorithms",
-                                "type": "concepts",
-                                "path": "tags/algorithm.png"
-                            },
-                            {
-                                "id": "data-structures",
-                                "name": "Data Structures",
-                                "type": "concepts",
-                                "path": "tags/data_structures.png"
-                            },
-                            {
-                                "id": "olympiad",
-                                "name": "Olympiad",
-                                "type": "concepts",
-                                "path": "tags/olympiad.png"
-                            },
-                            {
-                                "id": "graphs",
-                                "name": "Graphs",
-                                "type": "concepts",
-                                "path": "tags/graph.png"
-                            },
-                            {
-                                "id": "competitive-programming",
-                                "name": "Competitive Programming",
-                                "type": "concepts",
-                                "path": "tags/competitive_programming.png"
-                            },
-                            {
-                                "id": "c++",
-                                "name": "C++",
-                                "type": "languages",
-                                "path": "tags/cpp.png"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "icpc-2025-qualification",
-                        "title": "Icpc 2025 qualification",
-                        "path": "fixed_data/academic/extra_activities/icpc_2025_qualification",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Icpc 2025 qualification.",
-                        "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "2025-ICPC Azerbaijan Qualification-Humbat Jamalov-MEDAL",
-                                "path": "fixed_data/academic/extra_activities/icpc_2025_qualification/2025-ICPC Azerbaijan Qualification-Humbat Jamalov-MEDAL.pdf"
-                            },
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "2025-ICPC Azerbaijan Qualification-Humbat Jamalov-PLACE",
-                                "path": "fixed_data/academic/extra_activities/icpc_2025_qualification/2025-ICPC Azerbaijan Qualification-Humbat Jamalov-PLACE.pdf"
-                            }
-                        ],
-                        "tagIds": [
-                            "icpc",
-                            "algorithms",
-                            "data-structures",
-                            "olympiad",
-                            "graphs",
-                            "competitive-programming",
-                            "c++"
-                        ],
-                        "data_folder": "fixed_data/academic/extra_activities/icpc_2025_qualification",
-                        "tags": [
-                            {
-                                "id": "icpc",
-                                "name": "ICPC",
-                                "type": "experience",
-                                "path": "tags/icpc.png"
-                            },
-                            {
-                                "id": "algorithms",
-                                "name": "Algorithms",
-                                "type": "concepts",
-                                "path": "tags/algorithm.png"
-                            },
-                            {
-                                "id": "data-structures",
-                                "name": "Data Structures",
-                                "type": "concepts",
-                                "path": "tags/data_structures.png"
-                            },
-                            {
-                                "id": "olympiad",
-                                "name": "Olympiad",
-                                "type": "concepts",
-                                "path": "tags/olympiad.png"
-                            },
-                            {
-                                "id": "graphs",
-                                "name": "Graphs",
-                                "type": "concepts",
-                                "path": "tags/graph.png"
-                            },
-                            {
-                                "id": "competitive-programming",
-                                "name": "Competitive Programming",
-                                "type": "concepts",
-                                "path": "tags/competitive_programming.png"
-                            },
-                            {
-                                "id": "c++",
-                                "name": "C++",
-                                "type": "languages",
-                                "path": "tags/cpp.png"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "icpc-2025-republican",
-                        "title": "Icpc 2025 republican",
-                        "path": "fixed_data/academic/extra_activities/icpc_2025_republican",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Icpc 2025 republican.",
-                        "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL",
-                                "path": "fixed_data/academic/extra_activities/icpc_2025_republican/2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL.pdf"
-                            },
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "2025-ICPC Azerbaijan RC-Humbat Jamalov-PLACE",
-                                "path": "fixed_data/academic/extra_activities/icpc_2025_republican/2025-ICPC Azerbaijan RC-Humbat Jamalov-PLACE.pdf"
-                            }
-                        ],
-                        "tagIds": [
-                            "icpc",
-                            "algorithms",
-                            "data-structures",
-                            "olympiad",
-                            "graphs",
-                            "competitive-programming",
-                            "c++"
-                        ],
-                        "data_folder": "fixed_data/academic/extra_activities/icpc_2025_republican",
-                        "tags": [
-                            {
-                                "id": "icpc",
-                                "name": "ICPC",
-                                "type": "experience",
-                                "path": "tags/icpc.png"
-                            },
-                            {
-                                "id": "algorithms",
-                                "name": "Algorithms",
-                                "type": "concepts",
-                                "path": "tags/algorithm.png"
-                            },
-                            {
-                                "id": "data-structures",
-                                "name": "Data Structures",
-                                "type": "concepts",
-                                "path": "tags/data_structures.png"
-                            },
-                            {
-                                "id": "olympiad",
-                                "name": "Olympiad",
-                                "type": "concepts",
-                                "path": "tags/olympiad.png"
-                            },
-                            {
-                                "id": "graphs",
-                                "name": "Graphs",
-                                "type": "concepts",
-                                "path": "tags/graph.png"
-                            },
-                            {
-                                "id": "competitive-programming",
-                                "name": "Competitive Programming",
-                                "type": "concepts",
-                                "path": "tags/competitive_programming.png"
-                            },
-                            {
-                                "id": "c++",
-                                "name": "C++",
-                                "type": "languages",
-                                "path": "tags/cpp.png"
-                            }
-                        ]
-                    },
-                    {
                         "id": "icpc-2026-qualification",
-                        "title": "Icpc 2026 qualification",
+                        "title": "ICPC Azerbaijan Qualification 2026",
                         "path": "fixed_data/academic/extra_activities/icpc_2026_qualification",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Icpc 2026 qualification.",
+                        "organization": "ICPC Foundation / Azerbaijan Higher Education Institutions",
+                        "description": "Participated in the Azerbaijan Qualification round of the 2026 International Collegiate Programming Contest (ICPC). Recognized with an 'Honorable Mention' for successful problem-solving performance in a highly competitive national field. Continued to demonstrate consistent participation and technical skill in algorithmic challenges, maintaining a strong presence in the competitive programming community.",
                         "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "award": null,
+                        "subtype": "extra_activities",
+                        "position": "Contestant",
+                        "award": "Honorable Mention",
                         "score": null,
-                        "duration": null,
-                        "place": null,
+                        "duration": "5 Hours",
+                        "place": "French-Azerbaijani University",
                         "date": {
-                            "year": 2024,
-                            "month": null,
+                            "year": 2025,
+                            "month": 10,
                             "day": null
                         },
                         "media": [
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "2026-ICPC Azerbaijan Q-Humbat Jamalov-PLACE",
+                                "title": "ICPC 2026 Qualification Honorable Mention",
                                 "path": "fixed_data/academic/extra_activities/icpc_2026_qualification/2026-ICPC Azerbaijan Q-Humbat Jamalov-PLACE.pdf"
                             }
                         ],
@@ -1649,9 +1342,13 @@
                             "algorithms",
                             "data-structures",
                             "olympiad",
-                            "graphs",
                             "competitive-programming",
-                            "c++"
+                            "graphs",
+                            "dynamic-programming",
+                            "greedy-algorithms",
+                            "c++",
+                            "problem-solving",
+                            "ufaz"
                         ],
                         "data_folder": "fixed_data/academic/extra_activities/icpc_2026_qualification",
                         "tags": [
@@ -1680,91 +1377,10 @@
                                 "path": "tags/olympiad.png"
                             },
                             {
-                                "id": "graphs",
-                                "name": "Graphs",
-                                "type": "concepts",
-                                "path": "tags/graph.png"
-                            },
-                            {
                                 "id": "competitive-programming",
                                 "name": "Competitive Programming",
                                 "type": "concepts",
                                 "path": "tags/competitive_programming.png"
-                            },
-                            {
-                                "id": "c++",
-                                "name": "C++",
-                                "type": "languages",
-                                "path": "tags/cpp.png"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "icpc-republican-2025",
-                        "title": "ICPC 2025 Republican Finals",
-                        "path": "fixed_data/academic/extra_activities/icpc_republican_2025",
-                        "organization": "ICPC Azerbaijan",
-                        "description": "National medalist in the world's most prestigious coding contest.",
-                        "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "award": "3rd Place (National)",
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "Icpc 2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL",
-                                "path": "fixed_data/academic/extra_activities/icpc_republican_2025/icpc_2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL.pdf"
-                            },
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "Icpc Team 2025-ICPC Azerbaijan RC-MEDAL",
-                                "path": "fixed_data/academic/extra_activities/icpc_republican_2025/icpc_team_2025-ICPC Azerbaijan RC-MEDAL.pdf"
-                            }
-                        ],
-                        "tagIds": [
-                            "icpc",
-                            "algorithms",
-                            "data-structures",
-                            "olympiad",
-                            "graphs",
-                            "competitive-programming",
-                            "c++"
-                        ],
-                        "data_folder": "fixed_data/academic/extra_activities/icpc_republican_2025",
-                        "tags": [
-                            {
-                                "id": "icpc",
-                                "name": "ICPC",
-                                "type": "experience",
-                                "path": "tags/icpc.png"
-                            },
-                            {
-                                "id": "algorithms",
-                                "name": "Algorithms",
-                                "type": "concepts",
-                                "path": "tags/algorithm.png"
-                            },
-                            {
-                                "id": "data-structures",
-                                "name": "Data Structures",
-                                "type": "concepts",
-                                "path": "tags/data_structures.png"
-                            },
-                            {
-                                "id": "olympiad",
-                                "name": "Olympiad",
-                                "type": "concepts",
-                                "path": "tags/olympiad.png"
                             },
                             {
                                 "id": "graphs",
@@ -1773,48 +1389,63 @@
                                 "path": "tags/graph.png"
                             },
                             {
-                                "id": "competitive-programming",
-                                "name": "Competitive Programming",
-                                "type": "concepts",
-                                "path": "tags/competitive_programming.png"
+                                "id": "dynamic-programming",
+                                "name": "Dynamic-programming",
+                                "path": null
+                            },
+                            {
+                                "id": "greedy-algorithms",
+                                "name": "Greedy-algorithms",
+                                "path": null
                             },
                             {
                                 "id": "c++",
                                 "name": "C++",
                                 "type": "languages",
                                 "path": "tags/cpp.png"
+                            },
+                            {
+                                "id": "problem-solving",
+                                "name": "Problem-solving",
+                                "path": null
+                            },
+                            {
+                                "id": "ufaz",
+                                "name": "UFAZ",
+                                "type": "institutions",
+                                "path": "tags/ufaz.png"
                             }
                         ]
                     },
                     {
-                        "id": "icsc-2025-qulification",
-                        "title": "Icsc 2025 qulification",
+                        "id": "icsc-2025-qualification",
+                        "title": "International Computer Science Competition 2025",
                         "path": "fixed_data/academic/extra_activities/icsc_2025_qulification",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Icsc 2025 qulification.",
+                        "organization": "International Computer Science Competition (ICSC)",
+                        "description": "Successfully participated in the Qualification Round of the 2025 International Computer Science Competition. Received special honor for submitting high-quality code that passed all evaluated test cases. Based on performance in the qualification, advanced to the Pre-Final Round 2025 as a qualified participant. The competition is a prestigious global extracurricular science challenge for high school and university students, focusing on rigorous algorithmic problem solving.",
                         "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
+                        "subtype": "extra_activities",
+                        "position": "Qualified Contestant",
+                        "award": "Pre-Final Qualification",
+                        "score": "Qualified for Pre-Finals",
+                        "duration": "1 month",
+                        "place": "Online",
                         "date": {
-                            "year": 2024,
-                            "month": null,
+                            "year": 2025,
+                            "month": 9,
                             "day": null
                         },
                         "media": [
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "ICSC-Certificate-QR-2025-FFB809803C5-D5ff0f5136aa3a63242c8a544e43df25",
+                                "title": "ICSC Participation Certificate (QR-2025-FFB809803C5)",
                                 "path": "fixed_data/academic/extra_activities/icsc_2025_qulification/ICSC-Certificate-QR-2025-FFB809803C5-d5ff0f5136aa3a63242c8a544e43df25.pdf"
                             },
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "ICSC-PerformanceReport-PR-2025-FFB809803C5-B5275e2c79ec037e4e2ba0d524148130",
+                                "title": "ICSC Performance Report 2025 (PR-2025-FFB809803C5)",
                                 "path": "fixed_data/academic/extra_activities/icsc_2025_qulification/ICSC-PerformanceReport-PR-2025-FFB809803C5-b5275e2c79ec037e4e2ba0d524148130.pdf"
                             }
                         ],
@@ -1822,10 +1453,10 @@
                             "icsc",
                             "algorithms",
                             "data-structures",
-                            "olympiad",
                             "competitive-programming",
-                            "c++",
-                            "math"
+                            "olympiad",
+                            "math",
+                            "c++"
                         ],
                         "data_folder": "fixed_data/academic/extra_activities/icsc_2025_qulification",
                         "tags": [
@@ -1848,6 +1479,105 @@
                                 "path": "tags/data_structures.png"
                             },
                             {
+                                "id": "competitive-programming",
+                                "name": "Competitive Programming",
+                                "type": "concepts",
+                                "path": "tags/competitive_programming.png"
+                            },
+                            {
+                                "id": "olympiad",
+                                "name": "Olympiad",
+                                "type": "concepts",
+                                "path": "tags/olympiad.png"
+                            },
+                            {
+                                "id": "math",
+                                "name": "Math",
+                                "type": "organizations",
+                                "path": "tags/math.png"
+                            },
+                            {
+                                "id": "c++",
+                                "name": "C++",
+                                "type": "languages",
+                                "path": "tags/cpp.png"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "sumgayit-cup-programming",
+                        "title": "Sumgait Cup – Programming Camp",
+                        "path": "fixed_data/academic/extra_activities/sumgayit_cup",
+                        "organization": "IDDA, ARTI, Sumgait State University & ICPC Azerbaijan",
+                        "description": "Actively participated in the 'Sumgait Cup – Programming Camp,' an intensive competitive programming event organized by the Innovation and Digital Development Agency (IDDA), the Institute of Education (ARTI), and Sumgait State University. The camp, supported by the ICPC Azerbaijan Regional Contest, focused on advanced algorithmic problem solving, efficient data structure implementation, and collaborative coding practices in C++.",
+                        "type": "academic",
+                        "subtype": "extra_activities",
+                        "position": "Participant",
+                        "award": "Certificate of Participation",
+                        "score": "Successful Engagement",
+                        "duration": "1 day",
+                        "place": "Sumgayit",
+                        "date": {
+                            "year": 2025,
+                            "month": 4,
+                            "day": null
+                        },
+                        "media": [
+                            {
+                                "type": "image",
+                                "url_text": null,
+                                "title": "Sumgayit Cup Participation Certificate",
+                                "path": "fixed_data/academic/extra_activities/sumgayit_cup/sumgayit_cup.jpg"
+                            }
+                        ],
+                        "tagIds": [
+                            "icpc",
+                            "idda",
+                            "arti",
+                            "algorithms",
+                            "data-structures",
+                            "olympiad",
+                            "competitive-programming",
+                            "graphs",
+                            "dynamic-programming",
+                            "greedy-algorithms",
+                            "c++",
+                            "problem-solving",
+                            "ufaz",
+                            "eolymp"
+                        ],
+                        "data_folder": "fixed_data/academic/extra_activities/sumgayit_cup",
+                        "tags": [
+                            {
+                                "id": "icpc",
+                                "name": "ICPC",
+                                "type": "experience",
+                                "path": "tags/icpc.png"
+                            },
+                            {
+                                "id": "idda",
+                                "name": "Idda",
+                                "type": "organizations",
+                                "path": "tags/idda.png"
+                            },
+                            {
+                                "id": "arti",
+                                "name": "Arti",
+                                "path": null
+                            },
+                            {
+                                "id": "algorithms",
+                                "name": "Algorithms",
+                                "type": "concepts",
+                                "path": "tags/algorithm.png"
+                            },
+                            {
+                                "id": "data-structures",
+                                "name": "Data Structures",
+                                "type": "concepts",
+                                "path": "tags/data_structures.png"
+                            },
+                            {
                                 "id": "olympiad",
                                 "name": "Olympiad",
                                 "type": "concepts",
@@ -1860,124 +1590,31 @@
                                 "path": "tags/competitive_programming.png"
                             },
                             {
+                                "id": "graphs",
+                                "name": "Graphs",
+                                "type": "concepts",
+                                "path": "tags/graph.png"
+                            },
+                            {
+                                "id": "dynamic-programming",
+                                "name": "Dynamic-programming",
+                                "path": null
+                            },
+                            {
+                                "id": "greedy-algorithms",
+                                "name": "Greedy-algorithms",
+                                "path": null
+                            },
+                            {
                                 "id": "c++",
                                 "name": "C++",
                                 "type": "languages",
                                 "path": "tags/cpp.png"
                             },
                             {
-                                "id": "math",
-                                "name": "Math",
-                                "type": "organizations",
-                                "path": "tags/math.png"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "math-camp-2024",
-                        "title": "Math camp 2024",
-                        "path": "fixed_data/academic/extra_activities/math_camp_2024",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Math camp 2024.",
-                        "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [
-                            {
-                                "type": "image",
-                                "url_text": null,
-                                "title": "Math Camp",
-                                "path": "fixed_data/academic/extra_activities/math_camp_2024/math_camp.jpg"
-                            }
-                        ],
-                        "tagIds": [
-                            "math",
-                            "olympiad",
-                            "bir-konullu",
-                            "math-camp"
-                        ],
-                        "data_folder": "fixed_data/academic/extra_activities/math_camp_2024",
-                        "tags": [
-                            {
-                                "id": "math",
-                                "name": "Math",
-                                "type": "organizations",
-                                "path": "tags/math.png"
-                            },
-                            {
-                                "id": "olympiad",
-                                "name": "Olympiad",
-                                "type": "concepts",
-                                "path": "tags/olympiad.png"
-                            },
-                            {
-                                "id": "bir-konullu",
-                                "name": "Bir Konullu",
-                                "type": "organizations",
-                                "path": "tags/bir_konullu.jpeg"
-                            },
-                            {
-                                "id": "math-camp",
-                                "name": "Math Camp",
-                                "type": "experience",
+                                "id": "problem-solving",
+                                "name": "Problem-solving",
                                 "path": null
-                            }
-                        ]
-                    },
-                    {
-                        "id": "math-competition",
-                        "title": "Math competition",
-                        "path": "fixed_data/academic/extra_activities/math_competition",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Math competition.",
-                        "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [
-                            {
-                                "type": "image",
-                                "url_text": null,
-                                "title": "Bu Bize Harda Lazim Olacaq",
-                                "path": "fixed_data/academic/extra_activities/math_competition/bu_bize_harda_lazim_olacaq.jpg"
-                            }
-                        ],
-                        "tagIds": [
-                            "math",
-                            "olympiad",
-                            "ufaz",
-                            "bhos"
-                        ],
-                        "data_folder": "fixed_data/academic/extra_activities/math_competition",
-                        "tags": [
-                            {
-                                "id": "math",
-                                "name": "Math",
-                                "type": "organizations",
-                                "path": "tags/math.png"
-                            },
-                            {
-                                "id": "olympiad",
-                                "name": "Olympiad",
-                                "type": "concepts",
-                                "path": "tags/olympiad.png"
                             },
                             {
                                 "id": "ufaz",
@@ -1986,66 +1623,136 @@
                                 "path": "tags/ufaz.png"
                             },
                             {
-                                "id": "bhos",
-                                "name": "BHOS",
-                                "type": "institutions",
-                                "path": "tags/bhos.png"
+                                "id": "eolymp",
+                                "name": "Eolymp",
+                                "path": null
                             }
                         ]
                     },
                     {
-                        "id": "miull-data-camp",
-                        "title": "Miull data camp",
-                        "path": "fixed_data/academic/extra_activities/miull_data_camp",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Miull data camp.",
+                        "id": "pigma-quiz-organization",
+                        "title": "Pigma Quiz Competition",
+                        "path": "fixed_data/academic/extra_activities/pigma_quiz",
+                        "organization": "UFAZ Math Club & EIGROUP",
+                        "description": "Served as the Chief of Staff for the UFAZ Math Club, leading the organizational efforts for the 'Pigma Quiz Competition.' Contributed to the competition's academic integrity by co-authoring the mathematical challenge questions and acted as a formal proctor during the event. Managed operational logistics and coordination between stakeholders to ensure a successful competitive environment.",
                         "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "award": null,
+                        "subtype": "extra_activities",
+                        "position": "Chief of Staff",
+                        "award": "Certificate of Participation",
                         "score": null,
-                        "duration": null,
-                        "place": null,
+                        "duration": "1 day",
+                        "place": "French-Azerbaijani University",
                         "date": {
-                            "year": 2024,
-                            "month": null,
+                            "year": 2025,
+                            "month": 3,
                             "day": null
                         },
                         "media": [
                             {
                                 "type": "image",
                                 "url_text": null,
-                                "title": "Miull 1",
-                                "path": "fixed_data/academic/extra_activities/miull_data_camp/miull_1.png"
+                                "title": "Pigma Quiz Organizer Recognition",
+                                "path": "fixed_data/academic/extra_activities/pigma_quiz/pigma_quiz.pdf"
+                            }
+                        ],
+                        "tagIds": [
+                            "math",
+                            "ei-group",
+                            "leadership",
+                            "content-creation",
+                            "ufaz",
+                            "organization"
+                        ],
+                        "data_folder": "fixed_data/academic/extra_activities/pigma_quiz",
+                        "tags": [
+                            {
+                                "id": "math",
+                                "name": "Math",
+                                "type": "organizations",
+                                "path": "tags/math.png"
+                            },
+                            {
+                                "id": "ei-group",
+                                "name": "Ei-group",
+                                "path": null
+                            },
+                            {
+                                "id": "leadership",
+                                "name": "Leadership",
+                                "path": null
+                            },
+                            {
+                                "id": "content-creation",
+                                "name": "Content-creation",
+                                "path": null
+                            },
+                            {
+                                "id": "ufaz",
+                                "name": "UFAZ",
+                                "type": "institutions",
+                                "path": "tags/ufaz.png"
+                            },
+                            {
+                                "id": "organization",
+                                "name": "Organization",
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": "miuul-data-science-ai-bootcamp",
+                        "title": "Data Science and AI Engineering Mini Bootcamps",
+                        "path": "fixed_data/academic/extra_activities/miuul_data_camp",
+                        "organization": "Miuul",
+                        "description": "Completed a series of intensive 8-hour Machine Learning bootcamps focused on the end-to-end data science lifecycle. The curriculum integrated Python programming for data science, statistical analysis, feature engineering, and machine learning model development. Additionally, explored Generative AI applications and practical implementations in engineering contexts.",
+                        "type": "academic",
+                        "subtype": "extra_activities",
+                        "position": "Participant",
+                        "award": "Certificates of Participation",
+                        "score": "Successful Completion",
+                        "duration": "2 days",
+                        "place": "Online",
+                        "date": {
+                            "year": 2024,
+                            "month": 12,
+                            "day": null
+                        },
+                        "media": [
+                            {
+                                "type": "image",
+                                "url_text": null,
+                                "title": "Miuul 1",
+                                "path": "fixed_data/academic/extra_activities/miuul_data_camp/miuul_1.png"
                             },
                             {
                                 "type": "image",
                                 "url_text": null,
-                                "title": "Miull 2",
-                                "path": "fixed_data/academic/extra_activities/miull_data_camp/miull_2.png"
+                                "title": "Miuul 2",
+                                "path": "fixed_data/academic/extra_activities/miuul_data_camp/miuul_2.png"
                             }
                         ],
                         "tagIds": [
-                            "miull",
-                            "data-camp",
+                            "miuul",
+                            "math",
                             "data-science",
                             "machine-learning",
                             "artificial-intelligence",
-                            "python"
+                            "python",
+                            "generative-ai",
+                            "statistics"
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/miull_data_camp",
+                        "data_folder": "fixed_data/academic/extra_activities/miuul_data_camp",
                         "tags": [
                             {
-                                "id": "miull",
-                                "name": "Miull",
-                                "type": "institutions",
-                                "path": "tags/miuul.jpg"
+                                "id": "miuul",
+                                "name": "Miuul",
+                                "path": null
                             },
                             {
-                                "id": "data-camp",
-                                "name": "Data Camp",
-                                "type": "experience",
-                                "path": null
+                                "id": "math",
+                                "name": "Math",
+                                "type": "organizations",
+                                "path": "tags/math.png"
                             },
                             {
                                 "id": "data-science",
@@ -2070,183 +1777,71 @@
                                 "name": "Python",
                                 "type": "languages",
                                 "path": "tags/python.png"
+                            },
+                            {
+                                "id": "generative-ai",
+                                "name": "Generative-ai",
+                                "path": null
+                            },
+                            {
+                                "id": "statistics",
+                                "name": "Statistics",
+                                "path": null
                             }
                         ]
                     },
                     {
-                        "id": "pigma-quiz",
-                        "title": "Pigma quiz",
-                        "path": "fixed_data/academic/extra_activities/pigma_quiz",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Pigma quiz.",
+                        "id": "icpc-2025-qualification",
+                        "title": "ICPC Azerbaijan Qualification 2025",
+                        "path": "fixed_data/academic/extra_activities/icpc_2025_qualification",
+                        "organization": "ICPC Foundation / Azerbaijan Higher Education Institutions",
+                        "description": "Demonstrated significant competitive growth by ranking 18th in the Azerbaijan Qualification round of the International Collegiate Programming Contest (ICPC). Awarded the 'Second Award' for high-level algorithmic problem-solving and efficiency. This performance represents a major leap from previous standings, showcasing advanced proficiency in C++, complex data structures, and optimized algorithm design under high-pressure competitive environments.",
                         "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
+                        "subtype": "extra_activities",
+                        "position": "Contestant",
+                        "award": "Second Award",
+                        "score": "18th Place",
+                        "duration": "5 Hours",
+                        "place": "French-Azerbaijani University",
                         "date": {
                             "year": 2024,
-                            "month": null,
+                            "month": 10,
                             "day": null
                         },
                         "media": [
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Pigma Quiz",
-                                "path": "fixed_data/academic/extra_activities/pigma_quiz/pigma_quiz.pdf"
-                            }
-                        ],
-                        "tagIds": [
-                            "math",
-                            "olympiad",
-                            "ufaz"
-                        ],
-                        "data_folder": "fixed_data/academic/extra_activities/pigma_quiz",
-                        "tags": [
-                            {
-                                "id": "math",
-                                "name": "Math",
-                                "type": "organizations",
-                                "path": "tags/math.png"
+                                "title": "ICPC 2025 Second Award Certificate",
+                                "path": "fixed_data/academic/extra_activities/icpc_2025_qualification/2025-ICPC Azerbaijan Qualification-Humbat Jamalov-MEDAL.pdf"
                             },
                             {
-                                "id": "olympiad",
-                                "name": "Olympiad",
-                                "type": "concepts",
-                                "path": "tags/olympiad.png"
-                            },
-                            {
-                                "id": "ufaz",
-                                "name": "UFAZ",
-                                "type": "institutions",
-                                "path": "tags/ufaz.png"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "scientific-conference",
-                        "title": "Scientific conference",
-                        "path": "fixed_data/academic/extra_activities/scientific_conference",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Scientific conference.",
-                        "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [
-                            {
-                                "type": "image",
+                                "type": "pdf",
                                 "url_text": null,
-                                "title": "IMG-20240913-WA0027",
-                                "path": "fixed_data/academic/extra_activities/scientific_conference/IMG-20240913-WA0027.jpg"
-                            }
-                        ],
-                        "tagIds": [
-                            "conference",
-                            "scientific",
-                            "research",
-                            "math"
-                        ],
-                        "data_folder": "fixed_data/academic/extra_activities/scientific_conference",
-                        "tags": [
-                            {
-                                "id": "conference",
-                                "name": "Conference",
-                                "type": "experience",
-                                "path": "tags/conference.png"
-                            },
-                            {
-                                "id": "scientific",
-                                "name": "Scientific",
-                                "type": "concepts",
-                                "path": "tags/science.png"
-                            },
-                            {
-                                "id": "research",
-                                "name": "Research",
-                                "type": "institutions",
-                                "path": "tags/research.png"
-                            },
-                            {
-                                "id": "math",
-                                "name": "Math",
-                                "type": "organizations",
-                                "path": "tags/math.png"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "sumgayit-cup",
-                        "title": "Sumgayit cup",
-                        "path": "fixed_data/academic/extra_activities/sumgayit_cup",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Sumgayit cup.",
-                        "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [
-                            {
-                                "type": "image",
-                                "url_text": null,
-                                "title": "Sumgayit Cup",
-                                "path": "fixed_data/academic/extra_activities/sumgayit_cup/sumgayit_cup.jpg"
+                                "title": "ICPC 2025 Ranking (18th Place)",
+                                "path": "fixed_data/academic/extra_activities/icpc_2025_qualification/2025-ICPC Azerbaijan Qualification-Humbat Jamalov-PLACE.pdf"
                             }
                         ],
                         "tagIds": [
                             "icpc",
-                            "idda",
-                            "olympiad",
-                            "competitive-programming",
                             "algorithms",
                             "data-structures",
+                            "olympiad",
+                            "competitive-programming",
+                            "graphs",
+                            "dynamic-programming",
+                            "greedy-algorithms",
                             "c++",
-                            "math"
+                            "problem-solving",
+                            "ufaz"
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/sumgayit_cup",
+                        "data_folder": "fixed_data/academic/extra_activities/icpc_2025_qualification",
                         "tags": [
                             {
                                 "id": "icpc",
                                 "name": "ICPC",
                                 "type": "experience",
                                 "path": "tags/icpc.png"
-                            },
-                            {
-                                "id": "idda",
-                                "name": "Idda",
-                                "type": "organizations",
-                                "path": "tags/idda.png"
-                            },
-                            {
-                                "id": "olympiad",
-                                "name": "Olympiad",
-                                "type": "concepts",
-                                "path": "tags/olympiad.png"
-                            },
-                            {
-                                "id": "competitive-programming",
-                                "name": "Competitive Programming",
-                                "type": "concepts",
-                                "path": "tags/competitive_programming.png"
                             },
                             {
                                 "id": "algorithms",
@@ -2261,80 +1856,433 @@
                                 "path": "tags/data_structures.png"
                             },
                             {
+                                "id": "olympiad",
+                                "name": "Olympiad",
+                                "type": "concepts",
+                                "path": "tags/olympiad.png"
+                            },
+                            {
+                                "id": "competitive-programming",
+                                "name": "Competitive Programming",
+                                "type": "concepts",
+                                "path": "tags/competitive_programming.png"
+                            },
+                            {
+                                "id": "graphs",
+                                "name": "Graphs",
+                                "type": "concepts",
+                                "path": "tags/graph.png"
+                            },
+                            {
+                                "id": "dynamic-programming",
+                                "name": "Dynamic-programming",
+                                "path": null
+                            },
+                            {
+                                "id": "greedy-algorithms",
+                                "name": "Greedy-algorithms",
+                                "path": null
+                            },
+                            {
                                 "id": "c++",
                                 "name": "C++",
                                 "type": "languages",
                                 "path": "tags/cpp.png"
                             },
                             {
-                                "id": "math",
-                                "name": "Math",
-                                "type": "organizations",
-                                "path": "tags/math.png"
+                                "id": "problem-solving",
+                                "name": "Problem-solving",
+                                "path": null
+                            },
+                            {
+                                "id": "ufaz",
+                                "name": "UFAZ",
+                                "type": "institutions",
+                                "path": "tags/ufaz.png"
                             }
                         ]
                     },
                     {
-                        "id": "web-skills",
-                        "title": "Web skills",
-                        "path": "fixed_data/academic/extra_activities/web_skills",
-                        "organization": "Various",
-                        "description": "Detailed documentation and proof for Web skills.",
+                        "id": "icpc-2025-republican",
+                        "title": "ICPC Azerbaijan Regional Contest 2025",
+                        "path": "fixed_data/academic/extra_activities/icpc_2025_republican",
+                        "organization": "ICPC Foundation / Azerbaijan Higher Education Institutions",
+                        "description": "Achieved a standout performance at the ICPC Azerbaijan Regional (Republican) Championship, competing against the nation's elite university teams. Earned a 'Third Award' for exceptional algorithmic problem-solving and efficiency in a high-stakes competitive environment. Recognized with an 'Honorable Mention' for technical excellence. The contest required solving complex challenges involving advanced data structures, dynamic programming, and sophisticated graph algorithms under intense time pressure.",
                         "type": "academic",
-                        "subtype": "achievements",
-                        "position": null,
-                        "award": null,
+                        "subtype": "extra_activities",
+                        "position": "Contestant",
+                        "award": "Third Award",
+                        "score": "Honorable Mention",
+                        "duration": "5 Hours",
+                        "place": "Baku Engineering University",
+                        "date": {
+                            "year": 2024,
+                            "month": 10,
+                            "day": null
+                        },
+                        "media": [
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "ICPC 2025 Republican Medal - Third Award",
+                                "path": "fixed_data/academic/extra_activities/icpc_2025_republican/2025-ICPC Azerbaijan RC-Humbat Jamalov-MEDAL.pdf"
+                            },
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "ICPC 2025 Republican Honorable Mention",
+                                "path": "fixed_data/academic/extra_activities/icpc_2025_republican/2025-ICPC Azerbaijan RC-Humbat Jamalov-PLACE.pdf"
+                            }
+                        ],
+                        "tagIds": [
+                            "icpc",
+                            "algorithms",
+                            "data-structures",
+                            "olympiad",
+                            "competitive-programming",
+                            "graphs",
+                            "dynamic-programming",
+                            "greedy-algorithms",
+                            "c++",
+                            "problem-solving",
+                            "ufaz",
+                            "beu"
+                        ],
+                        "data_folder": "fixed_data/academic/extra_activities/icpc_2025_republican",
+                        "tags": [
+                            {
+                                "id": "icpc",
+                                "name": "ICPC",
+                                "type": "experience",
+                                "path": "tags/icpc.png"
+                            },
+                            {
+                                "id": "algorithms",
+                                "name": "Algorithms",
+                                "type": "concepts",
+                                "path": "tags/algorithm.png"
+                            },
+                            {
+                                "id": "data-structures",
+                                "name": "Data Structures",
+                                "type": "concepts",
+                                "path": "tags/data_structures.png"
+                            },
+                            {
+                                "id": "olympiad",
+                                "name": "Olympiad",
+                                "type": "concepts",
+                                "path": "tags/olympiad.png"
+                            },
+                            {
+                                "id": "competitive-programming",
+                                "name": "Competitive Programming",
+                                "type": "concepts",
+                                "path": "tags/competitive_programming.png"
+                            },
+                            {
+                                "id": "graphs",
+                                "name": "Graphs",
+                                "type": "concepts",
+                                "path": "tags/graph.png"
+                            },
+                            {
+                                "id": "dynamic-programming",
+                                "name": "Dynamic-programming",
+                                "path": null
+                            },
+                            {
+                                "id": "greedy-algorithms",
+                                "name": "Greedy-algorithms",
+                                "path": null
+                            },
+                            {
+                                "id": "c++",
+                                "name": "C++",
+                                "type": "languages",
+                                "path": "tags/cpp.png"
+                            },
+                            {
+                                "id": "problem-solving",
+                                "name": "Problem-solving",
+                                "path": null
+                            },
+                            {
+                                "id": "ufaz",
+                                "name": "UFAZ",
+                                "type": "institutions",
+                                "path": "tags/ufaz.png"
+                            },
+                            {
+                                "id": "beu",
+                                "name": "Beu",
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": "aegee-youth-forum",
+                        "title": "AEGEE Youth Forum",
+                        "path": "fixed_data/academic/extra_activities/aegee_forum",
+                        "organization": "AEGEE-Bakı",
+                        "description": "Participated in the 'AEGEE Youth Forum,' a multidisciplinary event focused on the integration of emerging technologies and professional growth. The forum covered key contemporary fields including Cybersecurity, Data Analytics, and Artificial Intelligence (AI). Additionally, engaged in sessions dedicated to Personal and Career Development, gaining insights into the evolving job market and tech landscape.",
+                        "type": "academic",
+                        "subtype": "extra_activities",
+                        "position": "Participant",
+                        "award": "Certificate of Participation",
                         "score": null,
-                        "duration": null,
-                        "place": null,
+                        "duration": "1 Day",
+                        "place": "Baku",
+                        "date": {
+                            "year": 2024,
+                            "month": 5,
+                            "day": null
+                        },
+                        "media": [
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "AEGEE Youth Forum Participation Certificate",
+                                "path": "fixed_data/academic/extra_activities/aegee_forum/participation.pdf"
+                            }
+                        ],
+                        "tagIds": [
+                            "aegee",
+                            "cybersecurity",
+                            "data-analytics",
+                            "artificial-intelligence"
+                        ],
+                        "data_folder": "fixed_data/academic/extra_activities/aegee_forum",
+                        "tags": [
+                            {
+                                "id": "aegee",
+                                "name": "Aegee",
+                                "type": "organizations",
+                                "path": "tags/aegee.png"
+                            },
+                            {
+                                "id": "cybersecurity",
+                                "name": "Cybersecurity",
+                                "path": null
+                            },
+                            {
+                                "id": "data-analytics",
+                                "name": "Data-analytics",
+                                "path": null
+                            },
+                            {
+                                "id": "artificial-intelligence",
+                                "name": "Artificial Intelligence",
+                                "type": "ai_ml",
+                                "path": "tags/artificial_intelligence.png"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "math-camp-2024",
+                        "title": "MathCamp 2024 Student Spring Camp",
+                        "path": "fixed_data/academic/extra_activities/math_camp_2024",
+                        "organization": "Ministry of Science and Education of Azerbaijan & 'Bir Könüllü' Student Cooperation Public Union",
+                        "description": "Successfully participated in 'MathCamp 2024,' a student spring camp held in the Guba region. The program, supported by the Ministry of Science and Education, focused on intensive mathematical problem-solving and collaboration among high-achieving students. Gained practical insights into complex mathematical theories and logic through team-based activities and academic seminars.",
+                        "type": "academic",
+                        "subtype": "extra_activities",
+                        "position": "Participant",
+                        "award": "Certificate of Completion",
+                        "score": null,
+                        "duration": "5 Days",
+                        "place": "Guba, Azerbaijan",
+                        "date": {
+                            "year": 2024,
+                            "month": 3,
+                            "day": null
+                        },
+                        "media": [
+                            {
+                                "type": "image",
+                                "url_text": null,
+                                "title": "MathCamp 2024 Official Certificate",
+                                "path": "fixed_data/academic/extra_activities/math_camp_2024/math_camp.jpg"
+                            }
+                        ],
+                        "tagIds": [
+                            "math",
+                            "olympiad",
+                            "algorithms",
+                            "graphs",
+                            "number-theory",
+                            "artificial-intelligence",
+                            "bir-konullu"
+                        ],
+                        "data_folder": "fixed_data/academic/extra_activities/math_camp_2024",
+                        "tags": [
+                            {
+                                "id": "math",
+                                "name": "Math",
+                                "type": "organizations",
+                                "path": "tags/math.png"
+                            },
+                            {
+                                "id": "olympiad",
+                                "name": "Olympiad",
+                                "type": "concepts",
+                                "path": "tags/olympiad.png"
+                            },
+                            {
+                                "id": "algorithms",
+                                "name": "Algorithms",
+                                "type": "concepts",
+                                "path": "tags/algorithm.png"
+                            },
+                            {
+                                "id": "graphs",
+                                "name": "Graphs",
+                                "type": "concepts",
+                                "path": "tags/graph.png"
+                            },
+                            {
+                                "id": "number-theory",
+                                "name": "Number-theory",
+                                "path": null
+                            },
+                            {
+                                "id": "artificial-intelligence",
+                                "name": "Artificial Intelligence",
+                                "type": "ai_ml",
+                                "path": "tags/artificial_intelligence.png"
+                            },
+                            {
+                                "id": "bir-konullu",
+                                "name": "Bir Konullu",
+                                "type": "organizations",
+                                "path": "tags/bir_konullu.jpeg"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "math-competition-bhos",
+                        "title": "Bu bizə harda lazım olacaq?",
+                        "path": "fixed_data/academic/extra_activities/math_competition",
+                        "organization": "BHOS Math Club (Baku Higher Oil School)",
+                        "description": "Awarded 3rd place in the mathematics competition titled 'Bu bizə harda lazım olacaq?' (Where will we need this?), organized by the Baku Higher Oil School (BHOS) Mathematics Club. The competition tested students' ability to apply theoretical mathematical concepts to practical, real-world scenarios and complex problem-solving challenges.",
+                        "type": "academic",
+                        "subtype": "extra_activities",
+                        "position": "Winner",
+                        "award": "Bronze Medal",
+                        "score": "3rd Place",
+                        "duration": "1 Day",
+                        "place": "Baku Higher Oil School (BHOS)",
                         "date": {
                             "year": 2024,
                             "month": null,
                             "day": null
                         },
+                        "media": [
+                            {
+                                "type": "image",
+                                "url_text": null,
+                                "title": "3rd Place Certificate - BHOS Math Club",
+                                "path": "fixed_data/academic/extra_activities/math_competition/bu_bize_harda_lazim_olacaq.jpg"
+                            }
+                        ],
+                        "tagIds": [
+                            "math",
+                            "competition",
+                            "bhos",
+                            "ufaz",
+                            "problem-solving"
+                        ],
+                        "data_folder": "fixed_data/academic/extra_activities/math_competition",
+                        "tags": [
+                            {
+                                "id": "math",
+                                "name": "Math",
+                                "type": "organizations",
+                                "path": "tags/math.png"
+                            },
+                            {
+                                "id": "competition",
+                                "name": "Competition",
+                                "path": null
+                            },
+                            {
+                                "id": "bhos",
+                                "name": "BHOS",
+                                "type": "institutions",
+                                "path": "tags/bhos.png"
+                            },
+                            {
+                                "id": "ufaz",
+                                "name": "UFAZ",
+                                "type": "institutions",
+                                "path": "tags/ufaz.png"
+                            },
+                            {
+                                "id": "problem-solving",
+                                "name": "Problem-solving",
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": "worldskills-azerbaijan-web",
+                        "title": "WorldSkills Azerbaijan: Web Technologies",
+                        "path": "fixed_data/academic/extra_activities/web_skills",
+                        "organization": "WorldSkills Azerbaijan / Vocational Education Agency",
+                        "description": "Qualified for the Republican (National) round of WorldSkills Azerbaijan in Web Technologies. Over a high-intensity 2-day period, successfully executed complex full-stack development tasks, including UI/UX design (Photoshop), frontend development (HTML/CSS/JS/React), and backend logic. Handled challenging real-world projects and rigorous technical requirements, demonstrating speed, precision, and comprehensive technical expertise under competitive pressure.",
+                        "type": "academic",
+                        "subtype": "extra_activities",
+                        "position": "Participant",
+                        "award": null,
+                        "score": null,
+                        "duration": "2 Days",
+                        "place": "Baku, Azerbaijan",
+                        "date": {
+                            "year": 2023,
+                            "month": 11,
+                            "day": null
+                        },
                         "media": [],
                         "tagIds": [
-                            "world-skills",
-                            "web",
-                            "programming",
-                            "design",
-                            "photoshop",
+                            "worldskills",
+                            "backend",
+                            "frontend",
+                            "react",
+                            "javascript",
                             "html",
                             "css",
-                            "javascript",
-                            "react"
+                            "photoshop",
+                            "web"
                         ],
                         "data_folder": "fixed_data/academic/extra_activities/web_skills",
                         "tags": [
                             {
-                                "id": "world-skills",
-                                "name": "World Skills",
-                                "type": "experience",
-                                "path": "tags/world_skills.png"
-                            },
-                            {
-                                "id": "web",
-                                "name": "Web",
-                                "type": "concepts",
-                                "path": "tags/web.webp"
-                            },
-                            {
-                                "id": "programming",
-                                "name": "Programming",
-                                "type": "concepts",
+                                "id": "worldskills",
+                                "name": "Worldskills",
                                 "path": null
                             },
                             {
-                                "id": "design",
-                                "name": "Design",
+                                "id": "backend",
+                                "name": "Backend",
                                 "type": "concepts",
-                                "path": null
+                                "path": "tags/backend.png"
                             },
                             {
-                                "id": "photoshop",
-                                "name": "Photoshop",
+                                "id": "frontend",
+                                "name": "Frontend",
                                 "type": "concepts",
-                                "path": "tags/photoshop.png"
+                                "path": "tags/frontend.png"
+                            },
+                            {
+                                "id": "react",
+                                "name": "React",
+                                "type": "frameworks",
+                                "path": "tags/react.png"
+                            },
+                            {
+                                "id": "javascript",
+                                "name": "JavaScript",
+                                "type": "languages",
+                                "path": "tags/js.png"
                             },
                             {
                                 "id": "html",
@@ -2349,16 +2297,194 @@
                                 "path": "tags/css.png"
                             },
                             {
-                                "id": "javascript",
-                                "name": "JavaScript",
-                                "type": "languages",
-                                "path": "tags/js.png"
+                                "id": "photoshop",
+                                "name": "Photoshop",
+                                "type": "concepts",
+                                "path": "tags/photoshop.png"
                             },
                             {
-                                "id": "react",
-                                "name": "React",
-                                "type": "frameworks",
-                                "path": "tags/react.png"
+                                "id": "web",
+                                "name": "Web",
+                                "type": "concepts",
+                                "path": "tags/web.webp"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "icpc-2024-qualification",
+                        "title": "ICPC Azerbaijan Qualification 2024",
+                        "path": "fixed_data/academic/extra_activities/icpc_2024_qualification",
+                        "organization": "ICPC Foundation / Azerbaijan Higher Education Institutions",
+                        "description": "Competed in the Azerbaijan Qualification round of the International Collegiate Programming Contest (ICPC), the premier global competitive programming competition. Ranked 67th overall in a highly competitive field of university-level problem solvers. Awarded the 'High Achievement' medal for exceptional performance in solving complex algorithmic challenges under strict time constraints. Demonstrated mastery in advanced data structures, graph theory, and dynamic programming using C++.",
+                        "type": "academic",
+                        "subtype": "extra_activities",
+                        "position": "Contestant",
+                        "award": "High Achievement",
+                        "score": "67th Place",
+                        "duration": "5 Hours",
+                        "place": "French-Azerbaijani University",
+                        "date": {
+                            "year": 2023,
+                            "month": 10,
+                            "day": null
+                        },
+                        "media": [
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "ICPC 2024 High Achievement Medal",
+                                "path": "fixed_data/academic/extra_activities/icpc_2024_qualification/2024-ICPC Azerbaijan Qualification-Humbat Jamalov-MEDAL(1).pdf"
+                            },
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "ICPC 2024 Ranking Certificate",
+                                "path": "fixed_data/academic/extra_activities/icpc_2024_qualification/2024-ICPC Azerbaijan Qualification-Humbat Jamalov-PLACE.pdf"
+                            }
+                        ],
+                        "tagIds": [
+                            "icpc",
+                            "algorithms",
+                            "data-structures",
+                            "olympiad",
+                            "competitive-programming",
+                            "graphs",
+                            "dynamic-programming",
+                            "greedy-algorithms",
+                            "c++",
+                            "problem-solving",
+                            "ufaz"
+                        ],
+                        "data_folder": "fixed_data/academic/extra_activities/icpc_2024_qualification",
+                        "tags": [
+                            {
+                                "id": "icpc",
+                                "name": "ICPC",
+                                "type": "experience",
+                                "path": "tags/icpc.png"
+                            },
+                            {
+                                "id": "algorithms",
+                                "name": "Algorithms",
+                                "type": "concepts",
+                                "path": "tags/algorithm.png"
+                            },
+                            {
+                                "id": "data-structures",
+                                "name": "Data Structures",
+                                "type": "concepts",
+                                "path": "tags/data_structures.png"
+                            },
+                            {
+                                "id": "olympiad",
+                                "name": "Olympiad",
+                                "type": "concepts",
+                                "path": "tags/olympiad.png"
+                            },
+                            {
+                                "id": "competitive-programming",
+                                "name": "Competitive Programming",
+                                "type": "concepts",
+                                "path": "tags/competitive_programming.png"
+                            },
+                            {
+                                "id": "graphs",
+                                "name": "Graphs",
+                                "type": "concepts",
+                                "path": "tags/graph.png"
+                            },
+                            {
+                                "id": "dynamic-programming",
+                                "name": "Dynamic-programming",
+                                "path": null
+                            },
+                            {
+                                "id": "greedy-algorithms",
+                                "name": "Greedy-algorithms",
+                                "path": null
+                            },
+                            {
+                                "id": "c++",
+                                "name": "C++",
+                                "type": "languages",
+                                "path": "tags/cpp.png"
+                            },
+                            {
+                                "id": "problem-solving",
+                                "name": "Problem-solving",
+                                "path": null
+                            },
+                            {
+                                "id": "ufaz",
+                                "name": "UFAZ",
+                                "type": "institutions",
+                                "path": "tags/ufaz.png"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "scientific-conference-heydar-aliyev-100",
+                        "title": "III Student Republic Scientific-Practical Conference",
+                        "path": "fixed_data/academic/extra_activities/scientific_conference",
+                        "organization": "Ministry of Science and Education of Azerbaijan & Various Institutes",
+                        "description": "Awarded 1st place at the III Student Republic Scientific-Practical Conference dedicated to the 100th anniversary of National Leader Heydar Aliyev. Conducted extensive research on 'Modular Arithmetic and Remainder Division,' advocating for its earlier introduction in the national secondary education curriculum. Argued that modular arithmetic, currently primarily taught at the university level in Azerbaijan, is essential for developing logical reasoning from lower grades. The research was supported by the R.H.F.G. named after S.C. Pishavari and several academic institutes.",
+                        "type": "academic",
+                        "subtype": "extra_activities",
+                        "position": "Winner",
+                        "award": "1st Place",
+                        "score": "Excellence in Research",
+                        "duration": "3 months",
+                        "place": "S.C Pishavari Gymnasium",
+                        "date": {
+                            "year": 2023,
+                            "month": 5,
+                            "day": null
+                        },
+                        "media": [
+                            {
+                                "type": "image",
+                                "url_text": null,
+                                "title": "1st Place Certificate - Scientific Conference",
+                                "path": "fixed_data/academic/extra_activities/scientific_conference/IMG-20240913-WA0027.jpg"
+                            }
+                        ],
+                        "tagIds": [
+                            "conference",
+                            "research",
+                            "scientific",
+                            "math",
+                            "number-theory"
+                        ],
+                        "data_folder": "fixed_data/academic/extra_activities/scientific_conference",
+                        "tags": [
+                            {
+                                "id": "conference",
+                                "name": "Conference",
+                                "type": "experience",
+                                "path": "tags/conference.png"
+                            },
+                            {
+                                "id": "research",
+                                "name": "Research",
+                                "type": "institutions",
+                                "path": "tags/research.png"
+                            },
+                            {
+                                "id": "scientific",
+                                "name": "Scientific",
+                                "type": "concepts",
+                                "path": "tags/science.png"
+                            },
+                            {
+                                "id": "math",
+                                "name": "Math",
+                                "type": "organizations",
+                                "path": "tags/math.png"
+                            },
+                            {
+                                "id": "number-theory",
+                                "name": "Number-theory",
+                                "path": null
                             }
                         ]
                     }

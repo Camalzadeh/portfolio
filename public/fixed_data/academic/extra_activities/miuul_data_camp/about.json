@@ -20,8 +20,14 @@
         {
             "type": "image",
             "url_text": null,
-            "title": "Data Science & AI Engineering (Dec 2024) / Data Science & AI Engineering (April 2025)",
-            "path": "fixed_data/academic/extra_activities/miull_data_camp/miull_1.png / fixed_data/academic/extra_activities/miull_data_camp/miull_2.png"
+            "title": "Miuul 1",
+            "path": "fixed_data/academic/extra_activities/miuul_data_camp/miuul_1.png"
+        },
+        {
+            "type": "image",
+            "url_text": null,
+            "title": "Miuul 2",
+            "path": "fixed_data/academic/extra_activities/miuul_data_camp/miuul_2.png"
         }
     ],
     "tagIds": [
@@ -32,8 +38,7 @@
         "artificial-intelligence",
         "python",
         "generative-ai",
-        "statistics",
-        "feature-engineering"
+        "statistics"
     ],
     "data_folder": "fixed_data/academic/extra_activities/miuul_data_camp"
 }

@@ -306,7 +306,7 @@
             "name": "Olympiad",
             "type": "concepts",
             "path": "tags/olympiad.png",
-            "count": 13
+            "count": 10
         },
         {
             "id": "abb",
@@ -348,7 +348,7 @@
             "name": "Data Structures",
             "type": "concepts",
             "path": "tags/data_structures.png",
-            "count": 10
+            "count": 9
         },
         {
             "id": "hibernate",
@@ -362,7 +362,7 @@
             "name": "Backend",
             "type": "concepts",
             "path": "tags/backend.png",
-            "count": 1
+            "count": 2
         },
         {
             "id": "api",
@@ -383,14 +383,14 @@
             "name": "Competitive Programming",
             "type": "concepts",
             "path": "tags/competitive_programming.png",
-            "count": 9
+            "count": 8
         },
         {
             "id": "graphs",
             "name": "Graphs",
             "type": "concepts",
             "path": "tags/graph.png",
-            "count": 6
+            "count": 7
         },
         {
             "id": "ada-university",
@@ -418,7 +418,7 @@
             "name": "C++",
             "type": "languages",
             "path": "tags/cpp.png",
-            "count": 8
+            "count": 7
         },
         {
             "id": "oop",
@@ -453,7 +453,7 @@
             "name": "Artificial Intelligence",
             "type": "ai_ml",
             "path": "tags/artificial_intelligence.png",
-            "count": 5
+            "count": 6
         },
         {
             "id": "4sim",
@@ -502,7 +502,7 @@
             "name": "ICPC",
             "type": "experience",
             "path": "tags/icpc.png",
-            "count": 6
+            "count": 5
         },
         {
             "id": "icsc",
@@ -523,14 +523,14 @@
             "name": "Math Camp",
             "type": "experience",
             "path": null,
-            "count": 1
+            "count": 0
         },
         {
             "id": "ufaz",
             "name": "UFAZ",
             "type": "institutions",
             "path": "tags/ufaz.png",
-            "count": 4
+            "count": 9
         },
         {
             "id": "bhos",
@@ -544,14 +544,14 @@
             "name": "Miull",
             "type": "institutions",
             "path": "tags/miuul.jpg",
-            "count": 1
+            "count": 0
         },
         {
             "id": "data-camp",
             "name": "Data Camp",
             "type": "experience",
             "path": null,
-            "count": 1
+            "count": 0
         },
         {
             "id": "data-science",
@@ -579,21 +579,21 @@
             "name": "World Skills",
             "type": "experience",
             "path": "tags/world_skills.png",
-            "count": 1
+            "count": 0
         },
         {
             "id": "programming",
             "name": "Programming",
             "type": "concepts",
             "path": null,
-            "count": 1
+            "count": 0
         },
         {
             "id": "design",
             "name": "Design",
             "type": "concepts",
             "path": null,
-            "count": 1
+            "count": 0
         },
         {
             "id": "photoshop",
@@ -670,7 +670,7 @@
             "name": "Frontend",
             "type": "concepts",
             "path": "tags/frontend.png",
-            "count": 1
+            "count": 2
         },
         {
             "id": "erp",
@@ -741,7 +741,7 @@
                     "name": "C++",
                     "type": "languages",
                     "path": "tags/cpp.png",
-                    "count": 8
+                    "count": 7
                 },
                 {
                     "id": "javascript",
@@ -989,7 +989,7 @@
                     "name": "Artificial Intelligence",
                     "type": "ai_ml",
                     "path": "tags/artificial_intelligence.png",
-                    "count": 5
+                    "count": 6
                 },
                 {
                     "id": "machine-learning",
@@ -1141,13 +1141,6 @@
             "color": "#94a3b8",
             "tags": [
                 {
-                    "id": "olympiad",
-                    "name": "Olympiad",
-                    "type": "concepts",
-                    "path": "tags/olympiad.png",
-                    "count": 13
-                },
-                {
                     "id": "algorithms",
                     "name": "Algorithms",
                     "type": "concepts",
@@ -1155,25 +1148,32 @@
                     "count": 12
                 },
                 {
+                    "id": "olympiad",
+                    "name": "Olympiad",
+                    "type": "concepts",
+                    "path": "tags/olympiad.png",
+                    "count": 10
+                },
+                {
                     "id": "data-structures",
                     "name": "Data Structures",
                     "type": "concepts",
                     "path": "tags/data_structures.png",
-                    "count": 10
+                    "count": 9
                 },
                 {
                     "id": "competitive-programming",
                     "name": "Competitive Programming",
                     "type": "concepts",
                     "path": "tags/competitive_programming.png",
-                    "count": 9
+                    "count": 8
                 },
                 {
                     "id": "graphs",
                     "name": "Graphs",
                     "type": "concepts",
                     "path": "tags/graph.png",
-                    "count": 6
+                    "count": 7
                 },
                 {
                     "id": "web",
@@ -1181,6 +1181,13 @@
                     "type": "concepts",
                     "path": "tags/web.webp",
                     "count": 3
+                },
+                {
+                    "id": "backend",
+                    "name": "Backend",
+                    "type": "concepts",
+                    "path": "tags/backend.png",
+                    "count": 2
                 },
                 {
                     "id": "software-engineering",
@@ -1204,11 +1211,11 @@
                     "count": 2
                 },
                 {
-                    "id": "backend",
-                    "name": "Backend",
+                    "id": "frontend",
+                    "name": "Frontend",
                     "type": "concepts",
-                    "path": "tags/backend.png",
-                    "count": 1
+                    "path": "tags/frontend.png",
+                    "count": 2
                 },
                 {
                     "id": "api",
@@ -1239,20 +1246,6 @@
                     "count": 1
                 },
                 {
-                    "id": "programming",
-                    "name": "Programming",
-                    "type": "concepts",
-                    "path": null,
-                    "count": 1
-                },
-                {
-                    "id": "design",
-                    "name": "Design",
-                    "type": "concepts",
-                    "path": null,
-                    "count": 1
-                },
-                {
                     "id": "photoshop",
                     "name": "Photoshop",
                     "type": "concepts",
@@ -1267,17 +1260,24 @@
                     "count": 1
                 },
                 {
-                    "id": "frontend",
-                    "name": "Frontend",
-                    "type": "concepts",
-                    "path": "tags/frontend.png",
-                    "count": 1
-                },
-                {
                     "id": "unsplash",
                     "name": "Unsplash",
                     "type": "concepts",
                     "path": "tags/unsplash.webp",
+                    "count": 0
+                },
+                {
+                    "id": "programming",
+                    "name": "Programming",
+                    "type": "concepts",
+                    "path": null,
+                    "count": 0
+                },
+                {
+                    "id": "design",
+                    "name": "Design",
+                    "type": "concepts",
+                    "path": null,
                     "count": 0
                 }
             ]
@@ -1413,7 +1413,7 @@
                     "name": "UFAZ",
                     "type": "institutions",
                     "path": "tags/ufaz.png",
-                    "count": 4
+                    "count": 9
                 },
                 {
                     "id": "research",
@@ -1444,17 +1444,17 @@
                     "count": 1
                 },
                 {
-                    "id": "miull",
-                    "name": "Miull",
-                    "type": "institutions",
-                    "path": "tags/miuul.jpg",
-                    "count": 1
-                },
-                {
                     "id": "academic",
                     "name": "Academic",
                     "type": "institutions",
                     "path": "tags/academic.png",
+                    "count": 0
+                },
+                {
+                    "id": "miull",
+                    "name": "Miull",
+                    "type": "institutions",
+                    "path": "tags/miuul.jpg",
                     "count": 0
                 }
             ]
@@ -1470,7 +1470,7 @@
                     "name": "ICPC",
                     "type": "experience",
                     "path": "tags/icpc.png",
-                    "count": 6
+                    "count": 5
                 },
                 {
                     "id": "conference",
@@ -1484,27 +1484,6 @@
                     "name": "ICSC",
                     "type": "experience",
                     "path": "tags/icsc.png",
-                    "count": 1
-                },
-                {
-                    "id": "math-camp",
-                    "name": "Math Camp",
-                    "type": "experience",
-                    "path": null,
-                    "count": 1
-                },
-                {
-                    "id": "data-camp",
-                    "name": "Data Camp",
-                    "type": "experience",
-                    "path": null,
-                    "count": 1
-                },
-                {
-                    "id": "world-skills",
-                    "name": "World Skills",
-                    "type": "experience",
-                    "path": "tags/world_skills.png",
                     "count": 1
                 },
                 {
@@ -1527,6 +1506,27 @@
                     "type": "experience",
                     "path": "tags/startup.png",
                     "count": 1
+                },
+                {
+                    "id": "math-camp",
+                    "name": "Math Camp",
+                    "type": "experience",
+                    "path": null,
+                    "count": 0
+                },
+                {
+                    "id": "data-camp",
+                    "name": "Data Camp",
+                    "type": "experience",
+                    "path": null,
+                    "count": 0
+                },
+                {
+                    "id": "world-skills",
+                    "name": "World Skills",
+                    "type": "experience",
+                    "path": "tags/world_skills.png",
+                    "count": 0
                 }
             ]
         }
