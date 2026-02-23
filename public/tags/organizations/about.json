@@ -1,13 +1,6 @@
 {
     "tags": [
         {
-            "id": "academic",
-            "name": "Academic",
-            "type": "organizations",
-            "path": null,
-            "count": 0
-        },
-        {
             "id": "research",
             "name": "Research",
             "type": "organizations",

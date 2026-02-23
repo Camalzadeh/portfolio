@@ -95,7 +95,7 @@
             "id": "number-theory",
             "name": "Number Theory",
             "type": "math",
-            "path": "tags/math/number-theory.jpg",
+            "path": "tags/math/number-theory.png",
             "count": 5
         },
         {
@@ -130,7 +130,7 @@
             "id": "geometry",
             "name": "Geometry",
             "type": "math",
-            "path": "tags/math/geometry.jpg",
+            "path": "tags/math/geometry.webp",
             "count": 3
         },
         {
@@ -459,14 +459,14 @@
             "id": "technical-interview",
             "name": "Technical Interview",
             "type": "experience",
-            "path": null,
+            "path": "tags/experience/interview.png",
             "count": 1
         },
         {
             "id": "recommendation",
             "name": "Recommendation",
             "type": "experience",
-            "path": null,
+            "path": "tags/experience/recommendation.png",
             "count": 1
         },
         {
@@ -676,7 +676,7 @@
             "id": "dart",
             "name": "Dart",
             "type": "programming_languages",
-            "path": "tags/programming_languages/baku-engineering-university.png",
+            "path": "tags/programming_languages/dart.png",
             "count": 1
         },
         {
@@ -862,13 +862,6 @@
             "count": 0
         },
         {
-            "id": "academic",
-            "name": "Academic",
-            "type": "organizations",
-            "path": null,
-            "count": 0
-        },
-        {
             "id": "c",
             "name": "C",
             "type": "programming_languages",
@@ -936,7 +929,7 @@
                     "id": "dart",
                     "name": "Dart",
                     "type": "programming_languages",
-                    "path": "tags/programming_languages/baku-engineering-university.png",
+                    "path": "tags/programming_languages/dart.png",
                     "count": 1
                 },
                 {
@@ -1234,14 +1227,14 @@
                     "id": "number-theory",
                     "name": "Number Theory",
                     "type": "math",
-                    "path": "tags/math/number-theory.jpg",
+                    "path": "tags/math/number-theory.png",
                     "count": 5
                 },
                 {
                     "id": "geometry",
                     "name": "Geometry",
                     "type": "math",
-                    "path": "tags/math/geometry.jpg",
+                    "path": "tags/math/geometry.webp",
                     "count": 3
                 },
                 {
@@ -1803,13 +1796,6 @@
                     "type": "organizations",
                     "path": "tags/organizations/ufu.png",
                     "count": 1
-                },
-                {
-                    "id": "academic",
-                    "name": "Academic",
-                    "type": "organizations",
-                    "path": null,
-                    "count": 0
                 }
             ]
         },
@@ -1851,14 +1837,14 @@
                     "id": "technical-interview",
                     "name": "Technical Interview",
                     "type": "experience",
-                    "path": null,
+                    "path": "tags/experience/interview.png",
                     "count": 1
                 },
                 {
                     "id": "recommendation",
                     "name": "Recommendation",
                     "type": "experience",
-                    "path": null,
+                    "path": "tags/experience/recommendation.png",
                     "count": 1
                 },
                 {

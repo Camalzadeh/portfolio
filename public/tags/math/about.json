@@ -18,7 +18,7 @@
             "id": "number-theory",
             "name": "Number Theory",
             "type": "math",
-            "path": "tags/math/number-theory.jpg",
+            "path": "tags/math/number-theory.png",
             "count": 5
         },
         {
@@ -32,7 +32,7 @@
             "id": "geometry",
             "name": "Geometry",
             "type": "math",
-            "path": "tags/math/geometry.jpg",
+            "path": "tags/math/geometry.webp",
             "count": 3
         },
         {
