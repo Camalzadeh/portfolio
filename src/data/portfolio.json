@@ -2,28 +2,28 @@
     "experience": {
         "items": [
             {
-                "id": "hackathon-erp",
+                "id": "hackathon-sustainable-design",
                 "title": "Sustainable Design Hackathon",
                 "path": "fixed_data/experience/hackathon_erp",
-                "organization": "Siemens / ERP Systems",
-                "description": "Developed sustainable design solutions using Siemens technologies.",
+                "organization": "Siemens / ERP-Systems",
+                "description": "Awarded 3rd place in an intensive 2-day hackathon focused on sustainable innovation. Expanded the 'GuardianX' project into a comprehensive multi-app ecosystem, developing a dedicated mobile application during the competition. The project received high praise from the jury for its technical execution and innovative approach to pest detection. Despite facing highly experienced competitors, secured a top-three finish and a 1000 AZN cash prize.",
                 "type": "experience",
-                "subtype": null,
-                "position": null,
-                "award": "3rd Place",
-                "score": null,
-                "duration": null,
-                "place": null,
+                "subtype": "hackathon",
+                "position": "Mobile App Developer / Speaker",
+                "award": "1000 AZN Prize",
+                "score": "3rd Place",
+                "duration": "2 Days",
+                "place": "Baku, Azerbaijan",
                 "date": {
                     "year": 2025,
-                    "month": null,
+                    "month": 12,
                     "day": null
                 },
                 "media": [
                     {
                         "type": "pdf",
                         "url_text": null,
-                        "title": "Humbat Jamalov Sustainable Design Hackathon Participation",
+                        "title": "Sustainable Design Hackathon Participation Certificate",
                         "path": "fixed_data/experience/hackathon_erp/Humbat Jamalov Sustainable Design Hackathon Participation.pdf"
                     }
                 ],
@@ -31,9 +31,13 @@
                     "hackathon",
                     "siemens",
                     "erp-systems",
-                    "sustainable-design",
+                    "mobile-development",
+                    "guardian-x",
+                    "sustainable-innovation",
                     "pest-detection",
-                    "guardian-x"
+                    "multi-app",
+                    "flutter",
+                    "gemini"
                 ],
                 "data_folder": "fixed_data/experience/hackathon_erp",
                 "tags": [
@@ -56,10 +60,21 @@
                         "path": "tags/erp_systems.png"
                     },
                     {
-                        "id": "sustainable-design",
-                        "name": "Sustainable Design",
+                        "id": "mobile-development",
+                        "name": "Mobile Development",
+                        "type": "concepts",
+                        "path": "tags/mobile_development.png"
+                    },
+                    {
+                        "id": "guardian-x",
+                        "name": "Guardian X",
                         "type": "organizations",
-                        "path": "tags/sustainable_design.png"
+                        "path": "tags/guardian_x.png"
+                    },
+                    {
+                        "id": "sustainable-innovation",
+                        "name": "Sustainable-innovation",
+                        "path": null
                     },
                     {
                         "id": "pest-detection",
@@ -68,126 +83,66 @@
                         "path": "tags/pest_detection.png"
                     },
                     {
-                        "id": "guardian-x",
-                        "name": "Guardian X",
-                        "type": "organizations",
-                        "path": "tags/guardian_x.png"
-                    }
-                ]
-            },
-            {
-                "id": "buta-group",
-                "title": "Buta Group Internship",
-                "path": "fixed_data/experience/buta_group",
-                "organization": "Buta Grup",
-                "description": "Virtual intensive internship focusing on enterprise IT standards.",
-                "type": "experience",
-                "subtype": null,
-                "position": "IT Intern (VTP’9 NANO)",
-                "award": null,
-                "score": null,
-                "duration": null,
-                "place": null,
-                "date": {
-                    "year": 2024,
-                    "month": null,
-                    "day": null
-                },
-                "media": [
-                    {
-                        "type": "pdf",
-                        "url_text": null,
-                        "title": "Internship Buta Group HüMbəT Camalov (1)",
-                        "path": "fixed_data/experience/buta_group/internship_Buta Group Hümbət Camalov (1).pdf"
-                    }
-                ],
-                "tagIds": [
-                    "buta-group",
-                    "internship",
-                    "no-code",
-                    "crm",
-                    "web",
-                    "frontend",
-                    "erp"
-                ],
-                "data_folder": "fixed_data/experience/buta_group",
-                "tags": [
-                    {
-                        "id": "buta-group",
-                        "name": "Buta Group",
-                        "type": "organizations",
-                        "path": "tags/buta_group.jpeg"
+                        "id": "multi-app",
+                        "name": "Multi-app",
+                        "path": null
                     },
                     {
-                        "id": "internship",
-                        "name": "Internship",
-                        "type": "experience",
-                        "path": "tags/internship.png"
-                    },
-                    {
-                        "id": "no-code",
-                        "name": "No Code",
+                        "id": "flutter",
+                        "name": "Flutter",
                         "type": "frameworks",
-                        "path": "tags/no_code.png"
+                        "path": "tags/flutter.jpg"
                     },
                     {
-                        "id": "crm",
-                        "name": "CRM",
-                        "type": "databases",
-                        "path": "tags/crm.png"
-                    },
-                    {
-                        "id": "web",
-                        "name": "Web",
-                        "type": "concepts",
-                        "path": "tags/web.webp"
-                    },
-                    {
-                        "id": "frontend",
-                        "name": "Frontend",
-                        "type": "concepts",
-                        "path": "tags/frontend.png"
-                    },
-                    {
-                        "id": "erp",
-                        "name": "ERP",
-                        "type": "databases",
-                        "path": "tags/erp.png"
+                        "id": "gemini",
+                        "name": "Gemini",
+                        "type": "ai_ml",
+                        "path": "tags/gemini.png"
                     }
                 ]
             },
             {
-                "id": "startup-school",
-                "title": "Startup School 3",
+                "id": "startup-school-3-acceleration",
+                "title": "Startup School 3 & Green and Digital Silk Road",
                 "path": "fixed_data/experience/startup_school",
-                "organization": "Startup School 3",
-                "description": "Developed the MVP from scratch, pitched to business leaders, and handled the full technical roadmap including scaling strategy.",
+                "organization": "Center for Analysis of Economic Reforms and Communication & Enterprise Azerbaijan",
+                "description": "Selected as a finalist for the 'Demo Day' in the 'Startup School 3' project, part of the 'Green and Digital Silk Road' international acceleration program. Developed the 'GuardianX' MVP from scratch, including a mobile application and a comprehensive web platform focused on AI-driven pest detection. Completed 45 hours of intensive online training led by local and international mentors, gaining expertise in product scaling, market entry, and technical roadmaps. Received specialized mentorship from Alperen Zeki Gokmen to refine the business model and pitch strategy for presentation to potential investors and business leaders.",
                 "type": "experience",
-                "subtype": null,
-                "position": "Full Stack Dev / Co-Founder",
-                "award": null,
-                "score": null,
-                "duration": null,
-                "place": null,
+                "subtype": "acceleration",
+                "position": "Full Stack Developer / Co-Founder",
+                "award": "Demo Day Finalist",
+                "score": "Active Participation",
+                "duration": "5 Weeks",
+                "place": "Online / Baku (Demo Day)",
                 "date": {
-                    "year": 2024,
-                    "month": null,
-                    "day": null
+                    "year": 2025,
+                    "month": 8,
+                    "day": 4,
+                    "end_year": 2025,
+                    "end_month": 9,
+                    "end_day": 12
                 },
                 "media": [
                     {
-                        "type": "pdf",
+                        "type": "image",
                         "url_text": null,
-                        "title": "Humbat Jamalov Startup School 3",
+                        "title": "Startup School 3 Certificate",
                         "path": "fixed_data/experience/startup_school/Humbat Jamalov Startup School 3.pdf"
                     }
                 ],
                 "tagIds": [
                     "startup",
                     "mobile-development",
+                    "web",
                     "artificial-intelligence",
                     "pest-detection",
-                    "guardian-x"
+                    "guardian-x",
+                    "entrepreneurship",
+                    "flutter",
+                    "gemini",
+                    "firebase",
+                    "next-js",
+                    "vercel"
                 ],
                 "data_folder": "fixed_data/experience/startup_school",
                 "tags": [
@@ -202,6 +157,12 @@
                         "name": "Mobile Development",
                         "type": "concepts",
                         "path": "tags/mobile_development.png"
+                    },
+                    {
+                        "id": "web",
+                        "name": "Web",
+                        "type": "concepts",
+                        "path": "tags/web.webp"
                     },
                     {
                         "id": "artificial-intelligence",
@@ -220,6 +181,244 @@
                         "name": "Guardian X",
                         "type": "organizations",
                         "path": "tags/guardian_x.png"
+                    },
+                    {
+                        "id": "entrepreneurship",
+                        "name": "Entrepreneurship",
+                        "path": null
+                    },
+                    {
+                        "id": "flutter",
+                        "name": "Flutter",
+                        "type": "frameworks",
+                        "path": "tags/flutter.jpg"
+                    },
+                    {
+                        "id": "gemini",
+                        "name": "Gemini",
+                        "type": "ai_ml",
+                        "path": "tags/gemini.png"
+                    },
+                    {
+                        "id": "firebase",
+                        "name": "Firebase",
+                        "type": "cloud_devops",
+                        "path": "tags/firebase.png"
+                    },
+                    {
+                        "id": "next-js",
+                        "name": "Next-js",
+                        "path": null
+                    },
+                    {
+                        "id": "vercel",
+                        "name": "Vercel",
+                        "type": "cloud_devops",
+                        "path": "tags/vercel.svg"
+                    }
+                ]
+            },
+            {
+                "id": "middle-mobile-fullstack-dev",
+                "title": "Middle Mobile & Backend Developer",
+                "path": "fixed_data/experience/private_company",
+                "organization": "Private Tech Company",
+                "description": "Led the end-to-end development of 3 production-level applications over 1 year and 10 months, evolving from initial exploration to implementing advanced modular architectures.\n\nKey Technical Contributions:\n\n* **Mobile Mastery (Flutter & Riverpod):** Architected apps using Clean Architecture and Modular patterns. Implemented a robust data strategy combining State Management + Repository Pattern + Cache + Local Database (Hive/SQFLite) + REST API integration.\n\n* **Advanced Backend (Django & AI):** Developed complex backend systems with a focus on automation. Integrated OpenAI’s Whisper AI for voice processing, utilized Object-Oriented Programming (OOP) for models, and implemented Table Inheritance for optimized database structures.\n\n* **Cloud & DevOps:** Executed seamless integrations with Cloud providers and Firebase services (Cloud Messaging, Analytics, Authentication). Managed the full release cycle, including handling Apple-specific requirements like APNs notifications and App Store deployment.\n\n* **UI/UX Excellence:** Created custom animation engines and focused on high-fidelity design implementation, ensuring a premium user experience across all 3 production apps.\n\n* **Evolution of Expertise:** Successfully transitioned from legacy development practices to modern, scalable software engineering standards, ensuring high performance and code maintainability.",
+                "type": "experience",
+                "subtype": "part-time",
+                "position": "Middle Mobile Developer / Full-Stack Engineer",
+                "award": "3 Production Apps Released",
+                "score": "Middle+ Proficiency",
+                "duration": "1 Year 10 Months",
+                "place": "Baku, Azerbaijan",
+                "date": {
+                    "year": 2024,
+                    "month": 5,
+                    "day": null
+                },
+                "media": [],
+                "tagIds": [
+                    "flutter",
+                    "django",
+                    "riverpod",
+                    "clean-architecture",
+                    "mobile-development",
+                    "whisper-ai",
+                    "full-stack",
+                    "production",
+                    "resend",
+                    "aws",
+                    "firebase",
+                    "unsplash",
+                    "gemini",
+                    "cloud"
+                ],
+                "data_folder": "fixed_data/experience/private_company",
+                "tags": [
+                    {
+                        "id": "flutter",
+                        "name": "Flutter",
+                        "type": "frameworks",
+                        "path": "tags/flutter.jpg"
+                    },
+                    {
+                        "id": "django",
+                        "name": "Django",
+                        "type": "frameworks",
+                        "path": "tags/django.svg"
+                    },
+                    {
+                        "id": "riverpod",
+                        "name": "Riverpod",
+                        "path": null
+                    },
+                    {
+                        "id": "clean-architecture",
+                        "name": "Clean-architecture",
+                        "path": null
+                    },
+                    {
+                        "id": "mobile-development",
+                        "name": "Mobile Development",
+                        "type": "concepts",
+                        "path": "tags/mobile_development.png"
+                    },
+                    {
+                        "id": "whisper-ai",
+                        "name": "Whisper-ai",
+                        "path": null
+                    },
+                    {
+                        "id": "full-stack",
+                        "name": "Full-stack",
+                        "path": null
+                    },
+                    {
+                        "id": "production",
+                        "name": "Production",
+                        "path": null
+                    },
+                    {
+                        "id": "resend",
+                        "name": "Resend",
+                        "type": "frameworks",
+                        "path": "tags/resend.svg"
+                    },
+                    {
+                        "id": "aws",
+                        "name": "AWS",
+                        "type": "cloud_devops",
+                        "path": "tags/aws.png"
+                    },
+                    {
+                        "id": "firebase",
+                        "name": "Firebase",
+                        "type": "cloud_devops",
+                        "path": "tags/firebase.png"
+                    },
+                    {
+                        "id": "unsplash",
+                        "name": "Unsplash",
+                        "type": "concepts",
+                        "path": "tags/unsplash.webp"
+                    },
+                    {
+                        "id": "gemini",
+                        "name": "Gemini",
+                        "type": "ai_ml",
+                        "path": "tags/gemini.png"
+                    },
+                    {
+                        "id": "cloud",
+                        "name": "Cloud",
+                        "path": null
+                    }
+                ]
+            },
+            {
+                "id": "buta-group-internship",
+                "title": "Virtual Internship Program (VTP’9 NANO)",
+                "path": "fixed_data/experience/buta_group",
+                "organization": "Buta Grup",
+                "description": "Participated in an intensive virtual internship program focusing on enterprise IT infrastructure and modern development workflows. Gained hands-on experience with Enterprise Resource Planning (ERP) and Customer Relationship Management (CRM) systems. Mastered No-Code development platforms to streamline business processes and focused on professional Web Design, including Responsive Web Design (RWD) and Frontend development. Successfully completed various corporate IT tasks, ensuring high-quality standards in project deliverables.",
+                "type": "experience",
+                "subtype": "internship",
+                "position": "IT Intern",
+                "award": "Certificate of Completion",
+                "score": "Active Participation",
+                "duration": "4 Months",
+                "place": "Virtual / Online",
+                "date": {
+                    "year": 2024,
+                    "month": 4,
+                    "day": null
+                },
+                "media": [
+                    {
+                        "type": "pdf",
+                        "url_text": null,
+                        "title": "Buta Group Internship Certificate",
+                        "path": "fixed_data/experience/buta_group/internship_Buta Group Hümbət Camalov (1).pdf"
+                    }
+                ],
+                "tagIds": [
+                    "buta-group",
+                    "internship",
+                    "erp",
+                    "crm",
+                    "no-code",
+                    "responsive",
+                    "frontend",
+                    "web"
+                ],
+                "data_folder": "fixed_data/experience/buta_group",
+                "tags": [
+                    {
+                        "id": "buta-group",
+                        "name": "Buta Group",
+                        "type": "organizations",
+                        "path": "tags/buta_group.jpeg"
+                    },
+                    {
+                        "id": "internship",
+                        "name": "Internship",
+                        "type": "experience",
+                        "path": "tags/internship.png"
+                    },
+                    {
+                        "id": "erp",
+                        "name": "ERP",
+                        "type": "databases",
+                        "path": "tags/erp.png"
+                    },
+                    {
+                        "id": "crm",
+                        "name": "CRM",
+                        "type": "databases",
+                        "path": "tags/crm.png"
+                    },
+                    {
+                        "id": "no-code",
+                        "name": "No Code",
+                        "type": "frameworks",
+                        "path": "tags/no_code.png"
+                    },
+                    {
+                        "id": "responsive",
+                        "name": "Responsive",
+                        "path": null
+                    },
+                    {
+                        "id": "frontend",
+                        "name": "Frontend",
+                        "type": "concepts",
+                        "path": "tags/frontend.png"
+                    },
+                    {
+                        "id": "web",
+                        "name": "Web",
+                        "type": "concepts",
+                        "path": "tags/web.webp"
                     }
                 ]
             }

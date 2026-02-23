@@ -1,35 +1,45 @@
 {
-    "id": "startup-school",
-    "title": "Startup School 3",
+    "id": "startup-school-3-acceleration",
+    "title": "Startup School 3 & Green and Digital Silk Road",
     "path": "fixed_data/experience/startup_school",
-    "organization": "Startup School 3",
-    "description": "Developed the MVP from scratch, pitched to business leaders, and handled the full technical roadmap including scaling strategy.",
+    "organization": "Center for Analysis of Economic Reforms and Communication & Enterprise Azerbaijan",
+    "description": "Selected as a finalist for the 'Demo Day' in the 'Startup School 3' project, part of the 'Green and Digital Silk Road' international acceleration program. Developed the 'GuardianX' MVP from scratch, including a mobile application and a comprehensive web platform focused on AI-driven pest detection. Completed 45 hours of intensive online training led by local and international mentors, gaining expertise in product scaling, market entry, and technical roadmaps. Received specialized mentorship from Alperen Zeki Gokmen to refine the business model and pitch strategy for presentation to potential investors and business leaders.",
     "type": "experience",
-    "subtype": null,
-    "position": "Full Stack Dev / Co-Founder",
-    "award": null,
-    "score": null,
-    "duration": null,
-    "place": null,
+    "subtype": "acceleration",
+    "position": "Full Stack Developer / Co-Founder",
+    "award": "Demo Day Finalist",
+    "score": "Active Participation",
+    "duration": "5 Weeks",
+    "place": "Online / Baku (Demo Day)",
     "date": {
-        "year": 2024,
-        "month": null,
-        "day": null
+        "year": 2025,
+        "month": 8,
+        "day": 4,
+        "end_year": 2025,
+        "end_month": 9,
+        "end_day": 12
     },
     "media": [
         {
-            "type": "pdf",
+            "type": "image",
             "url_text": null,
-            "title": "Humbat Jamalov Startup School 3",
+            "title": "Startup School 3 Certificate",
             "path": "fixed_data/experience/startup_school/Humbat Jamalov Startup School 3.pdf"
         }
     ],
     "tagIds": [
         "startup",
         "mobile-development",
+        "web",
         "artificial-intelligence",
         "pest-detection",
-        "guardian-x"
+        "guardian-x",
+        "entrepreneurship",
+        "flutter",
+        "gemini",
+        "firebase",
+        "next-js",
+        "vercel"
     ],
     "data_folder": "fixed_data/experience/startup_school"
 }

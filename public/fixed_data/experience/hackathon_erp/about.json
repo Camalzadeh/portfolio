@@ -1,26 +1,26 @@
 {
-    "id": "hackathon-erp",
+    "id": "hackathon-sustainable-design",
     "title": "Sustainable Design Hackathon",
     "path": "fixed_data/experience/hackathon_erp",
-    "organization": "Siemens / ERP Systems",
-    "description": "Developed sustainable design solutions using Siemens technologies.",
+    "organization": "Siemens / ERP-Systems",
+    "description": "Awarded 3rd place in an intensive 2-day hackathon focused on sustainable innovation. Expanded the 'GuardianX' project into a comprehensive multi-app ecosystem, developing a dedicated mobile application during the competition. The project received high praise from the jury for its technical execution and innovative approach to pest detection. Despite facing highly experienced competitors, secured a top-three finish and a 1000 AZN cash prize.",
     "type": "experience",
-    "subtype": null,
-    "position": null,
-    "award": "3rd Place",
-    "score": null,
-    "duration": null,
-    "place": null,
+    "subtype": "hackathon",
+    "position": "Mobile App Developer / Speaker",
+    "award": "1000 AZN Prize",
+    "score": "3rd Place",
+    "duration": "2 Days",
+    "place": "Baku, Azerbaijan",
     "date": {
         "year": 2025,
-        "month": null,
+        "month": 12,
         "day": null
     },
     "media": [
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Humbat Jamalov Sustainable Design Hackathon Participation",
+            "title": "Sustainable Design Hackathon Participation Certificate",
             "path": "fixed_data/experience/hackathon_erp/Humbat Jamalov Sustainable Design Hackathon Participation.pdf"
         }
     ],
@@ -28,9 +28,13 @@
         "hackathon",
         "siemens",
         "erp-systems",
-        "sustainable-design",
+        "mobile-development",
+        "guardian-x",
+        "sustainable-innovation",
         "pest-detection",
-        "guardian-x"
+        "multi-app",
+        "flutter",
+        "gemini"
     ],
     "data_folder": "fixed_data/experience/hackathon_erp"
 }

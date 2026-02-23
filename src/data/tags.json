@@ -5,7 +5,7 @@
             "name": "Flutter",
             "type": "frameworks",
             "path": "tags/flutter.jpg",
-            "count": 1
+            "count": 4
         },
         {
             "id": "dart",
@@ -19,7 +19,7 @@
             "name": "Django",
             "type": "frameworks",
             "path": "tags/django.svg",
-            "count": 0
+            "count": 1
         },
         {
             "id": "python",
@@ -152,21 +152,21 @@
             "name": "AWS",
             "type": "cloud_devops",
             "path": "tags/aws.png",
-            "count": 0
+            "count": 1
         },
         {
             "id": "firebase",
             "name": "Firebase",
             "type": "cloud_devops",
             "path": "tags/firebase.png",
-            "count": 0
+            "count": 2
         },
         {
             "id": "vercel",
             "name": "Vercel",
             "type": "cloud_devops",
             "path": "tags/vercel.svg",
-            "count": 0
+            "count": 1
         },
         {
             "id": "github",
@@ -222,14 +222,14 @@
             "name": "Gemini",
             "type": "ai_ml",
             "path": "tags/gemini.png",
-            "count": 0
+            "count": 3
         },
         {
             "id": "resend",
             "name": "Resend",
             "type": "frameworks",
             "path": "tags/resend.svg",
-            "count": 0
+            "count": 1
         },
         {
             "id": "ably",
@@ -243,7 +243,7 @@
             "name": "Unsplash",
             "type": "concepts",
             "path": "tags/unsplash.webp",
-            "count": 0
+            "count": 1
         },
         {
             "id": "math",
@@ -299,7 +299,7 @@
             "name": "Web",
             "type": "concepts",
             "path": "tags/web.webp",
-            "count": 3
+            "count": 4
         },
         {
             "id": "olympiad",
@@ -481,7 +481,7 @@
             "name": "Mobile Development",
             "type": "concepts",
             "path": "tags/mobile_development.png",
-            "count": 2
+            "count": 4
         },
         {
             "id": "udemy",
@@ -705,7 +705,7 @@
             "name": "Sustainable Design",
             "type": "organizations",
             "path": "tags/sustainable_design.png",
-            "count": 1
+            "count": 0
         },
         {
             "id": "pest-detection",
@@ -833,6 +833,13 @@
                     "name": "Flutter",
                     "type": "frameworks",
                     "path": "tags/flutter.jpg",
+                    "count": 4
+                },
+                {
+                    "id": "django",
+                    "name": "Django",
+                    "type": "frameworks",
+                    "path": "tags/django.svg",
                     "count": 1
                 },
                 {
@@ -840,6 +847,13 @@
                     "name": "React",
                     "type": "frameworks",
                     "path": "tags/react.png",
+                    "count": 1
+                },
+                {
+                    "id": "resend",
+                    "name": "Resend",
+                    "type": "frameworks",
+                    "path": "tags/resend.svg",
                     "count": 1
                 },
                 {
@@ -871,13 +885,6 @@
                     "count": 1
                 },
                 {
-                    "id": "django",
-                    "name": "Django",
-                    "type": "frameworks",
-                    "path": "tags/django.svg",
-                    "count": 0
-                },
-                {
                     "id": "nextjs",
                     "name": "Next.js",
                     "type": "frameworks",
@@ -896,13 +903,6 @@
                     "name": "Bootstrap",
                     "type": "frameworks",
                     "path": "tags/bootstrap.png",
-                    "count": 0
-                },
-                {
-                    "id": "resend",
-                    "name": "Resend",
-                    "type": "frameworks",
-                    "path": "tags/resend.svg",
                     "count": 0
                 },
                 {
@@ -992,6 +992,13 @@
                     "count": 6
                 },
                 {
+                    "id": "gemini",
+                    "name": "Gemini",
+                    "type": "ai_ml",
+                    "path": "tags/gemini.png",
+                    "count": 3
+                },
+                {
                     "id": "machine-learning",
                     "name": "Machine Learning",
                     "type": "ai_ml",
@@ -1039,13 +1046,6 @@
                     "type": "ai_ml",
                     "path": "tags/gemini.png",
                     "count": 0
-                },
-                {
-                    "id": "gemini",
-                    "name": "Gemini",
-                    "type": "ai_ml",
-                    "path": "tags/gemini.png",
-                    "count": 0
                 }
             ]
         },
@@ -1055,6 +1055,27 @@
             "icon": "server",
             "color": "#fbbf24",
             "tags": [
+                {
+                    "id": "firebase",
+                    "name": "Firebase",
+                    "type": "cloud_devops",
+                    "path": "tags/firebase.png",
+                    "count": 2
+                },
+                {
+                    "id": "aws",
+                    "name": "AWS",
+                    "type": "cloud_devops",
+                    "path": "tags/aws.png",
+                    "count": 1
+                },
+                {
+                    "id": "vercel",
+                    "name": "Vercel",
+                    "type": "cloud_devops",
+                    "path": "tags/vercel.svg",
+                    "count": 1
+                },
                 {
                     "id": "apache-tomcat",
                     "name": "Apache Tomcat",
@@ -1074,27 +1095,6 @@
                     "name": "Docker",
                     "type": "cloud_devops",
                     "path": "tags/docker.svg",
-                    "count": 0
-                },
-                {
-                    "id": "aws",
-                    "name": "AWS",
-                    "type": "cloud_devops",
-                    "path": "tags/aws.png",
-                    "count": 0
-                },
-                {
-                    "id": "firebase",
-                    "name": "Firebase",
-                    "type": "cloud_devops",
-                    "path": "tags/firebase.png",
-                    "count": 0
-                },
-                {
-                    "id": "vercel",
-                    "name": "Vercel",
-                    "type": "cloud_devops",
-                    "path": "tags/vercel.svg",
                     "count": 0
                 },
                 {
@@ -1180,7 +1180,14 @@
                     "name": "Web",
                     "type": "concepts",
                     "path": "tags/web.webp",
-                    "count": 3
+                    "count": 4
+                },
+                {
+                    "id": "mobile-development",
+                    "name": "Mobile Development",
+                    "type": "concepts",
+                    "path": "tags/mobile_development.png",
+                    "count": 4
                 },
                 {
                     "id": "software-engineering",
@@ -1204,13 +1211,6 @@
                     "count": 2
                 },
                 {
-                    "id": "mobile-development",
-                    "name": "Mobile Development",
-                    "type": "concepts",
-                    "path": "tags/mobile_development.png",
-                    "count": 2
-                },
-                {
                     "id": "computer-science",
                     "name": "Computer Science",
                     "type": "concepts",
@@ -1223,6 +1223,13 @@
                     "type": "concepts",
                     "path": "tags/frontend.png",
                     "count": 2
+                },
+                {
+                    "id": "unsplash",
+                    "name": "Unsplash",
+                    "type": "concepts",
+                    "path": "tags/unsplash.webp",
+                    "count": 1
                 },
                 {
                     "id": "api",
@@ -1258,13 +1265,6 @@
                     "type": "concepts",
                     "path": "tags/photoshop.png",
                     "count": 1
-                },
-                {
-                    "id": "unsplash",
-                    "name": "Unsplash",
-                    "type": "concepts",
-                    "path": "tags/unsplash.webp",
-                    "count": 0
                 },
                 {
                     "id": "programming",
@@ -1373,13 +1373,6 @@
                     "count": 1
                 },
                 {
-                    "id": "sustainable-design",
-                    "name": "Sustainable Design",
-                    "type": "organizations",
-                    "path": "tags/sustainable_design.png",
-                    "count": 1
-                },
-                {
                     "id": "turkcell",
                     "name": "Turkcell",
                     "type": "organizations",
@@ -1398,6 +1391,13 @@
                     "name": "IEEE",
                     "type": "organizations",
                     "path": "tags/ieee.png",
+                    "count": 0
+                },
+                {
+                    "id": "sustainable-design",
+                    "name": "Sustainable Design",
+                    "type": "organizations",
+                    "path": "tags/sustainable_design.png",
                     "count": 0
                 }
             ]

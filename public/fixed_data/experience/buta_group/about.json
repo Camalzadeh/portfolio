@@ -1,37 +1,38 @@
 {
-    "id": "buta-group",
-    "title": "Buta Group Internship",
+    "id": "buta-group-internship",
+    "title": "Virtual Internship Program (VTP’9 NANO)",
     "path": "fixed_data/experience/buta_group",
     "organization": "Buta Grup",
-    "description": "Virtual intensive internship focusing on enterprise IT standards.",
+    "description": "Participated in an intensive virtual internship program focusing on enterprise IT infrastructure and modern development workflows. Gained hands-on experience with Enterprise Resource Planning (ERP) and Customer Relationship Management (CRM) systems. Mastered No-Code development platforms to streamline business processes and focused on professional Web Design, including Responsive Web Design (RWD) and Frontend development. Successfully completed various corporate IT tasks, ensuring high-quality standards in project deliverables.",
     "type": "experience",
-    "subtype": null,
-    "position": "IT Intern (VTP’9 NANO)",
-    "award": null,
-    "score": null,
-    "duration": null,
-    "place": null,
+    "subtype": "internship",
+    "position": "IT Intern",
+    "award": "Certificate of Completion",
+    "score": "Active Participation",
+    "duration": "4 Months",
+    "place": "Virtual / Online",
     "date": {
         "year": 2024,
-        "month": null,
+        "month": 4,
         "day": null
     },
     "media": [
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Internship Buta Group HüMbəT Camalov (1)",
+            "title": "Buta Group Internship Certificate",
             "path": "fixed_data/experience/buta_group/internship_Buta Group Hümbət Camalov (1).pdf"
         }
     ],
     "tagIds": [
         "buta-group",
         "internship",
-        "no-code",
+        "erp",
         "crm",
-        "web",
+        "no-code",
+        "responsive",
         "frontend",
-        "erp"
+        "web"
     ],
     "data_folder": "fixed_data/experience/buta_group"
 }

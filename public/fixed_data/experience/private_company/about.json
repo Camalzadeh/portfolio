@@ -1,0 +1,37 @@
+{
+    "id": "middle-mobile-fullstack-dev",
+    "title": "Middle Mobile & Backend Developer",
+    "path": "fixed_data/experience/private_company",
+    "organization": "Private Tech Company",
+    "description": "Led the end-to-end development of 3 production-level applications over 1 year and 10 months, evolving from initial exploration to implementing advanced modular architectures.\n\nKey Technical Contributions:\n\n* **Mobile Mastery (Flutter & Riverpod):** Architected apps using Clean Architecture and Modular patterns. Implemented a robust data strategy combining State Management + Repository Pattern + Cache + Local Database (Hive/SQFLite) + REST API integration.\n\n* **Advanced Backend (Django & AI):** Developed complex backend systems with a focus on automation. Integrated OpenAI’s Whisper AI for voice processing, utilized Object-Oriented Programming (OOP) for models, and implemented Table Inheritance for optimized database structures.\n\n* **Cloud & DevOps:** Executed seamless integrations with Cloud providers and Firebase services (Cloud Messaging, Analytics, Authentication). Managed the full release cycle, including handling Apple-specific requirements like APNs notifications and App Store deployment.\n\n* **UI/UX Excellence:** Created custom animation engines and focused on high-fidelity design implementation, ensuring a premium user experience across all 3 production apps.\n\n* **Evolution of Expertise:** Successfully transitioned from legacy development practices to modern, scalable software engineering standards, ensuring high performance and code maintainability.",
+    "type": "experience",
+    "subtype": "part-time",
+    "position": "Middle Mobile Developer / Full-Stack Engineer",
+    "award": "3 Production Apps Released",
+    "score": "Middle+ Proficiency",
+    "duration": "1 Year 10 Months",
+    "place": "Baku, Azerbaijan",
+    "date": {
+        "year": 2024,
+        "month": 5,
+        "day": null
+    },
+    "media": [],
+    "tagIds": [
+        "flutter",
+        "django",
+        "riverpod",
+        "clean-architecture",
+        "mobile-development",
+        "whisper-ai",
+        "full-stack",
+        "production",
+        "resend",
+        "aws",
+        "firebase",
+        "unsplash",
+        "gemini",
+        "cloud"
+    ],
+    "data_folder": "fixed_data/experience/private_company"
+}
