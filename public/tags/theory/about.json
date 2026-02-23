@@ -1,0 +1,64 @@
+{
+    "tags": [
+        {
+            "id": "unsplash",
+            "name": "Unsplash",
+            "type": "theory",
+            "path": "tags/theory/unsplash.png"
+        },
+        {
+            "id": "scientific",
+            "name": "Scientific",
+            "type": "theory",
+            "path": "tags/theory/science.png"
+        },
+        {
+            "id": "programming",
+            "name": "Programming",
+            "type": "theory",
+            "path": "tags/theory/programming.webp"
+        },
+        {
+            "id": "design",
+            "name": "Design",
+            "type": "theory",
+            "path": "tags/theory/design.png"
+        },
+        {
+            "id": "dynamic-programming",
+            "name": "Dynamic Programming",
+            "type": "theory",
+            "path": "tags/theory/dp.png"
+        },
+        {
+            "id": "problem-solving",
+            "name": "Problem Solving",
+            "type": "theory",
+            "path": "tags/theory/problem-solving.png"
+        },
+        {
+            "id": "functional-programming",
+            "name": "Functional Programming",
+            "type": "theory",
+            "path": "tags/theory/functional-programming.webp"
+        },
+        {
+            "id": "cryptography",
+            "name": "Cryptography",
+            "type": "theory",
+            "path": "tags/theory/cryptography.png"
+        },
+        {
+            "id": "cybersecurity",
+            "name": "Cybersecurity",
+            "type": "theory",
+            "path": "tags/theory/cybersecurity.png"
+        },
+        {
+            "id": "greedy-algorithms",
+            "name": "Greedy Algorithms",
+            "type": "theory",
+            "path": "tags/theory/greedy-algorithms.png"
+        }
+    ]
+}

@@ -62,11 +62,33 @@ function aggregate() {
     // 2. Load Tags Metadata
     let globalTags = [];
     let tagTypes = [];
+
+    // Load Master Types
     if (fs.existsSync(TAGS_METADATA_PATH)) {
-        const tagsSource = JSON.parse(fs.readFileSync(TAGS_METADATA_PATH, 'utf8'));
-        globalTags = tagsSource.tags || [];
-        tagTypes = tagsSource.tagTypes || [];
+        const masterSource = JSON.parse(fs.readFileSync(TAGS_METADATA_PATH, 'utf8'));
+        tagTypes = masterSource.tagTypes || [];
     }
+
+    // Discover all tags/subfolder/about.json
+    const tagFolders = fs.readdirSync(TAGS_DIR);
+    tagFolders.forEach(folder => {
+        const folderPath = path.join(TAGS_DIR, folder);
+        if (fs.statSync(folderPath).isDirectory()) {
+            const subAboutPath = path.join(folderPath, 'about.json');
+            if (fs.existsSync(subAboutPath)) {
+                const subSource = JSON.parse(fs.readFileSync(subAboutPath, 'utf8'));
+                if (subSource.tags) {
+                    // Ensure each tag knows its type based on the folder name if not already set
+                    subSource.tags.forEach(t => {
+                        if (!t.type) t.type = folder;
+                    });
+                    globalTags = globalTags.concat(subSource.tags);
+                }
+            }
+        }
+    });
+
+    console.log(`📡 Discovered ${globalTags.length} tags across ${tagFolders.length} folders.`);
 
     // 3. Sync CV Configuration
     if (fs.existsSync(CV_METADATA_PATH)) {

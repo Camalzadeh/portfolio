@@ -1,0 +1,70 @@
+{
+    "tags": [
+        {
+            "id": "dart",
+            "name": "Dart",
+            "type": "languages",
+            "path": "tags/languages/baku-engineering-university.png"
+        },
+        {
+            "id": "python",
+            "name": "Python",
+            "type": "languages",
+            "path": "tags/languages/standford-university.avif"
+        },
+        {
+            "id": "javascript",
+            "name": "JavaScript",
+            "type": "languages",
+            "path": "tags/languages/ufaz copy.png"
+        },
+        {
+            "id": "html",
+            "name": "HTML",
+            "type": "languages",
+            "path": "tags/languages/e-olymp.png"
+        },
+        {
+            "id": "css",
+            "name": "CSS",
+            "type": "languages",
+            "path": "tags/languages/css.png"
+        },
+        {
+            "id": "php",
+            "name": "PHP",
+            "type": "languages",
+            "path": "tags/languages/php.png"
+        },
+        {
+            "id": "c",
+            "name": "C",
+            "type": "languages",
+            "path": "tags/languages/c.png"
+        },
+        {
+            "id": "typescript",
+            "name": "TypeScript",
+            "type": "languages",
+            "path": "tags/languages/ts.png"
+        },
+        {
+            "id": "java",
+            "name": "Java",
+            "type": "languages",
+            "path": "tags/languages/java.svg"
+        },
+        {
+            "id": "c-sharp",
+            "name": "C Sharp",
+            "type": "languages",
+            "path": "tags/languages/c_sharp.png"
+        },
+        {
+            "id": "c++",
+            "name": "C++",
+            "type": "languages",
+            "path": "tags/languages/cpp.png"
+        }
+    ]
+}

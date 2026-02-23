@@ -1,0 +1,40 @@
+{
+    "tags": [
+        {
+            "id": "math",
+            "name": "Math",
+            "type": "mathematics",
+            "path": "tags/mathematics/math.png"
+        },
+        {
+            "id": "game-theory",
+            "name": "Game Theory",
+            "type": "mathematics",
+            "path": "tags/mathematics/game-theory.png"
+        },
+        {
+            "id": "number-theory",
+            "name": "Number Theory",
+            "type": "mathematics",
+            "path": "tags/mathematics/number-theory.jpg"
+        },
+        {
+            "id": "probability",
+            "name": "Probability",
+            "type": "mathematics",
+            "path": "tags/mathematics/probability.png"
+        },
+        {
+            "id": "geometry",
+            "name": "Geometry",
+            "type": "mathematics",
+            "path": "tags/mathematics/geometry.jpg"
+        },
+        {
+            "id": "statistics",
+            "name": "Statistics",
+            "type": "mathematics",
+            "path": "tags/mathematics/statistics.png"
+        }
+    ]
+}

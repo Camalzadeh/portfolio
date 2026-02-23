@@ -1,0 +1,46 @@
+{
+    "tags": [
+        {
+            "id": "postgresql",
+            "name": "PostgreSQL",
+            "type": "databases",
+            "path": "tags/databases/postgresql.png"
+        },
+        {
+            "id": "mysql",
+            "name": "MySQL",
+            "type": "databases",
+            "path": "tags/databases/mysql.png"
+        },
+        {
+            "id": "oracle",
+            "name": "Oracle",
+            "type": "databases",
+            "path": "tags/databases/oracle.png"
+        },
+        {
+            "id": "mongodb",
+            "name": "MongoDB",
+            "type": "databases",
+            "path": "tags/databases/mongo.png"
+        },
+        {
+            "id": "database_administration",
+            "name": "Database Administration",
+            "type": "databases",
+            "path": "tags/databases/database_administration.png"
+        },
+        {
+            "id": "crm",
+            "name": "CRM",
+            "type": "databases",
+            "path": "tags/databases/crm.png"
+        },
+        {
+            "id": "erp",
+            "name": "ERP",
+            "type": "databases",
+            "path": "tags/databases/erp.png"
+        }
+    ]
+}

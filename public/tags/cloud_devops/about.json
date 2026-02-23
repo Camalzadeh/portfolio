@@ -1,0 +1,76 @@
+{
+    "tags": [
+        {
+            "id": "docker",
+            "name": "Docker",
+            "type": "cloud_devops",
+            "path": "tags/cloud_devops/docker.svg"
+        },
+        {
+            "id": "aws",
+            "name": "AWS",
+            "type": "cloud_devops",
+            "path": "tags/cloud_devops/aws.png"
+        },
+        {
+            "id": "firebase",
+            "name": "Firebase",
+            "type": "cloud_devops",
+            "path": "tags/cloud_devops/firebase.png"
+        },
+        {
+            "id": "vercel",
+            "name": "Vercel",
+            "type": "cloud_devops",
+            "path": "tags/cloud_devops/vercel.svg"
+        },
+        {
+            "id": "github",
+            "name": "GitHub",
+            "type": "cloud_devops",
+            "path": "tags/cloud_devops/github.webp"
+        },
+        {
+            "id": "ghcr",
+            "name": "GHCR",
+            "type": "cloud_devops",
+            "path": "tags/cloud_devops/ghcr.png"
+        },
+        {
+            "id": "cloudrun",
+            "name": "Cloud Run",
+            "type": "cloud_devops",
+            "path": "tags/cloud_devops/cloud_run.png"
+        },
+        {
+            "id": "namecheap",
+            "name": "Namecheap",
+            "type": "cloud_devops",
+            "path": "tags/cloud_devops/namecheap.webp"
+        },
+        {
+            "id": "alwaysdata",
+            "name": "Alwaysdata",
+            "type": "cloud_devops",
+            "path": "tags/cloud_devops/alwaysdata.png"
+        },
+        {
+            "id": "apache-tomcat",
+            "name": "Apache Tomcat",
+            "type": "cloud_devops",
+            "path": "tags/cloud_devops/apache_tomcat.png"
+        },
+        {
+            "id": "maven",
+            "name": "Maven",
+            "type": "cloud_devops",
+            "path": "tags/cloud_devops/maven.jpg"
+        },
+        {
+            "id": "cloud",
+            "name": "Cloud",
+            "type": "cloud_devops",
+            "path": "tags/cloud_devops/cloud.png"
+        }
+    ]
+}

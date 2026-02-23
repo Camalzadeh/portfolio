@@ -1,0 +1,112 @@
+{
+    "tags": [
+        {
+            "id": "academic",
+            "name": "Academic",
+            "type": "institutions",
+            "path": null
+        },
+        {
+            "id": "research",
+            "name": "Research",
+            "type": "institutions",
+            "path": "tags/institutions/research.png"
+        },
+        {
+            "id": "ada-university",
+            "name": "Ada University",
+            "type": "institutions",
+            "path": "tags/institutions/ada_university.png"
+        },
+        {
+            "id": "constructor-university",
+            "name": "Constructor University",
+            "type": "institutions",
+            "path": "tags/institutions/constructor_university.png"
+        },
+        {
+            "id": "4sim",
+            "name": "4sim",
+            "type": "institutions",
+            "path": "tags/institutions/4sim.png"
+        },
+        {
+            "id": "coursera",
+            "name": "Coursera",
+            "type": "institutions",
+            "path": "tags/institutions/coursera.png"
+        },
+        {
+            "id": "udemy",
+            "name": "Udemy",
+            "type": "institutions",
+            "path": "tags/institutions/udemy.webp"
+        },
+        {
+            "id": "ufaz",
+            "name": "UFAZ",
+            "type": "institutions",
+            "path": "tags/institutions/ufaz.png"
+        },
+        {
+            "id": "bhos",
+            "name": "BHOS",
+            "type": "institutions",
+            "path": "tags/institutions/bhos.png"
+        },
+        {
+            "id": "miuul",
+            "name": "Miuul",
+            "type": "institutions",
+            "path": "tags/institutions/miuul.png"
+        },
+        {
+            "id": "holberton-school",
+            "name": "Holberton School",
+            "type": "institutions",
+            "path": "tags/institutions/holberton-school.webp"
+        },
+        {
+            "id": "stanford-university",
+            "name": "Stanford University",
+            "type": "institutions",
+            "path": "tags/stanford.png"
+        },
+        {
+            "id": "deeplearning-ai",
+            "name": "DeepLearning.AI",
+            "type": "institutions",
+            "path": "tags/institutions/deeplearning-ai.png"
+        },
+        {
+            "id": "beu",
+            "name": "Baku Engineering University",
+            "type": "institutions",
+            "path": "tags/beu.png"
+        },
+        {
+            "id": "ei-group",
+            "name": "EI Group",
+            "type": "institutions",
+            "path": "tags/institutions/ei-group.png"
+        },
+        {
+            "id": "arti",
+            "name": "ARTI",
+            "type": "institutions",
+            "path": "tags/institutions/arti.png"
+        },
+        {
+            "id": "eolymp",
+            "name": "E-olymp",
+            "type": "institutions",
+            "path": "tags/eolymp.png"
+        },
+        {
+            "id": "ufu",
+            "name": "Federal University of Uberlândia",
+            "type": "institutions",
+            "path": "tags/institutions/ufu.png"
+        }
+    ]
+}

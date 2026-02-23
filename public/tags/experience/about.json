@@ -1,0 +1,46 @@
+{
+    "tags": [
+        {
+            "id": "conference",
+            "name": "Conference",
+            "type": "experience",
+            "path": "tags/experience/conference.png"
+        },
+        {
+            "id": "world-skills",
+            "name": "World Skills",
+            "type": "experience",
+            "path": "tags/experience/world-skills.png"
+        },
+        {
+            "id": "internship",
+            "name": "Internship",
+            "type": "experience",
+            "path": "tags/experience/internship.png"
+        },
+        {
+            "id": "hackathon",
+            "name": "Hackathon",
+            "type": "experience",
+            "path": "tags/experience/hackathon.png"
+        },
+        {
+            "id": "startup",
+            "name": "Startup",
+            "type": "experience",
+            "path": "tags/experience/startup.png"
+        },
+        {
+            "id": "technical-interview",
+            "name": "Technical Interview",
+            "type": "experience",
+            "path": null
+        },
+        {
+            "id": "recommendation",
+            "name": "Recommendation",
+            "type": "experience",
+            "path": null
+        }
+    ]
+}

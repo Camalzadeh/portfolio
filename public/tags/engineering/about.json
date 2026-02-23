@@ -1,0 +1,130 @@
+{
+    "tags": [
+        {
+            "id": "algorithms",
+            "name": "Algorithms",
+            "type": "engineering",
+            "path": "tags/engineering/algorithm.png"
+        },
+        {
+            "id": "web",
+            "name": "Web",
+            "type": "engineering",
+            "path": "tags/engineering/web.webp"
+        },
+        {
+            "id": "data-structures",
+            "name": "Data Structures",
+            "type": "engineering",
+            "path": "tags/engineering/data_structures.png"
+        },
+        {
+            "id": "backend",
+            "name": "Backend",
+            "type": "engineering",
+            "path": "tags/engineering/backend.png"
+        },
+        {
+            "id": "api",
+            "name": "API",
+            "type": "engineering",
+            "path": "tags/engineering/api.png"
+        },
+        {
+            "id": "software-engineering",
+            "name": "Software Engineering",
+            "type": "engineering",
+            "path": "tags/engineering/software_engineering.png"
+        },
+        {
+            "id": "graphs",
+            "name": "Graphs",
+            "type": "engineering",
+            "path": "tags/engineering/graph.png"
+        },
+        {
+            "id": "oop",
+            "name": "OOP",
+            "type": "engineering",
+            "path": "tags/engineering/oop.png"
+        },
+        {
+            "id": "design-patterns",
+            "name": "Design Patterns",
+            "type": "engineering",
+            "path": "tags/engineering/design_patterns.png"
+        },
+        {
+            "id": "software-architecture",
+            "name": "Software Architecture",
+            "type": "engineering",
+            "path": "tags/engineering/software_architecture.png"
+        },
+        {
+            "id": "mobile-development",
+            "name": "Mobile Development",
+            "type": "engineering",
+            "path": "tags/engineering/mobile_development.png"
+        },
+        {
+            "id": "photoshop",
+            "name": "Photoshop",
+            "type": "engineering",
+            "path": "tags/engineering/photoshop.png"
+        },
+        {
+            "id": "computer-science",
+            "name": "Computer Science",
+            "type": "engineering",
+            "path": "tags/engineering/computer_science.png"
+        },
+        {
+            "id": "frontend",
+            "name": "Frontend",
+            "type": "engineering",
+            "path": "tags/engineering/frontend.png"
+        },
+        {
+            "id": "solid-principles",
+            "name": "SOLID Principles",
+            "type": "engineering",
+            "path": "tags/engineering/solid-principles.png"
+        },
+        {
+            "id": "clean-architecture",
+            "name": "Clean Architecture",
+            "type": "engineering",
+            "path": "tags/clean_architecture.png"
+        },
+        {
+            "id": "responsive",
+            "name": "Responsive Design",
+            "type": "engineering",
+            "path": "tags/engineering/responsive.png"
+        },
+        {
+            "id": "full-stack",
+            "name": "Full Stack",
+            "type": "engineering",
+            "path": "tags/engineering/full-stack.png"
+        },
+        {
+            "id": "production",
+            "name": "Production",
+            "type": "engineering",
+            "path": "tags/engineering/production.png"
+        },
+        {
+            "id": "sustainable-innovation",
+            "name": "Sustainable Innovation",
+            "type": "engineering",
+            "path": null
+        },
+        {
+            "id": "multi-app",
+            "name": "Multi-App System",
+            "type": "engineering",
+            "path": "tags/engineering/multi-app.png"
+        }
+    ]
+}

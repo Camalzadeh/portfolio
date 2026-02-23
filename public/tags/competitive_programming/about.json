@@ -1,0 +1,16 @@
+{
+    "tags": [
+        {
+            "id": "olympiad",
+            "name": "Olympiad",
+            "type": "competitive_programming",
+            "path": "tags/competitive_programming/olympiad.png"
+        },
+        {
+            "id": "competitive-programming",
+            "name": "Competitive Programming",
+            "type": "competitive_programming",
+            "path": "tags/competitive_programming/competitive_programming.png"
+        }
+    ]
+}

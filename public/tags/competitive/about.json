@@ -1,0 +1,28 @@
+{
+    "tags": [
+        {
+            "id": "icpc",
+            "name": "ICPC",
+            "type": "competitive",
+            "path": "tags/competitive/icpc.png"
+        },
+        {
+            "id": "icsc",
+            "name": "ICSC",
+            "type": "competitive",
+            "path": "tags/competitive/icsc.png"
+        },
+        {
+            "id": "camp",
+            "name": "Camp",
+            "type": "competitive",
+            "path": "tags/competitive/camp.png"
+        },
+        {
+            "id": "competition",
+            "name": "Competition",
+            "type": "competitive",
+            "path": "tags/competitive/competition.png"
+        }
+    ]
+}

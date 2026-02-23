@@ -1,0 +1,28 @@
+{
+    "tags": [
+        {
+            "id": "leadership",
+            "name": "Leadership",
+            "type": "leadership",
+            "path": "tags/leadership/leadership.png"
+        },
+        {
+            "id": "content-creation",
+            "name": "Content Creation",
+            "type": "leadership",
+            "path": "tags/leadership/content-creation.webp"
+        },
+        {
+            "id": "organization",
+            "name": "Organization",
+            "type": "leadership",
+            "path": "tags/leadership/organization.png"
+        },
+        {
+            "id": "entrepreneurship",
+            "name": "Entrepreneurship",
+            "type": "leadership",
+            "path": "tags/leadership/entrepreneur.png"
+        }
+    ]
+}
