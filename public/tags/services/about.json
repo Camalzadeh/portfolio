@@ -1,87 +1,101 @@
 {
     "tags": [
         {
-            "id": "docker",
-            "name": "Docker",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/docker.svg",
-            "count": 0
-        },
-        {
-            "id": "aws",
-            "name": "AWS",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/aws.png",
-            "count": 1
-        },
-        {
-            "id": "firebase",
-            "name": "Firebase",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/firebase.png",
-            "count": 2
-        },
-        {
-            "id": "vercel",
-            "name": "Vercel",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/vercel.svg",
-            "count": 1
-        },
-        {
-            "id": "github",
-            "name": "GitHub",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/github.webp",
-            "count": 0
-        },
-        {
-            "id": "ghcr",
-            "name": "GHCR",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/ghcr.png",
-            "count": 0
-        },
-        {
-            "id": "cloudrun",
-            "name": "Cloud Run",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/cloud_run.png",
-            "count": 0
-        },
-        {
-            "id": "namecheap",
-            "name": "Namecheap",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/namecheap.webp",
+            "id": "ably",
+            "name": "Ably",
+            "type": "services",
+            "path": "tags/services/ably.png",
             "count": 0
         },
         {
             "id": "alwaysdata",
             "name": "Alwaysdata",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/alwaysdata.png",
+            "type": "services",
+            "path": "tags/services/alwaysdata.png",
             "count": 0
         },
         {
-            "id": "apache-tomcat",
-            "name": "Apache Tomcat",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/apache_tomcat.png",
+            "id": "aws",
+            "name": "AWS",
+            "type": "services",
+            "path": "tags/services/aws.png",
             "count": 1
         },
         {
-            "id": "maven",
-            "name": "Maven",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/maven.jpg",
+            "id": "cloud-run",
+            "name": "Cloud Run",
+            "type": "services",
+            "path": "tags/services/cloud_run.png",
+            "count": 0
+        },
+        {
+            "id": "crm",
+            "name": "CRM",
+            "type": "services",
+            "path": "tags/services/crm.png",
             "count": 1
         },
         {
-            "id": "cloud",
-            "name": "Cloud",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/cloud.png",
+            "id": "docker",
+            "name": "Docker",
+            "type": "services",
+            "path": "tags/services/docker.svg",
+            "count": 0
+        },
+        {
+            "id": "erp",
+            "name": "ERP",
+            "type": "services",
+            "path": "tags/services/erp.png",
+            "count": 1
+        },
+        {
+            "id": "firebase",
+            "name": "Firebase",
+            "type": "services",
+            "path": "tags/services/firebase.png",
+            "count": 2
+        },
+        {
+            "id": "ghcr",
+            "name": "GHCR",
+            "type": "services",
+            "path": "tags/services/ghcr.png",
+            "count": 0
+        },
+        {
+            "id": "github",
+            "name": "Github",
+            "type": "services",
+            "path": "tags/services/github.webp",
+            "count": 0
+        },
+        {
+            "id": "namecheap",
+            "name": "Namecheap",
+            "type": "services",
+            "path": "tags/services/namecheap.webp",
+            "count": 0
+        },
+        {
+            "id": "resend",
+            "name": "Resend",
+            "type": "services",
+            "path": "tags/services/resend.webp",
+            "count": 1
+        },
+        {
+            "id": "unsplash",
+            "name": "Unsplash",
+            "type": "services",
+            "path": "tags/services/unsplash.png",
+            "count": 1
+        },
+        {
+            "id": "vercel",
+            "name": "Vercel",
+            "type": "services",
+            "path": "tags/services/vercel.svg",
             "count": 1
         }
     ]

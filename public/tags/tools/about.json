@@ -1,0 +1,25 @@
+{
+    "tags": [
+        {
+            "id": "apache-tomcat",
+            "name": "Apache Tomcat",
+            "type": "tools",
+            "path": "tags/tools/apache_tomcat.png",
+            "count": 1
+        },
+        {
+            "id": "maven",
+            "name": "Maven",
+            "type": "tools",
+            "path": "tags/tools/maven.jpg",
+            "count": 1
+        },
+        {
+            "id": "photoshop",
+            "name": "Photoshop",
+            "type": "tools",
+            "path": "tags/tools/photoshop.png",
+            "count": 1
+        }
+    ]
+}

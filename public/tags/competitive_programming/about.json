@@ -1,11 +1,11 @@
 {
     "tags": [
         {
-            "id": "olympiad",
-            "name": "Olympiad",
+            "id": "algorithm",
+            "name": "Algorithm",
             "type": "competitive_programming",
-            "path": "tags/competitive_programming/olympiad.png",
-            "count": 10
+            "path": "tags/competitive_programming/algorithm.png",
+            "count": 0
         },
         {
             "id": "competitive-programming",
@@ -13,6 +13,41 @@
             "type": "competitive_programming",
             "path": "tags/competitive_programming/competitive_programming.png",
             "count": 8
+        },
+        {
+            "id": "data-structures",
+            "name": "Data Structures",
+            "type": "competitive_programming",
+            "path": "tags/competitive_programming/data_structures.png",
+            "count": 10
+        },
+        {
+            "id": "dp",
+            "name": "Dp",
+            "type": "competitive_programming",
+            "path": "tags/competitive_programming/dp.png",
+            "count": 0
+        },
+        {
+            "id": "graph",
+            "name": "Graph",
+            "type": "competitive_programming",
+            "path": "tags/competitive_programming/graph.png",
+            "count": 0
+        },
+        {
+            "id": "greedy-algorithms",
+            "name": "Greedy Algorithms",
+            "type": "competitive_programming",
+            "path": "tags/competitive_programming/greedy-algorithms.png",
+            "count": 5
+        },
+        {
+            "id": "problem-solving",
+            "name": "Problem Solving",
+            "type": "competitive_programming",
+            "path": "tags/competitive_programming/problem-solving.png",
+            "count": 7
         }
     ]
 }

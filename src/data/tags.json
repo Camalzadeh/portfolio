@@ -1,17 +1,17 @@
 {
     "tags": [
         {
-            "id": "algorithms",
-            "name": "Algorithms",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/algorithm.png",
-            "count": 13
-        },
-        {
             "id": "olympiad",
             "name": "Olympiad",
+            "type": "common",
+            "path": "tags/common/olympiad.png",
+            "count": 10
+        },
+        {
+            "id": "data-structures",
+            "name": "Data Structures",
             "type": "competitive_programming",
-            "path": "tags/competitive_programming/olympiad.png",
+            "path": "tags/competitive_programming/data_structures.png",
             "count": 10
         },
         {
@@ -22,17 +22,10 @@
             "count": 10
         },
         {
-            "id": "data-structures",
-            "name": "Data Structures",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/data_structures.png",
-            "count": 10
-        },
-        {
             "id": "math",
             "name": "Math",
-            "type": "math",
-            "path": "tags/math/math.png",
+            "type": "common",
+            "path": "tags/common/math.png",
             "count": 9
         },
         {
@@ -45,8 +38,8 @@
         {
             "id": "problem-solving",
             "name": "Problem Solving",
-            "type": "computer_science",
-            "path": "tags/computer_science/problem-solving.png",
+            "type": "competitive_programming",
+            "path": "tags/competitive_programming/problem-solving.png",
             "count": 7
         },
         {
@@ -57,13 +50,6 @@
             "count": 7
         },
         {
-            "id": "graphs",
-            "name": "Graphs",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/graph.png",
-            "count": 7
-        },
-        {
             "id": "artificial-intelligence",
             "name": "Artificial Intelligence",
             "type": "ai_ml",
@@ -71,31 +57,24 @@
             "count": 6
         },
         {
-            "id": "dynamic-programming",
-            "name": "Dynamic Programming",
-            "type": "computer_science",
-            "path": "tags/computer_science/dp.png",
-            "count": 6
-        },
-        {
-            "id": "icpc",
-            "name": "ICPC",
-            "type": "competitive",
-            "path": "tags/competitive/icpc.png",
+            "id": "number-theory",
+            "name": "Number Theory",
+            "type": "academic",
+            "path": "tags/academic/number-theory.png",
             "count": 5
         },
         {
             "id": "greedy-algorithms",
             "name": "Greedy Algorithms",
-            "type": "computer_science",
-            "path": "tags/computer_science/greedy-algorithms.png",
+            "type": "competitive_programming",
+            "path": "tags/competitive_programming/greedy-algorithms.png",
             "count": 5
         },
         {
-            "id": "number-theory",
-            "name": "Number Theory",
-            "type": "math",
-            "path": "tags/math/number-theory.png",
+            "id": "icpc",
+            "name": "ICPC",
+            "type": "organizations",
+            "path": "tags/organizations/icpc.png",
             "count": 5
         },
         {
@@ -106,13 +85,6 @@
             "count": 4
         },
         {
-            "id": "web",
-            "name": "Web",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/web.webp",
-            "count": 4
-        },
-        {
             "id": "mobile-development",
             "name": "Mobile Development",
             "type": "software_engineering",
@@ -120,17 +92,24 @@
             "count": 4
         },
         {
-            "id": "gemini",
-            "name": "Gemini",
-            "type": "ai_ml",
-            "path": "tags/ai_ml/gemini.png",
-            "count": 3
+            "id": "web",
+            "name": "Web",
+            "type": "software_engineering",
+            "path": "tags/software_engineering/web.webp",
+            "count": 4
         },
         {
             "id": "geometry",
             "name": "Geometry",
-            "type": "math",
-            "path": "tags/math/geometry.webp",
+            "type": "academic",
+            "path": "tags/academic/geometry.webp",
+            "count": 3
+        },
+        {
+            "id": "gemini",
+            "name": "Gemini",
+            "type": "ai_ml",
+            "path": "tags/ai_ml/gemini.png",
             "count": 3
         },
         {
@@ -141,17 +120,17 @@
             "count": 3
         },
         {
-            "id": "javascript",
-            "name": "JavaScript",
-            "type": "programming_languages",
-            "path": "tags/programming_languages/js.png",
-            "count": 3
-        },
-        {
             "id": "java",
             "name": "Java",
             "type": "programming_languages",
             "path": "tags/programming_languages/java.svg",
+            "count": 3
+        },
+        {
+            "id": "javascript",
+            "name": "JavaScript",
+            "type": "programming_languages",
+            "path": "tags/programming_languages/js.png",
             "count": 3
         },
         {
@@ -160,6 +139,27 @@
             "type": "software_engineering",
             "path": "tags/software_engineering/software_engineering.png",
             "count": 3
+        },
+        {
+            "id": "cryptography",
+            "name": "Cryptography",
+            "type": "academic",
+            "path": "tags/academic/cryptography.png",
+            "count": 2
+        },
+        {
+            "id": "game-theory",
+            "name": "Game Theory",
+            "type": "academic",
+            "path": "tags/academic/game-theory.png",
+            "count": 2
+        },
+        {
+            "id": "probability",
+            "name": "Probability",
+            "type": "academic",
+            "path": "tags/academic/probability.png",
+            "count": 2
         },
         {
             "id": "machine-learning",
@@ -176,31 +176,17 @@
             "count": 2
         },
         {
-            "id": "firebase",
-            "name": "Firebase",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/firebase.png",
+            "id": "computer-science",
+            "name": "Computer Science",
+            "type": "common",
+            "path": "tags/common/computer_science.png",
             "count": 2
         },
         {
-            "id": "cryptography",
-            "name": "Cryptography",
-            "type": "computer_science",
-            "path": "tags/computer_science/cryptography.png",
-            "count": 2
-        },
-        {
-            "id": "game-theory",
-            "name": "Game Theory",
-            "type": "math",
-            "path": "tags/math/game-theory.png",
-            "count": 2
-        },
-        {
-            "id": "probability",
-            "name": "Probability",
-            "type": "math",
-            "path": "tags/math/probability.png",
+            "id": "guardian-x",
+            "name": "Guardian X",
+            "type": "organizations",
+            "path": "tags/organizations/guardian_x.png",
             "count": 2
         },
         {
@@ -211,17 +197,10 @@
             "count": 2
         },
         {
-            "id": "guardian-x",
-            "name": "Guardian-X",
-            "type": "organizations",
-            "path": "tags/organizations/guardian_x.png",
-            "count": 2
-        },
-        {
-            "id": "python",
-            "name": "Python",
+            "id": "css",
+            "name": "CSS",
             "type": "programming_languages",
-            "path": "tags/programming_languages/python.png",
+            "path": "tags/programming_languages/css.png",
             "count": 2
         },
         {
@@ -232,10 +211,17 @@
             "count": 2
         },
         {
-            "id": "css",
-            "name": "CSS",
+            "id": "python",
+            "name": "Python",
             "type": "programming_languages",
-            "path": "tags/programming_languages/css.png",
+            "path": "tags/programming_languages/python.png",
+            "count": 2
+        },
+        {
+            "id": "firebase",
+            "name": "Firebase",
+            "type": "services",
+            "path": "tags/services/firebase.png",
             "count": 2
         },
         {
@@ -246,17 +232,17 @@
             "count": 2
         },
         {
+            "id": "clean-architecture",
+            "name": "Clean Architecture",
+            "type": "software_engineering",
+            "path": "tags/software_engineering/clean-architecture.png",
+            "count": 2
+        },
+        {
             "id": "design-patterns",
             "name": "Design Patterns",
             "type": "software_engineering",
             "path": "tags/software_engineering/design_patterns.png",
-            "count": 2
-        },
-        {
-            "id": "computer-science",
-            "name": "Computer Science",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/computer_science.png",
             "count": 2
         },
         {
@@ -267,52 +253,24 @@
             "count": 2
         },
         {
-            "id": "clean-architecture",
-            "name": "Clean Architecture",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/clean-architecture.png",
-            "count": 2
-        },
-        {
-            "id": "data-science",
-            "name": "Data Science",
-            "type": "ai_ml",
-            "path": "tags/ai_ml/data_science.png",
+            "id": "cybersecurity",
+            "name": "Cybersecurity",
+            "type": "academic",
+            "path": "tags/academic/cybersecurity.png",
             "count": 1
         },
         {
-            "id": "computer-vision",
-            "name": "Computer Vision",
-            "type": "ai_ml",
-            "path": "tags/ai_ml/computer_vision.png",
+            "id": "functional-programming",
+            "name": "Functional Programming",
+            "type": "academic",
+            "path": "tags/academic/functional-programming.webp",
             "count": 1
         },
         {
-            "id": "sign-language",
-            "name": "Sign Language",
-            "type": "ai_ml",
-            "path": "tags/ai_ml/sign_language.png",
-            "count": 1
-        },
-        {
-            "id": "data-analytics",
-            "name": "Data Analytics",
-            "type": "ai_ml",
-            "path": "tags/ai_ml/data-analytics.png",
-            "count": 1
-        },
-        {
-            "id": "deep-learning",
-            "name": "Deep Learning",
-            "type": "ai_ml",
-            "path": "tags/ai_ml/deep-learning.png",
-            "count": 1
-        },
-        {
-            "id": "big-data",
-            "name": "Big Data",
-            "type": "ai_ml",
-            "path": "tags/ai_ml/big-data.png",
+            "id": "statistics",
+            "name": "Statistics",
+            "type": "academic",
+            "path": "tags/academic/statistics.png",
             "count": 1
         },
         {
@@ -323,99 +281,148 @@
             "count": 1
         },
         {
-            "id": "whisper-ai",
-            "name": "Whisper AI",
+            "id": "big-data",
+            "name": "Big Data",
             "type": "ai_ml",
-            "path": "tags/ai_ml/whisper-ai.png",
+            "path": "tags/ai_ml/big-data.png",
+            "count": 1
+        },
+        {
+            "id": "computer-vision",
+            "name": "Computer Vision",
+            "type": "ai_ml",
+            "path": "tags/ai_ml/computer_vision.png",
+            "count": 1
+        },
+        {
+            "id": "data-analytics",
+            "name": "Data Analytics",
+            "type": "ai_ml",
+            "path": "tags/ai_ml/data-analytics.png",
+            "count": 1
+        },
+        {
+            "id": "data-science",
+            "name": "Data Science",
+            "type": "ai_ml",
+            "path": "tags/ai_ml/data_science.png",
+            "count": 1
+        },
+        {
+            "id": "deep-learning",
+            "name": "Deep Learning",
+            "type": "ai_ml",
+            "path": "tags/ai_ml/deep-learning.png",
             "count": 1
         },
         {
             "id": "generative-ai",
-            "name": "Generative AI",
+            "name": "Generative Ai",
             "type": "ai_ml",
             "path": "tags/ai_ml/generative-ai.webp",
             "count": 1
         },
         {
-            "id": "aws",
-            "name": "AWS",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/aws.png",
+            "id": "sign-language",
+            "name": "Sign Language",
+            "type": "ai_ml",
+            "path": "tags/ai_ml/sign_language.png",
             "count": 1
         },
         {
-            "id": "vercel",
-            "name": "Vercel",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/vercel.svg",
-            "count": 1
-        },
-        {
-            "id": "apache-tomcat",
-            "name": "Apache Tomcat",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/apache_tomcat.png",
-            "count": 1
-        },
-        {
-            "id": "maven",
-            "name": "Maven",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/maven.jpg",
+            "id": "whisper-ai",
+            "name": "Whisper Ai",
+            "type": "ai_ml",
+            "path": "tags/ai_ml/whisper-ai.png",
             "count": 1
         },
         {
             "id": "cloud",
             "name": "Cloud",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/cloud.png",
-            "count": 1
-        },
-        {
-            "id": "icsc",
-            "name": "ICSC",
-            "type": "competitive",
-            "path": "tags/competitive/icsc.png",
+            "type": "common",
+            "path": "tags/common/cloud.png",
             "count": 1
         },
         {
             "id": "competition",
             "name": "Competition",
-            "type": "competitive",
-            "path": "tags/competitive/competition.png",
+            "type": "common",
+            "path": "tags/common/competition.png",
             "count": 1
         },
         {
-            "id": "unsplash",
-            "name": "Unsplash",
-            "type": "computer_science",
-            "path": "tags/computer_science/unsplash.png",
+            "id": "conference",
+            "name": "Conference",
+            "type": "common",
+            "path": "tags/common/conference.png",
             "count": 1
         },
         {
-            "id": "scientific",
-            "name": "Scientific",
-            "type": "computer_science",
-            "path": "tags/computer_science/science.png",
+            "id": "content-creation",
+            "name": "Content Creation",
+            "type": "common",
+            "path": "tags/common/content-creation.webp",
             "count": 1
         },
         {
-            "id": "functional-programming",
-            "name": "Functional Programming",
-            "type": "computer_science",
-            "path": "tags/computer_science/functional-programming.webp",
+            "id": "hackathon",
+            "name": "Hackathon",
+            "type": "common",
+            "path": "tags/common/hackathon.png",
             "count": 1
         },
         {
-            "id": "cybersecurity",
-            "name": "Cybersecurity",
-            "type": "computer_science",
-            "path": "tags/computer_science/cybersecurity.png",
+            "id": "internship",
+            "name": "Internship",
+            "type": "common",
+            "path": "tags/common/internship.png",
+            "count": 1
+        },
+        {
+            "id": "leadership",
+            "name": "Leadership",
+            "type": "common",
+            "path": "tags/common/leadership.png",
+            "count": 1
+        },
+        {
+            "id": "no-code",
+            "name": "No Code",
+            "type": "common",
+            "path": "tags/common/no_code.png",
+            "count": 1
+        },
+        {
+            "id": "organization",
+            "name": "Organization",
+            "type": "common",
+            "path": "tags/common/organization.png",
+            "count": 1
+        },
+        {
+            "id": "recommendation",
+            "name": "Recommendation",
+            "type": "common",
+            "path": "tags/common/recommendation.png",
+            "count": 1
+        },
+        {
+            "id": "research",
+            "name": "Research",
+            "type": "common",
+            "path": "tags/common/research.png",
+            "count": 1
+        },
+        {
+            "id": "startup",
+            "name": "Startup",
+            "type": "common",
+            "path": "tags/common/startup.png",
             "count": 1
         },
         {
             "id": "mysql",
-            "name": "MySQL",
+            "name": "Mysql",
             "type": "data",
             "path": "tags/data/mysql.png",
             "count": 1
@@ -428,80 +435,24 @@
             "count": 1
         },
         {
-            "id": "database_administration",
-            "name": "Database Administration",
-            "type": "data",
-            "path": "tags/data/database_administration.png",
-            "count": 1
-        },
-        {
-            "id": "crm",
-            "name": "CRM",
-            "type": "data",
-            "path": "tags/data/crm.png",
-            "count": 1
-        },
-        {
-            "id": "erp",
-            "name": "ERP",
-            "type": "data",
-            "path": "tags/data/erp.png",
-            "count": 1
-        },
-        {
-            "id": "conference",
-            "name": "Conference",
-            "type": "experience",
-            "path": "tags/experience/conference.png",
-            "count": 1
-        },
-        {
-            "id": "internship",
-            "name": "Internship",
-            "type": "experience",
-            "path": "tags/experience/internship.png",
-            "count": 1
-        },
-        {
-            "id": "hackathon",
-            "name": "Hackathon",
-            "type": "experience",
-            "path": "tags/experience/hackathon.png",
-            "count": 1
-        },
-        {
-            "id": "startup",
-            "name": "Startup",
-            "type": "experience",
-            "path": "tags/experience/startup.png",
-            "count": 1
-        },
-        {
-            "id": "technical-interview",
-            "name": "Technical Interview",
-            "type": "experience",
-            "path": "tags/experience/interview.png",
-            "count": 1
-        },
-        {
-            "id": "recommendation",
-            "name": "Recommendation",
-            "type": "experience",
-            "path": "tags/experience/recommendation.png",
-            "count": 1
-        },
-        {
-            "id": "worldskills",
-            "name": "WorldSkills",
-            "type": "experience",
-            "path": "tags/experience/world-skills.png",
-            "count": 1
-        },
-        {
             "id": "django",
             "name": "Django",
             "type": "frameworks",
             "path": "tags/frameworks/django.svg",
+            "count": 1
+        },
+        {
+            "id": "hibernate",
+            "name": "Hibernate",
+            "type": "frameworks",
+            "path": "tags/frameworks/hibernate_logo.png",
+            "count": 1
+        },
+        {
+            "id": "next-js",
+            "name": "Next.js",
+            "type": "frameworks",
+            "path": "tags/frameworks/next-js.png",
             "count": 1
         },
         {
@@ -512,10 +463,10 @@
             "count": 1
         },
         {
-            "id": "resend",
-            "name": "Resend",
+            "id": "riverpod",
+            "name": "Riverpod",
             "type": "frameworks",
-            "path": "tags/frameworks/resend.webp",
+            "path": "tags/frameworks/riverpod.png",
             "count": 1
         },
         {
@@ -533,83 +484,6 @@
             "count": 1
         },
         {
-            "id": "hibernate",
-            "name": "Hibernate",
-            "type": "frameworks",
-            "path": "tags/frameworks/hibernate_logo.png",
-            "count": 1
-        },
-        {
-            "id": "no-code",
-            "name": "No Code",
-            "type": "frameworks",
-            "path": "tags/frameworks/no_code.png",
-            "count": 1
-        },
-        {
-            "id": "riverpod",
-            "name": "Riverpod",
-            "type": "frameworks",
-            "path": "tags/frameworks/riverpod.png",
-            "count": 1
-        },
-        {
-            "id": "next-js",
-            "name": "Next.js",
-            "type": "frameworks",
-            "path": "tags/frameworks/next-js.png",
-            "count": 1
-        },
-        {
-            "id": "leadership",
-            "name": "Leadership",
-            "type": "management_lead",
-            "path": "tags/management_lead/leadership.png",
-            "count": 1
-        },
-        {
-            "id": "content-creation",
-            "name": "Content Creation",
-            "type": "management_lead",
-            "path": "tags/management_lead/content-creation.webp",
-            "count": 1
-        },
-        {
-            "id": "organization",
-            "name": "Organization",
-            "type": "management_lead",
-            "path": "tags/management_lead/organization.png",
-            "count": 1
-        },
-        {
-            "id": "entrepreneurship",
-            "name": "Entrepreneurship",
-            "type": "management_lead",
-            "path": "tags/management_lead/entrepreneur.png",
-            "count": 1
-        },
-        {
-            "id": "statistics",
-            "name": "Statistics",
-            "type": "math",
-            "path": "tags/math/statistics.png",
-            "count": 1
-        },
-        {
-            "id": "research",
-            "name": "Research",
-            "type": "organizations",
-            "path": "tags/organizations/research.png",
-            "count": 1
-        },
-        {
-            "id": "constructor-university",
-            "name": "Constructor University",
-            "type": "organizations",
-            "path": "tags/organizations/constructor_university.png",
-            "count": 1
-        },
-        {
             "id": "4sim",
             "name": "4sim",
             "type": "organizations",
@@ -617,52 +491,24 @@
             "count": 1
         },
         {
-            "id": "coursera",
-            "name": "Coursera",
+            "id": "abb",
+            "name": "Abb",
             "type": "organizations",
-            "path": "tags/organizations/coursera.png",
+            "path": "tags/organizations/abb.png",
             "count": 1
         },
         {
-            "id": "udemy",
-            "name": "Udemy",
+            "id": "aegee",
+            "name": "Aegee",
             "type": "organizations",
-            "path": "tags/organizations/udemy.webp",
+            "path": "tags/organizations/aegee.png",
             "count": 1
         },
         {
-            "id": "bhos",
-            "name": "BHOS",
+            "id": "arti",
+            "name": "Arti",
             "type": "organizations",
-            "path": "tags/organizations/bhos.png",
-            "count": 1
-        },
-        {
-            "id": "miuul",
-            "name": "Miuul",
-            "type": "organizations",
-            "path": "tags/organizations/miuul.png",
-            "count": 1
-        },
-        {
-            "id": "holberton-school",
-            "name": "Holberton School",
-            "type": "organizations",
-            "path": "tags/organizations/holberton-school.webp",
-            "count": 1
-        },
-        {
-            "id": "stanford-university",
-            "name": "Stanford University",
-            "type": "organizations",
-            "path": "tags/organizations/standford-university.avif",
-            "count": 1
-        },
-        {
-            "id": "deeplearning-ai",
-            "name": "DeepLearning.AI",
-            "type": "organizations",
-            "path": "tags/organizations/deeplearning-ai.png",
+            "path": "tags/organizations/arti.png",
             "count": 1
         },
         {
@@ -673,52 +519,10 @@
             "count": 1
         },
         {
-            "id": "ei-group",
-            "name": "EI Group",
+            "id": "bhos",
+            "name": "BHOS",
             "type": "organizations",
-            "path": "tags/organizations/ei-group.png",
-            "count": 1
-        },
-        {
-            "id": "arti",
-            "name": "ARTI",
-            "type": "organizations",
-            "path": "tags/organizations/arti.png",
-            "count": 1
-        },
-        {
-            "id": "eolymp",
-            "name": "E-olymp",
-            "type": "organizations",
-            "path": "tags/organizations/e-olymp.png",
-            "count": 1
-        },
-        {
-            "id": "ufu",
-            "name": "Federal University of Uberlândia",
-            "type": "organizations",
-            "path": "tags/organizations/ufu.png",
-            "count": 1
-        },
-        {
-            "id": "abb",
-            "name": "ABB",
-            "type": "organizations",
-            "path": "tags/organizations/abb.png",
-            "count": 1
-        },
-        {
-            "id": "codestar",
-            "name": "CodeStar",
-            "type": "organizations",
-            "path": "tags/organizations/codestar.webp",
-            "count": 1
-        },
-        {
-            "id": "aegee",
-            "name": "AEGEE",
-            "type": "organizations",
-            "path": "tags/organizations/aegee.png",
+            "path": "tags/organizations/bhos.png",
             "count": 1
         },
         {
@@ -736,6 +540,76 @@
             "count": 1
         },
         {
+            "id": "codestar",
+            "name": "Codestar",
+            "type": "organizations",
+            "path": "tags/organizations/codestar.webp",
+            "count": 1
+        },
+        {
+            "id": "constructor-university",
+            "name": "Constructor University",
+            "type": "organizations",
+            "path": "tags/organizations/constructor_university.png",
+            "count": 1
+        },
+        {
+            "id": "coursera",
+            "name": "Coursera",
+            "type": "organizations",
+            "path": "tags/organizations/coursera.png",
+            "count": 1
+        },
+        {
+            "id": "deeplearning-ai",
+            "name": "Deeplearning Ai",
+            "type": "organizations",
+            "path": "tags/organizations/deeplearning-ai.png",
+            "count": 1
+        },
+        {
+            "id": "eolymp",
+            "name": "Eolymp",
+            "type": "organizations",
+            "path": "tags/organizations/e-olymp.png",
+            "count": 1
+        },
+        {
+            "id": "ei-group",
+            "name": "Ei Group",
+            "type": "organizations",
+            "path": "tags/organizations/ei-group.png",
+            "count": 1
+        },
+        {
+            "id": "erp-systems",
+            "name": "Erp Systems",
+            "type": "organizations",
+            "path": "tags/organizations/erp_systems.png",
+            "count": 1
+        },
+        {
+            "id": "holberton-school",
+            "name": "Holberton School",
+            "type": "organizations",
+            "path": "tags/organizations/holberton-school.webp",
+            "count": 1
+        },
+        {
+            "id": "icsc",
+            "name": "Icsc",
+            "type": "organizations",
+            "path": "tags/organizations/icsc.png",
+            "count": 1
+        },
+        {
+            "id": "miuul",
+            "name": "Miuul",
+            "type": "organizations",
+            "path": "tags/organizations/miuul.png",
+            "count": 1
+        },
+        {
             "id": "siemens",
             "name": "Siemens",
             "type": "organizations",
@@ -743,10 +617,31 @@
             "count": 1
         },
         {
-            "id": "erp-systems",
-            "name": "ERP-Systems",
+            "id": "stanford-university",
+            "name": "Stanford University",
             "type": "organizations",
-            "path": "tags/organizations/erp_systems.png",
+            "path": "tags/organizations/standford-university.avif",
+            "count": 1
+        },
+        {
+            "id": "udemy",
+            "name": "Udemy",
+            "type": "organizations",
+            "path": "tags/organizations/udemy.webp",
+            "count": 1
+        },
+        {
+            "id": "ufu",
+            "name": "Ufu",
+            "type": "organizations",
+            "path": "tags/organizations/ufu.png",
+            "count": 1
+        },
+        {
+            "id": "c-sharp",
+            "name": "C Sharp",
+            "type": "programming_languages",
+            "path": "tags/programming_languages/c_sharp.png",
             "count": 1
         },
         {
@@ -764,10 +659,45 @@
             "count": 1
         },
         {
-            "id": "c-sharp",
-            "name": "C Sharp",
-            "type": "programming_languages",
-            "path": "tags/programming_languages/c_sharp.png",
+            "id": "aws",
+            "name": "AWS",
+            "type": "services",
+            "path": "tags/services/aws.png",
+            "count": 1
+        },
+        {
+            "id": "crm",
+            "name": "CRM",
+            "type": "services",
+            "path": "tags/services/crm.png",
+            "count": 1
+        },
+        {
+            "id": "erp",
+            "name": "ERP",
+            "type": "services",
+            "path": "tags/services/erp.png",
+            "count": 1
+        },
+        {
+            "id": "resend",
+            "name": "Resend",
+            "type": "services",
+            "path": "tags/services/resend.webp",
+            "count": 1
+        },
+        {
+            "id": "unsplash",
+            "name": "Unsplash",
+            "type": "services",
+            "path": "tags/services/unsplash.png",
+            "count": 1
+        },
+        {
+            "id": "vercel",
+            "name": "Vercel",
+            "type": "services",
+            "path": "tags/services/vercel.svg",
             "count": 1
         },
         {
@@ -778,45 +708,24 @@
             "count": 1
         },
         {
-            "id": "oop",
-            "name": "OOP",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/oop.png",
-            "count": 1
-        },
-        {
-            "id": "software-architecture",
-            "name": "Software Architecture",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/software_architecture.png",
-            "count": 1
-        },
-        {
-            "id": "photoshop",
-            "name": "Photoshop",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/photoshop.png",
-            "count": 1
-        },
-        {
-            "id": "solid-principles",
-            "name": "SOLID Principles",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/solid-principles.png",
-            "count": 1
-        },
-        {
-            "id": "responsive",
-            "name": "Responsive Design",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/responsive.png",
-            "count": 1
-        },
-        {
             "id": "full-stack",
             "name": "Full Stack",
             "type": "software_engineering",
             "path": "tags/software_engineering/full-stack.png",
+            "count": 1
+        },
+        {
+            "id": "multi-app",
+            "name": "Multi App",
+            "type": "software_engineering",
+            "path": "tags/software_engineering/multi-app.png",
+            "count": 1
+        },
+        {
+            "id": "oop",
+            "name": "OOP",
+            "type": "software_engineering",
+            "path": "tags/software_engineering/oop.png",
             "count": 1
         },
         {
@@ -827,94 +736,129 @@
             "count": 1
         },
         {
-            "id": "multi-app",
-            "name": "Multi-App System",
+            "id": "responsive",
+            "name": "Responsive",
             "type": "software_engineering",
-            "path": "tags/software_engineering/multi-app.png",
+            "path": "tags/software_engineering/responsive.png",
             "count": 1
         },
         {
-            "id": "docker",
-            "name": "Docker",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/docker.svg",
-            "count": 0
+            "id": "software-architecture",
+            "name": "Software Architecture",
+            "type": "software_engineering",
+            "path": "tags/software_engineering/software_architecture.png",
+            "count": 1
         },
         {
-            "id": "github",
-            "name": "GitHub",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/github.webp",
-            "count": 0
+            "id": "solid-principles",
+            "name": "SOLID Principles",
+            "type": "software_engineering",
+            "path": "tags/software_engineering/solid-principles.png",
+            "count": 1
         },
         {
-            "id": "ghcr",
-            "name": "GHCR",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/ghcr.png",
-            "count": 0
+            "id": "apache-tomcat",
+            "name": "Apache Tomcat",
+            "type": "tools",
+            "path": "tags/tools/apache_tomcat.png",
+            "count": 1
         },
         {
-            "id": "cloudrun",
-            "name": "Cloud Run",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/cloud_run.png",
-            "count": 0
+            "id": "maven",
+            "name": "Maven",
+            "type": "tools",
+            "path": "tags/tools/maven.jpg",
+            "count": 1
         },
         {
-            "id": "namecheap",
-            "name": "Namecheap",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/namecheap.webp",
-            "count": 0
+            "id": "photoshop",
+            "name": "Photoshop",
+            "type": "tools",
+            "path": "tags/tools/photoshop.png",
+            "count": 1
         },
         {
-            "id": "alwaysdata",
-            "name": "Alwaysdata",
-            "type": "cloud_devops",
-            "path": "tags/cloud_devops/alwaysdata.png",
+            "id": "programming",
+            "name": "Programming",
+            "type": "academic",
+            "path": "tags/academic/programming.webp",
             "count": 0
         },
         {
             "id": "camp",
             "name": "Camp",
-            "type": "competitive",
-            "path": "tags/competitive/camp.png",
-            "count": 0
-        },
-        {
-            "id": "programming",
-            "name": "Programming",
-            "type": "computer_science",
-            "path": "tags/computer_science/programming.webp",
+            "type": "common",
+            "path": "tags/common/camp.png",
             "count": 0
         },
         {
             "id": "design",
             "name": "Design",
-            "type": "computer_science",
-            "path": "tags/computer_science/design.png",
+            "type": "common",
+            "path": "tags/common/design.png",
             "count": 0
         },
         {
-            "id": "postgresql",
-            "name": "PostgreSQL",
+            "id": "entrepreneur",
+            "name": "Entrepreneur",
+            "type": "common",
+            "path": "tags/common/entrepreneur.png",
+            "count": 0
+        },
+        {
+            "id": "interview",
+            "name": "Interview",
+            "type": "common",
+            "path": "tags/common/interview.png",
+            "count": 0
+        },
+        {
+            "id": "science",
+            "name": "Science",
+            "type": "common",
+            "path": "tags/common/science.png",
+            "count": 0
+        },
+        {
+            "id": "algorithm",
+            "name": "Algorithm",
+            "type": "competitive_programming",
+            "path": "tags/competitive_programming/algorithm.png",
+            "count": 0
+        },
+        {
+            "id": "dp",
+            "name": "Dp",
+            "type": "competitive_programming",
+            "path": "tags/competitive_programming/dp.png",
+            "count": 0
+        },
+        {
+            "id": "graph",
+            "name": "Graph",
+            "type": "competitive_programming",
+            "path": "tags/competitive_programming/graph.png",
+            "count": 0
+        },
+        {
+            "id": "database-administration",
+            "name": "Database Administration",
             "type": "data",
-            "path": "tags/data/postgresql.png",
+            "path": "tags/data/database_administration.png",
             "count": 0
         },
         {
-            "id": "mongodb",
-            "name": "MongoDB",
+            "id": "mongo",
+            "name": "Mongo",
             "type": "data",
             "path": "tags/data/mongo.png",
             "count": 0
         },
         {
-            "id": "tailwind",
-            "name": "Tailwind CSS",
-            "type": "frameworks",
-            "path": "tags/frameworks/tailwind.png",
+            "id": "postgresql",
+            "name": "Postgresql",
+            "type": "data",
+            "path": "tags/data/postgresql.png",
             "count": 0
         },
         {
@@ -925,10 +869,31 @@
             "count": 0
         },
         {
-            "id": "ably",
-            "name": "Ably",
+            "id": "tailwind",
+            "name": "Tailwind",
             "type": "frameworks",
-            "path": "tags/frameworks/ably.png",
+            "path": "tags/frameworks/tailwind.png",
+            "count": 0
+        },
+        {
+            "id": "ieee",
+            "name": "Ieee",
+            "type": "organizations",
+            "path": "tags/organizations/ieee.png",
+            "count": 0
+        },
+        {
+            "id": "turkcell",
+            "name": "Turkcell",
+            "type": "organizations",
+            "path": "tags/organizations/turkcell.png",
+            "count": 0
+        },
+        {
+            "id": "world-skills",
+            "name": "World Skills",
+            "type": "organizations",
+            "path": "tags/organizations/world-skills.png",
             "count": 0
         },
         {
@@ -943,6 +908,55 @@
             "name": "TypeScript",
             "type": "programming_languages",
             "path": "tags/programming_languages/ts.png",
+            "count": 0
+        },
+        {
+            "id": "ably",
+            "name": "Ably",
+            "type": "services",
+            "path": "tags/services/ably.png",
+            "count": 0
+        },
+        {
+            "id": "alwaysdata",
+            "name": "Alwaysdata",
+            "type": "services",
+            "path": "tags/services/alwaysdata.png",
+            "count": 0
+        },
+        {
+            "id": "cloud-run",
+            "name": "Cloud Run",
+            "type": "services",
+            "path": "tags/services/cloud_run.png",
+            "count": 0
+        },
+        {
+            "id": "docker",
+            "name": "Docker",
+            "type": "services",
+            "path": "tags/services/docker.svg",
+            "count": 0
+        },
+        {
+            "id": "ghcr",
+            "name": "GHCR",
+            "type": "services",
+            "path": "tags/services/ghcr.png",
+            "count": 0
+        },
+        {
+            "id": "github",
+            "name": "Github",
+            "type": "services",
+            "path": "tags/services/github.webp",
+            "count": 0
+        },
+        {
+            "id": "namecheap",
+            "name": "Namecheap",
+            "type": "services",
+            "path": "tags/services/namecheap.webp",
             "count": 0
         }
     ],
@@ -961,13 +975,6 @@
                     "count": 7
                 },
                 {
-                    "id": "javascript",
-                    "name": "JavaScript",
-                    "type": "programming_languages",
-                    "path": "tags/programming_languages/js.png",
-                    "count": 3
-                },
-                {
                     "id": "java",
                     "name": "Java",
                     "type": "programming_languages",
@@ -975,10 +982,17 @@
                     "count": 3
                 },
                 {
-                    "id": "python",
-                    "name": "Python",
+                    "id": "javascript",
+                    "name": "JavaScript",
                     "type": "programming_languages",
-                    "path": "tags/programming_languages/python.png",
+                    "path": "tags/programming_languages/js.png",
+                    "count": 3
+                },
+                {
+                    "id": "css",
+                    "name": "CSS",
+                    "type": "programming_languages",
+                    "path": "tags/programming_languages/css.png",
                     "count": 2
                 },
                 {
@@ -989,11 +1003,18 @@
                     "count": 2
                 },
                 {
-                    "id": "css",
-                    "name": "CSS",
+                    "id": "python",
+                    "name": "Python",
                     "type": "programming_languages",
-                    "path": "tags/programming_languages/css.png",
+                    "path": "tags/programming_languages/python.png",
                     "count": 2
+                },
+                {
+                    "id": "c-sharp",
+                    "name": "C Sharp",
+                    "type": "programming_languages",
+                    "path": "tags/programming_languages/c_sharp.png",
+                    "count": 1
                 },
                 {
                     "id": "dart",
@@ -1007,13 +1028,6 @@
                     "name": "PHP",
                     "type": "programming_languages",
                     "path": "tags/programming_languages/php.png",
-                    "count": 1
-                },
-                {
-                    "id": "c-sharp",
-                    "name": "C Sharp",
-                    "type": "programming_languages",
-                    "path": "tags/programming_languages/c_sharp.png",
                     "count": 1
                 },
                 {
@@ -1053,6 +1067,20 @@
                     "count": 1
                 },
                 {
+                    "id": "hibernate",
+                    "name": "Hibernate",
+                    "type": "frameworks",
+                    "path": "tags/frameworks/hibernate_logo.png",
+                    "count": 1
+                },
+                {
+                    "id": "next-js",
+                    "name": "Next.js",
+                    "type": "frameworks",
+                    "path": "tags/frameworks/next-js.png",
+                    "count": 1
+                },
+                {
                     "id": "react",
                     "name": "React",
                     "type": "frameworks",
@@ -1060,10 +1088,10 @@
                     "count": 1
                 },
                 {
-                    "id": "resend",
-                    "name": "Resend",
+                    "id": "riverpod",
+                    "name": "Riverpod",
                     "type": "frameworks",
-                    "path": "tags/frameworks/resend.webp",
+                    "path": "tags/frameworks/riverpod.png",
                     "count": 1
                 },
                 {
@@ -1081,41 +1109,6 @@
                     "count": 1
                 },
                 {
-                    "id": "hibernate",
-                    "name": "Hibernate",
-                    "type": "frameworks",
-                    "path": "tags/frameworks/hibernate_logo.png",
-                    "count": 1
-                },
-                {
-                    "id": "no-code",
-                    "name": "No Code",
-                    "type": "frameworks",
-                    "path": "tags/frameworks/no_code.png",
-                    "count": 1
-                },
-                {
-                    "id": "riverpod",
-                    "name": "Riverpod",
-                    "type": "frameworks",
-                    "path": "tags/frameworks/riverpod.png",
-                    "count": 1
-                },
-                {
-                    "id": "next-js",
-                    "name": "Next.js",
-                    "type": "frameworks",
-                    "path": "tags/frameworks/next-js.png",
-                    "count": 1
-                },
-                {
-                    "id": "tailwind",
-                    "name": "Tailwind CSS",
-                    "type": "frameworks",
-                    "path": "tags/frameworks/tailwind.png",
-                    "count": 0
-                },
-                {
                     "id": "bootstrap",
                     "name": "Bootstrap",
                     "type": "frameworks",
@@ -1123,10 +1116,10 @@
                     "count": 0
                 },
                 {
-                    "id": "ably",
-                    "name": "Ably",
+                    "id": "tailwind",
+                    "name": "Tailwind",
                     "type": "frameworks",
-                    "path": "tags/frameworks/ably.png",
+                    "path": "tags/frameworks/tailwind.png",
                     "count": 0
                 }
             ]
@@ -1139,7 +1132,7 @@
             "tags": [
                 {
                     "id": "mysql",
-                    "name": "MySQL",
+                    "name": "Mysql",
                     "type": "data",
                     "path": "tags/data/mysql.png",
                     "count": 1
@@ -1152,38 +1145,24 @@
                     "count": 1
                 },
                 {
-                    "id": "database_administration",
+                    "id": "database-administration",
                     "name": "Database Administration",
                     "type": "data",
                     "path": "tags/data/database_administration.png",
-                    "count": 1
-                },
-                {
-                    "id": "crm",
-                    "name": "CRM",
-                    "type": "data",
-                    "path": "tags/data/crm.png",
-                    "count": 1
-                },
-                {
-                    "id": "erp",
-                    "name": "ERP",
-                    "type": "data",
-                    "path": "tags/data/erp.png",
-                    "count": 1
-                },
-                {
-                    "id": "postgresql",
-                    "name": "PostgreSQL",
-                    "type": "data",
-                    "path": "tags/data/postgresql.png",
                     "count": 0
                 },
                 {
-                    "id": "mongodb",
-                    "name": "MongoDB",
+                    "id": "mongo",
+                    "name": "Mongo",
                     "type": "data",
                     "path": "tags/data/mongo.png",
+                    "count": 0
+                },
+                {
+                    "id": "postgresql",
+                    "name": "Postgresql",
+                    "type": "data",
+                    "path": "tags/data/postgresql.png",
                     "count": 0
                 }
             ]
@@ -1223,38 +1202,10 @@
                     "count": 2
                 },
                 {
-                    "id": "data-science",
-                    "name": "Data Science",
+                    "id": "adaptive-loss",
+                    "name": "Adaptive Loss",
                     "type": "ai_ml",
-                    "path": "tags/ai_ml/data_science.png",
-                    "count": 1
-                },
-                {
-                    "id": "computer-vision",
-                    "name": "Computer Vision",
-                    "type": "ai_ml",
-                    "path": "tags/ai_ml/computer_vision.png",
-                    "count": 1
-                },
-                {
-                    "id": "sign-language",
-                    "name": "Sign Language",
-                    "type": "ai_ml",
-                    "path": "tags/ai_ml/sign_language.png",
-                    "count": 1
-                },
-                {
-                    "id": "data-analytics",
-                    "name": "Data Analytics",
-                    "type": "ai_ml",
-                    "path": "tags/ai_ml/data-analytics.png",
-                    "count": 1
-                },
-                {
-                    "id": "deep-learning",
-                    "name": "Deep Learning",
-                    "type": "ai_ml",
-                    "path": "tags/ai_ml/deep-learning.png",
+                    "path": "tags/ai_ml/adaptive-loss.jpg",
                     "count": 1
                 },
                 {
@@ -1265,153 +1216,53 @@
                     "count": 1
                 },
                 {
-                    "id": "adaptive-loss",
-                    "name": "Adaptive Loss",
+                    "id": "computer-vision",
+                    "name": "Computer Vision",
                     "type": "ai_ml",
-                    "path": "tags/ai_ml/adaptive-loss.jpg",
+                    "path": "tags/ai_ml/computer_vision.png",
                     "count": 1
                 },
                 {
-                    "id": "whisper-ai",
-                    "name": "Whisper AI",
+                    "id": "data-analytics",
+                    "name": "Data Analytics",
                     "type": "ai_ml",
-                    "path": "tags/ai_ml/whisper-ai.png",
+                    "path": "tags/ai_ml/data-analytics.png",
+                    "count": 1
+                },
+                {
+                    "id": "data-science",
+                    "name": "Data Science",
+                    "type": "ai_ml",
+                    "path": "tags/ai_ml/data_science.png",
+                    "count": 1
+                },
+                {
+                    "id": "deep-learning",
+                    "name": "Deep Learning",
+                    "type": "ai_ml",
+                    "path": "tags/ai_ml/deep-learning.png",
                     "count": 1
                 },
                 {
                     "id": "generative-ai",
-                    "name": "Generative AI",
+                    "name": "Generative Ai",
                     "type": "ai_ml",
                     "path": "tags/ai_ml/generative-ai.webp",
                     "count": 1
-                }
-            ]
-        },
-        {
-            "id": "math",
-            "name": "Mathematics",
-            "icon": "binary",
-            "color": "#facc15",
-            "tags": [
-                {
-                    "id": "math",
-                    "name": "Math",
-                    "type": "math",
-                    "path": "tags/math/math.png",
-                    "count": 9
                 },
                 {
-                    "id": "number-theory",
-                    "name": "Number Theory",
-                    "type": "math",
-                    "path": "tags/math/number-theory.png",
-                    "count": 5
-                },
-                {
-                    "id": "geometry",
-                    "name": "Geometry",
-                    "type": "math",
-                    "path": "tags/math/geometry.webp",
-                    "count": 3
-                },
-                {
-                    "id": "game-theory",
-                    "name": "Game Theory",
-                    "type": "math",
-                    "path": "tags/math/game-theory.png",
-                    "count": 2
-                },
-                {
-                    "id": "probability",
-                    "name": "Probability",
-                    "type": "math",
-                    "path": "tags/math/probability.png",
-                    "count": 2
-                },
-                {
-                    "id": "statistics",
-                    "name": "Statistics",
-                    "type": "math",
-                    "path": "tags/math/statistics.png",
-                    "count": 1
-                }
-            ]
-        },
-        {
-            "id": "computer_science",
-            "name": "Computer Science",
-            "icon": "cpu",
-            "color": "#94a3b8",
-            "tags": [
-                {
-                    "id": "problem-solving",
-                    "name": "Problem Solving",
-                    "type": "computer_science",
-                    "path": "tags/computer_science/problem-solving.png",
-                    "count": 7
-                },
-                {
-                    "id": "dynamic-programming",
-                    "name": "Dynamic Programming",
-                    "type": "computer_science",
-                    "path": "tags/computer_science/dp.png",
-                    "count": 6
-                },
-                {
-                    "id": "greedy-algorithms",
-                    "name": "Greedy Algorithms",
-                    "type": "computer_science",
-                    "path": "tags/computer_science/greedy-algorithms.png",
-                    "count": 5
-                },
-                {
-                    "id": "cryptography",
-                    "name": "Cryptography",
-                    "type": "computer_science",
-                    "path": "tags/computer_science/cryptography.png",
-                    "count": 2
-                },
-                {
-                    "id": "unsplash",
-                    "name": "Unsplash",
-                    "type": "computer_science",
-                    "path": "tags/computer_science/unsplash.png",
+                    "id": "sign-language",
+                    "name": "Sign Language",
+                    "type": "ai_ml",
+                    "path": "tags/ai_ml/sign_language.png",
                     "count": 1
                 },
                 {
-                    "id": "scientific",
-                    "name": "Scientific",
-                    "type": "computer_science",
-                    "path": "tags/computer_science/science.png",
+                    "id": "whisper-ai",
+                    "name": "Whisper Ai",
+                    "type": "ai_ml",
+                    "path": "tags/ai_ml/whisper-ai.png",
                     "count": 1
-                },
-                {
-                    "id": "functional-programming",
-                    "name": "Functional Programming",
-                    "type": "computer_science",
-                    "path": "tags/computer_science/functional-programming.webp",
-                    "count": 1
-                },
-                {
-                    "id": "cybersecurity",
-                    "name": "Cybersecurity",
-                    "type": "computer_science",
-                    "path": "tags/computer_science/cybersecurity.png",
-                    "count": 1
-                },
-                {
-                    "id": "programming",
-                    "name": "Programming",
-                    "type": "computer_science",
-                    "path": "tags/computer_science/programming.webp",
-                    "count": 0
-                },
-                {
-                    "id": "design",
-                    "name": "Design",
-                    "type": "computer_science",
-                    "path": "tags/computer_science/design.png",
-                    "count": 0
                 }
             ]
         },
@@ -1422,38 +1273,17 @@
             "color": "#38bdf8",
             "tags": [
                 {
-                    "id": "algorithms",
-                    "name": "Algorithms",
+                    "id": "mobile-development",
+                    "name": "Mobile Development",
                     "type": "software_engineering",
-                    "path": "tags/software_engineering/algorithm.png",
-                    "count": 13
-                },
-                {
-                    "id": "data-structures",
-                    "name": "Data Structures",
-                    "type": "software_engineering",
-                    "path": "tags/software_engineering/data_structures.png",
-                    "count": 10
-                },
-                {
-                    "id": "graphs",
-                    "name": "Graphs",
-                    "type": "software_engineering",
-                    "path": "tags/software_engineering/graph.png",
-                    "count": 7
+                    "path": "tags/software_engineering/mobile_development.png",
+                    "count": 4
                 },
                 {
                     "id": "web",
                     "name": "Web",
                     "type": "software_engineering",
                     "path": "tags/software_engineering/web.webp",
-                    "count": 4
-                },
-                {
-                    "id": "mobile-development",
-                    "name": "Mobile Development",
-                    "type": "software_engineering",
-                    "path": "tags/software_engineering/mobile_development.png",
                     "count": 4
                 },
                 {
@@ -1471,17 +1301,17 @@
                     "count": 2
                 },
                 {
+                    "id": "clean-architecture",
+                    "name": "Clean Architecture",
+                    "type": "software_engineering",
+                    "path": "tags/software_engineering/clean-architecture.png",
+                    "count": 2
+                },
+                {
                     "id": "design-patterns",
                     "name": "Design Patterns",
                     "type": "software_engineering",
                     "path": "tags/software_engineering/design_patterns.png",
-                    "count": 2
-                },
-                {
-                    "id": "computer-science",
-                    "name": "Computer Science",
-                    "type": "software_engineering",
-                    "path": "tags/software_engineering/computer_science.png",
                     "count": 2
                 },
                 {
@@ -1492,52 +1322,10 @@
                     "count": 2
                 },
                 {
-                    "id": "clean-architecture",
-                    "name": "Clean Architecture",
-                    "type": "software_engineering",
-                    "path": "tags/software_engineering/clean-architecture.png",
-                    "count": 2
-                },
-                {
                     "id": "api",
                     "name": "API",
                     "type": "software_engineering",
                     "path": "tags/software_engineering/api.png",
-                    "count": 1
-                },
-                {
-                    "id": "oop",
-                    "name": "OOP",
-                    "type": "software_engineering",
-                    "path": "tags/software_engineering/oop.png",
-                    "count": 1
-                },
-                {
-                    "id": "software-architecture",
-                    "name": "Software Architecture",
-                    "type": "software_engineering",
-                    "path": "tags/software_engineering/software_architecture.png",
-                    "count": 1
-                },
-                {
-                    "id": "photoshop",
-                    "name": "Photoshop",
-                    "type": "software_engineering",
-                    "path": "tags/software_engineering/photoshop.png",
-                    "count": 1
-                },
-                {
-                    "id": "solid-principles",
-                    "name": "SOLID Principles",
-                    "type": "software_engineering",
-                    "path": "tags/software_engineering/solid-principles.png",
-                    "count": 1
-                },
-                {
-                    "id": "responsive",
-                    "name": "Responsive Design",
-                    "type": "software_engineering",
-                    "path": "tags/software_engineering/responsive.png",
                     "count": 1
                 },
                 {
@@ -1548,6 +1336,20 @@
                     "count": 1
                 },
                 {
+                    "id": "multi-app",
+                    "name": "Multi App",
+                    "type": "software_engineering",
+                    "path": "tags/software_engineering/multi-app.png",
+                    "count": 1
+                },
+                {
+                    "id": "oop",
+                    "name": "OOP",
+                    "type": "software_engineering",
+                    "path": "tags/software_engineering/oop.png",
+                    "count": 1
+                },
+                {
                     "id": "production",
                     "name": "Production",
                     "type": "software_engineering",
@@ -1555,138 +1357,130 @@
                     "count": 1
                 },
                 {
-                    "id": "multi-app",
-                    "name": "Multi-App System",
+                    "id": "responsive",
+                    "name": "Responsive",
                     "type": "software_engineering",
-                    "path": "tags/software_engineering/multi-app.png",
+                    "path": "tags/software_engineering/responsive.png",
+                    "count": 1
+                },
+                {
+                    "id": "software-architecture",
+                    "name": "Software Architecture",
+                    "type": "software_engineering",
+                    "path": "tags/software_engineering/software_architecture.png",
+                    "count": 1
+                },
+                {
+                    "id": "solid-principles",
+                    "name": "SOLID Principles",
+                    "type": "software_engineering",
+                    "path": "tags/software_engineering/solid-principles.png",
                     "count": 1
                 }
             ]
         },
         {
-            "id": "cloud_devops",
-            "name": "Cloud & DevOps",
-            "icon": "server",
+            "id": "services",
+            "name": "Services (Saas, PaaS, IaaS)",
+            "icon": "cloud",
             "color": "#fbbf24",
             "tags": [
                 {
                     "id": "firebase",
                     "name": "Firebase",
-                    "type": "cloud_devops",
-                    "path": "tags/cloud_devops/firebase.png",
+                    "type": "services",
+                    "path": "tags/services/firebase.png",
                     "count": 2
                 },
                 {
                     "id": "aws",
                     "name": "AWS",
-                    "type": "cloud_devops",
-                    "path": "tags/cloud_devops/aws.png",
+                    "type": "services",
+                    "path": "tags/services/aws.png",
+                    "count": 1
+                },
+                {
+                    "id": "crm",
+                    "name": "CRM",
+                    "type": "services",
+                    "path": "tags/services/crm.png",
+                    "count": 1
+                },
+                {
+                    "id": "erp",
+                    "name": "ERP",
+                    "type": "services",
+                    "path": "tags/services/erp.png",
+                    "count": 1
+                },
+                {
+                    "id": "resend",
+                    "name": "Resend",
+                    "type": "services",
+                    "path": "tags/services/resend.webp",
+                    "count": 1
+                },
+                {
+                    "id": "unsplash",
+                    "name": "Unsplash",
+                    "type": "services",
+                    "path": "tags/services/unsplash.png",
                     "count": 1
                 },
                 {
                     "id": "vercel",
                     "name": "Vercel",
-                    "type": "cloud_devops",
-                    "path": "tags/cloud_devops/vercel.svg",
+                    "type": "services",
+                    "path": "tags/services/vercel.svg",
                     "count": 1
                 },
                 {
-                    "id": "apache-tomcat",
-                    "name": "Apache Tomcat",
-                    "type": "cloud_devops",
-                    "path": "tags/cloud_devops/apache_tomcat.png",
-                    "count": 1
-                },
-                {
-                    "id": "maven",
-                    "name": "Maven",
-                    "type": "cloud_devops",
-                    "path": "tags/cloud_devops/maven.jpg",
-                    "count": 1
-                },
-                {
-                    "id": "cloud",
-                    "name": "Cloud",
-                    "type": "cloud_devops",
-                    "path": "tags/cloud_devops/cloud.png",
-                    "count": 1
-                },
-                {
-                    "id": "docker",
-                    "name": "Docker",
-                    "type": "cloud_devops",
-                    "path": "tags/cloud_devops/docker.svg",
-                    "count": 0
-                },
-                {
-                    "id": "github",
-                    "name": "GitHub",
-                    "type": "cloud_devops",
-                    "path": "tags/cloud_devops/github.webp",
-                    "count": 0
-                },
-                {
-                    "id": "ghcr",
-                    "name": "GHCR",
-                    "type": "cloud_devops",
-                    "path": "tags/cloud_devops/ghcr.png",
-                    "count": 0
-                },
-                {
-                    "id": "cloudrun",
-                    "name": "Cloud Run",
-                    "type": "cloud_devops",
-                    "path": "tags/cloud_devops/cloud_run.png",
-                    "count": 0
-                },
-                {
-                    "id": "namecheap",
-                    "name": "Namecheap",
-                    "type": "cloud_devops",
-                    "path": "tags/cloud_devops/namecheap.webp",
+                    "id": "ably",
+                    "name": "Ably",
+                    "type": "services",
+                    "path": "tags/services/ably.png",
                     "count": 0
                 },
                 {
                     "id": "alwaysdata",
                     "name": "Alwaysdata",
-                    "type": "cloud_devops",
-                    "path": "tags/cloud_devops/alwaysdata.png",
+                    "type": "services",
+                    "path": "tags/services/alwaysdata.png",
                     "count": 0
-                }
-            ]
-        },
-        {
-            "id": "competitive",
-            "name": "Competitive Honors",
-            "icon": "trophy",
-            "color": "#fcd34d",
-            "tags": [
-                {
-                    "id": "icpc",
-                    "name": "ICPC",
-                    "type": "competitive",
-                    "path": "tags/competitive/icpc.png",
-                    "count": 5
                 },
                 {
-                    "id": "icsc",
-                    "name": "ICSC",
-                    "type": "competitive",
-                    "path": "tags/competitive/icsc.png",
-                    "count": 1
+                    "id": "cloud-run",
+                    "name": "Cloud Run",
+                    "type": "services",
+                    "path": "tags/services/cloud_run.png",
+                    "count": 0
                 },
                 {
-                    "id": "competition",
-                    "name": "Competition",
-                    "type": "competitive",
-                    "path": "tags/competitive/competition.png",
-                    "count": 1
+                    "id": "docker",
+                    "name": "Docker",
+                    "type": "services",
+                    "path": "tags/services/docker.svg",
+                    "count": 0
                 },
                 {
-                    "id": "camp",
-                    "name": "Camp",
-                    "type": "competitive",
-                    "path": "tags/competitive/camp.png",
+                    "id": "ghcr",
+                    "name": "GHCR",
+                    "type": "services",
+                    "path": "tags/services/ghcr.png",
+                    "count": 0
+                },
+                {
+                    "id": "github",
+                    "name": "Github",
+                    "type": "services",
+                    "path": "tags/services/github.webp",
+                    "count": 0
+                },
+                {
+                    "id": "namecheap",
+                    "name": "Namecheap",
+                    "type": "services",
+                    "path": "tags/services/namecheap.webp",
                     "count": 0
                 }
             ]
@@ -1698,10 +1492,10 @@
             "color": "#fb923c",
             "tags": [
                 {
-                    "id": "olympiad",
-                    "name": "Olympiad",
+                    "id": "data-structures",
+                    "name": "Data Structures",
                     "type": "competitive_programming",
-                    "path": "tags/competitive_programming/olympiad.png",
+                    "path": "tags/competitive_programming/data_structures.png",
                     "count": 10
                 },
                 {
@@ -1710,49 +1504,196 @@
                     "type": "competitive_programming",
                     "path": "tags/competitive_programming/competitive_programming.png",
                     "count": 8
+                },
+                {
+                    "id": "problem-solving",
+                    "name": "Problem Solving",
+                    "type": "competitive_programming",
+                    "path": "tags/competitive_programming/problem-solving.png",
+                    "count": 7
+                },
+                {
+                    "id": "greedy-algorithms",
+                    "name": "Greedy Algorithms",
+                    "type": "competitive_programming",
+                    "path": "tags/competitive_programming/greedy-algorithms.png",
+                    "count": 5
+                },
+                {
+                    "id": "algorithm",
+                    "name": "Algorithm",
+                    "type": "competitive_programming",
+                    "path": "tags/competitive_programming/algorithm.png",
+                    "count": 0
+                },
+                {
+                    "id": "dp",
+                    "name": "Dp",
+                    "type": "competitive_programming",
+                    "path": "tags/competitive_programming/dp.png",
+                    "count": 0
+                },
+                {
+                    "id": "graph",
+                    "name": "Graph",
+                    "type": "competitive_programming",
+                    "path": "tags/competitive_programming/graph.png",
+                    "count": 0
                 }
             ]
         },
         {
-            "id": "management_lead",
-            "name": "Management & Lead",
-            "icon": "users",
+            "id": "common",
+            "name": "Common Interests",
+            "icon": "sparkles",
             "color": "#4ade80",
             "tags": [
                 {
-                    "id": "leadership",
-                    "name": "Leadership",
-                    "type": "management_lead",
-                    "path": "tags/management_lead/leadership.png",
+                    "id": "olympiad",
+                    "name": "Olympiad",
+                    "type": "common",
+                    "path": "tags/common/olympiad.png",
+                    "count": 10
+                },
+                {
+                    "id": "math",
+                    "name": "Math",
+                    "type": "common",
+                    "path": "tags/common/math.png",
+                    "count": 9
+                },
+                {
+                    "id": "computer-science",
+                    "name": "Computer Science",
+                    "type": "common",
+                    "path": "tags/common/computer_science.png",
+                    "count": 2
+                },
+                {
+                    "id": "cloud",
+                    "name": "Cloud",
+                    "type": "common",
+                    "path": "tags/common/cloud.png",
+                    "count": 1
+                },
+                {
+                    "id": "competition",
+                    "name": "Competition",
+                    "type": "common",
+                    "path": "tags/common/competition.png",
+                    "count": 1
+                },
+                {
+                    "id": "conference",
+                    "name": "Conference",
+                    "type": "common",
+                    "path": "tags/common/conference.png",
                     "count": 1
                 },
                 {
                     "id": "content-creation",
                     "name": "Content Creation",
-                    "type": "management_lead",
-                    "path": "tags/management_lead/content-creation.webp",
+                    "type": "common",
+                    "path": "tags/common/content-creation.webp",
+                    "count": 1
+                },
+                {
+                    "id": "hackathon",
+                    "name": "Hackathon",
+                    "type": "common",
+                    "path": "tags/common/hackathon.png",
+                    "count": 1
+                },
+                {
+                    "id": "internship",
+                    "name": "Internship",
+                    "type": "common",
+                    "path": "tags/common/internship.png",
+                    "count": 1
+                },
+                {
+                    "id": "leadership",
+                    "name": "Leadership",
+                    "type": "common",
+                    "path": "tags/common/leadership.png",
+                    "count": 1
+                },
+                {
+                    "id": "no-code",
+                    "name": "No Code",
+                    "type": "common",
+                    "path": "tags/common/no_code.png",
                     "count": 1
                 },
                 {
                     "id": "organization",
                     "name": "Organization",
-                    "type": "management_lead",
-                    "path": "tags/management_lead/organization.png",
+                    "type": "common",
+                    "path": "tags/common/organization.png",
                     "count": 1
                 },
                 {
-                    "id": "entrepreneurship",
-                    "name": "Entrepreneurship",
-                    "type": "management_lead",
-                    "path": "tags/management_lead/entrepreneur.png",
+                    "id": "recommendation",
+                    "name": "Recommendation",
+                    "type": "common",
+                    "path": "tags/common/recommendation.png",
                     "count": 1
+                },
+                {
+                    "id": "research",
+                    "name": "Research",
+                    "type": "common",
+                    "path": "tags/common/research.png",
+                    "count": 1
+                },
+                {
+                    "id": "startup",
+                    "name": "Startup",
+                    "type": "common",
+                    "path": "tags/common/startup.png",
+                    "count": 1
+                },
+                {
+                    "id": "camp",
+                    "name": "Camp",
+                    "type": "common",
+                    "path": "tags/common/camp.png",
+                    "count": 0
+                },
+                {
+                    "id": "design",
+                    "name": "Design",
+                    "type": "common",
+                    "path": "tags/common/design.png",
+                    "count": 0
+                },
+                {
+                    "id": "entrepreneur",
+                    "name": "Entrepreneur",
+                    "type": "common",
+                    "path": "tags/common/entrepreneur.png",
+                    "count": 0
+                },
+                {
+                    "id": "interview",
+                    "name": "Interview",
+                    "type": "common",
+                    "path": "tags/common/interview.png",
+                    "count": 0
+                },
+                {
+                    "id": "science",
+                    "name": "Science",
+                    "type": "common",
+                    "path": "tags/common/science.png",
+                    "count": 0
                 }
             ]
         },
         {
             "id": "organizations",
             "name": "Organizations",
-            "icon": "school",
+            "icon": "building",
             "color": "#60a5fa",
             "tags": [
                 {
@@ -1763,11 +1704,25 @@
                     "count": 10
                 },
                 {
+                    "id": "icpc",
+                    "name": "ICPC",
+                    "type": "organizations",
+                    "path": "tags/organizations/icpc.png",
+                    "count": 5
+                },
+                {
                     "id": "ada-university",
                     "name": "Ada University",
                     "type": "organizations",
                     "path": "tags/organizations/ada_university.png",
                     "count": 3
+                },
+                {
+                    "id": "guardian-x",
+                    "name": "Guardian X",
+                    "type": "organizations",
+                    "path": "tags/organizations/guardian_x.png",
+                    "count": 2
                 },
                 {
                     "id": "idda",
@@ -1777,27 +1732,6 @@
                     "count": 2
                 },
                 {
-                    "id": "guardian-x",
-                    "name": "Guardian-X",
-                    "type": "organizations",
-                    "path": "tags/organizations/guardian_x.png",
-                    "count": 2
-                },
-                {
-                    "id": "research",
-                    "name": "Research",
-                    "type": "organizations",
-                    "path": "tags/organizations/research.png",
-                    "count": 1
-                },
-                {
-                    "id": "constructor-university",
-                    "name": "Constructor University",
-                    "type": "organizations",
-                    "path": "tags/organizations/constructor_university.png",
-                    "count": 1
-                },
-                {
                     "id": "4sim",
                     "name": "4sim",
                     "type": "organizations",
@@ -1805,52 +1739,24 @@
                     "count": 1
                 },
                 {
-                    "id": "coursera",
-                    "name": "Coursera",
+                    "id": "abb",
+                    "name": "Abb",
                     "type": "organizations",
-                    "path": "tags/organizations/coursera.png",
+                    "path": "tags/organizations/abb.png",
                     "count": 1
                 },
                 {
-                    "id": "udemy",
-                    "name": "Udemy",
+                    "id": "aegee",
+                    "name": "Aegee",
                     "type": "organizations",
-                    "path": "tags/organizations/udemy.webp",
+                    "path": "tags/organizations/aegee.png",
                     "count": 1
                 },
                 {
-                    "id": "bhos",
-                    "name": "BHOS",
+                    "id": "arti",
+                    "name": "Arti",
                     "type": "organizations",
-                    "path": "tags/organizations/bhos.png",
-                    "count": 1
-                },
-                {
-                    "id": "miuul",
-                    "name": "Miuul",
-                    "type": "organizations",
-                    "path": "tags/organizations/miuul.png",
-                    "count": 1
-                },
-                {
-                    "id": "holberton-school",
-                    "name": "Holberton School",
-                    "type": "organizations",
-                    "path": "tags/organizations/holberton-school.webp",
-                    "count": 1
-                },
-                {
-                    "id": "stanford-university",
-                    "name": "Stanford University",
-                    "type": "organizations",
-                    "path": "tags/organizations/standford-university.avif",
-                    "count": 1
-                },
-                {
-                    "id": "deeplearning-ai",
-                    "name": "DeepLearning.AI",
-                    "type": "organizations",
-                    "path": "tags/organizations/deeplearning-ai.png",
+                    "path": "tags/organizations/arti.png",
                     "count": 1
                 },
                 {
@@ -1861,52 +1767,10 @@
                     "count": 1
                 },
                 {
-                    "id": "ei-group",
-                    "name": "EI Group",
+                    "id": "bhos",
+                    "name": "BHOS",
                     "type": "organizations",
-                    "path": "tags/organizations/ei-group.png",
-                    "count": 1
-                },
-                {
-                    "id": "arti",
-                    "name": "ARTI",
-                    "type": "organizations",
-                    "path": "tags/organizations/arti.png",
-                    "count": 1
-                },
-                {
-                    "id": "eolymp",
-                    "name": "E-olymp",
-                    "type": "organizations",
-                    "path": "tags/organizations/e-olymp.png",
-                    "count": 1
-                },
-                {
-                    "id": "ufu",
-                    "name": "Federal University of Uberlândia",
-                    "type": "organizations",
-                    "path": "tags/organizations/ufu.png",
-                    "count": 1
-                },
-                {
-                    "id": "abb",
-                    "name": "ABB",
-                    "type": "organizations",
-                    "path": "tags/organizations/abb.png",
-                    "count": 1
-                },
-                {
-                    "id": "codestar",
-                    "name": "CodeStar",
-                    "type": "organizations",
-                    "path": "tags/organizations/codestar.webp",
-                    "count": 1
-                },
-                {
-                    "id": "aegee",
-                    "name": "AEGEE",
-                    "type": "organizations",
-                    "path": "tags/organizations/aegee.png",
+                    "path": "tags/organizations/bhos.png",
                     "count": 1
                 },
                 {
@@ -1924,6 +1788,76 @@
                     "count": 1
                 },
                 {
+                    "id": "codestar",
+                    "name": "Codestar",
+                    "type": "organizations",
+                    "path": "tags/organizations/codestar.webp",
+                    "count": 1
+                },
+                {
+                    "id": "constructor-university",
+                    "name": "Constructor University",
+                    "type": "organizations",
+                    "path": "tags/organizations/constructor_university.png",
+                    "count": 1
+                },
+                {
+                    "id": "coursera",
+                    "name": "Coursera",
+                    "type": "organizations",
+                    "path": "tags/organizations/coursera.png",
+                    "count": 1
+                },
+                {
+                    "id": "deeplearning-ai",
+                    "name": "Deeplearning Ai",
+                    "type": "organizations",
+                    "path": "tags/organizations/deeplearning-ai.png",
+                    "count": 1
+                },
+                {
+                    "id": "eolymp",
+                    "name": "Eolymp",
+                    "type": "organizations",
+                    "path": "tags/organizations/e-olymp.png",
+                    "count": 1
+                },
+                {
+                    "id": "ei-group",
+                    "name": "Ei Group",
+                    "type": "organizations",
+                    "path": "tags/organizations/ei-group.png",
+                    "count": 1
+                },
+                {
+                    "id": "erp-systems",
+                    "name": "Erp Systems",
+                    "type": "organizations",
+                    "path": "tags/organizations/erp_systems.png",
+                    "count": 1
+                },
+                {
+                    "id": "holberton-school",
+                    "name": "Holberton School",
+                    "type": "organizations",
+                    "path": "tags/organizations/holberton-school.webp",
+                    "count": 1
+                },
+                {
+                    "id": "icsc",
+                    "name": "Icsc",
+                    "type": "organizations",
+                    "path": "tags/organizations/icsc.png",
+                    "count": 1
+                },
+                {
+                    "id": "miuul",
+                    "name": "Miuul",
+                    "type": "organizations",
+                    "path": "tags/organizations/miuul.png",
+                    "count": 1
+                },
+                {
                     "id": "siemens",
                     "name": "Siemens",
                     "type": "organizations",
@@ -1931,67 +1865,145 @@
                     "count": 1
                 },
                 {
-                    "id": "erp-systems",
-                    "name": "ERP-Systems",
+                    "id": "stanford-university",
+                    "name": "Stanford University",
                     "type": "organizations",
-                    "path": "tags/organizations/erp_systems.png",
+                    "path": "tags/organizations/standford-university.avif",
                     "count": 1
+                },
+                {
+                    "id": "udemy",
+                    "name": "Udemy",
+                    "type": "organizations",
+                    "path": "tags/organizations/udemy.webp",
+                    "count": 1
+                },
+                {
+                    "id": "ufu",
+                    "name": "Ufu",
+                    "type": "organizations",
+                    "path": "tags/organizations/ufu.png",
+                    "count": 1
+                },
+                {
+                    "id": "ieee",
+                    "name": "Ieee",
+                    "type": "organizations",
+                    "path": "tags/organizations/ieee.png",
+                    "count": 0
+                },
+                {
+                    "id": "turkcell",
+                    "name": "Turkcell",
+                    "type": "organizations",
+                    "path": "tags/organizations/turkcell.png",
+                    "count": 0
+                },
+                {
+                    "id": "world-skills",
+                    "name": "World Skills",
+                    "type": "organizations",
+                    "path": "tags/organizations/world-skills.png",
+                    "count": 0
                 }
             ]
         },
         {
-            "id": "experience",
-            "name": "Experience",
-            "icon": "award",
-            "color": "#f472b6",
+            "id": "academic",
+            "name": "Academic Institutions",
+            "icon": "graduation-cap",
+            "color": "#a78bfa",
             "tags": [
                 {
-                    "id": "conference",
-                    "name": "Conference",
-                    "type": "experience",
-                    "path": "tags/experience/conference.png",
+                    "id": "number-theory",
+                    "name": "Number Theory",
+                    "type": "academic",
+                    "path": "tags/academic/number-theory.png",
+                    "count": 5
+                },
+                {
+                    "id": "geometry",
+                    "name": "Geometry",
+                    "type": "academic",
+                    "path": "tags/academic/geometry.webp",
+                    "count": 3
+                },
+                {
+                    "id": "cryptography",
+                    "name": "Cryptography",
+                    "type": "academic",
+                    "path": "tags/academic/cryptography.png",
+                    "count": 2
+                },
+                {
+                    "id": "game-theory",
+                    "name": "Game Theory",
+                    "type": "academic",
+                    "path": "tags/academic/game-theory.png",
+                    "count": 2
+                },
+                {
+                    "id": "probability",
+                    "name": "Probability",
+                    "type": "academic",
+                    "path": "tags/academic/probability.png",
+                    "count": 2
+                },
+                {
+                    "id": "cybersecurity",
+                    "name": "Cybersecurity",
+                    "type": "academic",
+                    "path": "tags/academic/cybersecurity.png",
                     "count": 1
                 },
                 {
-                    "id": "internship",
-                    "name": "Internship",
-                    "type": "experience",
-                    "path": "tags/experience/internship.png",
+                    "id": "functional-programming",
+                    "name": "Functional Programming",
+                    "type": "academic",
+                    "path": "tags/academic/functional-programming.webp",
                     "count": 1
                 },
                 {
-                    "id": "hackathon",
-                    "name": "Hackathon",
-                    "type": "experience",
-                    "path": "tags/experience/hackathon.png",
+                    "id": "statistics",
+                    "name": "Statistics",
+                    "type": "academic",
+                    "path": "tags/academic/statistics.png",
                     "count": 1
                 },
                 {
-                    "id": "startup",
-                    "name": "Startup",
-                    "type": "experience",
-                    "path": "tags/experience/startup.png",
+                    "id": "programming",
+                    "name": "Programming",
+                    "type": "academic",
+                    "path": "tags/academic/programming.webp",
+                    "count": 0
+                }
+            ]
+        },
+        {
+            "id": "tools",
+            "name": "Dev Tools",
+            "icon": "wrench",
+            "color": "#94a3b8",
+            "tags": [
+                {
+                    "id": "apache-tomcat",
+                    "name": "Apache Tomcat",
+                    "type": "tools",
+                    "path": "tags/tools/apache_tomcat.png",
                     "count": 1
                 },
                 {
-                    "id": "technical-interview",
-                    "name": "Technical Interview",
-                    "type": "experience",
-                    "path": "tags/experience/interview.png",
+                    "id": "maven",
+                    "name": "Maven",
+                    "type": "tools",
+                    "path": "tags/tools/maven.jpg",
                     "count": 1
                 },
                 {
-                    "id": "recommendation",
-                    "name": "Recommendation",
-                    "type": "experience",
-                    "path": "tags/experience/recommendation.png",
-                    "count": 1
-                },
-                {
-                    "id": "worldskills",
-                    "name": "WorldSkills",
-                    "type": "experience",
-                    "path": "tags/experience/world-skills.png",
+                    "id": "photoshop",
+                    "name": "Photoshop",
+                    "type": "tools",
+                    "path": "tags/tools/photoshop.png",
                     "count": 1
                 }
             ]

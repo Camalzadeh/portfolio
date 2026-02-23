@@ -1,10 +1,66 @@
 {
     "tags": [
         {
+            "id": "c",
+            "name": "C",
+            "type": "programming_languages",
+            "path": "tags/programming_languages/c.png",
+            "count": 0
+        },
+        {
+            "id": "c++",
+            "name": "C++",
+            "type": "programming_languages",
+            "path": "tags/programming_languages/cpp.png",
+            "count": 7
+        },
+        {
+            "id": "css",
+            "name": "CSS",
+            "type": "programming_languages",
+            "path": "tags/programming_languages/css.png",
+            "count": 2
+        },
+        {
+            "id": "c-sharp",
+            "name": "C Sharp",
+            "type": "programming_languages",
+            "path": "tags/programming_languages/c_sharp.png",
+            "count": 1
+        },
+        {
             "id": "dart",
             "name": "Dart",
             "type": "programming_languages",
             "path": "tags/programming_languages/dart.png",
+            "count": 1
+        },
+        {
+            "id": "html",
+            "name": "HTML",
+            "type": "programming_languages",
+            "path": "tags/programming_languages/html.png",
+            "count": 2
+        },
+        {
+            "id": "java",
+            "name": "Java",
+            "type": "programming_languages",
+            "path": "tags/programming_languages/java.svg",
+            "count": 3
+        },
+        {
+            "id": "javascript",
+            "name": "JavaScript",
+            "type": "programming_languages",
+            "path": "tags/programming_languages/js.png",
+            "count": 3
+        },
+        {
+            "id": "php",
+            "name": "PHP",
+            "type": "programming_languages",
+            "path": "tags/programming_languages/php.png",
             "count": 1
         },
         {
@@ -15,67 +71,11 @@
             "count": 2
         },
         {
-            "id": "javascript",
-            "name": "JavaScript",
-            "type": "programming_languages",
-            "path": "tags/programming_languages/js.png",
-            "count": 3
-        },
-        {
-            "id": "html",
-            "name": "HTML",
-            "type": "programming_languages",
-            "path": "tags/programming_languages/html.png",
-            "count": 2
-        },
-        {
-            "id": "css",
-            "name": "CSS",
-            "type": "programming_languages",
-            "path": "tags/programming_languages/css.png",
-            "count": 2
-        },
-        {
-            "id": "php",
-            "name": "PHP",
-            "type": "programming_languages",
-            "path": "tags/programming_languages/php.png",
-            "count": 1
-        },
-        {
-            "id": "c",
-            "name": "C",
-            "type": "programming_languages",
-            "path": "tags/programming_languages/c.png",
-            "count": 0
-        },
-        {
             "id": "typescript",
             "name": "TypeScript",
             "type": "programming_languages",
             "path": "tags/programming_languages/ts.png",
             "count": 0
-        },
-        {
-            "id": "java",
-            "name": "Java",
-            "type": "programming_languages",
-            "path": "tags/programming_languages/java.svg",
-            "count": 3
-        },
-        {
-            "id": "c-sharp",
-            "name": "C Sharp",
-            "type": "programming_languages",
-            "path": "tags/programming_languages/c_sharp.png",
-            "count": 1
-        },
-        {
-            "id": "c++",
-            "name": "C++",
-            "type": "programming_languages",
-            "path": "tags/programming_languages/cpp.png",
-            "count": 7
         }
     ]
 }

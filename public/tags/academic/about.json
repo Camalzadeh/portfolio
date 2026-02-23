@@ -1,45 +1,66 @@
 {
     "tags": [
         {
-            "id": "math",
-            "name": "Math",
-            "type": "math",
-            "path": "tags/math/math.png",
-            "count": 9
+            "id": "cryptography",
+            "name": "Cryptography",
+            "type": "academic",
+            "path": "tags/academic/cryptography.png",
+            "count": 2
+        },
+        {
+            "id": "cybersecurity",
+            "name": "Cybersecurity",
+            "type": "academic",
+            "path": "tags/academic/cybersecurity.png",
+            "count": 1
+        },
+        {
+            "id": "functional-programming",
+            "name": "Functional Programming",
+            "type": "academic",
+            "path": "tags/academic/functional-programming.webp",
+            "count": 1
         },
         {
             "id": "game-theory",
             "name": "Game Theory",
-            "type": "math",
-            "path": "tags/math/game-theory.png",
-            "count": 2
-        },
-        {
-            "id": "number-theory",
-            "name": "Number Theory",
-            "type": "math",
-            "path": "tags/math/number-theory.png",
-            "count": 5
-        },
-        {
-            "id": "probability",
-            "name": "Probability",
-            "type": "math",
-            "path": "tags/math/probability.png",
+            "type": "academic",
+            "path": "tags/academic/game-theory.png",
             "count": 2
         },
         {
             "id": "geometry",
             "name": "Geometry",
-            "type": "math",
-            "path": "tags/math/geometry.webp",
+            "type": "academic",
+            "path": "tags/academic/geometry.webp",
             "count": 3
+        },
+        {
+            "id": "number-theory",
+            "name": "Number Theory",
+            "type": "academic",
+            "path": "tags/academic/number-theory.png",
+            "count": 5
+        },
+        {
+            "id": "probability",
+            "name": "Probability",
+            "type": "academic",
+            "path": "tags/academic/probability.png",
+            "count": 2
+        },
+        {
+            "id": "programming",
+            "name": "Programming",
+            "type": "academic",
+            "path": "tags/academic/programming.webp",
+            "count": 0
         },
         {
             "id": "statistics",
             "name": "Statistics",
-            "type": "math",
-            "path": "tags/math/statistics.png",
+            "type": "academic",
+            "path": "tags/academic/statistics.png",
             "count": 1
         }
     ]

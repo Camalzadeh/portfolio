@@ -1,31 +1,143 @@
 {
     "tags": [
         {
-            "id": "leadership",
-            "name": "Leadership",
-            "type": "management_lead",
-            "path": "tags/management_lead/leadership.png",
+            "id": "camp",
+            "name": "Camp",
+            "type": "common",
+            "path": "tags/common/camp.png",
+            "count": 0
+        },
+        {
+            "id": "cloud",
+            "name": "Cloud",
+            "type": "common",
+            "path": "tags/common/cloud.png",
+            "count": 1
+        },
+        {
+            "id": "competition",
+            "name": "Competition",
+            "type": "common",
+            "path": "tags/common/competition.png",
+            "count": 1
+        },
+        {
+            "id": "computer-science",
+            "name": "Computer Science",
+            "type": "common",
+            "path": "tags/common/computer_science.png",
+            "count": 2
+        },
+        {
+            "id": "conference",
+            "name": "Conference",
+            "type": "common",
+            "path": "tags/common/conference.png",
             "count": 1
         },
         {
             "id": "content-creation",
             "name": "Content Creation",
-            "type": "management_lead",
-            "path": "tags/management_lead/content-creation.webp",
+            "type": "common",
+            "path": "tags/common/content-creation.webp",
             "count": 1
+        },
+        {
+            "id": "design",
+            "name": "Design",
+            "type": "common",
+            "path": "tags/common/design.png",
+            "count": 0
+        },
+        {
+            "id": "entrepreneur",
+            "name": "Entrepreneur",
+            "type": "common",
+            "path": "tags/common/entrepreneur.png",
+            "count": 0
+        },
+        {
+            "id": "hackathon",
+            "name": "Hackathon",
+            "type": "common",
+            "path": "tags/common/hackathon.png",
+            "count": 1
+        },
+        {
+            "id": "internship",
+            "name": "Internship",
+            "type": "common",
+            "path": "tags/common/internship.png",
+            "count": 1
+        },
+        {
+            "id": "interview",
+            "name": "Interview",
+            "type": "common",
+            "path": "tags/common/interview.png",
+            "count": 0
+        },
+        {
+            "id": "leadership",
+            "name": "Leadership",
+            "type": "common",
+            "path": "tags/common/leadership.png",
+            "count": 1
+        },
+        {
+            "id": "math",
+            "name": "Math",
+            "type": "common",
+            "path": "tags/common/math.png",
+            "count": 9
+        },
+        {
+            "id": "no-code",
+            "name": "No Code",
+            "type": "common",
+            "path": "tags/common/no_code.png",
+            "count": 1
+        },
+        {
+            "id": "olympiad",
+            "name": "Olympiad",
+            "type": "common",
+            "path": "tags/common/olympiad.png",
+            "count": 10
         },
         {
             "id": "organization",
             "name": "Organization",
-            "type": "management_lead",
-            "path": "tags/management_lead/organization.png",
+            "type": "common",
+            "path": "tags/common/organization.png",
             "count": 1
         },
         {
-            "id": "entrepreneurship",
-            "name": "Entrepreneurship",
-            "type": "management_lead",
-            "path": "tags/management_lead/entrepreneur.png",
+            "id": "recommendation",
+            "name": "Recommendation",
+            "type": "common",
+            "path": "tags/common/recommendation.png",
+            "count": 1
+        },
+        {
+            "id": "research",
+            "name": "Research",
+            "type": "common",
+            "path": "tags/common/research.png",
+            "count": 1
+        },
+        {
+            "id": "science",
+            "name": "Science",
+            "type": "common",
+            "path": "tags/common/science.png",
+            "count": 0
+        },
+        {
+            "id": "startup",
+            "name": "Startup",
+            "type": "common",
+            "path": "tags/common/startup.png",
             "count": 1
         }
     ]

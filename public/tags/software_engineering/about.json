@@ -1,25 +1,11 @@
 {
     "tags": [
         {
-            "id": "algorithms",
-            "name": "Algorithms",
+            "id": "api",
+            "name": "API",
             "type": "software_engineering",
-            "path": "tags/software_engineering/algorithm.png",
-            "count": 13
-        },
-        {
-            "id": "web",
-            "name": "Web",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/web.webp",
-            "count": 4
-        },
-        {
-            "id": "data-structures",
-            "name": "Data Structures",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/data_structures.png",
-            "count": 10
+            "path": "tags/software_engineering/api.png",
+            "count": 1
         },
         {
             "id": "backend",
@@ -29,66 +15,17 @@
             "count": 2
         },
         {
-            "id": "api",
-            "name": "API",
+            "id": "clean-architecture",
+            "name": "Clean Architecture",
             "type": "software_engineering",
-            "path": "tags/software_engineering/api.png",
-            "count": 1
-        },
-        {
-            "id": "software-engineering",
-            "name": "Software Engineering",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/software_engineering.png",
-            "count": 3
-        },
-        {
-            "id": "graphs",
-            "name": "Graphs",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/graph.png",
-            "count": 7
-        },
-        {
-            "id": "oop",
-            "name": "OOP",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/oop.png",
-            "count": 1
+            "path": "tags/software_engineering/clean-architecture.png",
+            "count": 2
         },
         {
             "id": "design-patterns",
             "name": "Design Patterns",
             "type": "software_engineering",
             "path": "tags/software_engineering/design_patterns.png",
-            "count": 2
-        },
-        {
-            "id": "software-architecture",
-            "name": "Software Architecture",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/software_architecture.png",
-            "count": 1
-        },
-        {
-            "id": "mobile-development",
-            "name": "Mobile Development",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/mobile_development.png",
-            "count": 4
-        },
-        {
-            "id": "photoshop",
-            "name": "Photoshop",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/photoshop.png",
-            "count": 1
-        },
-        {
-            "id": "computer-science",
-            "name": "Computer Science",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/computer_science.png",
             "count": 2
         },
         {
@@ -99,31 +36,31 @@
             "count": 2
         },
         {
-            "id": "solid-principles",
-            "name": "SOLID Principles",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/solid-principles.png",
-            "count": 1
-        },
-        {
-            "id": "clean-architecture",
-            "name": "Clean Architecture",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/clean-architecture.png",
-            "count": 2
-        },
-        {
-            "id": "responsive",
-            "name": "Responsive Design",
-            "type": "software_engineering",
-            "path": "tags/software_engineering/responsive.png",
-            "count": 1
-        },
-        {
             "id": "full-stack",
             "name": "Full Stack",
             "type": "software_engineering",
             "path": "tags/software_engineering/full-stack.png",
+            "count": 1
+        },
+        {
+            "id": "mobile-development",
+            "name": "Mobile Development",
+            "type": "software_engineering",
+            "path": "tags/software_engineering/mobile_development.png",
+            "count": 4
+        },
+        {
+            "id": "multi-app",
+            "name": "Multi App",
+            "type": "software_engineering",
+            "path": "tags/software_engineering/multi-app.png",
+            "count": 1
+        },
+        {
+            "id": "oop",
+            "name": "OOP",
+            "type": "software_engineering",
+            "path": "tags/software_engineering/oop.png",
             "count": 1
         },
         {
@@ -134,11 +71,39 @@
             "count": 1
         },
         {
-            "id": "multi-app",
-            "name": "Multi-App System",
+            "id": "responsive",
+            "name": "Responsive",
             "type": "software_engineering",
-            "path": "tags/software_engineering/multi-app.png",
+            "path": "tags/software_engineering/responsive.png",
             "count": 1
+        },
+        {
+            "id": "software-architecture",
+            "name": "Software Architecture",
+            "type": "software_engineering",
+            "path": "tags/software_engineering/software_architecture.png",
+            "count": 1
+        },
+        {
+            "id": "software-engineering",
+            "name": "Software Engineering",
+            "type": "software_engineering",
+            "path": "tags/software_engineering/software_engineering.png",
+            "count": 3
+        },
+        {
+            "id": "solid-principles",
+            "name": "SOLID Principles",
+            "type": "software_engineering",
+            "path": "tags/software_engineering/solid-principles.png",
+            "count": 1
+        },
+        {
+            "id": "web",
+            "name": "Web",
+            "type": "software_engineering",
+            "path": "tags/software_engineering/web.webp",
+            "count": 4
         }
     ]
 }

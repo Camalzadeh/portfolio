@@ -1,15 +1,22 @@
 {
     "tags": [
         {
-            "id": "postgresql",
-            "name": "PostgreSQL",
+            "id": "database-administration",
+            "name": "Database Administration",
             "type": "data",
-            "path": "tags/data/postgresql.png",
+            "path": "tags/data/database_administration.png",
+            "count": 0
+        },
+        {
+            "id": "mongo",
+            "name": "Mongo",
+            "type": "data",
+            "path": "tags/data/mongo.png",
             "count": 0
         },
         {
             "id": "mysql",
-            "name": "MySQL",
+            "name": "Mysql",
             "type": "data",
             "path": "tags/data/mysql.png",
             "count": 1
@@ -22,32 +29,11 @@
             "count": 1
         },
         {
-            "id": "mongodb",
-            "name": "MongoDB",
+            "id": "postgresql",
+            "name": "Postgresql",
             "type": "data",
-            "path": "tags/data/mongo.png",
+            "path": "tags/data/postgresql.png",
             "count": 0
-        },
-        {
-            "id": "database_administration",
-            "name": "Database Administration",
-            "type": "data",
-            "path": "tags/data/database_administration.png",
-            "count": 1
-        },
-        {
-            "id": "crm",
-            "name": "CRM",
-            "type": "data",
-            "path": "tags/data/crm.png",
-            "count": 1
-        },
-        {
-            "id": "erp",
-            "name": "ERP",
-            "type": "data",
-            "path": "tags/data/erp.png",
-            "count": 1
         }
     ]
 }

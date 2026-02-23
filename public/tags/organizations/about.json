@@ -1,10 +1,17 @@
 {
     "tags": [
         {
-            "id": "research",
-            "name": "Research",
+            "id": "4sim",
+            "name": "4sim",
             "type": "organizations",
-            "path": "tags/organizations/research.png",
+            "path": "tags/organizations/4sim.png",
+            "count": 1
+        },
+        {
+            "id": "abb",
+            "name": "Abb",
+            "type": "organizations",
+            "path": "tags/organizations/abb.png",
             "count": 1
         },
         {
@@ -15,73 +22,17 @@
             "count": 3
         },
         {
-            "id": "constructor-university",
-            "name": "Constructor University",
+            "id": "aegee",
+            "name": "Aegee",
             "type": "organizations",
-            "path": "tags/organizations/constructor_university.png",
+            "path": "tags/organizations/aegee.png",
             "count": 1
         },
         {
-            "id": "4sim",
-            "name": "4sim",
+            "id": "arti",
+            "name": "Arti",
             "type": "organizations",
-            "path": "tags/organizations/4sim.png",
-            "count": 1
-        },
-        {
-            "id": "coursera",
-            "name": "Coursera",
-            "type": "organizations",
-            "path": "tags/organizations/coursera.png",
-            "count": 1
-        },
-        {
-            "id": "udemy",
-            "name": "Udemy",
-            "type": "organizations",
-            "path": "tags/organizations/udemy.webp",
-            "count": 1
-        },
-        {
-            "id": "ufaz",
-            "name": "UFAZ",
-            "type": "organizations",
-            "path": "tags/organizations/ufaz.png",
-            "count": 10
-        },
-        {
-            "id": "bhos",
-            "name": "BHOS",
-            "type": "organizations",
-            "path": "tags/organizations/bhos.png",
-            "count": 1
-        },
-        {
-            "id": "miuul",
-            "name": "Miuul",
-            "type": "organizations",
-            "path": "tags/organizations/miuul.png",
-            "count": 1
-        },
-        {
-            "id": "holberton-school",
-            "name": "Holberton School",
-            "type": "organizations",
-            "path": "tags/organizations/holberton-school.webp",
-            "count": 1
-        },
-        {
-            "id": "stanford-university",
-            "name": "Stanford University",
-            "type": "organizations",
-            "path": "tags/organizations/standford-university.avif",
-            "count": 1
-        },
-        {
-            "id": "deeplearning-ai",
-            "name": "DeepLearning.AI",
-            "type": "organizations",
-            "path": "tags/organizations/deeplearning-ai.png",
+            "path": "tags/organizations/arti.png",
             "count": 1
         },
         {
@@ -92,59 +43,10 @@
             "count": 1
         },
         {
-            "id": "ei-group",
-            "name": "EI Group",
+            "id": "bhos",
+            "name": "BHOS",
             "type": "organizations",
-            "path": "tags/organizations/ei-group.png",
-            "count": 1
-        },
-        {
-            "id": "arti",
-            "name": "ARTI",
-            "type": "organizations",
-            "path": "tags/organizations/arti.png",
-            "count": 1
-        },
-        {
-            "id": "eolymp",
-            "name": "E-olymp",
-            "type": "organizations",
-            "path": "tags/organizations/e-olymp.png",
-            "count": 1
-        },
-        {
-            "id": "ufu",
-            "name": "Federal University of Uberlândia",
-            "type": "organizations",
-            "path": "tags/organizations/ufu.png",
-            "count": 1
-        },
-        {
-            "id": "abb",
-            "name": "ABB",
-            "type": "organizations",
-            "path": "tags/organizations/abb.png",
-            "count": 1
-        },
-        {
-            "id": "idda",
-            "name": "IDDA",
-            "type": "organizations",
-            "path": "tags/organizations/idda.webp",
-            "count": 2
-        },
-        {
-            "id": "codestar",
-            "name": "CodeStar",
-            "type": "organizations",
-            "path": "tags/organizations/codestar.webp",
-            "count": 1
-        },
-        {
-            "id": "aegee",
-            "name": "AEGEE",
-            "type": "organizations",
-            "path": "tags/organizations/aegee.png",
+            "path": "tags/organizations/bhos.png",
             "count": 1
         },
         {
@@ -162,6 +64,104 @@
             "count": 1
         },
         {
+            "id": "codestar",
+            "name": "Codestar",
+            "type": "organizations",
+            "path": "tags/organizations/codestar.webp",
+            "count": 1
+        },
+        {
+            "id": "constructor-university",
+            "name": "Constructor University",
+            "type": "organizations",
+            "path": "tags/organizations/constructor_university.png",
+            "count": 1
+        },
+        {
+            "id": "coursera",
+            "name": "Coursera",
+            "type": "organizations",
+            "path": "tags/organizations/coursera.png",
+            "count": 1
+        },
+        {
+            "id": "deeplearning-ai",
+            "name": "Deeplearning Ai",
+            "type": "organizations",
+            "path": "tags/organizations/deeplearning-ai.png",
+            "count": 1
+        },
+        {
+            "id": "eolymp",
+            "name": "Eolymp",
+            "type": "organizations",
+            "path": "tags/organizations/e-olymp.png",
+            "count": 1
+        },
+        {
+            "id": "ei-group",
+            "name": "Ei Group",
+            "type": "organizations",
+            "path": "tags/organizations/ei-group.png",
+            "count": 1
+        },
+        {
+            "id": "erp-systems",
+            "name": "Erp Systems",
+            "type": "organizations",
+            "path": "tags/organizations/erp_systems.png",
+            "count": 1
+        },
+        {
+            "id": "guardian-x",
+            "name": "Guardian X",
+            "type": "organizations",
+            "path": "tags/organizations/guardian_x.png",
+            "count": 2
+        },
+        {
+            "id": "holberton-school",
+            "name": "Holberton School",
+            "type": "organizations",
+            "path": "tags/organizations/holberton-school.webp",
+            "count": 1
+        },
+        {
+            "id": "icpc",
+            "name": "ICPC",
+            "type": "organizations",
+            "path": "tags/organizations/icpc.png",
+            "count": 5
+        },
+        {
+            "id": "icsc",
+            "name": "Icsc",
+            "type": "organizations",
+            "path": "tags/organizations/icsc.png",
+            "count": 1
+        },
+        {
+            "id": "idda",
+            "name": "IDDA",
+            "type": "organizations",
+            "path": "tags/organizations/idda.webp",
+            "count": 2
+        },
+        {
+            "id": "ieee",
+            "name": "Ieee",
+            "type": "organizations",
+            "path": "tags/organizations/ieee.png",
+            "count": 0
+        },
+        {
+            "id": "miuul",
+            "name": "Miuul",
+            "type": "organizations",
+            "path": "tags/organizations/miuul.png",
+            "count": 1
+        },
+        {
             "id": "siemens",
             "name": "Siemens",
             "type": "organizations",
@@ -169,18 +169,46 @@
             "count": 1
         },
         {
-            "id": "erp-systems",
-            "name": "ERP-Systems",
+            "id": "stanford-university",
+            "name": "Stanford University",
             "type": "organizations",
-            "path": "tags/organizations/erp_systems.png",
+            "path": "tags/organizations/standford-university.avif",
             "count": 1
         },
         {
-            "id": "guardian-x",
-            "name": "Guardian-X",
+            "id": "turkcell",
+            "name": "Turkcell",
             "type": "organizations",
-            "path": "tags/organizations/guardian_x.png",
-            "count": 2
+            "path": "tags/organizations/turkcell.png",
+            "count": 0
+        },
+        {
+            "id": "udemy",
+            "name": "Udemy",
+            "type": "organizations",
+            "path": "tags/organizations/udemy.webp",
+            "count": 1
+        },
+        {
+            "id": "ufaz",
+            "name": "UFAZ",
+            "type": "organizations",
+            "path": "tags/organizations/ufaz.png",
+            "count": 10
+        },
+        {
+            "id": "ufu",
+            "name": "Ufu",
+            "type": "organizations",
+            "path": "tags/organizations/ufu.png",
+            "count": 1
+        },
+        {
+            "id": "world-skills",
+            "name": "World Skills",
+            "type": "organizations",
+            "path": "tags/organizations/world-skills.png",
+            "count": 0
         }
     ]
 }

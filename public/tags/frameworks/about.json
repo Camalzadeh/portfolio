@@ -1,6 +1,20 @@
 {
     "tags": [
         {
+            "id": "bootstrap",
+            "name": "Bootstrap",
+            "type": "frameworks",
+            "path": "tags/frameworks/bootstrap.png",
+            "count": 0
+        },
+        {
+            "id": "django",
+            "name": "Django",
+            "type": "frameworks",
+            "path": "tags/frameworks/django.svg",
+            "count": 1
+        },
+        {
             "id": "flutter",
             "name": "Flutter",
             "type": "frameworks",
@@ -8,10 +22,17 @@
             "count": 4
         },
         {
-            "id": "django",
-            "name": "Django",
+            "id": "hibernate",
+            "name": "Hibernate",
             "type": "frameworks",
-            "path": "tags/frameworks/django.svg",
+            "path": "tags/frameworks/hibernate_logo.png",
+            "count": 1
+        },
+        {
+            "id": "next-js",
+            "name": "Next.js",
+            "type": "frameworks",
+            "path": "tags/frameworks/next-js.png",
             "count": 1
         },
         {
@@ -22,18 +43,11 @@
             "count": 1
         },
         {
-            "id": "tailwind",
-            "name": "Tailwind CSS",
+            "id": "riverpod",
+            "name": "Riverpod",
             "type": "frameworks",
-            "path": "tags/frameworks/tailwind.png",
-            "count": 0
-        },
-        {
-            "id": "bootstrap",
-            "name": "Bootstrap",
-            "type": "frameworks",
-            "path": "tags/frameworks/bootstrap.png",
-            "count": 0
+            "path": "tags/frameworks/riverpod.png",
+            "count": 1
         },
         {
             "id": "spring",
@@ -50,32 +64,11 @@
             "count": 1
         },
         {
-            "id": "hibernate",
-            "name": "Hibernate",
+            "id": "tailwind",
+            "name": "Tailwind",
             "type": "frameworks",
-            "path": "tags/frameworks/hibernate_logo.png",
-            "count": 1
-        },
-        {
-            "id": "no-code",
-            "name": "No Code",
-            "type": "frameworks",
-            "path": "tags/frameworks/no_code.png",
-            "count": 1
-        },
-        {
-            "id": "riverpod",
-            "name": "Riverpod",
-            "type": "frameworks",
-            "path": "tags/frameworks/riverpod.png",
-            "count": 1
-        },
-        {
-            "id": "next-js",
-            "name": "Next.js",
-            "type": "frameworks",
-            "path": "tags/frameworks/next-js.png",
-            "count": 1
+            "path": "tags/frameworks/tailwind.png",
+            "count": 0
         }
     ]
 }

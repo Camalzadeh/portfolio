@@ -3,7 +3,7 @@ import { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import data from "@/data/portfolio.json";
 import tagsData from "@/data/tags.json";
-import { Code, Server, Layers, Database, Palette, Terminal, Search, ChevronRight, X, Award, Book, Building2, Cpu, Brain } from "lucide-react";
+import { Code, Server, Layers, Database, Palette, Terminal, Search, ChevronRight, X, Award, Book, Building2, Cpu, Brain, Settings, Cloud, Sparkles, GraduationCap, Wrench, Trophy } from "lucide-react";
 import Link from "next/link";
 import { useLanguage } from "@/context/LanguageContext";
 
@@ -11,16 +11,36 @@ import { useLanguage } from "@/context/LanguageContext";
  * Maps icon slugs from JSON to Lucide components
  */
 const IconResolver = ({ name, size = 20 }: { name: string, size?: number }) => {
-    switch (name.toLowerCase()) {
+    if (!name) return <Terminal size={size} />;
+    const slug = name.toLowerCase().replace(/[^a-z0-9]/g, '');
+
+    switch (slug) {
         case 'code': return <Code size={size} />;
         case 'layers': return <Layers size={size} />;
         case 'database': return <Database size={size} />;
         case 'server': return <Server size={size} />;
+        case 'cloud': return <Cloud size={size} />;
+        case 'settings': return <Settings size={size} />;
         case 'palette': return <Palette size={size} />;
         case 'terminal': return <Terminal size={size} />;
         case 'award': return <Award size={size} />;
         case 'book': return <Book size={size} />;
-        case 'building': return <Building2 size={size} />;
+        case 'building':
+        case 'building2':
+        case 'school':
+            return <Building2 size={size} />;
+        case 'graduationcap':
+        case 'academic':
+            return <GraduationCap size={size} />;
+        case 'wrench':
+        case 'tools':
+            return <Wrench size={size} />;
+        case 'sparkles':
+        case 'common':
+            return <Sparkles size={size} />;
+        case 'trophy':
+        case 'competitive':
+            return <Trophy size={size} />;
         case 'cpu': return <Cpu size={size} />;
         case 'brain': return <Brain size={size} />;
         default: return <Terminal size={size} />;
