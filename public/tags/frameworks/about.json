@@ -36,20 +36,6 @@
             "count": 0
         },
         {
-            "id": "resend",
-            "name": "Resend",
-            "type": "frameworks",
-            "path": "tags/frameworks/resend.webp",
-            "count": 1
-        },
-        {
-            "id": "ably",
-            "name": "Ably",
-            "type": "frameworks",
-            "path": "tags/frameworks/ably.png",
-            "count": 0
-        },
-        {
             "id": "spring",
             "name": "Spring",
             "type": "frameworks",
