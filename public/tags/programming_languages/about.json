@@ -10,19 +10,19 @@
             "id": "python",
             "name": "Python",
             "type": "languages",
-            "path": "tags/languages/standford-university.avif"
+            "path": "tags/languages/python.png"
         },
         {
             "id": "javascript",
             "name": "JavaScript",
             "type": "languages",
-            "path": "tags/languages/ufaz copy.png"
+            "path": "tags/languages/js.png"
         },
         {
             "id": "html",
             "name": "HTML",
             "type": "languages",
-            "path": "tags/languages/e-olymp.png"
+            "path": "tags/languages/html.png"
         },
         {
             "id": "css",

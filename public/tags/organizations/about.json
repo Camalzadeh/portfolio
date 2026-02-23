@@ -70,7 +70,7 @@
             "id": "stanford-university",
             "name": "Stanford University",
             "type": "institutions",
-            "path": "tags/stanford.png"
+            "path": "tags/institutions/standford-university.avif"
         },
         {
             "id": "deeplearning-ai",
@@ -82,7 +82,7 @@
             "id": "beu",
             "name": "Baku Engineering University",
             "type": "institutions",
-            "path": "tags/beu.png"
+            "path": "tags/institutions/baku-engineering-university.png"
         },
         {
             "id": "ei-group",
@@ -100,7 +100,7 @@
             "id": "eolymp",
             "name": "E-olymp",
             "type": "institutions",
-            "path": "tags/eolymp.png"
+            "path": "tags/institutions/e-olymp.png"
         },
         {
             "id": "ufu",

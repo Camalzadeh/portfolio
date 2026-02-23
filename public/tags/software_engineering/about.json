@@ -115,12 +115,6 @@
             "path": "tags/engineering/production.png"
         },
         {
-            "id": "sustainable-innovation",
-            "name": "Sustainable Innovation",
-            "type": "engineering",
-            "path": null
-        },
-        {
             "id": "multi-app",
             "name": "Multi-App System",
             "type": "engineering",
