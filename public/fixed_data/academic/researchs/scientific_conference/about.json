@@ -1,11 +1,11 @@
 {
     "id": "scientific-conference-heydar-aliyev-100",
     "title": "III Student Republic Scientific-Practical Conference",
-    "path": "fixed_data/academic/extra_activities/scientific_conference",
+    "path": "fixed_data/academic/researchs/scientific_conference",
     "organization": "Ministry of Science and Education of Azerbaijan & Various Institutes",
     "description": "Awarded 1st place at the III Student Republic Scientific-Practical Conference dedicated to the 100th anniversary of National Leader Heydar Aliyev. Conducted extensive research on 'Modular Arithmetic and Remainder Division,' advocating for its earlier introduction in the national secondary education curriculum. Argued that modular arithmetic, currently primarily taught at the university level in Azerbaijan, is essential for developing logical reasoning from lower grades. The research was supported by the R.H.F.G. named after S.C. Pishavari and several academic institutes.",
     "type": "academic",
-    "subtype": "extra_activities",
+    "subtype": "research",
     "position": "Winner",
     "award": "1st Place",
     "score": "Excellence in Research",
@@ -18,10 +18,16 @@
     },
     "media": [
         {
+            "type": "pdf",
+            "url_text": null,
+            "title": "Research Paper",
+            "path": "fixed_data/academic/researchs/scientific_conference/Qalıqlı bölmənin Azərbaycan təhsilində önəmi.pdf"
+        },
+        {
             "type": "image",
             "url_text": null,
-            "title": "1st Place Certificate - Scientific Conference",
-            "path": "fixed_data/academic/extra_activities/scientific_conference/IMG-20240913-WA0027.jpg"
+            "title": "Participation Certificate",
+            "path": "fixed_data/academic/researchs/scientific_conference/IMG-20240913-WA0027.jpg"
         }
     ],
     "tagIds": [
@@ -31,5 +37,5 @@
         "math",
         "number-theory"
     ],
-    "data_folder": "fixed_data/academic/extra_activities/scientific_conference"
+    "data_folder": "fixed_data/academic/researchs/scientific_conference"
 }

@@ -1,38 +1,61 @@
 {
     "id": "university-transcripts",
-    "title": "University Transcripts",
+    "title": "University Transcripts (L0-L2)",
     "path": "fixed_data/academic/university/transcripts",
-    "organization": "UFAZ / ASOIU",
-    "description": "Academic transcripts and grade reports for University studies.",
+    "organization": "French-Azerbaijani University (UFAZ / University of Strasbourg)",
+    "description": "Comprehensive academic transcripts for Bachelor of Computer Science. Key highlights include a perfect score (20/20) in Software Engineering and exceptional performance in core CS subjects such as Data Structures and Algorithms (18.275/20), Cryptography (18.675/20), and Mathematics (consistently high scores across Analysis and Algebra). Maintained 'Admis' (Pass) status across all semesters with a strong progression in technical proficiency and analytical reasoning.",
     "type": "academic",
     "subtype": "university",
-    "position": null,
-    "award": null,
-    "score": null,
-    "duration": null,
-    "place": null,
+    "position": "Undergraduate Student",
+    "award": "Academic Excellence in Computer Science",
+    "score": "SE: 20/20 | DSA: 18.275/20 | Crypto: 18.675/20",
+    "duration": "4 years",
+    "place": "French-Azerbaijani University",
     "date": {
-        "year": 2024,
-        "month": null,
+        "year": 2023,
+        "month": 9,
         "day": null
     },
     "media": [
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Humbat JAMALOV L0S1",
-            "path": "fixed_data/academic/university/transcripts/Humbat JAMALOV_L0S1.pdf"
+            "title": "L0 S1 (Foundation) - GPA: 13.953/20",
+            "path": "fixed_data/academic/university/transcripts/JAMALOV Humbat L0S1.pdf"
         },
         {
             "type": "pdf",
             "url_text": null,
-            "title": "JAMALOV Humbat L0S2",
-            "path": "fixed_data/academic/university/transcripts/JAMALOV Humbat_L0S2.pdf"
+            "title": "L0 S2 (Foundation) - GPA: 14.905/20",
+            "path": "fixed_data/academic/university/transcripts/JAMALOV Humbat L0S2.pdf"
+        },
+        {
+            "type": "pdf",
+            "url_text": null,
+            "title": "L1 S1 (Computer Science) - GPA: 14.116/20",
+            "path": "fixed_data/academic/university/transcripts/JAMALOV Humbat L1S1.pdf"
+        },
+        {
+            "type": "pdf",
+            "url_text": null,
+            "title": "L1 S2 (Computer Science) - GPA: 14.362/20",
+            "path": "fixed_data/academic/university/transcripts/JAMALOV Humbat L1S2.pdf"
+        },
+        {
+            "type": "pdf",
+            "url_text": null,
+            "title": "L2 S1 (Advanced CS) - GPA: 13.994/20",
+            "path": "fixed_data/academic/university/transcripts/JAMALOV Humbat L2S1.pdf"
         }
     ],
     "tagIds": [
         "computer-science",
-        "ufaz"
+        "ufaz",
+        "software-engineering",
+        "algorithms",
+        "cryptography",
+        "math",
+        "data-structures"
     ],
     "data_folder": "fixed_data/academic/university/transcripts"
 }

@@ -2,7 +2,7 @@
     "id": "testdome",
     "title": "Testdome",
     "path": "fixed_data/academic/certifications/testdome",
-    "organization": "Various",
+    "organization": "Testdome",
     "description": "Successfully earned a PHP certification from Testdome, demonstrating proficiency in back-end development and problem-solving. Achieved a ranking in the Top 25% of all test-takers, validating strong skills in server-side logic, data handling, and efficient coding practices.",
     "type": "academic",
     "subtype": "certifications",

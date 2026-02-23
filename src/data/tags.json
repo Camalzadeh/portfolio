@@ -250,14 +250,14 @@
             "name": "Math",
             "type": "organizations",
             "path": "tags/math.png",
-            "count": 8
+            "count": 9
         },
         {
             "id": "algorithms",
             "name": "Algorithms",
             "type": "concepts",
             "path": "tags/algorithm.png",
-            "count": 12
+            "count": 13
         },
         {
             "id": "turkcell",
@@ -278,7 +278,7 @@
             "name": "Research",
             "type": "institutions",
             "path": "tags/research.png",
-            "count": 2
+            "count": 1
         },
         {
             "id": "c-sharp",
@@ -348,7 +348,7 @@
             "name": "Data Structures",
             "type": "concepts",
             "path": "tags/data_structures.png",
-            "count": 9
+            "count": 10
         },
         {
             "id": "hibernate",
@@ -376,7 +376,7 @@
             "name": "Software Engineering",
             "type": "concepts",
             "path": "tags/software_engineering.png",
-            "count": 2
+            "count": 3
         },
         {
             "id": "competitive-programming",
@@ -397,7 +397,7 @@
             "name": "Ada University",
             "type": "institutions",
             "path": "tags/ada_university.png",
-            "count": 2
+            "count": 3
         },
         {
             "id": "constructor-university",
@@ -446,7 +446,7 @@
             "name": "Machine Learning",
             "type": "ai_ml",
             "path": "tags/machine_learning.png",
-            "count": 3
+            "count": 2
         },
         {
             "id": "artificial-intelligence",
@@ -530,7 +530,7 @@
             "name": "UFAZ",
             "type": "institutions",
             "path": "tags/ufaz.png",
-            "count": 9
+            "count": 10
         },
         {
             "id": "bhos",
@@ -565,7 +565,7 @@
             "name": "Conference",
             "type": "experience",
             "path": "tags/conference.png",
-            "count": 2
+            "count": 1
         },
         {
             "id": "scientific",
@@ -621,21 +621,21 @@
             "name": "Azerbaijani",
             "type": "organizations",
             "path": "tags/azerbaijan.png",
-            "count": 1
+            "count": 0
         },
         {
             "id": "ieee",
             "name": "IEEE",
             "type": "organizations",
             "path": "tags/ieee.png",
-            "count": 1
+            "count": 0
         },
         {
             "id": "computer-science",
             "name": "Computer Science",
             "type": "concepts",
             "path": "tags/computer_science.png",
-            "count": 1
+            "count": 2
         },
         {
             "id": "buta-group",
@@ -996,7 +996,7 @@
                     "name": "Machine Learning",
                     "type": "ai_ml",
                     "path": "tags/machine_learning.png",
-                    "count": 3
+                    "count": 2
                 },
                 {
                     "id": "pest-detection",
@@ -1145,7 +1145,7 @@
                     "name": "Algorithms",
                     "type": "concepts",
                     "path": "tags/algorithm.png",
-                    "count": 12
+                    "count": 13
                 },
                 {
                     "id": "olympiad",
@@ -1159,7 +1159,7 @@
                     "name": "Data Structures",
                     "type": "concepts",
                     "path": "tags/data_structures.png",
-                    "count": 9
+                    "count": 10
                 },
                 {
                     "id": "competitive-programming",
@@ -1183,17 +1183,17 @@
                     "count": 3
                 },
                 {
-                    "id": "backend",
-                    "name": "Backend",
-                    "type": "concepts",
-                    "path": "tags/backend.png",
-                    "count": 2
-                },
-                {
                     "id": "software-engineering",
                     "name": "Software Engineering",
                     "type": "concepts",
                     "path": "tags/software_engineering.png",
+                    "count": 3
+                },
+                {
+                    "id": "backend",
+                    "name": "Backend",
+                    "type": "concepts",
+                    "path": "tags/backend.png",
                     "count": 2
                 },
                 {
@@ -1208,6 +1208,13 @@
                     "name": "Mobile Development",
                     "type": "concepts",
                     "path": "tags/mobile_development.png",
+                    "count": 2
+                },
+                {
+                    "id": "computer-science",
+                    "name": "Computer Science",
+                    "type": "concepts",
+                    "path": "tags/computer_science.png",
                     "count": 2
                 },
                 {
@@ -1253,13 +1260,6 @@
                     "count": 1
                 },
                 {
-                    "id": "computer-science",
-                    "name": "Computer Science",
-                    "type": "concepts",
-                    "path": "tags/computer_science.png",
-                    "count": 1
-                },
-                {
                     "id": "unsplash",
                     "name": "Unsplash",
                     "type": "concepts",
@@ -1293,7 +1293,7 @@
                     "name": "Math",
                     "type": "organizations",
                     "path": "tags/math.png",
-                    "count": 8
+                    "count": 9
                 },
                 {
                     "id": "idda",
@@ -1359,20 +1359,6 @@
                     "count": 1
                 },
                 {
-                    "id": "azerbaijani",
-                    "name": "Azerbaijani",
-                    "type": "organizations",
-                    "path": "tags/azerbaijan.png",
-                    "count": 1
-                },
-                {
-                    "id": "ieee",
-                    "name": "IEEE",
-                    "type": "organizations",
-                    "path": "tags/ieee.png",
-                    "count": 1
-                },
-                {
                     "id": "buta-group",
                     "name": "Buta Group",
                     "type": "organizations",
@@ -1399,6 +1385,20 @@
                     "type": "organizations",
                     "path": "tags/turkcell.png",
                     "count": 0
+                },
+                {
+                    "id": "azerbaijani",
+                    "name": "Azerbaijani",
+                    "type": "organizations",
+                    "path": "tags/azerbaijan.png",
+                    "count": 0
+                },
+                {
+                    "id": "ieee",
+                    "name": "IEEE",
+                    "type": "organizations",
+                    "path": "tags/ieee.png",
+                    "count": 0
                 }
             ]
         },
@@ -1413,21 +1413,21 @@
                     "name": "UFAZ",
                     "type": "institutions",
                     "path": "tags/ufaz.png",
-                    "count": 9
-                },
-                {
-                    "id": "research",
-                    "name": "Research",
-                    "type": "institutions",
-                    "path": "tags/research.png",
-                    "count": 2
+                    "count": 10
                 },
                 {
                     "id": "ada-university",
                     "name": "Ada University",
                     "type": "institutions",
                     "path": "tags/ada_university.png",
-                    "count": 2
+                    "count": 3
+                },
+                {
+                    "id": "research",
+                    "name": "Research",
+                    "type": "institutions",
+                    "path": "tags/research.png",
+                    "count": 1
                 },
                 {
                     "id": "constructor-university",
@@ -1473,17 +1473,17 @@
                     "count": 5
                 },
                 {
-                    "id": "conference",
-                    "name": "Conference",
-                    "type": "experience",
-                    "path": "tags/conference.png",
-                    "count": 2
-                },
-                {
                     "id": "icsc",
                     "name": "ICSC",
                     "type": "experience",
                     "path": "tags/icsc.png",
+                    "count": 1
+                },
+                {
+                    "id": "conference",
+                    "name": "Conference",
+                    "type": "experience",
+                    "path": "tags/conference.png",
                     "count": 1
                 },
                 {

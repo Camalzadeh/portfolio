@@ -1,38 +1,44 @@
 {
     "id": "sign-language-ai-research",
-    "title": "Sign Language Recognition AI",
+    "title": "Resolving Interclass Similarities in Sign Language Using Adaptive Loss Function",
     "path": "fixed_data/academic/researchs/sign_language",
-    "organization": "UFAZ / IEEE",
-    "description": "Peer-reviewed research on Azerbaijani Sign Language recognition.",
+    "organization": "ADA University (Young Researchers Conference)",
+    "description": "Co-authored and presented peer-reviewed research at the Young Researchers Conference on Artificial Intelligence & Big Data, hosted by ADA University. The study introduces an 'Adaptive Loss Function' to mitigate interclass similarities in Sign Language Recognition. By dynamically penalizing confusing sign pairs, the model achieved a 23.5% reduction in Word Error Rate (WER) and increased accuracy for similar signs by 18%. This teacher-student collaboration, supported by UFAZ and sponsored by Neurotime, focuses on advancing digital accessibility in Azerbaijan through deep learning and multi-modal computer vision.",
     "type": "academic",
     "subtype": "research",
-    "position": "Lead Researcher",
-    "award": null,
-    "score": null,
+    "position": "Researcher / Co-Author / Mobile App Developer",
+    "award": "Conference Presentation Recognition",
+    "score": "91.5% Accuracy / 18.9% WER",
     "duration": null,
-    "place": null,
+    "place": "ADA University",
     "date": {
-        "year": 2024,
-        "month": null,
+        "year": 2026,
+        "month": 2,
         "day": null
     },
     "media": [
         {
             "type": "pdf",
             "url_text": null,
-            "title": "IEEE Conference",
+            "title": "IEEE Conference Paper",
             "path": "fixed_data/academic/researchs/sign_language/IEEE_conference.pdf"
+        },
+        {
+            "type": "url",
+            "url_text": "https://www.linkedin.com/posts/nigar-alishzade-3409b5182_r-ai-bigdata-activity-7316890346880139265-zSFV/",
+            "title": "Presentation at ADA University (LinkedIn)",
+            "path": null
         }
     ],
     "tagIds": [
-        "research",
         "artificial-intelligence",
-        "machine-learning",
-        "computer-vision",
+        "deep-learning",
+        "big-data",
         "sign-language",
-        "azerbaijani",
-        "ieee",
-        "conference"
+        "computer-vision",
+        "adaptive-loss",
+        "ada-university",
+        "ufaz"
     ],
     "data_folder": "fixed_data/academic/researchs/sign_language"
 }

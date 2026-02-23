@@ -236,33 +236,36 @@
                 "items": [
                     {
                         "id": "software-engineering-recommendation",
-                        "title": "Software Engineering Recommendation",
+                        "title": "Academic Recommendation: Software Engineering",
                         "path": "fixed_data/academic/university/software_engineering",
-                        "organization": "Various",
-                        "description": "Professional recommendation for Software Engineering expertise.",
+                        "organization": "French-Azerbaijani University (UFAZ) / Federal University of Uberlândia (UFU)",
+                        "description": "Professional academic recommendation from Prof. Igor S. Peretta, PhD. The endorsement highlights a perfect score of 100/100 in the Software Engineering course (2025), a rare achievement attained through exceptional mastery of software lifecycle, architecture, and design principles. This result significantly contributed to a stellar 98% GPA in 2024, ranking me at the very top of the Computer Science program. The professor emphasizes advanced analytical skills and the ability to grasp complex engineering topics with precision.",
                         "type": "academic",
                         "subtype": "university",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
+                        "position": "Top-Performing Student",
+                        "award": "Recommendation Letter",
+                        "score": "100/100 (Course Grade)",
+                        "duration": "2 weeks",
+                        "place": "Baku, Azerbaijan",
                         "date": {
-                            "year": 2024,
-                            "month": null,
+                            "year": 2025,
+                            "month": 10,
                             "day": null
                         },
                         "media": [
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Humbat Jamalov Recommendation",
+                                "title": "Recommendation Letter - Prof. Igor S. Peretta",
                                 "path": "fixed_data/academic/university/software_engineering/humbat_jamalov_recommendation.pdf"
                             }
                         ],
                         "tagIds": [
                             "software-engineering",
-                            "ufaz"
+                            "computer-science",
+                            "ufaz",
+                            "ufu",
+                            "recommendation"
                         ],
                         "data_folder": "fixed_data/academic/university/software_engineering",
                         "tags": [
@@ -273,48 +276,87 @@
                                 "path": "tags/software_engineering.png"
                             },
                             {
+                                "id": "computer-science",
+                                "name": "Computer Science",
+                                "type": "concepts",
+                                "path": "tags/computer_science.png"
+                            },
+                            {
                                 "id": "ufaz",
                                 "name": "UFAZ",
                                 "type": "institutions",
                                 "path": "tags/ufaz.png"
+                            },
+                            {
+                                "id": "ufu",
+                                "name": "Ufu",
+                                "path": null
+                            },
+                            {
+                                "id": "recommendation",
+                                "name": "Recommendation",
+                                "path": null
                             }
                         ]
                     },
                     {
                         "id": "university-transcripts",
-                        "title": "University Transcripts",
+                        "title": "University Transcripts (L0-L2)",
                         "path": "fixed_data/academic/university/transcripts",
-                        "organization": "UFAZ / ASOIU",
-                        "description": "Academic transcripts and grade reports for University studies.",
+                        "organization": "French-Azerbaijani University (UFAZ / University of Strasbourg)",
+                        "description": "Comprehensive academic transcripts for Bachelor of Computer Science. Key highlights include a perfect score (20/20) in Software Engineering and exceptional performance in core CS subjects such as Data Structures and Algorithms (18.275/20), Cryptography (18.675/20), and Mathematics (consistently high scores across Analysis and Algebra). Maintained 'Admis' (Pass) status across all semesters with a strong progression in technical proficiency and analytical reasoning.",
                         "type": "academic",
                         "subtype": "university",
-                        "position": null,
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
+                        "position": "Undergraduate Student",
+                        "award": "Academic Excellence in Computer Science",
+                        "score": "SE: 20/20 | DSA: 18.275/20 | Crypto: 18.675/20",
+                        "duration": "4 years",
+                        "place": "French-Azerbaijani University",
                         "date": {
-                            "year": 2024,
-                            "month": null,
+                            "year": 2023,
+                            "month": 9,
                             "day": null
                         },
                         "media": [
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "Humbat JAMALOV L0S1",
-                                "path": "fixed_data/academic/university/transcripts/Humbat JAMALOV_L0S1.pdf"
+                                "title": "L0 S1 (Foundation) - GPA: 13.953/20",
+                                "path": "fixed_data/academic/university/transcripts/JAMALOV Humbat L0S1.pdf"
                             },
                             {
                                 "type": "pdf",
                                 "url_text": null,
-                                "title": "JAMALOV Humbat L0S2",
-                                "path": "fixed_data/academic/university/transcripts/JAMALOV Humbat_L0S2.pdf"
+                                "title": "L0 S2 (Foundation) - GPA: 14.905/20",
+                                "path": "fixed_data/academic/university/transcripts/JAMALOV Humbat L0S2.pdf"
+                            },
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "L1 S1 (Computer Science) - GPA: 14.116/20",
+                                "path": "fixed_data/academic/university/transcripts/JAMALOV Humbat L1S1.pdf"
+                            },
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "L1 S2 (Computer Science) - GPA: 14.362/20",
+                                "path": "fixed_data/academic/university/transcripts/JAMALOV Humbat L1S2.pdf"
+                            },
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "L2 S1 (Advanced CS) - GPA: 13.994/20",
+                                "path": "fixed_data/academic/university/transcripts/JAMALOV Humbat L2S1.pdf"
                             }
                         ],
                         "tagIds": [
                             "computer-science",
-                            "ufaz"
+                            "ufaz",
+                            "software-engineering",
+                            "algorithms",
+                            "cryptography",
+                            "math",
+                            "data-structures"
                         ],
                         "data_folder": "fixed_data/academic/university/transcripts",
                         "tags": [
@@ -329,6 +371,35 @@
                                 "name": "UFAZ",
                                 "type": "institutions",
                                 "path": "tags/ufaz.png"
+                            },
+                            {
+                                "id": "software-engineering",
+                                "name": "Software Engineering",
+                                "type": "concepts",
+                                "path": "tags/software_engineering.png"
+                            },
+                            {
+                                "id": "algorithms",
+                                "name": "Algorithms",
+                                "type": "concepts",
+                                "path": "tags/algorithm.png"
+                            },
+                            {
+                                "id": "cryptography",
+                                "name": "Cryptography",
+                                "path": null
+                            },
+                            {
+                                "id": "math",
+                                "name": "Math",
+                                "type": "organizations",
+                                "path": "tags/math.png"
+                            },
+                            {
+                                "id": "data-structures",
+                                "name": "Data Structures",
+                                "type": "concepts",
+                                "path": "tags/data_structures.png"
                             }
                         ]
                     }
@@ -1067,7 +1138,7 @@
                         "id": "testdome",
                         "title": "Testdome",
                         "path": "fixed_data/academic/certifications/testdome",
-                        "organization": "Various",
+                        "organization": "Testdome",
                         "description": "Successfully earned a PHP certification from Testdome, demonstrating proficiency in back-end development and problem-solving. Achieved a ranking in the Top 25% of all test-takers, validating strong skills in server-side logic, data handling, and efficient coding practices.",
                         "type": "academic",
                         "subtype": "certifications",
@@ -1243,7 +1314,7 @@
                         "id": "turkcell",
                         "title": "Turkcell",
                         "path": "fixed_data/academic/certifications/turkcell",
-                        "organization": "Various",
+                        "organization": "Turkcell",
                         "description": "Completed a comprehensive web development curriculum through Turkcell’s 'Geleceği Yazanlar' initiative. Successfully mastered foundational and intermediate concepts across the Web Programming 101 and 201 series, covering the essential building blocks of modern web technologies, front-end architecture, and development workflows.",
                         "type": "academic",
                         "subtype": "certifications",
@@ -2421,15 +2492,112 @@
                                 "path": "tags/ufaz.png"
                             }
                         ]
+                    }
+                ]
+            },
+            {
+                "id": "research",
+                "title": "Research",
+                "items": [
+                    {
+                        "id": "sign-language-ai-research",
+                        "title": "Resolving Interclass Similarities in Sign Language Using Adaptive Loss Function",
+                        "path": "fixed_data/academic/researchs/sign_language",
+                        "organization": "ADA University (Young Researchers Conference)",
+                        "description": "Co-authored and presented peer-reviewed research at the Young Researchers Conference on Artificial Intelligence & Big Data, hosted by ADA University. The study introduces an 'Adaptive Loss Function' to mitigate interclass similarities in Sign Language Recognition. By dynamically penalizing confusing sign pairs, the model achieved a 23.5% reduction in Word Error Rate (WER) and increased accuracy for similar signs by 18%. This teacher-student collaboration, supported by UFAZ and sponsored by Neurotime, focuses on advancing digital accessibility in Azerbaijan through deep learning and multi-modal computer vision.",
+                        "type": "academic",
+                        "subtype": "research",
+                        "position": "Researcher / Co-Author / Mobile App Developer",
+                        "award": "Conference Presentation Recognition",
+                        "score": "91.5% Accuracy / 18.9% WER",
+                        "duration": null,
+                        "place": "ADA University",
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": null
+                        },
+                        "media": [
+                            {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "IEEE Conference Paper",
+                                "path": "fixed_data/academic/researchs/sign_language/IEEE_conference.pdf"
+                            },
+                            {
+                                "type": "url",
+                                "url_text": "https://www.linkedin.com/posts/nigar-alishzade-3409b5182_r-ai-bigdata-activity-7316890346880139265-zSFV/",
+                                "title": "Presentation at ADA University (LinkedIn)",
+                                "path": null
+                            }
+                        ],
+                        "tagIds": [
+                            "artificial-intelligence",
+                            "deep-learning",
+                            "big-data",
+                            "sign-language",
+                            "computer-vision",
+                            "adaptive-loss",
+                            "ada-university",
+                            "ufaz"
+                        ],
+                        "data_folder": "fixed_data/academic/researchs/sign_language",
+                        "tags": [
+                            {
+                                "id": "artificial-intelligence",
+                                "name": "Artificial Intelligence",
+                                "type": "ai_ml",
+                                "path": "tags/artificial_intelligence.png"
+                            },
+                            {
+                                "id": "deep-learning",
+                                "name": "Deep-learning",
+                                "path": null
+                            },
+                            {
+                                "id": "big-data",
+                                "name": "Big-data",
+                                "path": null
+                            },
+                            {
+                                "id": "sign-language",
+                                "name": "Sign Language",
+                                "type": "ai_ml",
+                                "path": "tags/sign_language.png"
+                            },
+                            {
+                                "id": "computer-vision",
+                                "name": "Computer Vision",
+                                "type": "ai_ml",
+                                "path": "tags/computer_vision.png"
+                            },
+                            {
+                                "id": "adaptive-loss",
+                                "name": "Adaptive-loss",
+                                "path": null
+                            },
+                            {
+                                "id": "ada-university",
+                                "name": "Ada University",
+                                "type": "institutions",
+                                "path": "tags/ada_university.png"
+                            },
+                            {
+                                "id": "ufaz",
+                                "name": "UFAZ",
+                                "type": "institutions",
+                                "path": "tags/ufaz.png"
+                            }
+                        ]
                     },
                     {
                         "id": "scientific-conference-heydar-aliyev-100",
                         "title": "III Student Republic Scientific-Practical Conference",
-                        "path": "fixed_data/academic/extra_activities/scientific_conference",
+                        "path": "fixed_data/academic/researchs/scientific_conference",
                         "organization": "Ministry of Science and Education of Azerbaijan & Various Institutes",
                         "description": "Awarded 1st place at the III Student Republic Scientific-Practical Conference dedicated to the 100th anniversary of National Leader Heydar Aliyev. Conducted extensive research on 'Modular Arithmetic and Remainder Division,' advocating for its earlier introduction in the national secondary education curriculum. Argued that modular arithmetic, currently primarily taught at the university level in Azerbaijan, is essential for developing logical reasoning from lower grades. The research was supported by the R.H.F.G. named after S.C. Pishavari and several academic institutes.",
                         "type": "academic",
-                        "subtype": "extra_activities",
+                        "subtype": "research",
                         "position": "Winner",
                         "award": "1st Place",
                         "score": "Excellence in Research",
@@ -2442,10 +2610,16 @@
                         },
                         "media": [
                             {
+                                "type": "pdf",
+                                "url_text": null,
+                                "title": "Research Paper",
+                                "path": "fixed_data/academic/researchs/scientific_conference/Qalıqlı bölmənin Azərbaycan təhsilində önəmi.pdf"
+                            },
+                            {
                                 "type": "image",
                                 "url_text": null,
-                                "title": "1st Place Certificate - Scientific Conference",
-                                "path": "fixed_data/academic/extra_activities/scientific_conference/IMG-20240913-WA0027.jpg"
+                                "title": "Participation Certificate",
+                                "path": "fixed_data/academic/researchs/scientific_conference/IMG-20240913-WA0027.jpg"
                             }
                         ],
                         "tagIds": [
@@ -2455,7 +2629,7 @@
                             "math",
                             "number-theory"
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/scientific_conference",
+                        "data_folder": "fixed_data/academic/researchs/scientific_conference",
                         "tags": [
                             {
                                 "id": "conference",
@@ -2485,100 +2659,6 @@
                                 "id": "number-theory",
                                 "name": "Number-theory",
                                 "path": null
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": "research",
-                "title": "Research",
-                "items": [
-                    {
-                        "id": "sign-language-ai-research",
-                        "title": "Sign Language Recognition AI",
-                        "path": "fixed_data/academic/researchs/sign_language",
-                        "organization": "UFAZ / IEEE",
-                        "description": "Peer-reviewed research on Azerbaijani Sign Language recognition.",
-                        "type": "academic",
-                        "subtype": "research",
-                        "position": "Lead Researcher",
-                        "award": null,
-                        "score": null,
-                        "duration": null,
-                        "place": null,
-                        "date": {
-                            "year": 2024,
-                            "month": null,
-                            "day": null
-                        },
-                        "media": [
-                            {
-                                "type": "pdf",
-                                "url_text": null,
-                                "title": "IEEE Conference",
-                                "path": "fixed_data/academic/researchs/sign_language/IEEE_conference.pdf"
-                            }
-                        ],
-                        "tagIds": [
-                            "research",
-                            "artificial-intelligence",
-                            "machine-learning",
-                            "computer-vision",
-                            "sign-language",
-                            "azerbaijani",
-                            "ieee",
-                            "conference"
-                        ],
-                        "data_folder": "fixed_data/academic/researchs/sign_language",
-                        "tags": [
-                            {
-                                "id": "research",
-                                "name": "Research",
-                                "type": "institutions",
-                                "path": "tags/research.png"
-                            },
-                            {
-                                "id": "artificial-intelligence",
-                                "name": "Artificial Intelligence",
-                                "type": "ai_ml",
-                                "path": "tags/artificial_intelligence.png"
-                            },
-                            {
-                                "id": "machine-learning",
-                                "name": "Machine Learning",
-                                "type": "ai_ml",
-                                "path": "tags/machine_learning.png"
-                            },
-                            {
-                                "id": "computer-vision",
-                                "name": "Computer Vision",
-                                "type": "ai_ml",
-                                "path": "tags/computer_vision.png"
-                            },
-                            {
-                                "id": "sign-language",
-                                "name": "Sign Language",
-                                "type": "ai_ml",
-                                "path": "tags/sign_language.png"
-                            },
-                            {
-                                "id": "azerbaijani",
-                                "name": "Azerbaijani",
-                                "type": "organizations",
-                                "path": "tags/azerbaijan.png"
-                            },
-                            {
-                                "id": "ieee",
-                                "name": "IEEE",
-                                "type": "organizations",
-                                "path": "tags/ieee.png"
-                            },
-                            {
-                                "id": "conference",
-                                "name": "Conference",
-                                "type": "experience",
-                                "path": "tags/conference.png"
                             }
                         ]
                     }

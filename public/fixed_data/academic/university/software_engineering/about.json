@@ -1,32 +1,35 @@
 {
     "id": "software-engineering-recommendation",
-    "title": "Software Engineering Recommendation",
+    "title": "Academic Recommendation: Software Engineering",
     "path": "fixed_data/academic/university/software_engineering",
-    "organization": "Various",
-    "description": "Professional recommendation for Software Engineering expertise.",
+    "organization": "French-Azerbaijani University (UFAZ) / Federal University of Uberlândia (UFU)",
+    "description": "Professional academic recommendation from Prof. Igor S. Peretta, PhD. The endorsement highlights a perfect score of 100/100 in the Software Engineering course (2025), a rare achievement attained through exceptional mastery of software lifecycle, architecture, and design principles. This result significantly contributed to a stellar 98% GPA in 2024, ranking me at the very top of the Computer Science program. The professor emphasizes advanced analytical skills and the ability to grasp complex engineering topics with precision.",
     "type": "academic",
     "subtype": "university",
-    "position": null,
-    "award": null,
-    "score": null,
-    "duration": null,
-    "place": null,
+    "position": "Top-Performing Student",
+    "award": "Recommendation Letter",
+    "score": "100/100 (Course Grade)",
+    "duration": "2 weeks",
+    "place": "Baku, Azerbaijan",
     "date": {
-        "year": 2024,
-        "month": null,
+        "year": 2025,
+        "month": 10,
         "day": null
     },
     "media": [
         {
             "type": "pdf",
             "url_text": null,
-            "title": "Humbat Jamalov Recommendation",
+            "title": "Recommendation Letter - Prof. Igor S. Peretta",
             "path": "fixed_data/academic/university/software_engineering/humbat_jamalov_recommendation.pdf"
         }
     ],
     "tagIds": [
         "software-engineering",
-        "ufaz"
+        "computer-science",
+        "ufaz",
+        "ufu",
+        "recommendation"
     ],
     "data_folder": "fixed_data/academic/university/software_engineering"
 }
