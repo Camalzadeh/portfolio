@@ -8,13 +8,6 @@
             "count": 1
         },
         {
-            "id": "world-skills",
-            "name": "World Skills",
-            "type": "experience",
-            "path": "tags/experience/world-skills.png",
-            "count": 0
-        },
-        {
             "id": "internship",
             "name": "Internship",
             "type": "experience",
@@ -47,6 +40,13 @@
             "name": "Recommendation",
             "type": "experience",
             "path": "tags/experience/recommendation.png",
+            "count": 1
+        },
+        {
+            "id": "worldskills",
+            "name": "WorldSkills",
+            "type": "experience",
+            "path": "tags/experience/world-skills.png",
             "count": 1
         }
     ]

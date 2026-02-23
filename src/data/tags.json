@@ -204,6 +204,20 @@
             "count": 2
         },
         {
+            "id": "idda",
+            "name": "IDDA",
+            "type": "organizations",
+            "path": "tags/organizations/idda.webp",
+            "count": 2
+        },
+        {
+            "id": "guardian-x",
+            "name": "Guardian-X",
+            "type": "organizations",
+            "path": "tags/organizations/guardian_x.png",
+            "count": 2
+        },
+        {
             "id": "python",
             "name": "Python",
             "type": "programming_languages",
@@ -313,6 +327,13 @@
             "name": "Whisper AI",
             "type": "ai_ml",
             "path": "tags/ai_ml/whisper-ai.png",
+            "count": 1
+        },
+        {
+            "id": "generative-ai",
+            "name": "Generative AI",
+            "type": "ai_ml",
+            "path": "tags/ai_ml/generative-ai.webp",
             "count": 1
         },
         {
@@ -467,6 +488,13 @@
             "name": "Recommendation",
             "type": "experience",
             "path": "tags/experience/recommendation.png",
+            "count": 1
+        },
+        {
+            "id": "worldskills",
+            "name": "WorldSkills",
+            "type": "experience",
+            "path": "tags/experience/world-skills.png",
             "count": 1
         },
         {
@@ -673,6 +701,55 @@
             "count": 1
         },
         {
+            "id": "abb",
+            "name": "ABB",
+            "type": "organizations",
+            "path": "tags/organizations/abb.png",
+            "count": 1
+        },
+        {
+            "id": "codestar",
+            "name": "CodeStar",
+            "type": "organizations",
+            "path": "tags/organizations/codestar.webp",
+            "count": 1
+        },
+        {
+            "id": "aegee",
+            "name": "AEGEE",
+            "type": "organizations",
+            "path": "tags/organizations/aegee.png",
+            "count": 1
+        },
+        {
+            "id": "bir-konullu",
+            "name": "Bir Konullu",
+            "type": "organizations",
+            "path": "tags/organizations/bir_konullu.jpeg",
+            "count": 1
+        },
+        {
+            "id": "buta-group",
+            "name": "Buta Group",
+            "type": "organizations",
+            "path": "tags/organizations/buta_group.jpeg",
+            "count": 1
+        },
+        {
+            "id": "siemens",
+            "name": "Siemens",
+            "type": "organizations",
+            "path": "tags/organizations/siemens.png",
+            "count": 1
+        },
+        {
+            "id": "erp-systems",
+            "name": "ERP-Systems",
+            "type": "organizations",
+            "path": "tags/organizations/erp_systems.png",
+            "count": 1
+        },
+        {
             "id": "dart",
             "name": "Dart",
             "type": "programming_languages",
@@ -831,13 +908,6 @@
             "name": "MongoDB",
             "type": "data",
             "path": "tags/data/mongo.png",
-            "count": 0
-        },
-        {
-            "id": "world-skills",
-            "name": "World Skills",
-            "type": "experience",
-            "path": "tags/experience/world-skills.png",
             "count": 0
         },
         {
@@ -1206,6 +1276,13 @@
                     "name": "Whisper AI",
                     "type": "ai_ml",
                     "path": "tags/ai_ml/whisper-ai.png",
+                    "count": 1
+                },
+                {
+                    "id": "generative-ai",
+                    "name": "Generative AI",
+                    "type": "ai_ml",
+                    "path": "tags/ai_ml/generative-ai.webp",
                     "count": 1
                 }
             ]
@@ -1693,6 +1770,20 @@
                     "count": 3
                 },
                 {
+                    "id": "idda",
+                    "name": "IDDA",
+                    "type": "organizations",
+                    "path": "tags/organizations/idda.webp",
+                    "count": 2
+                },
+                {
+                    "id": "guardian-x",
+                    "name": "Guardian-X",
+                    "type": "organizations",
+                    "path": "tags/organizations/guardian_x.png",
+                    "count": 2
+                },
+                {
                     "id": "research",
                     "name": "Research",
                     "type": "organizations",
@@ -1796,6 +1887,55 @@
                     "type": "organizations",
                     "path": "tags/organizations/ufu.png",
                     "count": 1
+                },
+                {
+                    "id": "abb",
+                    "name": "ABB",
+                    "type": "organizations",
+                    "path": "tags/organizations/abb.png",
+                    "count": 1
+                },
+                {
+                    "id": "codestar",
+                    "name": "CodeStar",
+                    "type": "organizations",
+                    "path": "tags/organizations/codestar.webp",
+                    "count": 1
+                },
+                {
+                    "id": "aegee",
+                    "name": "AEGEE",
+                    "type": "organizations",
+                    "path": "tags/organizations/aegee.png",
+                    "count": 1
+                },
+                {
+                    "id": "bir-konullu",
+                    "name": "Bir Konullu",
+                    "type": "organizations",
+                    "path": "tags/organizations/bir_konullu.jpeg",
+                    "count": 1
+                },
+                {
+                    "id": "buta-group",
+                    "name": "Buta Group",
+                    "type": "organizations",
+                    "path": "tags/organizations/buta_group.jpeg",
+                    "count": 1
+                },
+                {
+                    "id": "siemens",
+                    "name": "Siemens",
+                    "type": "organizations",
+                    "path": "tags/organizations/siemens.png",
+                    "count": 1
+                },
+                {
+                    "id": "erp-systems",
+                    "name": "ERP-Systems",
+                    "type": "organizations",
+                    "path": "tags/organizations/erp_systems.png",
+                    "count": 1
                 }
             ]
         },
@@ -1848,11 +1988,11 @@
                     "count": 1
                 },
                 {
-                    "id": "world-skills",
-                    "name": "World Skills",
+                    "id": "worldskills",
+                    "name": "WorldSkills",
                     "type": "experience",
                     "path": "tags/experience/world-skills.png",
-                    "count": 0
+                    "count": 1
                 }
             ]
         }

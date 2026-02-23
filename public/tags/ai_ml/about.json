@@ -83,6 +83,13 @@
             "type": "ai_ml",
             "path": "tags/ai_ml/whisper-ai.png",
             "count": 1
+        },
+        {
+            "id": "generative-ai",
+            "name": "Generative AI",
+            "type": "ai_ml",
+            "path": "tags/ai_ml/generative-ai.webp",
+            "count": 1
         }
     ]
 }

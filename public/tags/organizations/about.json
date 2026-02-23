@@ -118,6 +118,69 @@
             "type": "organizations",
             "path": "tags/organizations/ufu.png",
             "count": 1
+        },
+        {
+            "id": "abb",
+            "name": "ABB",
+            "type": "organizations",
+            "path": "tags/organizations/abb.png",
+            "count": 1
+        },
+        {
+            "id": "idda",
+            "name": "IDDA",
+            "type": "organizations",
+            "path": "tags/organizations/idda.webp",
+            "count": 2
+        },
+        {
+            "id": "codestar",
+            "name": "CodeStar",
+            "type": "organizations",
+            "path": "tags/organizations/codestar.webp",
+            "count": 1
+        },
+        {
+            "id": "aegee",
+            "name": "AEGEE",
+            "type": "organizations",
+            "path": "tags/organizations/aegee.png",
+            "count": 1
+        },
+        {
+            "id": "bir-konullu",
+            "name": "Bir Konullu",
+            "type": "organizations",
+            "path": "tags/organizations/bir_konullu.jpeg",
+            "count": 1
+        },
+        {
+            "id": "buta-group",
+            "name": "Buta Group",
+            "type": "organizations",
+            "path": "tags/organizations/buta_group.jpeg",
+            "count": 1
+        },
+        {
+            "id": "siemens",
+            "name": "Siemens",
+            "type": "organizations",
+            "path": "tags/organizations/siemens.png",
+            "count": 1
+        },
+        {
+            "id": "erp-systems",
+            "name": "ERP-Systems",
+            "type": "organizations",
+            "path": "tags/organizations/erp_systems.png",
+            "count": 1
+        },
+        {
+            "id": "guardian-x",
+            "name": "Guardian-X",
+            "type": "organizations",
+            "path": "tags/organizations/guardian_x.png",
+            "count": 2
         }
     ]
 }
