@@ -4,73 +4,85 @@
             "id": "gemini",
             "name": "Gemini",
             "type": "ai_ml",
-            "path": "tags/ai_ml/gemini.png"
+            "path": "tags/ai_ml/gemini.png",
+            "count": 3
         },
         {
             "id": "machine-learning",
             "name": "Machine Learning",
             "type": "ai_ml",
-            "path": "tags/ai_ml/machine_learning.png"
+            "path": "tags/ai_ml/machine_learning.png",
+            "count": 2
         },
         {
             "id": "artificial-intelligence",
             "name": "Artificial Intelligence",
             "type": "ai_ml",
-            "path": "tags/ai_ml/artificial_intelligence.png"
+            "path": "tags/ai_ml/artificial_intelligence.png",
+            "count": 6
         },
         {
             "id": "data-science",
             "name": "Data Science",
             "type": "ai_ml",
-            "path": "tags/ai_ml/data_science.png"
+            "path": "tags/ai_ml/data_science.png",
+            "count": 1
         },
         {
             "id": "computer-vision",
             "name": "Computer Vision",
             "type": "ai_ml",
-            "path": "tags/ai_ml/computer_vision.png"
+            "path": "tags/ai_ml/computer_vision.png",
+            "count": 1
         },
         {
             "id": "sign-language",
             "name": "Sign Language",
             "type": "ai_ml",
-            "path": "tags/ai_ml/sign_language.png"
+            "path": "tags/ai_ml/sign_language.png",
+            "count": 1
         },
         {
             "id": "pest-detection",
             "name": "Pest Detection",
             "type": "ai_ml",
-            "path": "tags/ai_ml/pest_detection.png"
+            "path": "tags/ai_ml/pest_detection.png",
+            "count": 2
         },
         {
             "id": "data-analytics",
             "name": "Data Analytics",
             "type": "ai_ml",
-            "path": "tags/ai_ml/data-analytics.png"
+            "path": "tags/ai_ml/data-analytics.png",
+            "count": 1
         },
         {
             "id": "deep-learning",
             "name": "Deep Learning",
             "type": "ai_ml",
-            "path": "tags/ai_ml/deep-learning.png"
+            "path": "tags/ai_ml/deep-learning.png",
+            "count": 1
         },
         {
             "id": "big-data",
             "name": "Big Data",
             "type": "ai_ml",
-            "path": "tags/ai_ml/big-data.png"
+            "path": "tags/ai_ml/big-data.png",
+            "count": 1
         },
         {
             "id": "adaptive-loss",
             "name": "Adaptive Loss",
             "type": "ai_ml",
-            "path": "tags/ai_ml/adaptive-loss.jpg"
+            "path": "tags/ai_ml/adaptive-loss.jpg",
+            "count": 1
         },
         {
             "id": "whisper-ai",
             "name": "Whisper AI",
             "type": "ai_ml",
-            "path": "tags/ai_ml/whisper-ai.png"
+            "path": "tags/ai_ml/whisper-ai.png",
+            "count": 1
         }
     ]
 }

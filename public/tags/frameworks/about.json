@@ -4,79 +4,92 @@
             "id": "flutter",
             "name": "Flutter",
             "type": "frameworks",
-            "path": "tags/frameworks/flutter.png"
+            "path": "tags/frameworks/flutter.png",
+            "count": 4
         },
         {
             "id": "django",
             "name": "Django",
             "type": "frameworks",
-            "path": "tags/frameworks/django.svg"
+            "path": "tags/frameworks/django.svg",
+            "count": 1
         },
         {
             "id": "react",
             "name": "React",
             "type": "frameworks",
-            "path": "tags/frameworks/react.png"
+            "path": "tags/frameworks/react.png",
+            "count": 1
         },
         {
             "id": "tailwind",
             "name": "Tailwind CSS",
             "type": "frameworks",
-            "path": "tags/frameworks/tailwind.png"
+            "path": "tags/frameworks/tailwind.png",
+            "count": 0
         },
         {
             "id": "bootstrap",
             "name": "Bootstrap",
             "type": "frameworks",
-            "path": "tags/frameworks/bootstrap.png"
+            "path": "tags/frameworks/bootstrap.png",
+            "count": 0
         },
         {
             "id": "resend",
             "name": "Resend",
             "type": "frameworks",
-            "path": "tags/frameworks/resend.webp"
+            "path": "tags/frameworks/resend.webp",
+            "count": 1
         },
         {
             "id": "ably",
             "name": "Ably",
             "type": "frameworks",
-            "path": "tags/frameworks/ably.png"
+            "path": "tags/frameworks/ably.png",
+            "count": 0
         },
         {
             "id": "spring",
             "name": "Spring",
             "type": "frameworks",
-            "path": "tags/frameworks/spring.png"
+            "path": "tags/frameworks/spring.png",
+            "count": 1
         },
         {
             "id": "spring-boot",
             "name": "Spring Boot",
             "type": "frameworks",
-            "path": "tags/frameworks/spring_boot.svg"
+            "path": "tags/frameworks/spring_boot.svg",
+            "count": 1
         },
         {
             "id": "hibernate",
             "name": "Hibernate",
             "type": "frameworks",
-            "path": "tags/frameworks/hibernate_logo.png"
+            "path": "tags/frameworks/hibernate_logo.png",
+            "count": 1
         },
         {
             "id": "no-code",
             "name": "No Code",
             "type": "frameworks",
-            "path": "tags/frameworks/no_code.png"
+            "path": "tags/frameworks/no_code.png",
+            "count": 1
         },
         {
             "id": "riverpod",
             "name": "Riverpod",
             "type": "frameworks",
-            "path": "tags/frameworks/riverpod.png"
+            "path": "tags/frameworks/riverpod.png",
+            "count": 1
         },
         {
             "id": "next-js",
             "name": "Next.js",
             "type": "frameworks",
-            "path": "tags/frameworks/next-js.png"
+            "path": "tags/frameworks/next-js.png",
+            "count": 1
         }
     ]
 }

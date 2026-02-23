@@ -3,122 +3,142 @@
         {
             "id": "algorithms",
             "name": "Algorithms",
-            "type": "engineering",
-            "path": "tags/engineering/algorithm.png"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/algorithm.png",
+            "count": 13
         },
         {
             "id": "web",
             "name": "Web",
-            "type": "engineering",
-            "path": "tags/engineering/web.webp"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/web.webp",
+            "count": 4
         },
         {
             "id": "data-structures",
             "name": "Data Structures",
-            "type": "engineering",
-            "path": "tags/engineering/data_structures.png"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/data_structures.png",
+            "count": 10
         },
         {
             "id": "backend",
             "name": "Backend",
-            "type": "engineering",
-            "path": "tags/engineering/backend.png"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/backend.png",
+            "count": 2
         },
         {
             "id": "api",
             "name": "API",
-            "type": "engineering",
-            "path": "tags/engineering/api.png"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/api.png",
+            "count": 1
         },
         {
             "id": "software-engineering",
             "name": "Software Engineering",
-            "type": "engineering",
-            "path": "tags/engineering/software_engineering.png"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/software_engineering.png",
+            "count": 3
         },
         {
             "id": "graphs",
             "name": "Graphs",
-            "type": "engineering",
-            "path": "tags/engineering/graph.png"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/graph.png",
+            "count": 7
         },
         {
             "id": "oop",
             "name": "OOP",
-            "type": "engineering",
-            "path": "tags/engineering/oop.png"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/oop.png",
+            "count": 1
         },
         {
             "id": "design-patterns",
             "name": "Design Patterns",
-            "type": "engineering",
-            "path": "tags/engineering/design_patterns.png"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/design_patterns.png",
+            "count": 2
         },
         {
             "id": "software-architecture",
             "name": "Software Architecture",
-            "type": "engineering",
-            "path": "tags/engineering/software_architecture.png"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/software_architecture.png",
+            "count": 1
         },
         {
             "id": "mobile-development",
             "name": "Mobile Development",
-            "type": "engineering",
-            "path": "tags/engineering/mobile_development.png"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/mobile_development.png",
+            "count": 4
         },
         {
             "id": "photoshop",
             "name": "Photoshop",
-            "type": "engineering",
-            "path": "tags/engineering/photoshop.png"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/photoshop.png",
+            "count": 1
         },
         {
             "id": "computer-science",
             "name": "Computer Science",
-            "type": "engineering",
-            "path": "tags/engineering/computer_science.png"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/computer_science.png",
+            "count": 2
         },
         {
             "id": "frontend",
             "name": "Frontend",
-            "type": "engineering",
-            "path": "tags/engineering/frontend.png"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/frontend.png",
+            "count": 2
         },
         {
             "id": "solid-principles",
             "name": "SOLID Principles",
-            "type": "engineering",
-            "path": "tags/engineering/solid-principles.png"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/solid-principles.png",
+            "count": 1
         },
         {
             "id": "clean-architecture",
             "name": "Clean Architecture",
-            "type": "engineering",
-            "path": "tags/clean_architecture.png"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/clean_architecture.png",
+            "count": 2
         },
         {
             "id": "responsive",
             "name": "Responsive Design",
-            "type": "engineering",
-            "path": "tags/engineering/responsive.png"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/responsive.png",
+            "count": 1
         },
         {
             "id": "full-stack",
             "name": "Full Stack",
-            "type": "engineering",
-            "path": "tags/engineering/full-stack.png"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/full-stack.png",
+            "count": 1
         },
         {
             "id": "production",
             "name": "Production",
-            "type": "engineering",
-            "path": "tags/engineering/production.png"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/production.png",
+            "count": 1
         },
         {
             "id": "multi-app",
             "name": "Multi-App System",
-            "type": "engineering",
-            "path": "tags/engineering/multi-app.png"
+            "type": "software_engineering",
+            "path": "tags/software_engineering/multi-app.png",
+            "count": 1
         }
     ]
 }

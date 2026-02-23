@@ -3,26 +3,30 @@
         {
             "id": "leadership",
             "name": "Leadership",
-            "type": "leadership",
-            "path": "tags/leadership/leadership.png"
+            "type": "management_lead",
+            "path": "tags/management_lead/leadership.png",
+            "count": 1
         },
         {
             "id": "content-creation",
             "name": "Content Creation",
-            "type": "leadership",
-            "path": "tags/leadership/content-creation.webp"
+            "type": "management_lead",
+            "path": "tags/management_lead/content-creation.webp",
+            "count": 1
         },
         {
             "id": "organization",
             "name": "Organization",
-            "type": "leadership",
-            "path": "tags/leadership/organization.png"
+            "type": "management_lead",
+            "path": "tags/management_lead/organization.png",
+            "count": 1
         },
         {
             "id": "entrepreneurship",
             "name": "Entrepreneurship",
-            "type": "leadership",
-            "path": "tags/leadership/entrepreneur.png"
+            "type": "management_lead",
+            "path": "tags/management_lead/entrepreneur.png",
+            "count": 1
         }
     ]
 }

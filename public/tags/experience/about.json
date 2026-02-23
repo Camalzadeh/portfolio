@@ -4,43 +4,50 @@
             "id": "conference",
             "name": "Conference",
             "type": "experience",
-            "path": "tags/experience/conference.png"
+            "path": "tags/experience/conference.png",
+            "count": 1
         },
         {
             "id": "world-skills",
             "name": "World Skills",
             "type": "experience",
-            "path": "tags/experience/world-skills.png"
+            "path": "tags/experience/world-skills.png",
+            "count": 0
         },
         {
             "id": "internship",
             "name": "Internship",
             "type": "experience",
-            "path": "tags/experience/internship.png"
+            "path": "tags/experience/internship.png",
+            "count": 1
         },
         {
             "id": "hackathon",
             "name": "Hackathon",
             "type": "experience",
-            "path": "tags/experience/hackathon.png"
+            "path": "tags/experience/hackathon.png",
+            "count": 1
         },
         {
             "id": "startup",
             "name": "Startup",
             "type": "experience",
-            "path": "tags/experience/startup.png"
+            "path": "tags/experience/startup.png",
+            "count": 1
         },
         {
             "id": "technical-interview",
             "name": "Technical Interview",
             "type": "experience",
-            "path": null
+            "path": null,
+            "count": 1
         },
         {
             "id": "recommendation",
             "name": "Recommendation",
             "type": "experience",
-            "path": null
+            "path": null,
+            "count": 1
         }
     ]
 }

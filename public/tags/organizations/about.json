@@ -3,110 +3,128 @@
         {
             "id": "academic",
             "name": "Academic",
-            "type": "institutions",
-            "path": null
+            "type": "organizations",
+            "path": null,
+            "count": 0
         },
         {
             "id": "research",
             "name": "Research",
-            "type": "institutions",
-            "path": "tags/institutions/research.png"
+            "type": "organizations",
+            "path": "tags/organizations/research.png",
+            "count": 1
         },
         {
             "id": "ada-university",
             "name": "Ada University",
-            "type": "institutions",
-            "path": "tags/institutions/ada_university.png"
+            "type": "organizations",
+            "path": "tags/organizations/ada_university.png",
+            "count": 3
         },
         {
             "id": "constructor-university",
             "name": "Constructor University",
-            "type": "institutions",
-            "path": "tags/institutions/constructor_university.png"
+            "type": "organizations",
+            "path": "tags/organizations/constructor_university.png",
+            "count": 1
         },
         {
             "id": "4sim",
             "name": "4sim",
-            "type": "institutions",
-            "path": "tags/institutions/4sim.png"
+            "type": "organizations",
+            "path": "tags/organizations/4sim.png",
+            "count": 1
         },
         {
             "id": "coursera",
             "name": "Coursera",
-            "type": "institutions",
-            "path": "tags/institutions/coursera.png"
+            "type": "organizations",
+            "path": "tags/organizations/coursera.png",
+            "count": 1
         },
         {
             "id": "udemy",
             "name": "Udemy",
-            "type": "institutions",
-            "path": "tags/institutions/udemy.webp"
+            "type": "organizations",
+            "path": "tags/organizations/udemy.webp",
+            "count": 1
         },
         {
             "id": "ufaz",
             "name": "UFAZ",
-            "type": "institutions",
-            "path": "tags/institutions/ufaz.png"
+            "type": "organizations",
+            "path": "tags/organizations/ufaz.png",
+            "count": 10
         },
         {
             "id": "bhos",
             "name": "BHOS",
-            "type": "institutions",
-            "path": "tags/institutions/bhos.png"
+            "type": "organizations",
+            "path": "tags/organizations/bhos.png",
+            "count": 1
         },
         {
             "id": "miuul",
             "name": "Miuul",
-            "type": "institutions",
-            "path": "tags/institutions/miuul.png"
+            "type": "organizations",
+            "path": "tags/organizations/miuul.png",
+            "count": 1
         },
         {
             "id": "holberton-school",
             "name": "Holberton School",
-            "type": "institutions",
-            "path": "tags/institutions/holberton-school.webp"
+            "type": "organizations",
+            "path": "tags/organizations/holberton-school.webp",
+            "count": 1
         },
         {
             "id": "stanford-university",
             "name": "Stanford University",
-            "type": "institutions",
-            "path": "tags/institutions/standford-university.avif"
+            "type": "organizations",
+            "path": "tags/organizations/standford-university.avif",
+            "count": 1
         },
         {
             "id": "deeplearning-ai",
             "name": "DeepLearning.AI",
-            "type": "institutions",
-            "path": "tags/institutions/deeplearning-ai.png"
+            "type": "organizations",
+            "path": "tags/organizations/deeplearning-ai.png",
+            "count": 1
         },
         {
             "id": "beu",
             "name": "Baku Engineering University",
-            "type": "institutions",
-            "path": "tags/institutions/baku-engineering-university.png"
+            "type": "organizations",
+            "path": "tags/organizations/baku-engineering-university.png",
+            "count": 1
         },
         {
             "id": "ei-group",
             "name": "EI Group",
-            "type": "institutions",
-            "path": "tags/institutions/ei-group.png"
+            "type": "organizations",
+            "path": "tags/organizations/ei-group.png",
+            "count": 1
         },
         {
             "id": "arti",
             "name": "ARTI",
-            "type": "institutions",
-            "path": "tags/institutions/arti.png"
+            "type": "organizations",
+            "path": "tags/organizations/arti.png",
+            "count": 1
         },
         {
             "id": "eolymp",
             "name": "E-olymp",
-            "type": "institutions",
-            "path": "tags/institutions/e-olymp.png"
+            "type": "organizations",
+            "path": "tags/organizations/e-olymp.png",
+            "count": 1
         },
         {
             "id": "ufu",
             "name": "Federal University of Uberlândia",
-            "type": "institutions",
-            "path": "tags/institutions/ufu.png"
+            "type": "organizations",
+            "path": "tags/organizations/ufu.png",
+            "count": 1
         }
     ]
 }

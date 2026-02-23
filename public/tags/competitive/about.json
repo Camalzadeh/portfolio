@@ -4,25 +4,29 @@
             "id": "icpc",
             "name": "ICPC",
             "type": "competitive",
-            "path": "tags/competitive/icpc.png"
+            "path": "tags/competitive/icpc.png",
+            "count": 5
         },
         {
             "id": "icsc",
             "name": "ICSC",
             "type": "competitive",
-            "path": "tags/competitive/icsc.png"
+            "path": "tags/competitive/icsc.png",
+            "count": 1
         },
         {
             "id": "camp",
             "name": "Camp",
             "type": "competitive",
-            "path": "tags/competitive/camp.png"
+            "path": "tags/competitive/camp.png",
+            "count": 0
         },
         {
             "id": "competition",
             "name": "Competition",
             "type": "competitive",
-            "path": "tags/competitive/competition.png"
+            "path": "tags/competitive/competition.png",
+            "count": 1
         }
     ]
 }

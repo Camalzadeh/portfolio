@@ -3,62 +3,72 @@
         {
             "id": "unsplash",
             "name": "Unsplash",
-            "type": "theory",
-            "path": "tags/theory/unsplash.png"
+            "type": "computer_science",
+            "path": "tags/computer_science/unsplash.png",
+            "count": 1
         },
         {
             "id": "scientific",
             "name": "Scientific",
-            "type": "theory",
-            "path": "tags/theory/science.png"
+            "type": "computer_science",
+            "path": "tags/computer_science/science.png",
+            "count": 1
         },
         {
             "id": "programming",
             "name": "Programming",
-            "type": "theory",
-            "path": "tags/theory/programming.webp"
+            "type": "computer_science",
+            "path": "tags/computer_science/programming.webp",
+            "count": 0
         },
         {
             "id": "design",
             "name": "Design",
-            "type": "theory",
-            "path": "tags/theory/design.png"
+            "type": "computer_science",
+            "path": "tags/computer_science/design.png",
+            "count": 0
         },
         {
             "id": "dynamic-programming",
             "name": "Dynamic Programming",
-            "type": "theory",
-            "path": "tags/theory/dp.png"
+            "type": "computer_science",
+            "path": "tags/computer_science/dp.png",
+            "count": 6
         },
         {
             "id": "problem-solving",
             "name": "Problem Solving",
-            "type": "theory",
-            "path": "tags/theory/problem-solving.png"
+            "type": "computer_science",
+            "path": "tags/computer_science/problem-solving.png",
+            "count": 7
         },
         {
             "id": "functional-programming",
             "name": "Functional Programming",
-            "type": "theory",
-            "path": "tags/theory/functional-programming.webp"
+            "type": "computer_science",
+            "path": "tags/computer_science/functional-programming.webp",
+            "count": 1
         },
         {
             "id": "cryptography",
             "name": "Cryptography",
-            "type": "theory",
-            "path": "tags/theory/cryptography.png"
+            "type": "computer_science",
+            "path": "tags/computer_science/cryptography.png",
+            "count": 2
         },
         {
             "id": "cybersecurity",
             "name": "Cybersecurity",
-            "type": "theory",
-            "path": "tags/theory/cybersecurity.png"
+            "type": "computer_science",
+            "path": "tags/computer_science/cybersecurity.png",
+            "count": 1
         },
         {
             "id": "greedy-algorithms",
             "name": "Greedy Algorithms",
-            "type": "theory",
-            "path": "tags/theory/greedy-algorithms.png"
+            "type": "computer_science",
+            "path": "tags/computer_science/greedy-algorithms.png",
+            "count": 5
         }
     ]
 }

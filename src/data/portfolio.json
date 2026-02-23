@@ -33,72 +33,12 @@
                     "erp-systems",
                     "mobile-development",
                     "guardian-x",
-                    "sustainable-innovation",
                     "pest-detection",
                     "multi-app",
                     "flutter",
                     "gemini"
                 ],
-                "data_folder": "fixed_data/experience/hackathon_erp",
-                "tags": [
-                    {
-                        "id": "hackathon",
-                        "name": "Hackathon",
-                        "type": "experience",
-                        "path": "tags/experience/hackathon.png"
-                    },
-                    {
-                        "id": "siemens",
-                        "name": "Siemens",
-                        "path": null
-                    },
-                    {
-                        "id": "erp-systems",
-                        "name": "Erp-systems",
-                        "path": null
-                    },
-                    {
-                        "id": "mobile-development",
-                        "name": "Mobile Development",
-                        "type": "engineering",
-                        "path": "tags/engineering/mobile_development.png"
-                    },
-                    {
-                        "id": "guardian-x",
-                        "name": "Guardian-x",
-                        "path": null
-                    },
-                    {
-                        "id": "sustainable-innovation",
-                        "name": "Sustainable Innovation",
-                        "type": "engineering",
-                        "path": null
-                    },
-                    {
-                        "id": "pest-detection",
-                        "name": "Pest Detection",
-                        "type": "ai_ml",
-                        "path": "tags/ai_ml/pest_detection.png"
-                    },
-                    {
-                        "id": "multi-app",
-                        "name": "Multi-App System",
-                        "type": "engineering",
-                        "path": "tags/engineering/multi-app.png"
-                    },
-                    {
-                        "id": "flutter",
-                        "name": "Flutter",
-                        "type": "frameworks",
-                        "path": "tags/frameworks/flutter.png"
-                    },
-                    {
-                        "id": "gemini",
-                        "name": "Gemini",
-                        "type": "ai_ml",
-                        "path": "tags/ai_ml/gemini.png"
-                    }
-                ]
+                "data_folder": "fixed_data/experience/hackathon_erp"
             },
             {
                 "id": "startup-school-3-acceleration",
@@ -143,80 +83,7 @@
                     "next-js",
                     "vercel"
                 ],
-                "data_folder": "fixed_data/experience/startup_school",
-                "tags": [
-                    {
-                        "id": "startup",
-                        "name": "Startup",
-                        "type": "experience",
-                        "path": "tags/experience/startup.png"
-                    },
-                    {
-                        "id": "mobile-development",
-                        "name": "Mobile Development",
-                        "type": "engineering",
-                        "path": "tags/engineering/mobile_development.png"
-                    },
-                    {
-                        "id": "web",
-                        "name": "Web",
-                        "type": "engineering",
-                        "path": "tags/engineering/web.webp"
-                    },
-                    {
-                        "id": "artificial-intelligence",
-                        "name": "Artificial Intelligence",
-                        "type": "ai_ml",
-                        "path": "tags/ai_ml/artificial_intelligence.png"
-                    },
-                    {
-                        "id": "pest-detection",
-                        "name": "Pest Detection",
-                        "type": "ai_ml",
-                        "path": "tags/ai_ml/pest_detection.png"
-                    },
-                    {
-                        "id": "guardian-x",
-                        "name": "Guardian-x",
-                        "path": null
-                    },
-                    {
-                        "id": "entrepreneurship",
-                        "name": "Entrepreneurship",
-                        "type": "leadership",
-                        "path": "tags/leadership/entrepreneur.png"
-                    },
-                    {
-                        "id": "flutter",
-                        "name": "Flutter",
-                        "type": "frameworks",
-                        "path": "tags/frameworks/flutter.png"
-                    },
-                    {
-                        "id": "gemini",
-                        "name": "Gemini",
-                        "type": "ai_ml",
-                        "path": "tags/ai_ml/gemini.png"
-                    },
-                    {
-                        "id": "firebase",
-                        "name": "Firebase",
-                        "type": "cloud_devops",
-                        "path": "tags/cloud_devops/firebase.png"
-                    },
-                    {
-                        "id": "next-js",
-                        "name": "Next.js",
-                        "type": "frameworks",
-                        "path": "tags/frameworks/next-js.png"
-                    },
-                    {
-                        "id": "vercel",
-                        "name": "Vercel",
-                        "type": "cloud_devops",
-                        "path": "tags/cloud_devops/vercel.svg"
-                    }
-                ]
+                "data_folder": "fixed_data/experience/startup_school"
             },
             {
                 "id": "middle-mobile-fullstack-dev",
@@ -253,93 +120,7 @@
                     "gemini",
                     "cloud"
                 ],
-                "data_folder": "fixed_data/experience/private_company",
-                "tags": [
-                    {
-                        "id": "flutter",
-                        "name": "Flutter",
-                        "type": "frameworks",
-                        "path": "tags/frameworks/flutter.png"
-                    },
-                    {
-                        "id": "django",
-                        "name": "Django",
-                        "type": "frameworks",
-                        "path": "tags/frameworks/django.svg"
-                    },
-                    {
-                        "id": "riverpod",
-                        "name": "Riverpod",
-                        "type": "frameworks",
-                        "path": "tags/frameworks/riverpod.png"
-                    },
-                    {
-                        "id": "clean-architecture",
-                        "name": "Clean Architecture",
-                        "type": "engineering",
-                        "path": "tags/clean_architecture.png"
-                    },
-                    {
-                        "id": "mobile-development",
-                        "name": "Mobile Development",
-                        "type": "engineering",
-                        "path": "tags/engineering/mobile_development.png"
-                    },
-                    {
-                        "id": "whisper-ai",
-                        "name": "Whisper AI",
-                        "type": "ai_ml",
-                        "path": "tags/ai_ml/whisper-ai.png"
-                    },
-                    {
-                        "id": "full-stack",
-                        "name": "Full Stack",
-                        "type": "engineering",
-                        "path": "tags/engineering/full-stack.png"
-                    },
-                    {
-                        "id": "production",
-                        "name": "Production",
-                        "type": "engineering",
-                        "path": "tags/engineering/production.png"
-                    },
-                    {
-                        "id": "resend",
-                        "name": "Resend",
-                        "type": "frameworks",
-                        "path": "tags/frameworks/resend.webp"
-                    },
-                    {
-                        "id": "aws",
-                        "name": "AWS",
-                        "type": "cloud_devops",
-                        "path": "tags/cloud_devops/aws.png"
-                    },
-                    {
-                        "id": "firebase",
-                        "name": "Firebase",
-                        "type": "cloud_devops",
-                        "path": "tags/cloud_devops/firebase.png"
-                    },
-                    {
-                        "id": "unsplash",
-                        "name": "Unsplash",
-                        "type": "theory",
-                        "path": "tags/theory/unsplash.png"
-                    },
-                    {
-                        "id": "gemini",
-                        "name": "Gemini",
-                        "type": "ai_ml",
-                        "path": "tags/ai_ml/gemini.png"
-                    },
-                    {
-                        "id": "cloud",
-                        "name": "Cloud",
-                        "type": "cloud_devops",
-                        "path": "tags/cloud_devops/cloud.png"
-                    }
-                ]
+                "data_folder": "fixed_data/experience/private_company"
             },
             {
                 "id": "buta-group-internship",
@@ -377,56 +158,7 @@
                     "frontend",
                     "web"
                 ],
-                "data_folder": "fixed_data/experience/buta_group",
-                "tags": [
-                    {
-                        "id": "buta-group",
-                        "name": "Buta-group",
-                        "path": null
-                    },
-                    {
-                        "id": "internship",
-                        "name": "Internship",
-                        "type": "experience",
-                        "path": "tags/experience/internship.png"
-                    },
-                    {
-                        "id": "erp",
-                        "name": "ERP",
-                        "type": "databases",
-                        "path": "tags/databases/erp.png"
-                    },
-                    {
-                        "id": "crm",
-                        "name": "CRM",
-                        "type": "databases",
-                        "path": "tags/databases/crm.png"
-                    },
-                    {
-                        "id": "no-code",
-                        "name": "No Code",
-                        "type": "frameworks",
-                        "path": "tags/frameworks/no_code.png"
-                    },
-                    {
-                        "id": "responsive",
-                        "name": "Responsive Design",
-                        "type": "engineering",
-                        "path": "tags/engineering/responsive.png"
-                    },
-                    {
-                        "id": "frontend",
-                        "name": "Frontend",
-                        "type": "engineering",
-                        "path": "tags/engineering/frontend.png"
-                    },
-                    {
-                        "id": "web",
-                        "name": "Web",
-                        "type": "engineering",
-                        "path": "tags/engineering/web.webp"
-                    }
-                ]
+                "data_folder": "fixed_data/experience/buta_group"
             }
         ]
     },
@@ -472,39 +204,7 @@
                             "ufu",
                             "recommendation"
                         ],
-                        "data_folder": "fixed_data/academic/university/software_engineering",
-                        "tags": [
-                            {
-                                "id": "software-engineering",
-                                "name": "Software Engineering",
-                                "type": "engineering",
-                                "path": "tags/engineering/software_engineering.png"
-                            },
-                            {
-                                "id": "computer-science",
-                                "name": "Computer Science",
-                                "type": "engineering",
-                                "path": "tags/engineering/computer_science.png"
-                            },
-                            {
-                                "id": "ufaz",
-                                "name": "UFAZ",
-                                "type": "institutions",
-                                "path": "tags/institutions/ufaz.png"
-                            },
-                            {
-                                "id": "ufu",
-                                "name": "Federal University of Uberlândia",
-                                "type": "institutions",
-                                "path": "tags/institutions/ufu.png"
-                            },
-                            {
-                                "id": "recommendation",
-                                "name": "Recommendation",
-                                "type": "experience",
-                                "path": null
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/university/software_engineering"
                     },
                     {
                         "id": "university-transcripts",
@@ -565,51 +265,7 @@
                             "math",
                             "data-structures"
                         ],
-                        "data_folder": "fixed_data/academic/university/transcripts",
-                        "tags": [
-                            {
-                                "id": "computer-science",
-                                "name": "Computer Science",
-                                "type": "engineering",
-                                "path": "tags/engineering/computer_science.png"
-                            },
-                            {
-                                "id": "ufaz",
-                                "name": "UFAZ",
-                                "type": "institutions",
-                                "path": "tags/institutions/ufaz.png"
-                            },
-                            {
-                                "id": "software-engineering",
-                                "name": "Software Engineering",
-                                "type": "engineering",
-                                "path": "tags/engineering/software_engineering.png"
-                            },
-                            {
-                                "id": "algorithms",
-                                "name": "Algorithms",
-                                "type": "engineering",
-                                "path": "tags/engineering/algorithm.png"
-                            },
-                            {
-                                "id": "cryptography",
-                                "name": "Cryptography",
-                                "type": "theory",
-                                "path": "tags/theory/cryptography.png"
-                            },
-                            {
-                                "id": "math",
-                                "name": "Math",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/math.png"
-                            },
-                            {
-                                "id": "data-structures",
-                                "name": "Data Structures",
-                                "type": "engineering",
-                                "path": "tags/engineering/data_structures.png"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/university/transcripts"
                     }
                 ]
             },
@@ -650,60 +306,9 @@
                             "python",
                             "stanford-university",
                             "deeplearning-ai",
-                            "andrew-ng",
                             "coursera"
                         ],
-                        "data_folder": "fixed_data/academic/courses/coursera",
-                        "tags": [
-                            {
-                                "id": "machine-learning",
-                                "name": "Machine Learning",
-                                "type": "ai_ml",
-                                "path": "tags/ai_ml/machine_learning.png"
-                            },
-                            {
-                                "id": "artificial-intelligence",
-                                "name": "Artificial Intelligence",
-                                "type": "ai_ml",
-                                "path": "tags/ai_ml/artificial_intelligence.png"
-                            },
-                            {
-                                "id": "4sim",
-                                "name": "4sim",
-                                "type": "institutions",
-                                "path": "tags/institutions/4sim.png"
-                            },
-                            {
-                                "id": "python",
-                                "name": "Python",
-                                "type": "languages",
-                                "path": "tags/languages/standford-university.avif"
-                            },
-                            {
-                                "id": "stanford-university",
-                                "name": "Stanford University",
-                                "type": "institutions",
-                                "path": "tags/stanford.png"
-                            },
-                            {
-                                "id": "deeplearning-ai",
-                                "name": "DeepLearning.AI",
-                                "type": "institutions",
-                                "path": "tags/institutions/deeplearning-ai.png"
-                            },
-                            {
-                                "id": "andrew-ng",
-                                "name": "Andrew Ng",
-                                "type": "institutions",
-                                "path": "tags/andrew_ng.png"
-                            },
-                            {
-                                "id": "coursera",
-                                "name": "Coursera",
-                                "type": "institutions",
-                                "path": "tags/institutions/coursera.png"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/courses/coursera"
                     },
                     {
                         "id": "advanced-computer-science",
@@ -752,86 +357,7 @@
                             "constructor-university",
                             "idda"
                         ],
-                        "data_folder": "fixed_data/academic/courses/advanced_computer_science",
-                        "tags": [
-                            {
-                                "id": "competitive-programming",
-                                "name": "Competitive Programming",
-                                "type": "competitive_programming",
-                                "path": "tags/competitive_programming/competitive_programming.png"
-                            },
-                            {
-                                "id": "algorithms",
-                                "name": "Algorithms",
-                                "type": "engineering",
-                                "path": "tags/engineering/algorithm.png"
-                            },
-                            {
-                                "id": "data-structures",
-                                "name": "Data Structures",
-                                "type": "engineering",
-                                "path": "tags/engineering/data_structures.png"
-                            },
-                            {
-                                "id": "dynamic-programming",
-                                "name": "Dynamic Programming",
-                                "type": "theory",
-                                "path": "tags/theory/dp.png"
-                            },
-                            {
-                                "id": "olympiad",
-                                "name": "Olympiad",
-                                "type": "competitive_programming",
-                                "path": "tags/competitive_programming/olympiad.png"
-                            },
-                            {
-                                "id": "graphs",
-                                "name": "Graphs",
-                                "type": "engineering",
-                                "path": "tags/engineering/graph.png"
-                            },
-                            {
-                                "id": "number-theory",
-                                "name": "Number Theory",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/number-theory.jpg"
-                            },
-                            {
-                                "id": "geometry",
-                                "name": "Geometry",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/geometry.jpg"
-                            },
-                            {
-                                "id": "game-theory",
-                                "name": "Game Theory",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/game-theory.png"
-                            },
-                            {
-                                "id": "holberton-school",
-                                "name": "Holberton School",
-                                "type": "institutions",
-                                "path": "tags/institutions/holberton-school.webp"
-                            },
-                            {
-                                "id": "ada-university",
-                                "name": "Ada University",
-                                "type": "institutions",
-                                "path": "tags/institutions/ada_university.png"
-                            },
-                            {
-                                "id": "constructor-university",
-                                "name": "Constructor University",
-                                "type": "institutions",
-                                "path": "tags/institutions/constructor_university.png"
-                            },
-                            {
-                                "id": "idda",
-                                "name": "Idda",
-                                "path": null
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/courses/advanced_computer_science"
                     },
                     {
                         "id": "udemy",
@@ -888,63 +414,7 @@
                             "mobile-development",
                             "udemy"
                         ],
-                        "data_folder": "fixed_data/academic/courses/udemy",
-                        "tags": [
-                            {
-                                "id": "flutter",
-                                "name": "Flutter",
-                                "type": "frameworks",
-                                "path": "tags/frameworks/flutter.png"
-                            },
-                            {
-                                "id": "dart",
-                                "name": "Dart",
-                                "type": "languages",
-                                "path": "tags/languages/baku-engineering-university.png"
-                            },
-                            {
-                                "id": "java",
-                                "name": "Java",
-                                "type": "languages",
-                                "path": "tags/languages/java.svg"
-                            },
-                            {
-                                "id": "software-architecture",
-                                "name": "Software Architecture",
-                                "type": "engineering",
-                                "path": "tags/engineering/software_architecture.png"
-                            },
-                            {
-                                "id": "technical-interview",
-                                "name": "Technical Interview",
-                                "type": "experience",
-                                "path": null
-                            },
-                            {
-                                "id": "solid-principles",
-                                "name": "SOLID Principles",
-                                "type": "engineering",
-                                "path": "tags/engineering/solid-principles.png"
-                            },
-                            {
-                                "id": "clean-architecture",
-                                "name": "Clean Architecture",
-                                "type": "engineering",
-                                "path": "tags/clean_architecture.png"
-                            },
-                            {
-                                "id": "mobile-development",
-                                "name": "Mobile Development",
-                                "type": "engineering",
-                                "path": "tags/engineering/mobile_development.png"
-                            },
-                            {
-                                "id": "udemy",
-                                "name": "Udemy",
-                                "type": "institutions",
-                                "path": "tags/institutions/udemy.webp"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/courses/udemy"
                     },
                     {
                         "id": "advanced-backend-programming",
@@ -985,75 +455,7 @@
                             "api",
                             "software-engineering"
                         ],
-                        "data_folder": "fixed_data/academic/courses/advanced_backend_programming",
-                        "tags": [
-                            {
-                                "id": "java",
-                                "name": "Java",
-                                "type": "languages",
-                                "path": "tags/languages/java.svg"
-                            },
-                            {
-                                "id": "apache-tomcat",
-                                "name": "Apache Tomcat",
-                                "type": "cloud_devops",
-                                "path": "tags/cloud_devops/apache_tomcat.png"
-                            },
-                            {
-                                "id": "spring",
-                                "name": "Spring",
-                                "type": "frameworks",
-                                "path": "tags/frameworks/spring.png"
-                            },
-                            {
-                                "id": "spring-boot",
-                                "name": "Spring Boot",
-                                "type": "frameworks",
-                                "path": "tags/frameworks/spring_boot.svg"
-                            },
-                            {
-                                "id": "maven",
-                                "name": "Maven",
-                                "type": "cloud_devops",
-                                "path": "tags/cloud_devops/maven.jpg"
-                            },
-                            {
-                                "id": "data-structures",
-                                "name": "Data Structures",
-                                "type": "engineering",
-                                "path": "tags/engineering/data_structures.png"
-                            },
-                            {
-                                "id": "hibernate",
-                                "name": "Hibernate",
-                                "type": "frameworks",
-                                "path": "tags/frameworks/hibernate_logo.png"
-                            },
-                            {
-                                "id": "backend",
-                                "name": "Backend",
-                                "type": "engineering",
-                                "path": "tags/engineering/backend.png"
-                            },
-                            {
-                                "id": "design-patterns",
-                                "name": "Design Patterns",
-                                "type": "engineering",
-                                "path": "tags/engineering/design_patterns.png"
-                            },
-                            {
-                                "id": "api",
-                                "name": "API",
-                                "type": "engineering",
-                                "path": "tags/engineering/api.png"
-                            },
-                            {
-                                "id": "software-engineering",
-                                "name": "Software Engineering",
-                                "type": "engineering",
-                                "path": "tags/engineering/software_engineering.png"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/courses/advanced_backend_programming"
                     },
                     {
                         "id": "codestar",
@@ -1098,62 +500,7 @@
                             "functional-programming",
                             "codestar"
                         ],
-                        "data_folder": "fixed_data/academic/courses/codestar",
-                        "tags": [
-                            {
-                                "id": "c++",
-                                "name": "C++",
-                                "type": "languages",
-                                "path": "tags/languages/cpp.png"
-                            },
-                            {
-                                "id": "algorithms",
-                                "name": "Algorithms",
-                                "type": "engineering",
-                                "path": "tags/engineering/algorithm.png"
-                            },
-                            {
-                                "id": "data-structures",
-                                "name": "Data Structures",
-                                "type": "engineering",
-                                "path": "tags/engineering/data_structures.png"
-                            },
-                            {
-                                "id": "oop",
-                                "name": "OOP",
-                                "type": "engineering",
-                                "path": "tags/engineering/oop.png"
-                            },
-                            {
-                                "id": "design-patterns",
-                                "name": "Design Patterns",
-                                "type": "engineering",
-                                "path": "tags/engineering/design_patterns.png"
-                            },
-                            {
-                                "id": "competitive-programming",
-                                "name": "Competitive Programming",
-                                "type": "competitive_programming",
-                                "path": "tags/competitive_programming/competitive_programming.png"
-                            },
-                            {
-                                "id": "problem-solving",
-                                "name": "Problem Solving",
-                                "type": "theory",
-                                "path": "tags/theory/problem-solving.png"
-                            },
-                            {
-                                "id": "functional-programming",
-                                "name": "Functional Programming",
-                                "type": "theory",
-                                "path": "tags/theory/functional-programming.webp"
-                            },
-                            {
-                                "id": "codestar",
-                                "name": "Codestar",
-                                "path": null
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/courses/codestar"
                     },
                     {
                         "id": "abb-math-challenge",
@@ -1197,56 +544,7 @@
                             "geometry",
                             "abb"
                         ],
-                        "data_folder": "fixed_data/academic/courses/abb_math_challenge",
-                        "tags": [
-                            {
-                                "id": "math",
-                                "name": "Math",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/math.png"
-                            },
-                            {
-                                "id": "olympiad",
-                                "name": "Olympiad",
-                                "type": "competitive_programming",
-                                "path": "tags/competitive_programming/olympiad.png"
-                            },
-                            {
-                                "id": "algorithms",
-                                "name": "Algorithms",
-                                "type": "engineering",
-                                "path": "tags/engineering/algorithm.png"
-                            },
-                            {
-                                "id": "game-theory",
-                                "name": "Game Theory",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/game-theory.png"
-                            },
-                            {
-                                "id": "number-theory",
-                                "name": "Number Theory",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/number-theory.jpg"
-                            },
-                            {
-                                "id": "probability",
-                                "name": "Probability",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/probability.png"
-                            },
-                            {
-                                "id": "geometry",
-                                "name": "Geometry",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/geometry.jpg"
-                            },
-                            {
-                                "id": "abb",
-                                "name": "Abb",
-                                "path": null
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/courses/abb_math_challenge"
                     },
                     {
                         "id": "limitless-mathematicians",
@@ -1296,57 +594,7 @@
                             "probability",
                             "ada-university"
                         ],
-                        "data_folder": "fixed_data/academic/courses/limitless_mathematicians",
-                        "tags": [
-                            {
-                                "id": "math",
-                                "name": "Math",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/math.png"
-                            },
-                            {
-                                "id": "olympiad",
-                                "name": "Olympiad",
-                                "type": "competitive_programming",
-                                "path": "tags/competitive_programming/olympiad.png"
-                            },
-                            {
-                                "id": "geometry",
-                                "name": "Geometry",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/geometry.jpg"
-                            },
-                            {
-                                "id": "number-theory",
-                                "name": "Number Theory",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/number-theory.jpg"
-                            },
-                            {
-                                "id": "algorithms",
-                                "name": "Algorithms",
-                                "type": "engineering",
-                                "path": "tags/engineering/algorithm.png"
-                            },
-                            {
-                                "id": "cryptography",
-                                "name": "Cryptography",
-                                "type": "theory",
-                                "path": "tags/theory/cryptography.png"
-                            },
-                            {
-                                "id": "probability",
-                                "name": "Probability",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/probability.png"
-                            },
-                            {
-                                "id": "ada-university",
-                                "name": "Ada University",
-                                "type": "institutions",
-                                "path": "tags/institutions/ada_university.png"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/courses/limitless_mathematicians"
                     }
                 ]
             },
@@ -1383,15 +631,7 @@
                         "tagIds": [
                             "php"
                         ],
-                        "data_folder": "fixed_data/academic/certifications/testdome",
-                        "tags": [
-                            {
-                                "id": "php",
-                                "name": "PHP",
-                                "type": "languages",
-                                "path": "tags/languages/php.png"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/certifications/testdome"
                     },
                     {
                         "id": "oracle",
@@ -1430,27 +670,7 @@
                             "oracle",
                             "database_administration"
                         ],
-                        "data_folder": "fixed_data/academic/certifications/oracle",
-                        "tags": [
-                            {
-                                "id": "mysql",
-                                "name": "MySQL",
-                                "type": "databases",
-                                "path": "tags/databases/mysql.png"
-                            },
-                            {
-                                "id": "oracle",
-                                "name": "Oracle",
-                                "type": "databases",
-                                "path": "tags/databases/oracle.png"
-                            },
-                            {
-                                "id": "database_administration",
-                                "name": "Database Administration",
-                                "type": "databases",
-                                "path": "tags/databases/database_administration.png"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/certifications/oracle"
                     },
                     {
                         "id": "hackerrank",
@@ -1502,33 +722,7 @@
                             "java",
                             "algorithms"
                         ],
-                        "data_folder": "fixed_data/academic/certifications/hackerrank",
-                        "tags": [
-                            {
-                                "id": "c-sharp",
-                                "name": "C Sharp",
-                                "type": "languages",
-                                "path": "tags/languages/c_sharp.png"
-                            },
-                            {
-                                "id": "javascript",
-                                "name": "JavaScript",
-                                "type": "languages",
-                                "path": "tags/languages/ufaz copy.png"
-                            },
-                            {
-                                "id": "java",
-                                "name": "Java",
-                                "type": "languages",
-                                "path": "tags/languages/java.svg"
-                            },
-                            {
-                                "id": "algorithms",
-                                "name": "Algorithms",
-                                "type": "engineering",
-                                "path": "tags/engineering/algorithm.png"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/certifications/hackerrank"
                     },
                     {
                         "id": "turkcell",
@@ -1568,33 +762,7 @@
                             "javascript",
                             "web"
                         ],
-                        "data_folder": "fixed_data/academic/certifications/turkcell",
-                        "tags": [
-                            {
-                                "id": "html",
-                                "name": "HTML",
-                                "type": "languages",
-                                "path": "tags/languages/e-olymp.png"
-                            },
-                            {
-                                "id": "css",
-                                "name": "CSS",
-                                "type": "languages",
-                                "path": "tags/languages/css.png"
-                            },
-                            {
-                                "id": "javascript",
-                                "name": "JavaScript",
-                                "type": "languages",
-                                "path": "tags/languages/ufaz copy.png"
-                            },
-                            {
-                                "id": "web",
-                                "name": "Web",
-                                "type": "engineering",
-                                "path": "tags/engineering/web.webp"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/certifications/turkcell"
                     }
                 ]
             },
@@ -1641,75 +809,7 @@
                             "problem-solving",
                             "ufaz"
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/icpc_2026_qualification",
-                        "tags": [
-                            {
-                                "id": "icpc",
-                                "name": "ICPC",
-                                "type": "competitive",
-                                "path": "tags/competitive/icpc.png"
-                            },
-                            {
-                                "id": "algorithms",
-                                "name": "Algorithms",
-                                "type": "engineering",
-                                "path": "tags/engineering/algorithm.png"
-                            },
-                            {
-                                "id": "data-structures",
-                                "name": "Data Structures",
-                                "type": "engineering",
-                                "path": "tags/engineering/data_structures.png"
-                            },
-                            {
-                                "id": "olympiad",
-                                "name": "Olympiad",
-                                "type": "competitive_programming",
-                                "path": "tags/competitive_programming/olympiad.png"
-                            },
-                            {
-                                "id": "competitive-programming",
-                                "name": "Competitive Programming",
-                                "type": "competitive_programming",
-                                "path": "tags/competitive_programming/competitive_programming.png"
-                            },
-                            {
-                                "id": "graphs",
-                                "name": "Graphs",
-                                "type": "engineering",
-                                "path": "tags/engineering/graph.png"
-                            },
-                            {
-                                "id": "dynamic-programming",
-                                "name": "Dynamic Programming",
-                                "type": "theory",
-                                "path": "tags/theory/dp.png"
-                            },
-                            {
-                                "id": "greedy-algorithms",
-                                "name": "Greedy Algorithms",
-                                "type": "theory",
-                                "path": "tags/theory/greedy-algorithms.png"
-                            },
-                            {
-                                "id": "c++",
-                                "name": "C++",
-                                "type": "languages",
-                                "path": "tags/languages/cpp.png"
-                            },
-                            {
-                                "id": "problem-solving",
-                                "name": "Problem Solving",
-                                "type": "theory",
-                                "path": "tags/theory/problem-solving.png"
-                            },
-                            {
-                                "id": "ufaz",
-                                "name": "UFAZ",
-                                "type": "institutions",
-                                "path": "tags/institutions/ufaz.png"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/extra_activities/icpc_2026_qualification"
                     },
                     {
                         "id": "icsc-2025-qualification",
@@ -1752,51 +852,7 @@
                             "math",
                             "c++"
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/icsc_2025_qulification",
-                        "tags": [
-                            {
-                                "id": "icsc",
-                                "name": "ICSC",
-                                "type": "competitive",
-                                "path": "tags/competitive/icsc.png"
-                            },
-                            {
-                                "id": "algorithms",
-                                "name": "Algorithms",
-                                "type": "engineering",
-                                "path": "tags/engineering/algorithm.png"
-                            },
-                            {
-                                "id": "data-structures",
-                                "name": "Data Structures",
-                                "type": "engineering",
-                                "path": "tags/engineering/data_structures.png"
-                            },
-                            {
-                                "id": "competitive-programming",
-                                "name": "Competitive Programming",
-                                "type": "competitive_programming",
-                                "path": "tags/competitive_programming/competitive_programming.png"
-                            },
-                            {
-                                "id": "olympiad",
-                                "name": "Olympiad",
-                                "type": "competitive_programming",
-                                "path": "tags/competitive_programming/olympiad.png"
-                            },
-                            {
-                                "id": "math",
-                                "name": "Math",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/math.png"
-                            },
-                            {
-                                "id": "c++",
-                                "name": "C++",
-                                "type": "languages",
-                                "path": "tags/languages/cpp.png"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/extra_activities/icsc_2025_qulification"
                     },
                     {
                         "id": "sumgayit-cup-programming",
@@ -1840,92 +896,7 @@
                             "ufaz",
                             "eolymp"
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/sumgayit_cup",
-                        "tags": [
-                            {
-                                "id": "icpc",
-                                "name": "ICPC",
-                                "type": "competitive",
-                                "path": "tags/competitive/icpc.png"
-                            },
-                            {
-                                "id": "idda",
-                                "name": "Idda",
-                                "path": null
-                            },
-                            {
-                                "id": "arti",
-                                "name": "ARTI",
-                                "type": "institutions",
-                                "path": "tags/institutions/arti.png"
-                            },
-                            {
-                                "id": "algorithms",
-                                "name": "Algorithms",
-                                "type": "engineering",
-                                "path": "tags/engineering/algorithm.png"
-                            },
-                            {
-                                "id": "data-structures",
-                                "name": "Data Structures",
-                                "type": "engineering",
-                                "path": "tags/engineering/data_structures.png"
-                            },
-                            {
-                                "id": "olympiad",
-                                "name": "Olympiad",
-                                "type": "competitive_programming",
-                                "path": "tags/competitive_programming/olympiad.png"
-                            },
-                            {
-                                "id": "competitive-programming",
-                                "name": "Competitive Programming",
-                                "type": "competitive_programming",
-                                "path": "tags/competitive_programming/competitive_programming.png"
-                            },
-                            {
-                                "id": "graphs",
-                                "name": "Graphs",
-                                "type": "engineering",
-                                "path": "tags/engineering/graph.png"
-                            },
-                            {
-                                "id": "dynamic-programming",
-                                "name": "Dynamic Programming",
-                                "type": "theory",
-                                "path": "tags/theory/dp.png"
-                            },
-                            {
-                                "id": "greedy-algorithms",
-                                "name": "Greedy Algorithms",
-                                "type": "theory",
-                                "path": "tags/theory/greedy-algorithms.png"
-                            },
-                            {
-                                "id": "c++",
-                                "name": "C++",
-                                "type": "languages",
-                                "path": "tags/languages/cpp.png"
-                            },
-                            {
-                                "id": "problem-solving",
-                                "name": "Problem Solving",
-                                "type": "theory",
-                                "path": "tags/theory/problem-solving.png"
-                            },
-                            {
-                                "id": "ufaz",
-                                "name": "UFAZ",
-                                "type": "institutions",
-                                "path": "tags/institutions/ufaz.png"
-                            },
-                            {
-                                "id": "eolymp",
-                                "name": "E-olymp",
-                                "type": "institutions",
-                                "path": "tags/eolymp.png"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/extra_activities/sumgayit_cup"
                     },
                     {
                         "id": "pigma-quiz-organization",
@@ -1961,45 +932,7 @@
                             "ufaz",
                             "organization"
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/pigma_quiz",
-                        "tags": [
-                            {
-                                "id": "math",
-                                "name": "Math",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/math.png"
-                            },
-                            {
-                                "id": "ei-group",
-                                "name": "EI Group",
-                                "type": "institutions",
-                                "path": "tags/institutions/ei-group.png"
-                            },
-                            {
-                                "id": "leadership",
-                                "name": "Leadership",
-                                "type": "leadership",
-                                "path": "tags/leadership/leadership.png"
-                            },
-                            {
-                                "id": "content-creation",
-                                "name": "Content Creation",
-                                "type": "leadership",
-                                "path": "tags/leadership/content-creation.webp"
-                            },
-                            {
-                                "id": "ufaz",
-                                "name": "UFAZ",
-                                "type": "institutions",
-                                "path": "tags/institutions/ufaz.png"
-                            },
-                            {
-                                "id": "organization",
-                                "name": "Organization",
-                                "type": "leadership",
-                                "path": "tags/leadership/organization.png"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/extra_activities/pigma_quiz"
                     },
                     {
                         "id": "miuul-data-science-ai-bootcamp",
@@ -2043,56 +976,7 @@
                             "generative-ai",
                             "statistics"
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/miuul_data_camp",
-                        "tags": [
-                            {
-                                "id": "miuul",
-                                "name": "Miuul",
-                                "type": "institutions",
-                                "path": "tags/institutions/miuul.png"
-                            },
-                            {
-                                "id": "math",
-                                "name": "Math",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/math.png"
-                            },
-                            {
-                                "id": "data-science",
-                                "name": "Data Science",
-                                "type": "ai_ml",
-                                "path": "tags/ai_ml/data_science.png"
-                            },
-                            {
-                                "id": "machine-learning",
-                                "name": "Machine Learning",
-                                "type": "ai_ml",
-                                "path": "tags/ai_ml/machine_learning.png"
-                            },
-                            {
-                                "id": "artificial-intelligence",
-                                "name": "Artificial Intelligence",
-                                "type": "ai_ml",
-                                "path": "tags/ai_ml/artificial_intelligence.png"
-                            },
-                            {
-                                "id": "python",
-                                "name": "Python",
-                                "type": "languages",
-                                "path": "tags/languages/standford-university.avif"
-                            },
-                            {
-                                "id": "generative-ai",
-                                "name": "Generative-ai",
-                                "path": null
-                            },
-                            {
-                                "id": "statistics",
-                                "name": "Statistics",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/statistics.png"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/extra_activities/miuul_data_camp"
                     },
                     {
                         "id": "icpc-2025-qualification",
@@ -2139,75 +1023,7 @@
                             "problem-solving",
                             "ufaz"
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/icpc_2025_qualification",
-                        "tags": [
-                            {
-                                "id": "icpc",
-                                "name": "ICPC",
-                                "type": "competitive",
-                                "path": "tags/competitive/icpc.png"
-                            },
-                            {
-                                "id": "algorithms",
-                                "name": "Algorithms",
-                                "type": "engineering",
-                                "path": "tags/engineering/algorithm.png"
-                            },
-                            {
-                                "id": "data-structures",
-                                "name": "Data Structures",
-                                "type": "engineering",
-                                "path": "tags/engineering/data_structures.png"
-                            },
-                            {
-                                "id": "olympiad",
-                                "name": "Olympiad",
-                                "type": "competitive_programming",
-                                "path": "tags/competitive_programming/olympiad.png"
-                            },
-                            {
-                                "id": "competitive-programming",
-                                "name": "Competitive Programming",
-                                "type": "competitive_programming",
-                                "path": "tags/competitive_programming/competitive_programming.png"
-                            },
-                            {
-                                "id": "graphs",
-                                "name": "Graphs",
-                                "type": "engineering",
-                                "path": "tags/engineering/graph.png"
-                            },
-                            {
-                                "id": "dynamic-programming",
-                                "name": "Dynamic Programming",
-                                "type": "theory",
-                                "path": "tags/theory/dp.png"
-                            },
-                            {
-                                "id": "greedy-algorithms",
-                                "name": "Greedy Algorithms",
-                                "type": "theory",
-                                "path": "tags/theory/greedy-algorithms.png"
-                            },
-                            {
-                                "id": "c++",
-                                "name": "C++",
-                                "type": "languages",
-                                "path": "tags/languages/cpp.png"
-                            },
-                            {
-                                "id": "problem-solving",
-                                "name": "Problem Solving",
-                                "type": "theory",
-                                "path": "tags/theory/problem-solving.png"
-                            },
-                            {
-                                "id": "ufaz",
-                                "name": "UFAZ",
-                                "type": "institutions",
-                                "path": "tags/institutions/ufaz.png"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/extra_activities/icpc_2025_qualification"
                     },
                     {
                         "id": "icpc-2025-republican",
@@ -2255,81 +1071,7 @@
                             "ufaz",
                             "beu"
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/icpc_2025_republican",
-                        "tags": [
-                            {
-                                "id": "icpc",
-                                "name": "ICPC",
-                                "type": "competitive",
-                                "path": "tags/competitive/icpc.png"
-                            },
-                            {
-                                "id": "algorithms",
-                                "name": "Algorithms",
-                                "type": "engineering",
-                                "path": "tags/engineering/algorithm.png"
-                            },
-                            {
-                                "id": "data-structures",
-                                "name": "Data Structures",
-                                "type": "engineering",
-                                "path": "tags/engineering/data_structures.png"
-                            },
-                            {
-                                "id": "olympiad",
-                                "name": "Olympiad",
-                                "type": "competitive_programming",
-                                "path": "tags/competitive_programming/olympiad.png"
-                            },
-                            {
-                                "id": "competitive-programming",
-                                "name": "Competitive Programming",
-                                "type": "competitive_programming",
-                                "path": "tags/competitive_programming/competitive_programming.png"
-                            },
-                            {
-                                "id": "graphs",
-                                "name": "Graphs",
-                                "type": "engineering",
-                                "path": "tags/engineering/graph.png"
-                            },
-                            {
-                                "id": "dynamic-programming",
-                                "name": "Dynamic Programming",
-                                "type": "theory",
-                                "path": "tags/theory/dp.png"
-                            },
-                            {
-                                "id": "greedy-algorithms",
-                                "name": "Greedy Algorithms",
-                                "type": "theory",
-                                "path": "tags/theory/greedy-algorithms.png"
-                            },
-                            {
-                                "id": "c++",
-                                "name": "C++",
-                                "type": "languages",
-                                "path": "tags/languages/cpp.png"
-                            },
-                            {
-                                "id": "problem-solving",
-                                "name": "Problem Solving",
-                                "type": "theory",
-                                "path": "tags/theory/problem-solving.png"
-                            },
-                            {
-                                "id": "ufaz",
-                                "name": "UFAZ",
-                                "type": "institutions",
-                                "path": "tags/institutions/ufaz.png"
-                            },
-                            {
-                                "id": "beu",
-                                "name": "Baku Engineering University",
-                                "type": "institutions",
-                                "path": "tags/beu.png"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/extra_activities/icpc_2025_republican"
                     },
                     {
                         "id": "aegee-youth-forum",
@@ -2363,32 +1105,7 @@
                             "data-analytics",
                             "artificial-intelligence"
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/aegee_forum",
-                        "tags": [
-                            {
-                                "id": "aegee",
-                                "name": "Aegee",
-                                "path": null
-                            },
-                            {
-                                "id": "cybersecurity",
-                                "name": "Cybersecurity",
-                                "type": "theory",
-                                "path": "tags/theory/cybersecurity.png"
-                            },
-                            {
-                                "id": "data-analytics",
-                                "name": "Data Analytics",
-                                "type": "ai_ml",
-                                "path": "tags/ai_ml/data-analytics.png"
-                            },
-                            {
-                                "id": "artificial-intelligence",
-                                "name": "Artificial Intelligence",
-                                "type": "ai_ml",
-                                "path": "tags/ai_ml/artificial_intelligence.png"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/extra_activities/aegee_forum"
                     },
                     {
                         "id": "math-camp-2024",
@@ -2425,50 +1142,7 @@
                             "artificial-intelligence",
                             "bir-konullu"
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/math_camp_2024",
-                        "tags": [
-                            {
-                                "id": "math",
-                                "name": "Math",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/math.png"
-                            },
-                            {
-                                "id": "olympiad",
-                                "name": "Olympiad",
-                                "type": "competitive_programming",
-                                "path": "tags/competitive_programming/olympiad.png"
-                            },
-                            {
-                                "id": "algorithms",
-                                "name": "Algorithms",
-                                "type": "engineering",
-                                "path": "tags/engineering/algorithm.png"
-                            },
-                            {
-                                "id": "graphs",
-                                "name": "Graphs",
-                                "type": "engineering",
-                                "path": "tags/engineering/graph.png"
-                            },
-                            {
-                                "id": "number-theory",
-                                "name": "Number Theory",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/number-theory.jpg"
-                            },
-                            {
-                                "id": "artificial-intelligence",
-                                "name": "Artificial Intelligence",
-                                "type": "ai_ml",
-                                "path": "tags/ai_ml/artificial_intelligence.png"
-                            },
-                            {
-                                "id": "bir-konullu",
-                                "name": "Bir-konullu",
-                                "path": null
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/extra_activities/math_camp_2024"
                     },
                     {
                         "id": "math-competition-bhos",
@@ -2503,39 +1177,7 @@
                             "ufaz",
                             "problem-solving"
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/math_competition",
-                        "tags": [
-                            {
-                                "id": "math",
-                                "name": "Math",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/math.png"
-                            },
-                            {
-                                "id": "competition",
-                                "name": "Competition",
-                                "type": "competitive",
-                                "path": "tags/competitive/competition.png"
-                            },
-                            {
-                                "id": "bhos",
-                                "name": "BHOS",
-                                "type": "institutions",
-                                "path": "tags/institutions/bhos.png"
-                            },
-                            {
-                                "id": "ufaz",
-                                "name": "UFAZ",
-                                "type": "institutions",
-                                "path": "tags/institutions/ufaz.png"
-                            },
-                            {
-                                "id": "problem-solving",
-                                "name": "Problem Solving",
-                                "type": "theory",
-                                "path": "tags/theory/problem-solving.png"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/extra_activities/math_competition"
                     },
                     {
                         "id": "worldskills-azerbaijan-web",
@@ -2567,62 +1209,7 @@
                             "photoshop",
                             "web"
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/web_skills",
-                        "tags": [
-                            {
-                                "id": "worldskills",
-                                "name": "Worldskills",
-                                "path": null
-                            },
-                            {
-                                "id": "backend",
-                                "name": "Backend",
-                                "type": "engineering",
-                                "path": "tags/engineering/backend.png"
-                            },
-                            {
-                                "id": "frontend",
-                                "name": "Frontend",
-                                "type": "engineering",
-                                "path": "tags/engineering/frontend.png"
-                            },
-                            {
-                                "id": "react",
-                                "name": "React",
-                                "type": "frameworks",
-                                "path": "tags/frameworks/react.png"
-                            },
-                            {
-                                "id": "javascript",
-                                "name": "JavaScript",
-                                "type": "languages",
-                                "path": "tags/languages/ufaz copy.png"
-                            },
-                            {
-                                "id": "html",
-                                "name": "HTML",
-                                "type": "languages",
-                                "path": "tags/languages/e-olymp.png"
-                            },
-                            {
-                                "id": "css",
-                                "name": "CSS",
-                                "type": "languages",
-                                "path": "tags/languages/css.png"
-                            },
-                            {
-                                "id": "photoshop",
-                                "name": "Photoshop",
-                                "type": "engineering",
-                                "path": "tags/engineering/photoshop.png"
-                            },
-                            {
-                                "id": "web",
-                                "name": "Web",
-                                "type": "engineering",
-                                "path": "tags/engineering/web.webp"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/extra_activities/web_skills"
                     },
                     {
                         "id": "icpc-2024-qualification",
@@ -2669,75 +1256,7 @@
                             "problem-solving",
                             "ufaz"
                         ],
-                        "data_folder": "fixed_data/academic/extra_activities/icpc_2024_qualification",
-                        "tags": [
-                            {
-                                "id": "icpc",
-                                "name": "ICPC",
-                                "type": "competitive",
-                                "path": "tags/competitive/icpc.png"
-                            },
-                            {
-                                "id": "algorithms",
-                                "name": "Algorithms",
-                                "type": "engineering",
-                                "path": "tags/engineering/algorithm.png"
-                            },
-                            {
-                                "id": "data-structures",
-                                "name": "Data Structures",
-                                "type": "engineering",
-                                "path": "tags/engineering/data_structures.png"
-                            },
-                            {
-                                "id": "olympiad",
-                                "name": "Olympiad",
-                                "type": "competitive_programming",
-                                "path": "tags/competitive_programming/olympiad.png"
-                            },
-                            {
-                                "id": "competitive-programming",
-                                "name": "Competitive Programming",
-                                "type": "competitive_programming",
-                                "path": "tags/competitive_programming/competitive_programming.png"
-                            },
-                            {
-                                "id": "graphs",
-                                "name": "Graphs",
-                                "type": "engineering",
-                                "path": "tags/engineering/graph.png"
-                            },
-                            {
-                                "id": "dynamic-programming",
-                                "name": "Dynamic Programming",
-                                "type": "theory",
-                                "path": "tags/theory/dp.png"
-                            },
-                            {
-                                "id": "greedy-algorithms",
-                                "name": "Greedy Algorithms",
-                                "type": "theory",
-                                "path": "tags/theory/greedy-algorithms.png"
-                            },
-                            {
-                                "id": "c++",
-                                "name": "C++",
-                                "type": "languages",
-                                "path": "tags/languages/cpp.png"
-                            },
-                            {
-                                "id": "problem-solving",
-                                "name": "Problem Solving",
-                                "type": "theory",
-                                "path": "tags/theory/problem-solving.png"
-                            },
-                            {
-                                "id": "ufaz",
-                                "name": "UFAZ",
-                                "type": "institutions",
-                                "path": "tags/institutions/ufaz.png"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/extra_activities/icpc_2024_qualification"
                     }
                 ]
             },
@@ -2787,57 +1306,7 @@
                             "ada-university",
                             "ufaz"
                         ],
-                        "data_folder": "fixed_data/academic/researchs/sign_language",
-                        "tags": [
-                            {
-                                "id": "artificial-intelligence",
-                                "name": "Artificial Intelligence",
-                                "type": "ai_ml",
-                                "path": "tags/ai_ml/artificial_intelligence.png"
-                            },
-                            {
-                                "id": "deep-learning",
-                                "name": "Deep Learning",
-                                "type": "ai_ml",
-                                "path": "tags/ai_ml/deep-learning.png"
-                            },
-                            {
-                                "id": "big-data",
-                                "name": "Big Data",
-                                "type": "ai_ml",
-                                "path": "tags/ai_ml/big-data.png"
-                            },
-                            {
-                                "id": "sign-language",
-                                "name": "Sign Language",
-                                "type": "ai_ml",
-                                "path": "tags/ai_ml/sign_language.png"
-                            },
-                            {
-                                "id": "computer-vision",
-                                "name": "Computer Vision",
-                                "type": "ai_ml",
-                                "path": "tags/ai_ml/computer_vision.png"
-                            },
-                            {
-                                "id": "adaptive-loss",
-                                "name": "Adaptive Loss",
-                                "type": "ai_ml",
-                                "path": "tags/ai_ml/adaptive-loss.jpg"
-                            },
-                            {
-                                "id": "ada-university",
-                                "name": "Ada University",
-                                "type": "institutions",
-                                "path": "tags/institutions/ada_university.png"
-                            },
-                            {
-                                "id": "ufaz",
-                                "name": "UFAZ",
-                                "type": "institutions",
-                                "path": "tags/institutions/ufaz.png"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/researchs/sign_language"
                     },
                     {
                         "id": "scientific-conference-heydar-aliyev-100",
@@ -2878,39 +1347,7 @@
                             "math",
                             "number-theory"
                         ],
-                        "data_folder": "fixed_data/academic/researchs/scientific_conference",
-                        "tags": [
-                            {
-                                "id": "conference",
-                                "name": "Conference",
-                                "type": "experience",
-                                "path": "tags/experience/conference.png"
-                            },
-                            {
-                                "id": "research",
-                                "name": "Research",
-                                "type": "institutions",
-                                "path": "tags/institutions/research.png"
-                            },
-                            {
-                                "id": "scientific",
-                                "name": "Scientific",
-                                "type": "theory",
-                                "path": "tags/theory/science.png"
-                            },
-                            {
-                                "id": "math",
-                                "name": "Math",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/math.png"
-                            },
-                            {
-                                "id": "number-theory",
-                                "name": "Number Theory",
-                                "type": "mathematics",
-                                "path": "tags/mathematics/number-theory.jpg"
-                            }
-                        ]
+                        "data_folder": "fixed_data/academic/researchs/scientific_conference"
                     }
                 ]
             }

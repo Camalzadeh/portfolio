@@ -2,25 +2,16 @@ const fs = require('fs');
 const path = require('path');
 
 const FIXED_DATA_DIR = path.join(process.cwd(), 'public/fixed_data');
-const TAGS_DIR = path.join(process.cwd(), 'public/tags');
-const CV_DIR = path.join(process.cwd(), 'public/cv');
-
 const PORTFOLIO_JSON_PATH = path.join(process.cwd(), 'src/data/portfolio.json');
-const TAGS_JSON_PATH = path.join(process.cwd(), 'src/data/tags.json');
-const CV_CONFIG_PATH = path.join(process.cwd(), 'src/data/cv_config.json');
 
-const TAGS_METADATA_PATH = path.join(TAGS_DIR, 'about.json');
-const CV_METADATA_PATH = path.join(CV_DIR, 'about.json');
-
-// Re-map subtypes or folder names to portfolio.json category IDs
 const CATEGORY_MAP = {
-    'certifications': 'certifications',
+    'university': 'university',
     'courses': 'courses',
+    'certifications': 'certifications',
     'extra_activities': 'extra_activities',
     'achievements': 'extra_activities',
     'research': 'research',
-    'researchs': 'research',
-    'university': 'university'
+    'researchs': 'research'
 };
 
 function findAboutFiles(dir, fileList = []) {
@@ -37,14 +28,9 @@ function findAboutFiles(dir, fileList = []) {
     return fileList;
 }
 
-function aggregate() {
-    console.log('🚀 Starting Deep Data Aggregation...');
+function aggregateItems() {
+    console.log('📦 Aggregating Items (Experience, Projects, Academic)...');
 
-    // 0. Ensure target directory exists
-    const dataDir = path.join(process.cwd(), 'src/data');
-    if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
-
-    // 1. Fresh start for portfolio structure
     const portfolio = {
         experience: { items: [] },
         projects: { items: [] },
@@ -59,45 +45,6 @@ function aggregate() {
         }
     };
 
-    // 2. Load Tags Metadata
-    let globalTags = [];
-    let tagTypes = [];
-
-    // Load Master Types
-    if (fs.existsSync(TAGS_METADATA_PATH)) {
-        const masterSource = JSON.parse(fs.readFileSync(TAGS_METADATA_PATH, 'utf8'));
-        tagTypes = masterSource.tagTypes || [];
-    }
-
-    // Discover all tags/subfolder/about.json
-    const tagFolders = fs.readdirSync(TAGS_DIR);
-    tagFolders.forEach(folder => {
-        const folderPath = path.join(TAGS_DIR, folder);
-        if (fs.statSync(folderPath).isDirectory()) {
-            const subAboutPath = path.join(folderPath, 'about.json');
-            if (fs.existsSync(subAboutPath)) {
-                const subSource = JSON.parse(fs.readFileSync(subAboutPath, 'utf8'));
-                if (subSource.tags) {
-                    // Ensure each tag knows its type based on the folder name if not already set
-                    subSource.tags.forEach(t => {
-                        if (!t.type) t.type = folder;
-                    });
-                    globalTags = globalTags.concat(subSource.tags);
-                }
-            }
-        }
-    });
-
-    console.log(`📡 Discovered ${globalTags.length} tags across ${tagFolders.length} folders.`);
-
-    // 3. Sync CV Configuration
-    if (fs.existsSync(CV_METADATA_PATH)) {
-        const cvConfig = fs.readFileSync(CV_METADATA_PATH, 'utf8');
-        fs.writeFileSync(CV_CONFIG_PATH, cvConfig, 'utf8');
-        console.log('📄 CV configuration synced.');
-    }
-
-    // 4. Process Fixed Data and Count Tags
     const tagCounts = {};
     const aboutFiles = findAboutFiles(FIXED_DATA_DIR);
 
@@ -108,13 +55,10 @@ function aggregate() {
         const folderPath = `fixed_data/${relPath}`;
 
         content.path = folderPath;
-        content.data_folder = folderPath;
 
         // Auto-sync local media files
         const filesInFolder = fs.readdirSync(folderDir);
         const mediaList = content.media ? [...content.media] : [];
-
-        // Check for new files to add
 
         filesInFolder.forEach(f => {
             const fLower = f.toLowerCase();
@@ -138,24 +82,11 @@ function aggregate() {
         });
         content.media = mediaList;
 
-        // Resolve and Count Tags
-        let tagIds = content.tagIds || (content.tags ? content.tags.map(t => typeof t === 'string' ? t : t.id) : []);
-        content.tagIds = [...new Set(tagIds.filter(Boolean))];
-
-        content.tagIds.forEach(id => {
+        // Count Tags
+        const tagIds = content.tagIds || [];
+        tagIds.forEach(id => {
             tagCounts[id] = (tagCounts[id] || 0) + 1;
         });
-
-        // Attach full tag objects for aggregated JSON
-        content.tags = content.tagIds.map(id => {
-            const found = globalTags.find(t => t.id === id);
-            return found || { id, name: id.charAt(0).toUpperCase() + id.slice(1), path: null };
-        });
-
-        // Clean sub-file about.json
-        const subFileClean = { ...content };
-        delete subFileClean.tags; // Sub-files only need IDs
-        fs.writeFileSync(filePath, JSON.stringify(subFileClean, null, 4), 'utf8');
 
         // Add to main structure
         if (content.type === 'experience') {
@@ -170,25 +101,7 @@ function aggregate() {
         }
     });
 
-    // 5. Update Global Tags with counts and sort
-    const finalTags = globalTags.map(tag => ({
-        ...tag,
-        count: tagCounts[tag.id] || 0
-    }));
-
-    // Re-build Skill Categories with sorted tags
-    const skillCategories = tagTypes.map(typeDef => {
-        const catTags = finalTags.filter(tag => tag.type === typeDef.id);
-        // Sort tags by count (descending)
-        catTags.sort((a, b) => (b.count || 0) - (a.count || 0));
-
-        return {
-            ...typeDef,
-            tags: catTags
-        };
-    }).filter(cat => cat.tags.length > 0);
-
-    // 6. Sorting Items Logic
+    // Sort items by date
     const sortByDate = (a, b) => {
         const yearA = a.date?.year || 0;
         const yearB = b.date?.year || 0;
@@ -202,14 +115,10 @@ function aggregate() {
     portfolio.projects.items.sort(sortByDate);
     portfolio.academic.categories.forEach(c => c.items.sort(sortByDate));
 
-    // 7. Write Final Files
     fs.writeFileSync(PORTFOLIO_JSON_PATH, JSON.stringify(portfolio, null, 4), 'utf8');
-    fs.writeFileSync(TAGS_JSON_PATH, JSON.stringify({ tags: finalTags, skillCategories }, null, 4), 'utf8');
+    console.log(`✅ Items aggregated. Portfolio saved to ${PORTFOLIO_JSON_PATH}`);
 
-    console.log(`✅ Aggregation complete! Found ${finalTags.length} tags.`);
-    console.log(`📦 Portfolio: ${PORTFOLIO_JSON_PATH}`);
-    console.log(`🏷️  Tags: ${TAGS_JSON_PATH}`);
-    console.log(`📄 CV Config: ${CV_CONFIG_PATH}`);
+    return tagCounts;
 }
 
-aggregate();
+module.exports = { aggregateItems };

@@ -3,38 +3,44 @@
         {
             "id": "math",
             "name": "Math",
-            "type": "mathematics",
-            "path": "tags/mathematics/math.png"
+            "type": "math",
+            "path": "tags/math/math.png",
+            "count": 9
         },
         {
             "id": "game-theory",
             "name": "Game Theory",
-            "type": "mathematics",
-            "path": "tags/mathematics/game-theory.png"
+            "type": "math",
+            "path": "tags/math/game-theory.png",
+            "count": 2
         },
         {
             "id": "number-theory",
             "name": "Number Theory",
-            "type": "mathematics",
-            "path": "tags/mathematics/number-theory.jpg"
+            "type": "math",
+            "path": "tags/math/number-theory.jpg",
+            "count": 5
         },
         {
             "id": "probability",
             "name": "Probability",
-            "type": "mathematics",
-            "path": "tags/mathematics/probability.png"
+            "type": "math",
+            "path": "tags/math/probability.png",
+            "count": 2
         },
         {
             "id": "geometry",
             "name": "Geometry",
-            "type": "mathematics",
-            "path": "tags/mathematics/geometry.jpg"
+            "type": "math",
+            "path": "tags/math/geometry.jpg",
+            "count": 3
         },
         {
             "id": "statistics",
             "name": "Statistics",
-            "type": "mathematics",
-            "path": "tags/mathematics/statistics.png"
+            "type": "math",
+            "path": "tags/math/statistics.png",
+            "count": 1
         }
     ]
 }
