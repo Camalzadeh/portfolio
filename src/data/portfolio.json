@@ -62,7 +62,7 @@
                     {
                         "id": "mobile-development",
                         "name": "Mobile Development",
-                        "type": "concepts",
+                        "type": "engineering",
                         "path": "tags/mobile_development.png"
                     },
                     {
@@ -73,7 +73,8 @@
                     },
                     {
                         "id": "sustainable-innovation",
-                        "name": "Sustainable-innovation",
+                        "name": "Sustainable Innovation",
+                        "type": "engineering",
                         "path": null
                     },
                     {
@@ -84,7 +85,8 @@
                     },
                     {
                         "id": "multi-app",
-                        "name": "Multi-app",
+                        "name": "Multi-App System",
+                        "type": "engineering",
                         "path": null
                     },
                     {
@@ -155,13 +157,13 @@
                     {
                         "id": "mobile-development",
                         "name": "Mobile Development",
-                        "type": "concepts",
+                        "type": "engineering",
                         "path": "tags/mobile_development.png"
                     },
                     {
                         "id": "web",
                         "name": "Web",
-                        "type": "concepts",
+                        "type": "engineering",
                         "path": "tags/web.webp"
                     },
                     {
@@ -185,6 +187,7 @@
                     {
                         "id": "entrepreneurship",
                         "name": "Entrepreneurship",
+                        "type": "leadership",
                         "path": null
                     },
                     {
@@ -207,8 +210,9 @@
                     },
                     {
                         "id": "next-js",
-                        "name": "Next-js",
-                        "path": null
+                        "name": "Next.js",
+                        "type": "frameworks",
+                        "path": "tags/next.svg"
                     },
                     {
                         "id": "vercel",
@@ -270,32 +274,37 @@
                     {
                         "id": "riverpod",
                         "name": "Riverpod",
-                        "path": null
+                        "type": "frameworks",
+                        "path": "tags/riverpod.png"
                     },
                     {
                         "id": "clean-architecture",
-                        "name": "Clean-architecture",
-                        "path": null
+                        "name": "Clean Architecture",
+                        "type": "engineering",
+                        "path": "tags/clean_architecture.png"
                     },
                     {
                         "id": "mobile-development",
                         "name": "Mobile Development",
-                        "type": "concepts",
+                        "type": "engineering",
                         "path": "tags/mobile_development.png"
                     },
                     {
                         "id": "whisper-ai",
-                        "name": "Whisper-ai",
-                        "path": null
+                        "name": "Whisper AI",
+                        "type": "ai_ml",
+                        "path": "tags/whisper_ai.png"
                     },
                     {
                         "id": "full-stack",
-                        "name": "Full-stack",
+                        "name": "Full Stack",
+                        "type": "engineering",
                         "path": null
                     },
                     {
                         "id": "production",
                         "name": "Production",
+                        "type": "engineering",
                         "path": null
                     },
                     {
@@ -319,7 +328,7 @@
                     {
                         "id": "unsplash",
                         "name": "Unsplash",
-                        "type": "concepts",
+                        "type": "engineering",
                         "path": "tags/unsplash.webp"
                     },
                     {
@@ -331,7 +340,8 @@
                     {
                         "id": "cloud",
                         "name": "Cloud",
-                        "path": null
+                        "type": "cloud_devops",
+                        "path": "tags/cloud.png"
                     }
                 ]
             },
@@ -405,19 +415,20 @@
                     },
                     {
                         "id": "responsive",
-                        "name": "Responsive",
+                        "name": "Responsive Design",
+                        "type": "engineering",
                         "path": null
                     },
                     {
                         "id": "frontend",
                         "name": "Frontend",
-                        "type": "concepts",
+                        "type": "engineering",
                         "path": "tags/frontend.png"
                     },
                     {
                         "id": "web",
                         "name": "Web",
-                        "type": "concepts",
+                        "type": "engineering",
                         "path": "tags/web.webp"
                     }
                 ]
@@ -471,13 +482,13 @@
                             {
                                 "id": "software-engineering",
                                 "name": "Software Engineering",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/software_engineering.png"
                             },
                             {
                                 "id": "computer-science",
                                 "name": "Computer Science",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/computer_science.png"
                             },
                             {
@@ -488,12 +499,14 @@
                             },
                             {
                                 "id": "ufu",
-                                "name": "Ufu",
+                                "name": "Federal University of Uberlândia",
+                                "type": "institutions",
                                 "path": null
                             },
                             {
                                 "id": "recommendation",
                                 "name": "Recommendation",
+                                "type": "experience",
                                 "path": null
                             }
                         ]
@@ -562,7 +575,7 @@
                             {
                                 "id": "computer-science",
                                 "name": "Computer Science",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/computer_science.png"
                             },
                             {
@@ -574,30 +587,31 @@
                             {
                                 "id": "software-engineering",
                                 "name": "Software Engineering",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/software_engineering.png"
                             },
                             {
                                 "id": "algorithms",
                                 "name": "Algorithms",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/algorithm.png"
                             },
                             {
                                 "id": "cryptography",
                                 "name": "Cryptography",
-                                "path": null
+                                "type": "theory",
+                                "path": "tags/cryptography.png"
                             },
                             {
                                 "id": "math",
                                 "name": "Math",
-                                "type": "organizations",
+                                "type": "mathematics",
                                 "path": "tags/math.png"
                             },
                             {
                                 "id": "data-structures",
                                 "name": "Data Structures",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/data_structures.png"
                             }
                         ]
@@ -661,7 +675,7 @@
                             {
                                 "id": "4sim",
                                 "name": "4sim",
-                                "type": "organizations",
+                                "type": "institutions",
                                 "path": "tags/4sim.png"
                             },
                             {
@@ -672,23 +686,26 @@
                             },
                             {
                                 "id": "stanford-university",
-                                "name": "Stanford-university",
-                                "path": null
+                                "name": "Stanford University",
+                                "type": "institutions",
+                                "path": "tags/stanford.png"
                             },
                             {
                                 "id": "deeplearning-ai",
-                                "name": "Deeplearning-ai",
-                                "path": null
+                                "name": "DeepLearning.AI",
+                                "type": "institutions",
+                                "path": "tags/deeplearning_ai.png"
                             },
                             {
                                 "id": "andrew-ng",
-                                "name": "Andrew-ng",
-                                "path": null
+                                "name": "Andrew Ng",
+                                "type": "institutions",
+                                "path": "tags/andrew_ng.png"
                             },
                             {
                                 "id": "coursera",
                                 "name": "Coursera",
-                                "type": "organizations",
+                                "type": "institutions",
                                 "path": "tags/coursera.png"
                             }
                         ]
@@ -745,57 +762,62 @@
                             {
                                 "id": "competitive-programming",
                                 "name": "Competitive Programming",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/competitive_programming.png"
                             },
                             {
                                 "id": "algorithms",
                                 "name": "Algorithms",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/algorithm.png"
                             },
                             {
                                 "id": "data-structures",
                                 "name": "Data Structures",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/data_structures.png"
                             },
                             {
                                 "id": "dynamic-programming",
-                                "name": "Dynamic-programming",
+                                "name": "Dynamic Programming",
+                                "type": "theory",
                                 "path": null
                             },
                             {
                                 "id": "olympiad",
                                 "name": "Olympiad",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/olympiad.png"
                             },
                             {
                                 "id": "graphs",
                                 "name": "Graphs",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/graph.png"
                             },
                             {
                                 "id": "number-theory",
-                                "name": "Number-theory",
+                                "name": "Number Theory",
+                                "type": "mathematics",
                                 "path": null
                             },
                             {
                                 "id": "geometry",
                                 "name": "Geometry",
+                                "type": "mathematics",
                                 "path": null
                             },
                             {
                                 "id": "game-theory",
-                                "name": "Game-theory",
+                                "name": "Game Theory",
+                                "type": "mathematics",
                                 "path": null
                             },
                             {
                                 "id": "holberton-school",
-                                "name": "Holberton-school",
-                                "path": null
+                                "name": "Holberton School",
+                                "type": "institutions",
+                                "path": "tags/holberton_school.png"
                             },
                             {
                                 "id": "ada-university",
@@ -895,34 +917,37 @@
                             {
                                 "id": "software-architecture",
                                 "name": "Software Architecture",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/software_architecture.png"
                             },
                             {
                                 "id": "technical-interview",
-                                "name": "Technical-interview",
+                                "name": "Technical Interview",
+                                "type": "experience",
                                 "path": null
                             },
                             {
                                 "id": "solid-principles",
-                                "name": "Solid-principles",
+                                "name": "SOLID Principles",
+                                "type": "engineering",
                                 "path": null
                             },
                             {
                                 "id": "clean-architecture",
-                                "name": "Clean-architecture",
-                                "path": null
+                                "name": "Clean Architecture",
+                                "type": "engineering",
+                                "path": "tags/clean_architecture.png"
                             },
                             {
                                 "id": "mobile-development",
                                 "name": "Mobile Development",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/mobile_development.png"
                             },
                             {
                                 "id": "udemy",
                                 "name": "Udemy",
-                                "type": "organizations",
+                                "type": "institutions",
                                 "path": "tags/udemy.webp"
                             }
                         ]
@@ -1001,7 +1026,7 @@
                             {
                                 "id": "data-structures",
                                 "name": "Data Structures",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/data_structures.png"
                             },
                             {
@@ -1013,25 +1038,25 @@
                             {
                                 "id": "backend",
                                 "name": "Backend",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/backend.png"
                             },
                             {
                                 "id": "design-patterns",
                                 "name": "Design Patterns",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/design_patterns.png"
                             },
                             {
                                 "id": "api",
                                 "name": "API",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/api.png"
                             },
                             {
                                 "id": "software-engineering",
                                 "name": "Software Engineering",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/software_engineering.png"
                             }
                         ]
@@ -1090,41 +1115,43 @@
                             {
                                 "id": "algorithms",
                                 "name": "Algorithms",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/algorithm.png"
                             },
                             {
                                 "id": "data-structures",
                                 "name": "Data Structures",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/data_structures.png"
                             },
                             {
                                 "id": "oop",
                                 "name": "OOP",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/oop.png"
                             },
                             {
                                 "id": "design-patterns",
                                 "name": "Design Patterns",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/design_patterns.png"
                             },
                             {
                                 "id": "competitive-programming",
                                 "name": "Competitive Programming",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/competitive_programming.png"
                             },
                             {
                                 "id": "problem-solving",
-                                "name": "Problem-solving",
+                                "name": "Problem Solving",
+                                "type": "theory",
                                 "path": null
                             },
                             {
                                 "id": "functional-programming",
-                                "name": "Functional-programming",
+                                "name": "Functional Programming",
+                                "type": "theory",
                                 "path": null
                             },
                             {
@@ -1183,44 +1210,49 @@
                             {
                                 "id": "math",
                                 "name": "Math",
-                                "type": "organizations",
+                                "type": "mathematics",
                                 "path": "tags/math.png"
                             },
                             {
                                 "id": "olympiad",
                                 "name": "Olympiad",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/olympiad.png"
                             },
                             {
                                 "id": "algorithms",
                                 "name": "Algorithms",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/algorithm.png"
                             },
                             {
                                 "id": "game-theory",
-                                "name": "Game-theory",
+                                "name": "Game Theory",
+                                "type": "mathematics",
                                 "path": null
                             },
                             {
                                 "id": "graph-theory",
-                                "name": "Graph-theory",
+                                "name": "Graph Theory",
+                                "type": "mathematics",
                                 "path": null
                             },
                             {
                                 "id": "number-theory",
-                                "name": "Number-theory",
+                                "name": "Number Theory",
+                                "type": "mathematics",
                                 "path": null
                             },
                             {
                                 "id": "probability",
                                 "name": "Probability",
+                                "type": "mathematics",
                                 "path": null
                             },
                             {
                                 "id": "geometry",
                                 "name": "Geometry",
+                                "type": "mathematics",
                                 "path": null
                             },
                             {
@@ -1284,39 +1316,43 @@
                             {
                                 "id": "math",
                                 "name": "Math",
-                                "type": "organizations",
+                                "type": "mathematics",
                                 "path": "tags/math.png"
                             },
                             {
                                 "id": "olympiad",
                                 "name": "Olympiad",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/olympiad.png"
                             },
                             {
                                 "id": "geometry",
                                 "name": "Geometry",
+                                "type": "mathematics",
                                 "path": null
                             },
                             {
                                 "id": "number-theory",
-                                "name": "Number-theory",
+                                "name": "Number Theory",
+                                "type": "mathematics",
                                 "path": null
                             },
                             {
                                 "id": "algorithms",
                                 "name": "Algorithms",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/algorithm.png"
                             },
                             {
                                 "id": "cryptography",
                                 "name": "Cryptography",
-                                "path": null
+                                "type": "theory",
+                                "path": "tags/cryptography.png"
                             },
                             {
                                 "id": "probability",
                                 "name": "Probability",
+                                "type": "mathematics",
                                 "path": null
                             },
                             {
@@ -1504,7 +1540,7 @@
                             {
                                 "id": "algorithms",
                                 "name": "Algorithms",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/algorithm.png"
                             }
                         ]
@@ -1570,7 +1606,7 @@
                             {
                                 "id": "web",
                                 "name": "Web",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/web.webp"
                             }
                         ]
@@ -1625,47 +1661,49 @@
                             {
                                 "id": "icpc",
                                 "name": "ICPC",
-                                "type": "experience",
+                                "type": "competitive",
                                 "path": "tags/icpc.png"
                             },
                             {
                                 "id": "algorithms",
                                 "name": "Algorithms",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/algorithm.png"
                             },
                             {
                                 "id": "data-structures",
                                 "name": "Data Structures",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/data_structures.png"
                             },
                             {
                                 "id": "olympiad",
                                 "name": "Olympiad",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/olympiad.png"
                             },
                             {
                                 "id": "competitive-programming",
                                 "name": "Competitive Programming",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/competitive_programming.png"
                             },
                             {
                                 "id": "graphs",
                                 "name": "Graphs",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/graph.png"
                             },
                             {
                                 "id": "dynamic-programming",
-                                "name": "Dynamic-programming",
+                                "name": "Dynamic Programming",
+                                "type": "theory",
                                 "path": null
                             },
                             {
                                 "id": "greedy-algorithms",
-                                "name": "Greedy-algorithms",
+                                "name": "Greedy Algorithms",
+                                "type": "theory",
                                 "path": null
                             },
                             {
@@ -1676,7 +1714,8 @@
                             },
                             {
                                 "id": "problem-solving",
-                                "name": "Problem-solving",
+                                "name": "Problem Solving",
+                                "type": "theory",
                                 "path": null
                             },
                             {
@@ -1733,37 +1772,37 @@
                             {
                                 "id": "icsc",
                                 "name": "ICSC",
-                                "type": "experience",
+                                "type": "competitive",
                                 "path": "tags/icsc.png"
                             },
                             {
                                 "id": "algorithms",
                                 "name": "Algorithms",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/algorithm.png"
                             },
                             {
                                 "id": "data-structures",
                                 "name": "Data Structures",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/data_structures.png"
                             },
                             {
                                 "id": "competitive-programming",
                                 "name": "Competitive Programming",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/competitive_programming.png"
                             },
                             {
                                 "id": "olympiad",
                                 "name": "Olympiad",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/olympiad.png"
                             },
                             {
                                 "id": "math",
                                 "name": "Math",
-                                "type": "organizations",
+                                "type": "mathematics",
                                 "path": "tags/math.png"
                             },
                             {
@@ -1821,7 +1860,7 @@
                             {
                                 "id": "icpc",
                                 "name": "ICPC",
-                                "type": "experience",
+                                "type": "competitive",
                                 "path": "tags/icpc.png"
                             },
                             {
@@ -1832,47 +1871,50 @@
                             },
                             {
                                 "id": "arti",
-                                "name": "Arti",
-                                "path": null
+                                "name": "ARTI",
+                                "type": "institutions",
+                                "path": "tags/arti.png"
                             },
                             {
                                 "id": "algorithms",
                                 "name": "Algorithms",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/algorithm.png"
                             },
                             {
                                 "id": "data-structures",
                                 "name": "Data Structures",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/data_structures.png"
                             },
                             {
                                 "id": "olympiad",
                                 "name": "Olympiad",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/olympiad.png"
                             },
                             {
                                 "id": "competitive-programming",
                                 "name": "Competitive Programming",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/competitive_programming.png"
                             },
                             {
                                 "id": "graphs",
                                 "name": "Graphs",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/graph.png"
                             },
                             {
                                 "id": "dynamic-programming",
-                                "name": "Dynamic-programming",
+                                "name": "Dynamic Programming",
+                                "type": "theory",
                                 "path": null
                             },
                             {
                                 "id": "greedy-algorithms",
-                                "name": "Greedy-algorithms",
+                                "name": "Greedy Algorithms",
+                                "type": "theory",
                                 "path": null
                             },
                             {
@@ -1883,7 +1925,8 @@
                             },
                             {
                                 "id": "problem-solving",
-                                "name": "Problem-solving",
+                                "name": "Problem Solving",
+                                "type": "theory",
                                 "path": null
                             },
                             {
@@ -1894,8 +1937,9 @@
                             },
                             {
                                 "id": "eolymp",
-                                "name": "Eolymp",
-                                "path": null
+                                "name": "E-olymp",
+                                "type": "institutions",
+                                "path": "tags/eolymp.png"
                             }
                         ]
                     },
@@ -1938,22 +1982,25 @@
                             {
                                 "id": "math",
                                 "name": "Math",
-                                "type": "organizations",
+                                "type": "mathematics",
                                 "path": "tags/math.png"
                             },
                             {
                                 "id": "ei-group",
-                                "name": "Ei-group",
+                                "name": "EI Group",
+                                "type": "institutions",
                                 "path": null
                             },
                             {
                                 "id": "leadership",
                                 "name": "Leadership",
+                                "type": "leadership",
                                 "path": null
                             },
                             {
                                 "id": "content-creation",
-                                "name": "Content-creation",
+                                "name": "Content Creation",
+                                "type": "leadership",
                                 "path": null
                             },
                             {
@@ -1965,6 +2012,7 @@
                             {
                                 "id": "organization",
                                 "name": "Organization",
+                                "type": "leadership",
                                 "path": null
                             }
                         ]
@@ -2021,7 +2069,7 @@
                             {
                                 "id": "math",
                                 "name": "Math",
-                                "type": "organizations",
+                                "type": "mathematics",
                                 "path": "tags/math.png"
                             },
                             {
@@ -2056,6 +2104,7 @@
                             {
                                 "id": "statistics",
                                 "name": "Statistics",
+                                "type": "mathematics",
                                 "path": null
                             }
                         ]
@@ -2110,47 +2159,49 @@
                             {
                                 "id": "icpc",
                                 "name": "ICPC",
-                                "type": "experience",
+                                "type": "competitive",
                                 "path": "tags/icpc.png"
                             },
                             {
                                 "id": "algorithms",
                                 "name": "Algorithms",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/algorithm.png"
                             },
                             {
                                 "id": "data-structures",
                                 "name": "Data Structures",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/data_structures.png"
                             },
                             {
                                 "id": "olympiad",
                                 "name": "Olympiad",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/olympiad.png"
                             },
                             {
                                 "id": "competitive-programming",
                                 "name": "Competitive Programming",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/competitive_programming.png"
                             },
                             {
                                 "id": "graphs",
                                 "name": "Graphs",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/graph.png"
                             },
                             {
                                 "id": "dynamic-programming",
-                                "name": "Dynamic-programming",
+                                "name": "Dynamic Programming",
+                                "type": "theory",
                                 "path": null
                             },
                             {
                                 "id": "greedy-algorithms",
-                                "name": "Greedy-algorithms",
+                                "name": "Greedy Algorithms",
+                                "type": "theory",
                                 "path": null
                             },
                             {
@@ -2161,7 +2212,8 @@
                             },
                             {
                                 "id": "problem-solving",
-                                "name": "Problem-solving",
+                                "name": "Problem Solving",
+                                "type": "theory",
                                 "path": null
                             },
                             {
@@ -2223,47 +2275,49 @@
                             {
                                 "id": "icpc",
                                 "name": "ICPC",
-                                "type": "experience",
+                                "type": "competitive",
                                 "path": "tags/icpc.png"
                             },
                             {
                                 "id": "algorithms",
                                 "name": "Algorithms",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/algorithm.png"
                             },
                             {
                                 "id": "data-structures",
                                 "name": "Data Structures",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/data_structures.png"
                             },
                             {
                                 "id": "olympiad",
                                 "name": "Olympiad",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/olympiad.png"
                             },
                             {
                                 "id": "competitive-programming",
                                 "name": "Competitive Programming",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/competitive_programming.png"
                             },
                             {
                                 "id": "graphs",
                                 "name": "Graphs",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/graph.png"
                             },
                             {
                                 "id": "dynamic-programming",
-                                "name": "Dynamic-programming",
+                                "name": "Dynamic Programming",
+                                "type": "theory",
                                 "path": null
                             },
                             {
                                 "id": "greedy-algorithms",
-                                "name": "Greedy-algorithms",
+                                "name": "Greedy Algorithms",
+                                "type": "theory",
                                 "path": null
                             },
                             {
@@ -2274,7 +2328,8 @@
                             },
                             {
                                 "id": "problem-solving",
-                                "name": "Problem-solving",
+                                "name": "Problem Solving",
+                                "type": "theory",
                                 "path": null
                             },
                             {
@@ -2285,8 +2340,9 @@
                             },
                             {
                                 "id": "beu",
-                                "name": "Beu",
-                                "path": null
+                                "name": "Baku Engineering University",
+                                "type": "institutions",
+                                "path": "tags/beu.png"
                             }
                         ]
                     },
@@ -2333,12 +2389,14 @@
                             {
                                 "id": "cybersecurity",
                                 "name": "Cybersecurity",
-                                "path": null
+                                "type": "theory",
+                                "path": "tags/cybersecurity.png"
                             },
                             {
                                 "id": "data-analytics",
-                                "name": "Data-analytics",
-                                "path": null
+                                "name": "Data Analytics",
+                                "type": "theory",
+                                "path": "tags/data_analytics.png"
                             },
                             {
                                 "id": "artificial-intelligence",
@@ -2388,30 +2446,31 @@
                             {
                                 "id": "math",
                                 "name": "Math",
-                                "type": "organizations",
+                                "type": "mathematics",
                                 "path": "tags/math.png"
                             },
                             {
                                 "id": "olympiad",
                                 "name": "Olympiad",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/olympiad.png"
                             },
                             {
                                 "id": "algorithms",
                                 "name": "Algorithms",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/algorithm.png"
                             },
                             {
                                 "id": "graphs",
                                 "name": "Graphs",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/graph.png"
                             },
                             {
                                 "id": "number-theory",
-                                "name": "Number-theory",
+                                "name": "Number Theory",
+                                "type": "mathematics",
                                 "path": null
                             },
                             {
@@ -2466,12 +2525,13 @@
                             {
                                 "id": "math",
                                 "name": "Math",
-                                "type": "organizations",
+                                "type": "mathematics",
                                 "path": "tags/math.png"
                             },
                             {
                                 "id": "competition",
                                 "name": "Competition",
+                                "type": "competitive",
                                 "path": null
                             },
                             {
@@ -2488,7 +2548,8 @@
                             },
                             {
                                 "id": "problem-solving",
-                                "name": "Problem-solving",
+                                "name": "Problem Solving",
+                                "type": "theory",
                                 "path": null
                             }
                         ]
@@ -2533,13 +2594,13 @@
                             {
                                 "id": "backend",
                                 "name": "Backend",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/backend.png"
                             },
                             {
                                 "id": "frontend",
                                 "name": "Frontend",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/frontend.png"
                             },
                             {
@@ -2569,13 +2630,13 @@
                             {
                                 "id": "photoshop",
                                 "name": "Photoshop",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/photoshop.png"
                             },
                             {
                                 "id": "web",
                                 "name": "Web",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/web.webp"
                             }
                         ]
@@ -2630,47 +2691,49 @@
                             {
                                 "id": "icpc",
                                 "name": "ICPC",
-                                "type": "experience",
+                                "type": "competitive",
                                 "path": "tags/icpc.png"
                             },
                             {
                                 "id": "algorithms",
                                 "name": "Algorithms",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/algorithm.png"
                             },
                             {
                                 "id": "data-structures",
                                 "name": "Data Structures",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/data_structures.png"
                             },
                             {
                                 "id": "olympiad",
                                 "name": "Olympiad",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/olympiad.png"
                             },
                             {
                                 "id": "competitive-programming",
                                 "name": "Competitive Programming",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/competitive_programming.png"
                             },
                             {
                                 "id": "graphs",
                                 "name": "Graphs",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/graph.png"
                             },
                             {
                                 "id": "dynamic-programming",
-                                "name": "Dynamic-programming",
+                                "name": "Dynamic Programming",
+                                "type": "theory",
                                 "path": null
                             },
                             {
                                 "id": "greedy-algorithms",
-                                "name": "Greedy-algorithms",
+                                "name": "Greedy Algorithms",
+                                "type": "theory",
                                 "path": null
                             },
                             {
@@ -2681,7 +2744,8 @@
                             },
                             {
                                 "id": "problem-solving",
-                                "name": "Problem-solving",
+                                "name": "Problem Solving",
+                                "type": "theory",
                                 "path": null
                             },
                             {
@@ -2750,13 +2814,15 @@
                             },
                             {
                                 "id": "deep-learning",
-                                "name": "Deep-learning",
-                                "path": null
+                                "name": "Deep Learning",
+                                "type": "ai_ml",
+                                "path": "tags/deep_learning.png"
                             },
                             {
                                 "id": "big-data",
-                                "name": "Big-data",
-                                "path": null
+                                "name": "Big Data",
+                                "type": "ai_ml",
+                                "path": "tags/big_data.png"
                             },
                             {
                                 "id": "sign-language",
@@ -2772,7 +2838,8 @@
                             },
                             {
                                 "id": "adaptive-loss",
-                                "name": "Adaptive-loss",
+                                "name": "Adaptive Loss",
+                                "type": "ai_ml",
                                 "path": null
                             },
                             {
@@ -2845,18 +2912,19 @@
                             {
                                 "id": "scientific",
                                 "name": "Scientific",
-                                "type": "concepts",
+                                "type": "engineering",
                                 "path": "tags/science.png"
                             },
                             {
                                 "id": "math",
                                 "name": "Math",
-                                "type": "organizations",
+                                "type": "mathematics",
                                 "path": "tags/math.png"
                             },
                             {
                                 "id": "number-theory",
-                                "name": "Number-theory",
+                                "name": "Number Theory",
+                                "type": "mathematics",
                                 "path": null
                             }
                         ]
