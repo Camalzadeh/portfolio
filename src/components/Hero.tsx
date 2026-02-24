@@ -102,18 +102,18 @@ export default function Hero() {
                 <div className="flex flex-col gap-10">
                   <div className="flex flex-col gap-2">
                     <p className="text-[0.7rem] font-black uppercase tracking-[2px] text-text-secondary/70">{t('hero.stats_apps')}</p>
-                    <p className="font-heading text-5xl font-black text-text-primary tracking-tighter">04<span className="text-accent">+</span></p>
+                    <p className="font-heading text-5xl font-black text-text-primary tracking-tighter">{t('hero.stats_apps_value')}<span className="text-accent">+</span></p>
                   </div>
                   <div className="flex flex-col gap-2">
                     <p className="text-[0.7rem] font-black uppercase tracking-[2px] text-text-secondary/70">{t('hero.stats_years')}</p>
-                    <p className="font-heading text-5xl font-black text-text-primary tracking-tighter">03<span className="text-accent">+</span></p>
+                    <p className="font-heading text-5xl font-black text-text-primary tracking-tighter">{t('hero.stats_years_value')}<span className="text-accent">+</span></p>
                   </div>
                   <div className="flex flex-col gap-2 pt-4 border-t border-border">
                     <p className="text-[0.7rem] font-black uppercase tracking-[2px] text-text-secondary/70">{t('hero.stats_tech')}</p>
                     <div className="flex flex-wrap gap-2 text-[0.7rem] font-black text-accent">
-                      <span className="px-2 py-1 rounded-md bg-accent/10">FLUTTER</span>
-                      <span className="px-2 py-1 rounded-md bg-accent/10">DJANGO</span>
-                      <span className="px-2 py-1 rounded-md bg-accent/10">POSTGRES</span>
+                      {t('hero.stats_tech_stack').split(',').map((tech) => (
+                        <span key={tech} className="px-2 py-1 rounded-md bg-accent/10">{tech}</span>
+                      ))}
                     </div>
                   </div>
                 </div>

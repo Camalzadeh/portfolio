@@ -68,6 +68,47 @@ function aggregateTags(tagCounts = {}) {
 
     fs.writeFileSync(TAGS_JSON_PATH, JSON.stringify(result, null, 4), 'utf8');
     console.log(`✅ Tags aggregated. Found ${allTags.length} tags across ${folders.length} categories.`);
+
+    // --- ENRICH PORTFOLIO.JSON WITH FULL TAG OBJECTS ---
+    const PORTFOLIO_JSON_PATH = path.join(process.cwd(), 'src/data/portfolio.json');
+    if (fs.existsSync(PORTFOLIO_JSON_PATH)) {
+        console.log('🔄 Enriching Portfolio items with full tag data...');
+        const portfolio = JSON.parse(fs.readFileSync(PORTFOLIO_JSON_PATH, 'utf8'));
+        const tagMap = new Map(allTags.map(t => [t.id, t]));
+
+        const enrichItem = (item) => {
+            if (item.tagIds) {
+                item.tags = item.tagIds
+                    .map(id => tagMap.get(id))
+                    .filter(t => t !== undefined)
+                    .map(t => ({
+                        id: t.id,
+                        name: t.name,
+                        path: t.path
+                    }));
+            }
+        };
+
+        // Enrich Experience
+        if (portfolio.experience?.items) {
+            portfolio.experience.items.forEach(enrichItem);
+        }
+
+        // Enrich Projects
+        if (portfolio.projects?.items) {
+            portfolio.projects.items.forEach(enrichItem);
+        }
+
+        // Enrich Academic
+        if (portfolio.academic?.categories) {
+            portfolio.academic.categories.forEach(cat => {
+                if (cat.items) cat.items.forEach(enrichItem);
+            });
+        }
+
+        fs.writeFileSync(PORTFOLIO_JSON_PATH, JSON.stringify(portfolio, null, 4), 'utf8');
+        console.log('✅ Portfolio enrichment complete. (Experience, Projects, Academic items now have full tag objects)');
+    }
 }
 
 module.exports = { aggregateTags };
